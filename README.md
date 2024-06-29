@@ -11,7 +11,7 @@ This presentation was inspired by [theoretical works](https://github.com/eq19/eq
 Here we would like to explain the way of said prime identity on getting the [arithmetic expression](https://youtu.be/S9oPqBeSsZA) of an ***individual unit identity*** such as a taxicab number below.
 
 ```note
-It is a taxicab number, and is variously known as Ramanujan's number and the Ramanujan-Hardy number, after an anecdote of the British mathematician _[GH Hardy](https://en.wikipedia.org/wiki/G._H._Hardy)_ when he visited Indian mathematician _[Srinivasa Ramanujan](https://en.wikipedia.org/wiki/Srinivasa_Ramanujan)_ in hospital _([Wikipedia](https://en.wikipedia.org/wiki/1729_(number)))_.
+It is a taxicab number, and is famously known as Ramanujan's number and the Ramanujan-Hardy number, after an anecdote of the British mathematician _[GH Hardy](https://en.wikipedia.org/wiki/G._H._Hardy)_ when he visited Indian mathematician _[Srinivasa Ramanujan](https://en.wikipedia.org/wiki/Srinivasa_Ramanujan)_ in hospital _([Wikipedia](https://en.wikipedia.org/wiki/1729_(number)))_.
 ```
 
 [![Ramanujan-Hardy number](https://user-images.githubusercontent.com/36441664/103107461-173c2b00-4671-11eb-962c-da7e9eab022e.png)](https://en.wikipedia.org/wiki/1729_(number))
