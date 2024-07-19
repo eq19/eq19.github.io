@@ -4,7 +4,7 @@ We are going to assign prime identity as a ***standard model*** that attempts to
 
 {% include list.liquid all=true %}
 
-This presentation was inspired by [theoretical works](https://github.com/eq19/eq19.github.io/files/13468466/OU1938-Y1.1.pdf) from _[Hideki Yukawa](https://en.wikipedia.org/wiki/Hideki_Yukawa)_ who in 1935 had predicted the existence of _[mesons as the carrier particles](https://en.wikipedia.org/wiki/Meson)_ of strong nuclear force.
+This presentation is inspired by [theoretical works](https://github.com/eq19/eq19.github.io/files/13468466/OU1938-Y1.1.pdf) from _[Hideki Yukawa](https://en.wikipedia.org/wiki/Hideki_Yukawa)_ who in 1935 had predicted the existence of _[mesons as the carrier particles](https://en.wikipedia.org/wiki/Meson)_ of strong nuclear force.
 
 ## Addition Zones
 
