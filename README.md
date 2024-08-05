@@ -1,6 +1,6 @@
 # Prime Identity
 
-We are going to assign prime identity as a ***standard model*** that attempts to stimulate a quantum field model called ***[eQuantum](https://github.com/eq19)*** for _[the four (4) known fundamental forces](https://en.wikipedia.org/wiki/Fundamental_interaction)_.
+We are going to assign prime identity as a ***standard model*** that attempts to simulate a quantum field model called ***[eQuantum](https://github.com/eq19)*** for _[the four (4) known fundamental forces](https://en.wikipedia.org/wiki/Fundamental_interaction)_.
 
 {% include list.liquid all=true %}
 
