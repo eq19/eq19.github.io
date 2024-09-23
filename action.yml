@@ -92,10 +92,10 @@ runs:
       id: set_output
       with:
         push: always
+        runCmd: ls -al /
         skipContainerUserIdUpdate: true
         imageName: ${{ inputs.image_name }}
         imageTag: spin-${{ github.run_number }}
-        runCmd: ls -al /docker-entrypoint-initdb.d
         configFile: ${{ github.action_path }}/.devcontainer.json
 
     - name: 💎 Variables
