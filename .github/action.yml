@@ -100,6 +100,15 @@ runs:
         RUNNER_ID=$(gh api -H "${HEADER}" /repos/${{ github.repository }}/actions/runners --jq '.runners.[].id')
         if (( $TOTAL_COUNT != 0 )); then gh api --method DELETE -H "${HEADER}" /repos/${{ github.repository }}/actions/runners/${RUNNER_ID}; fi 
 
+    - name: 💎 Set ID Token
+      #if: runner.os == 'Windows'
+      id: 'auth'
+      uses: 'google-github-actions/auth@v2'
+      with:
+        token_format: 'id_token'
+        credentials_json: ${{ inputs.credentials }}
+        id_token_audience: 'https://us-central1-feedmapping.cloudfunctions.net/function'
+
     - name: 💎 Setup Gcloud
       if: runner.os == 'Windows'
       uses: 'google-github-actions/setup-gcloud@v2'
