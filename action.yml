@@ -92,7 +92,7 @@ runs:
         mkdir -p ${{ github.workspace }}/_site && cp -R ${{ github.action_path }}/. ${{ github.workspace }}/_site/       
 
     - name: 💎 Set ID Token
-      #if: runner.os == 'Windows'
+      if: runner.os != 'Windows'
       id: 'auth'
       uses: 'google-github-actions/auth@v2'
       with:
@@ -106,9 +106,13 @@ runs:
       shell: bash
       run: >
         curl -s -H "Authorization: Bearer ${{ steps.auth.outputs.id_token }}" -H "Content-Type: application/json"
-        -X POST https://us-central1-feedmapping.cloudfunctions.net/function
-        -d '${{ steps.artifact.outputs.orgs_json }}'
-
+        -X POST https://us-central1-feedmapping.cloudfunctions.net/function -d
+        '{
+           "tags": {
+             "items": ${{ steps.artifact.outputs.orgs_json }}
+          }
+        }' | jq '.'
+    
     - uses: ikalnytskyi/action-setup-postgres@v6 
       if: runner.os != 'Windows'
       id: postgres
