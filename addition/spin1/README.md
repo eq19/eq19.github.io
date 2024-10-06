@@ -54,7 +54,9 @@ $True Prime Pairs:
  -----+-----+---------
 ```
 
-![](https://user-images.githubusercontent.com/36441664/71587951-4f8a5580-2b52-11ea-84cd-a2b1465fce8b.png## )
+[IREE](https://iree.dev/) supports popular machine learning [frameworks](https://iree.dev/guides/ml-frameworks/#execution) using the same underlying technology. By this project we are going to use SavedModels from [TensorFlow Hub](https://www.tensorflow.org/hub).
+
+[![framework](https://user-images.githubusercontent.com/36441664/71587951-4f8a5580-2b52-11ea-84cd-a2b1465fce8b.png)](https://iree.dev/guides/ml-frameworks/#execution)
 
 ```txt
 $True Prime Pairs:
