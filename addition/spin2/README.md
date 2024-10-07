@@ -7,15 +7,16 @@ description:
 ---
 # Primes Platform
 
-The program used to demonstrate includes functions with varying uses of dynamic shapes. 
+We analyze the inference process of dynamic and observe that the dynamic tensor shapes and control flow hinder by prime numbers
 
 {% include list.liquid all=true %}
 
-See this paper for a discussion of the challenges imposed by dynamic shapes and one project's approach to addressing them.
+See [this paper](https://github.com/user-attachments/files/17277693/s11390-021-1161-y.pdf) for a discussion of the challenges imposed by dynamic shapes and one project's approach to addressing them.
 
 ## Dynamic Shapes
 
-[Prime hexagon](https://www.hexspin.com/) is a mathematical structure developed by mathematician T. Gallion that is formed when integers are sequentially added to a field of tessellating equilateral triangles, where the path of the integers is changed whenever a prime is encountered.
+[Prime hexagon](https://youtu.be/fQL4KRH3wUQ) is a mathematical structure that is formed when integers are sequentially added to a field of tessellating equilateral triangles
+
 
 ```note
 This is not easy as they are linked to the nature of prime numbers, and nothing is easy about the nature of prime numbers.  But I begin with this assumption: if the hexagons participate in the Universe in any way other than haphazardly, they must be demonstrably ***congruent to something organized*** _([T. Gallion](https://www.hexspin.com/minor-hexagons/))_.
@@ -35,6 +36,8 @@ s p i n
 17 0 1 1 ◄--- 7th prime
 19 1 1 1 ◄--- 8th prime
 ```
+
+The program used to demonstrate functions of dynamic shapes where the path of the integers is changed whenever a prime is encountered.
 
 ```note
 - Create a program that includes dynamic shapes in program inputs and outputs
