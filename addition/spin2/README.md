@@ -49,7 +49,9 @@ The program used to demonstrate functions of dynamic shapes where the path of th
 
 ***17 = 7th prime = (18 - 11) th prime***
 
-![](https://user-images.githubusercontent.com/8466209/226643815-f8c926cd-ae36-43d3-b271-8df07272f429.png)
+[![Prime hexagon](https://user-images.githubusercontent.com/8466209/226643815-f8c926cd-ae36-43d3-b271-8df07272f429.png)](https://youtu.be/fQL4KRH3wUQ)
+
+To match the different shape, we will need a common shape, and the result is a two-dimensional array. This could later be multilinear dimensions.
 
 ```txt
 p r i m e s
