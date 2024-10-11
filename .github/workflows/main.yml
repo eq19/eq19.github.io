@@ -149,7 +149,7 @@ jobs:
           submodules: recursive
           token: ${{ secrets.ACCESS_TOKEN }}
 
-      - name: ⏪ Rewind all jobs if failure
+      - name: ⏪ Rewind all jobs
         if: contains(needs.*.result, 'failure')
         shell: bash
         run: |
