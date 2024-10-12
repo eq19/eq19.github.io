@@ -127,6 +127,8 @@ The coupling constant runs to infinity at finite energy, signalling a Landau pol
 
 ![mqdefault](https://github.com/eq19/maps/assets/8466209/68994f5a-614a-4d63-9446-6acac3df2829)
 
+From a modern perspective, we say that QED is not well defined as a quantum field theory to arbitrarily high energy.
+
 ![478517_2_En_18_Fig10_HTML](https://github.com/eq19/maps/assets/8466209/9a1b324a-db44-4044-8058-61bb61372ee4)
 
 The entanglement implies that there remains a connection between the photon and the emitting atom after emission even in very strong fields.
@@ -145,13 +147,11 @@ Using [Wick's theorem](https://en.wikipedia.org/wiki/Wick%27s_theorem) on the te
 
 ![a-Summary-of-the-Feynman-rules-Solid-line-represents-the-fermionic-propagator-G-0-pp](https://github.com/eq19/maps/assets/8466209/f3430964-392b-43f9-80fa-84eed55f474d)
 
-![axioms-12-01058-g002-550](https://github.com/eq19/maps/assets/8466209/66dc1ba2-cbfd-4063-9f65-b6f32ce21dfd)
-
 Quantum electrodynamics also leads to predictions beyond perturbation theory. In the presence of very strong electric fields, it predicts that electrons and positrons will be spontaneously produced, so causing the decay of the field.
 
-![hq720 (1)](https://github.com/eq19/maps/assets/8466209/9a6fd867-6867-416a-9b36-126198f4d259)
+![axioms-12-01058-g002-550](https://github.com/eq19/maps/assets/8466209/66dc1ba2-cbfd-4063-9f65-b6f32ce21dfd)
 
-From a modern perspective, we say that QED is not well defined as a quantum field theory to arbitrarily high energy.
+![hq720 (1)](https://github.com/eq19/maps/assets/8466209/9a6fd867-6867-416a-9b36-126198f4d259)
 
 [![1-quantum-electrodynamics-laguna-designscience-photo-library](https://github.com/eq19/maps/assets/8466209/968afaea-ff71-4a56-b9ff-423f4a9748d2)](https://en.wikipedia.org/wiki/Quantum_electrodynamics)
 
