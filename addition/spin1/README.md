@@ -216,7 +216,8 @@ The scaling behavior of this action is analyzed to obtain the classical theory o
 
 [![addition zones](https://github.com/eq19/maps/assets/8466209/4945cbd3-57ff-42ee-a363-7b27ed693a0e)](https://www.eq19.com/addition/)
 
-This kind of approach has some obvious properties: there are non-linear gravitons, a connection to lattice gauge field theory and a ***dimensional reduction from 4D to 2D***.
+
+The TensorFlow ops are written in **optimized C++**. These ops sample from circuits, calculate expectation values, and output the state produced by the given circuits.
 
 ## Construction of a State
 
@@ -285,6 +286,8 @@ These items are elementary parts possessing familiar properties but they never e
 The holonomy tells you how to propagate MEC30. A spin network state assigns an amplitude to a set of ***spin half particles*** tracing out a path in space, merging and splitting. 
 
 ![](https://user-images.githubusercontent.com/36441664/74366957-992db780-4e03-11ea-8f26-cca32bd26003.png)
+
+This kind of approach has some obvious properties: there are non-linear gravitons, a connection to lattice gauge field theory and a ***dimensional reduction from 4D to 2D***.
 
 ## Bilateral 9 Sums
 
@@ -416,7 +419,7 @@ What is critical to understand, is that the invisible hand of 2, 3 and 5, and th
 
 [![One_Grand_Pyramid_Teaser](https://github.com/eq19/maps/assets/8466209/31cec66a-566f-466d-9ea6-f924e7499f01)](https://www.primesdemystified.com/First1000Primes.html)
 
-Moreover it can generate an on-line documentation browser (in HTML) and/or an off-line reference manual (in LaTeX) from a set of documented source files such as _[Doxygen](https://www.doxygen.nl/manual/index.html)_.
+Moreover it can generate an on-line documentation browser (in HTML) and/or an off-line reference manual (in LaTeX) from a set of documented source files.
 
 ```note
 Many scientific communities have adopted community-based models that integrate multiple components to simulate whole system dynamics.
@@ -425,9 +428,9 @@ Many scientific communities have adopted community-based models that integrate m
 - Our software tool provides support to quickly summarize the overall information of scientific codes, including the number of lines of code, programming languages, external library dependencies, as well as architecture-dependent parallel software features.
 - The XScan toolkit also realizes a static software analysis component to collect detailed structural information and provides an interactive visualization and analysis of the functions.
 
-We use a large-scale community-based Earth System Model to demonstrate the workflow, functions and visualization of the toolkit. We also discuss the application of advanced graph analytics techniques to assist software modular design and component refactoring. _([ResearchGate](https://www.researchgate.net/publication/333664805_XScan_An_Integrated_Tool_for_Understanding_Open_Source_Community-Based_Scientific_Code))_
+We use a large-scale community-based Earth System Model to demonstrate the workflow, functions and visualization of the toolkit. We also discuss the application of advanced graph analytics techniques to assist software modular design and component refactoring. _([XScan - pdf](https://github.com/user-attachments/files/17319976/ICCS2019-17.pdf))_
 ```
 
-[![doxygen](https://github.com/user-attachments/assets/824735b6-a27d-4470-9835-8162e5561369)](https://github.com/user-attachments/files/17319976/ICCS2019-17.pdf)
+[![doxygen](https://github.com/user-attachments/assets/824735b6-a27d-4470-9835-8162e5561369)](https://www.doxygen.nl/manual/starting.html)
 
-The TensorFlow ops are written in **optimized C++**. These ops sample from circuits, calculate expectation values, and output the state produced by the given circuits.
+Then, we will apply machine learning approaches to aid users in optimizing software structure and functional redesigns.
