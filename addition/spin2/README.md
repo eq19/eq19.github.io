@@ -126,25 +126,13 @@ Tensorflow, when used in its non-eager mode, separates the graph definition from
 
 Remember that the success of a machine learning model depends on the fact that both the train and the test set are from the same distribution; however, it seems that this constraint is violated in the case of [prime numbers](https://github.com/zetbaitsu/tensorflow_sample/blob/master/prime.py).
 
+```note
+Machine learning method just learn a function mapping x to f(w; x). it then define a loss function as loss(y, f(w;x)). x is a vector representing features of something. 
+```
+
 ![image](https://github.com/eq19/maps/assets/8466209/922fac71-d793-477c-a56c-ec21e552d695)
 
 It doesn’t do learning in the required way to learn from examples, but at least it was proposing mathematical theorems and representing mathematical ideas in a more natural format such as _[terminating digits](https://primesdemystified.com/#deepsymmetries)_.
-
-```py
-total_parameters = 0
-for variable in tf.trainable_variables():
-    # shape is an array of tf.Dimension
-    shape = variable.get_shape()
-    print(shape)
-    print(len(shape))
-    variable_parameters = 1
-    for dim in shape:
-        print(dim)
-        variable_parameters *= dim.value
-    print(variable_parameters)
-    total_parameters += variable_parameters
-print(total_parameters)
-```
 
 ```txt
 p r i m e s
@@ -167,23 +155,25 @@ p r i m e s
 
 In order to maintain the 36 symmetry (whether it is an addition zone or not), with this prime number 19 was found at least seven (7) pairs of _[truncated patterns](https://www.eq19.com/multiplication/file19.html#truncated-patterns)_.
 
-```tip
-The tessellating field of equilateral triangles fills with numbers, with spin orientation flipping with each prime number encountered, creating ***3 minor hexagons***.
+```py
+total_parameters = 0
+for variable in tf.trainable_variables():
+    # shape is an array of tf.Dimension
+    shape = variable.get_shape()
+    print(shape)
+    print(len(shape))
+    variable_parameters = 1
+    for dim in shape:
+        print(dim)
+        variable_parameters *= dim.value
+    print(variable_parameters)
+    total_parameters += variable_parameters
+print(total_parameters)
 ```
 
 ***π(6+11) = π(17) = 7***
 
 ![](https://user-images.githubusercontent.com/36441664/274093531-0878e3e5-6be3-448e-9ad4-3b34523c1e9c.jpg)
-
-## Central Polarity
-
-This polarity is happened per ***six (6) cycles*** by the polar of ***six (6) to one (1)*** and ***six (6) to seven (7)*** that leads to the prime number ***61 and 67***.
-
-```note
-The above ***characteristics of primes in the hexagon suggests 0 family numbers split more than twin primes***. I speculate these numbers split all primes. That is, all primes have a partner (of the opposite family) equidistant from such a number. For instance, ***0 family member 18 splits twin primes 17 and 19***, but is also 5 more than 13 and 5 less than 23, and it is also 11 more the 7, and 11 less than 29, etc. _([Hexspin](https://www.hexspin.com/cell-types/))_
-```
-
-[![](https://user-images.githubusercontent.com/8466209/219239425-90f075fa-fe8a-4f80-b3ce-7b2053956c6b.png)](http://www.hexspin.com/0-1-and-negative-numbers/)
 
 By which we finally found if this behaviour is cascaded bilaterally within the correlation between ***61*** as [the 18th prime](https://gist.github.com/eq19/e9832026b5b78f694e4ad22c3eb6c3ef) and ***67*** as [the 19th prime](https://gist.github.com/eq19/c9bdc2bbe55f2d162535023c8d321831).
 
@@ -213,6 +203,19 @@ p r i m e s
 -----
 41
 ```
+
+This polarity is happened per ***six (6) cycles*** by the polar of ***six (6) to one (1)*** and ***six (6) to seven (7)*** that leads to the prime number ***61 and 67***.
+
+```note
+The above ***characteristics of primes in the hexagon suggests 0 family numbers split more than twin primes***. I speculate these numbers split all primes. That is, all primes have a partner (of the opposite family) equidistant from such a number. For instance, ***0 family member 18 splits twin primes 17 and 19***, but is also 5 more than 13 and 5 less than 23, and it is also 11 more the 7, and 11 less than 29, etc. _([Hexspin](https://www.hexspin.com/cell-types/))_
+```
+
+[![](https://user-images.githubusercontent.com/8466209/219239425-90f075fa-fe8a-4f80-b3ce-7b2053956c6b.png)](http://www.hexspin.com/0-1-and-negative-numbers/)
+
+So it is not strictly true that neural networks cannot be trained to recognize prime numbers, but there are significant challenges associated with this task.
+
+## Central Polarity
+
 ```note
 The Prime Spiral Sieve possesses remarkable structural and numeric symmetries. For starters, the intervals between the prime roots (and every subsequent row or rotation of the sieve) are perfectly balanced, with a period ***eight (8) difference sequence*** of: {6, 4, 2, 4, 2, 4, 6, 2} 
 _([Primesdemystified](https://primesdemystified.com/#deepsymmetries))_.
@@ -528,3 +531,5 @@ We apply the same principle as above for the determination of the prime position
 ```
 
 [![Theory of Everything](https://github.com/eq19/maps/assets/8466209/6e26ada0-c545-4771-810b-9f721512a03c)](https://www.primesdemystified.com/Factorization.html)
+
+If there is a function that can tell us weather x is a prime number, then nn may find it. But I don't think there is such function (maybe it exists because no mathematician prove there isn't).
