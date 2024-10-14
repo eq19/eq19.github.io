@@ -26,14 +26,18 @@ In short this project is mapping [the quantum way](https://www.eq19.com/) within
 19, 1, 1, 1
 ```
 
+```note
+The 5+7+11+13 is the smallest square number expressible as the sum of four consecutive primes which are also two couples of prime twins!
+- Their sum is 36 which is [the smallest square](https://primes.utm.edu/curios/page.php?number_id=270) that is the sum of a twin prime pair {17, 19}.
+- This 36 is the smallest number expressible as the sum of consecutive prime in **two (2) ways** (5+7+11+13 and 17+19). 
+```
+
 ![default](https://user-images.githubusercontent.com/8466209/199364847-6a8d2d64-ee12-4379-bfa6-9f5d9fa7da59.png)
 
 This export/import process is specific to each frontend and typically involves a number of stages which can then be "imported" into [IREE](https://iree.dev/).
 
 ```note
-The 5+7+11+13 is the smallest square number expressible as the sum of four consecutive primes which are also two couples of prime twins!
-- Their sum is 36 which is [the smallest square](https://primes.utm.edu/curios/page.php?number_id=270) that is the sum of a twin prime pair {17, 19}.
-- This 36 is the smallest number expressible as the sum of consecutive prime in **two (2) ways** (5+7+11+13 and 17+19). 
+IREE (Intermediate Representation Execution Environment[1](https://iree.dev/#fn:1)) is an [MLIR](https://mlir.llvm.org/)-based end-to-end compiler and runtime that lowers Machine Learning (ML) models to a unified IR that scales up to meet the needs of the datacenter and down to satisfy the constraints and special considerations of mobile and edge deployments.
 ```
 
 ```liquid
