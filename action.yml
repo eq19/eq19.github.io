@@ -66,6 +66,7 @@ runs:
         git remote set-url origin $REMOTE_REPO        
         git add . && git commit -m ${{ env.LATEST_COMMIT }} && git push
         if [ $? -eq 0 ]; then
-          git checkout 'gh-pages' && git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git push
+          git remote update && git fetch && git checkout --track origin/gh-pages
+          git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git push
           exit 1
         fi
