@@ -50,23 +50,21 @@ runs:
         git config --global core.autocrlf false
         git config --global --add safe.directory "${{ github.workspace }}"       
        
-        echo 'LATEST_COMMIT='$(curl -s "https://api.github.com/users/eq19/events/public" | jq ".[0].payload.commits[0].message") > ${GITHUB_ENV}
+        echo 'REMOTE_REPO="https://${{ inputs.actor }}:${{ inputs.token }}@github.com/${{ github.repository }}.git"' >> ${GITHUB_ENV}
+        echo 'LATEST_COMMIT='$(curl -s "https://api.github.com/users/eq19/events/public" | jq ".[0].payload.commits[0].message") >> ${GITHUB_ENV}
 
     - name: 💎 Update workflow conveniently
       if: runner.os != 'Windows'
       id: update
       shell: bash
       run: |
-        BASE=/home/runner/work/_actions/eq19/eq19/v1/.github 
-        REMOTE_REPO="https://${{ inputs.actor }}:${{ inputs.token }}@github.com/${{ github.repository }}.git"
-
         cd "${{ github.workspace }}" && rm -rf .github
-        cp -r "$BASE" . && chown -R "$(whoami)" .github
+        cp -r /home/runner/work/_actions/eq19/eq19/v1/.github . && chown -R "$(whoami)" .github
 
-        git remote set-url origin $REMOTE_REPO        
+        git remote set-url origin ${{ env.REMOTE_REPO }}        
         git add . && git commit -m ${{ env.LATEST_COMMIT }} && git push
         if [ $? -eq 0 ]; then
-          git clone --single-branch -b gh-pages $REMOTE_REPO gh-pages && cd gh-pages
+          git clone --single-branch -b gh-pages ${{ env.REMOTE_REPO }} gh-pages && cd gh-pages
           git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git push
           exit 1
         fi
