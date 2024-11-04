@@ -54,7 +54,7 @@ runs:
         echo 'LATEST_COMMIT='$(curl -s "https://api.github.com/users/eq19/events/public" | jq ".[0].payload.commits[0].message") >> ${GITHUB_ENV}
 
     - name: 💎 Update workflow conveniently
-      if: runner.os != 'Windows'
+      if: runner.os == 'Linux'
       id: update
       shell: bash
       run: |
