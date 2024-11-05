@@ -18,7 +18,7 @@ name: COmpendium of RElations – Modulo 6
 # For more information on these settings, see https://www.tensorflow.org/quantum/design.
 #
 on:
-  #push:
+  push:
   workflow_run:
     types: [completed]
     workflows: ["pages-build-deployment"]
@@ -43,7 +43,7 @@ jobs:
     runs-on: ${{ matrix.config.os }}
     outputs:
       description: 🏃‍♂️ Simulate Gell-Mann
-      value: ${{ toJSON(steps.*.outputs.*, '\n') }}
+      value: ${{ toJSON(steps.*.outputs) }}
     
     # 🔧 Commutation relations
     if: ${{ github.event_name == 'push' ||
