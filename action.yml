@@ -64,7 +64,7 @@ runs:
         git remote set-url origin ${{ env.REMOTE_REPO }}        
         git add . && git commit -m ${{ env.LATEST_COMMIT }} && git push
         if [ $? -eq 0 ]; then
-          git clone --single-branch -b gh-pages ${{ env.REMOTE_REPO }} gh-pages && cd gh-pages
-          git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git push
+          #git clone --single-branch -b gh-pages ${{ env.REMOTE_REPO }} gh-pages && cd gh-pages
+          #git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git push
           exit 1
         fi
