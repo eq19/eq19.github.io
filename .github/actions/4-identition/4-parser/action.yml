@@ -102,5 +102,5 @@ runs:
         curl -s -X POST https://us-central1-feedmapping.cloudfunctions.net/function \
           -H "Authorization: Bearer ${TOKEN}" -H "Content-Type: application/json" \
           --data @${{ inputs.workspace }}/docs/data.json | jq '.'
-        ${{ inputs.action_path }}/.github/entrypoint/init.sh
+        $BASE/entrypoint/init.sh
         
