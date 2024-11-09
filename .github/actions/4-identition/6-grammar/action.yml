@@ -78,30 +78,37 @@ runs:
   using: composite
   
   steps:
-    - name: 💎 Setup Ruby
-      uses: ruby/setup-ruby@v1
-      if: runner.os == 'Windows'
-      with:
-        cache-version: 1
-        rubygems: default
-        bundler-cache: true
-        ruby-version: '3.3.4'
-        
-    - name: Build Jekyll pages
-      if: runner.os == 'Windows'
-      id: jekyll_site
+    - name: 💎 Get the latest commit message
+      id: commit
       shell: bash
       run: |
-        echo -e "\n$hr\nSource Pages\n$hr"
-        cd ${{ inputs.workspace }} && ls -al .
+        git config --global user.name "${{ github.actor }}"
+        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
-        echo -e "\n$hr\nBuild Pages\n$hr"
-        #Jekyll Quick Reference https://gist.github.com/DrOctogon/bfb6e392aa5654c63d12
-        JEKYLL_GITHUB_TOKEN=${{ inputs.token }} DISABLE_WHITELIST=true bundle exec jekyll build --profile -t -p ${{ inputs.workspace }}/_plugins -d ${{ inputs.workspace }}/docs
+        git config --global core.autocrlf false
+        git config --global --add safe.directory "${{ github.workspace }}"
+       
+        git config --global credential.helper store
+        echo "https://${{ github.actor }}:${{ inputs.token }}@github.com" > ~/.git-credentials
 
-        if [[ "${TARGET_REPOSITORY}" == "eq19/eq19.github.io" ]]; then echo "www.eq19.com" > "${{ github.workspace }}/docs/CNAME"; fi
-        rm -rf ${{ inputs.workspace }}/docs/.nojekyll && touch ${{ inputs.workspace }}/docs/.nojekyll
+        echo 'TARGET_REPO="https://${{ github.actor }}:${{ inputs.token }}@github.com/${TARGET_REPOSITORY}.git"' >> ${GITHUB_ENV}
+        echo 'REMOTE_REPO="https://${{ github.actor }}:${{ inputs.token }}@github.com/${{ github.repository }}.git"' >> ${GITHUB_ENV}
+        echo 'LATEST_COMMIT='$(curl -s "https://api.github.com/users/eq19/events/public" | jq ".[0].payload.commits[0].message") >> ${GITHUB_ENV}
 
-        echo -e "\n$hr\nFinal Pages\n$hr"
-        ls -al ${{ inputs.workspace }}/docs
+    - name: ⏪ Rewind all jobs on failure
+      shell: bash
+      run: |
+        if [[ '${{ inputs.failure_status }}' == 'true' ]]; then
+      
+          git clone --single-branch --branch gh-pages ${{ env.REMOTE_REPO }} gh-pages && cd gh-pages
+          git add . && git commit --allow-empty -m "rerun due to job failure" && git push
+  
+        else
+
+          cd ${{ inputs.workspace }} && rm -rf .git .bundle vendor && cd $RUNNER_TEMP
+          git clone --single-branch --branch gh-pages ${{ env.TARGET_REPO }} gh-pages
+
+          cd gh-pages && git rm -rfq . && shopt -s dotglob && mv -f ${{ inputs.workspace }}/* .
+          git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git push
         
+        fi
