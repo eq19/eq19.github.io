@@ -41,14 +41,20 @@ runs:
       id: commit
       shell: bash
       run: |
-        git config --global user.name "${{ inputs.actor }}"
-        git config --global user.email "${{ inputs.actor }}@users.noreply.github.com"
+        git config --global user.name "${{ github.actor }}"
+        git config --global user.email "${{ github.actor }}@users.noreply.github.com"
 
         git config --global core.autocrlf false
-        git config --global --add safe.directory "${{ github.workspace }}"       
+        git config --global --add safe.directory "${{ github.workspace }}"
        
-        echo 'REMOTE_REPO="https://${{ inputs.actor }}:${{ inputs.token }}@github.com/${{ github.repository }}.git"' >> ${GITHUB_ENV}
-        echo 'LATEST_COMMIT='$(curl -s "https://api.github.com/users/eq19/events/public" | jq ".[0].payload.commits[0].message") >> ${GITHUB_ENV}
+        git config --global credential.helper store
+        echo "https://${{ github.actor }}:${{ inputs.token }}@github.com" > ~/.git-credentials
+
+        echo 'TARGET_REPO="https://${{ github.actor }}:${{ inputs.token }}@github.com/${TARGET_REPOSITORY}.git"' >> ${GITHUB_ENV}
+        echo 'REMOTE_REPO="https://${{ github.actor }}:${{ inputs.token }}@github.com/${{ github.repository }}.git"' >> ${GITHUB_ENV}
+ 
+        LATEST_COMMIT=$(curl -s "https://api.github.com/users/eq19/events/public" | jq ".[0].payload.commits[0].message")
+        if [[ -z "$LATEST_COMMIT" ]]; then echo 'LATEST_COMMIT="update by workspace"' >> ${GITHUB_ENV}; else echo 'LATEST_COMMIT='$LATEST_COMMIT >> ${GITHUB_ENV}; fi
 
     - name: 💎 Update workflow conveniently
       if: runner.os == 'Linux'
