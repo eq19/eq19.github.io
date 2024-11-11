@@ -75,12 +75,37 @@ outputs:
 runs:
   using: composite
   steps:
+    - name: Login to DockerHub
+      uses: docker/login-action@v3
+      with:
+        username: ${{ inputs.hub_username }}
+        password: ${{ inputs.hub_token }}
+        
+    - uses: actions/setup-python@v5
+      with:
+        python-version: 3.12
+        allow-prereleases: true
+
+    - uses: actions/cache@v4
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip
+
+    - name: Install dependencies
+      shell: bash
+      run: |
+        HEADER="Accept: application/vnd.github+json"
+        python -m pip -q install --upgrade pip setuptools six wheel
+        python -m pip -q install -r ${{ inputs.action_path }}/requirements-dev.txt
+
     #Ref: https://gist.github.com/xtrmstep/92aab2d465e348ce1c07ed903ca0dfb8
     - id: describe
       shell: bash
       run: |
         gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a
         ssh-keygen -t rsa -b 4096 -N '' -f $HOME/.ssh/id_rsa -C root && sed -i.backup "1s|^|runner: |" $HOME/.ssh/id_rsa.pub
+
+        #Fill in metadata with ./.github/entrypoint/artifact/python/manual_v2.ipynb vs prime hexagon
         gcloud compute instances add-metadata grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --metadata-from-file ssh-keys=$HOME/.ssh/id_rsa.pub > /dev/null
 
         echo $(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format json) > instance
@@ -89,7 +114,6 @@ runs:
 
     #Ref: https://blog.benoitblanchon.fr/github-action-run-ssh-commands/
     - name: Configure SSH
-      if: runner.os == '-Linux'           
       id: compute
       shell: bash
       env:
@@ -112,7 +136,5 @@ runs:
         if [ $? -eq 0 ]; then
           ssh staging 'sudo ls -alR /home/runner'
         else
-          git clone --single-branch -b gh-pages ${{ env.REMOTE_REPO }} gh-pages && cd gh-pages
-          git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git push
           exit 1
         fi
