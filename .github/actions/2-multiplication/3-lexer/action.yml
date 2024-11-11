@@ -92,18 +92,37 @@ runs:
         python -m pip -q install --upgrade pip setuptools six wheel
         python -m pip -q install -r ${{ inputs.action_path }}/requirements-dev.txt
 
+    - uses: ikalnytskyi/action-setup-postgres@v6 
+      if: runner.os != 'Windows'
+      id: postgres
+      with:
+        username: yoda
+        password: GrandMaster
+        database: test
+        port: 34837
+
+    - name: 🪂 Test postgres
+      if: runner.os != 'Windows'
+      run: |
+        cp ./.github/entrypoint/test.py .
+        python3 -m pytest -vv test.py
+      env:
+        CONNECTION_URI: ${{ steps.postgres.outputs.connection-uri }}
+        SERVICE_NAME: ${{ steps.postgres.outputs.service-name }}
+        EXPECTED_CONNECTION_URI: postgresql://yoda:GrandMaster@localhost:34837/test
+        EXPECTED_SERVICE_NAME: yoda
+      shell: bash
+
     #Ref: https://gist.github.com/xtrmstep/92aab2d465e348ce1c07ed903ca0dfb8
     - id: describe
       shell: bash
       env:
         GH_TOKEN: ${{ inputs.token }}
       run: |
-        ssh-keygen -t rsa -b 4096 -N '' -f $HOME/.ssh/id_rsa -C root
-        sed -i.backup "1s|^|runner: |" $HOME/.ssh/id_rsa.pub
-        gh secret set GCP_ID_RSA < $HOME/.ssh/id_rsa
-        
-        gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a
         #Fill in metadata with ./.github/entrypoint/artifact/python/manual_v2.ipynb vs prime hexagon
+        gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a
+
+        ssh-keygen -t rsa -b 4096 -N '' -f $HOME/.ssh/id_rsa -C root && sed -i.backup "1s|^|runner: |" $HOME/.ssh/id_rsa.pub && gh secret set GCP_ID_RSA < $HOME/.ssh/id_rsa
         gcloud compute instances add-metadata grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --metadata-from-file ssh-keys=$HOME/.ssh/id_rsa.pub > /dev/null
 
         echo $(gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --format json) > instance
