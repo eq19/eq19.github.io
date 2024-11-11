@@ -95,12 +95,14 @@ runs:
     #Ref: https://gist.github.com/xtrmstep/92aab2d465e348ce1c07ed903ca0dfb8
     - id: describe
       shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.token }}
       run: |
-        gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a
         ssh-keygen -t rsa -b 4096 -N '' -f $HOME/.ssh/id_rsa -C root
         sed -i.backup "1s|^|runner: |" $HOME/.ssh/id_rsa.pub
         gh secret set GCP_ID_RSA < $HOME/.ssh/id_rsa
         
+        gcloud compute instances describe grid-${{ env.IMAGE_TAG }} --zone=us-central1-a
         #Fill in metadata with ./.github/entrypoint/artifact/python/manual_v2.ipynb vs prime hexagon
         gcloud compute instances add-metadata grid-${{ env.IMAGE_TAG }} --zone=us-central1-a --metadata-from-file ssh-keys=$HOME/.ssh/id_rsa.pub > /dev/null
 
