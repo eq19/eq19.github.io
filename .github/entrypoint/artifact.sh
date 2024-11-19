@@ -79,8 +79,7 @@ jekyll_build() {
 
   echo -e "\n$hr\nCONFIG\n$hr"
   
-  [[ $1 == *"github.io"* ]] && OWNER=$2  
-  echo 'repo='${OWNER}/$1 >> ${GITHUB_OUTPUT}
+  [[ $1 == *"github.io"* ]] && OWNER=$2
   if [[ $1 != "eq19.github.io" ]]; then SITEID=$(( $3 + 2 )); else SITEID=1; fi
   
   if  [[ "${OWNER}" == "eq19" ]]; then
@@ -97,11 +96,13 @@ jekyll_build() {
   [[ $1 != *"github.io"* ]] && sed -i "1s|^|baseurl: /$1\n|" ${RUNNER_TEMP}/_config.yml
   
   FOLDER="span$(( 17 - $3 ))"
+  TARGET_REPOSITORY=${OWNER}/$1
   gh variable set FOLDER --body "$FOLDER"
   echo 'FOLDER='${FOLDER} >> ${RUNNER_TEMP}/.env
-  echo 'TARGET_REPOSITORY='${OWNER}/$1 >> ${GITHUB_ENV}
+  echo 'repo='${TARGET_REPOSITORY} >> ${GITHUB_OUTPUT}
   gh variable set TARGET_REPOSITORY --body "$TARGET_REPOSITORY"
-  
+  echo 'TARGET_REPOSITORY='${TARGET_REPOSITORY} >> ${GITHUB_ENV}
+
   sed -i "1s|^|title: eQuantum\n|" ${RUNNER_TEMP}/_config.yml
   sed -i "1s|^|span: ${FOLDER}\n|" ${RUNNER_TEMP}/_config.yml
   sed -i "1s|^|user: ${USER}\n|" ${RUNNER_TEMP}/_config.yml
