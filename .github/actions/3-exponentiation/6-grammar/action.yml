@@ -94,7 +94,7 @@ runs:
             cat _Sidebar.md
 
             ls -alR /home/runner/xml
-            ls -alR /home/runner/doc
+            ls -alR /home/runner/templates/doxygen/doc
   
         fi
 
