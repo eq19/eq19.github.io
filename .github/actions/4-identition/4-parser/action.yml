@@ -102,7 +102,7 @@ runs:
         JOB_ID: ${{ inputs.id }}
         GH_TOKEN: ${{ inputs.token }}
         GCP_TOKEN: ${{ steps.auth.outputs.id_token }}
-        BASE_GIT: "/D/a/_actions/eq19/eq19/v1/.github"
+        BASE_GIT: "/d/a/_actions/eq19/eq19/v1/.github"
         BASE: "https://github.com/eq19/eq19.github.io.wiki.git"
         WIKI: "https://github.com/${{ env.TARGET_REPOSITORY }}.wiki.git"
       run: |
