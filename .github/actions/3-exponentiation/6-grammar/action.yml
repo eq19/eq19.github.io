@@ -84,7 +84,7 @@ runs:
     - name: ⏩ Next wiki's jobs on applying
       shell: bash
       env:
-        BASE: "D:/a/_actions/eq19/eq19/v1/.github"
+        BASE: "D:/a/_actions/eq19/eq19/v2/.github"
       run: |
         if [[ '${{ inputs.failure_status }}' == 'false' ]]; then
 
@@ -100,12 +100,16 @@ runs:
 
     - name: ⏪ Rewind all jobs on failure
       shell: bash
+      env:
+        GH_TOKEN: ${{ inputs.token }}
       run: |
         if [[ '${{ inputs.failure_status }}' == 'true' ]]; then
       
-          ${{ inputs.action_path }}/.github/entrypoint/init.sh
-          REMOTE_REPO="https://${{ github.actor }}:${{ inputs.token }}@github.com/${{ github.repository }}.git"
+          git config --global user.name "$GITHUB_ACTOR"
+          git config --global --add safe.directory "$GITHUB_WORKSPACE"
+          git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
+          REMOTE_REPO="https://$GITHUB_ACTOR:$GH_TOKEN@github.com/$GITHUB_REPOSITORY.git"
           git clone --single-branch --branch gh-pages $REMOTE_REPO gh-pages && cd gh-pages
           git add . && git commit --allow-empty -m "rerun due to job failure" && git push
   
@@ -116,9 +120,21 @@ runs:
           cd ${{ github.workspace }}
           find -not -path "./.git/*" -not -name ".git" | grep git
           find -not -path "./.git/*" -not -name ".git" -delete
-
           shopt -s dotglob && mv -f /home/runner/_site/* .
-          #git fetch && git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git rebase && git push
-          git add . && git commit --allow-empty -m ${{ env.LATEST_COMMIT }} && git push
+
+          # Assign the environment variable correctly
+          COMMIT="${{ env.LATEST_COMMIT }}"
+
+          # Remove double quotes
+          MESSAGE=$(echo "$COMMIT" | tr -d '"')
+
+          # Debug output to verify
+          echo "Original: $COMMIT"
+          echo "Processed: $MESSAGE"
+
+          # Commit and push changes
+          git add . 
+          git commit --allow-empty -m "$MESSAGE" 
+          git push
  
         fi
