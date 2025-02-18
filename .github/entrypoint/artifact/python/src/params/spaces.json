@@ -1,33 +1,21 @@
 {
   "strategy_name": "fibbo",
   "params": {
-    "stoploss": {
-      "stoploss": -0.337
-    },
-    "trailing": {
-      "trailing_stop": true,
-      "trailing_stop_positive": 0.099,
-      "trailing_stop_positive_offset": 0.178,
-      "trailing_only_offset_is_reached": false
-    },
-    "max_open_trades": {
-      "max_open_trades": Infinity
-    },
     "buy": {
       "buy_additional_indicator": "STOCH_OSC",
       "buy_fast_dema": "8",
-      "buy_fib_level": "0.618",
+      "buy_fib_level": "0.382",
       "buy_rsi": 41,
-      "buy_slow_ema": "55",
-      "buy_stoch_osc": 10,
-      "buy_swing_period": 33
+      "buy_slow_ema": "34",
+      "buy_stoch_osc": 24,
+      "swing_period": 67
     },
     "sell": {
       "sell_additional_indicator": "STOCH_OSC",
       "sell_fib_level": "0.382",
-      "sell_rsi": 80,
-      "sell_rsi_threshold": 76,
-      "sell_stoch_osc": 89
+      "sell_rsi": 87,
+      "sell_rsi_threshold": 64,
+      "sell_stoch_osc": 98
     },
     "protection": {
       "cooldown_lookback": 7,
@@ -40,12 +28,24 @@
       "use_stop_protection": true
     },
     "roi": {
-      "0": 0.093,
-      "7": 0.018000000000000002,
-      "12": 0.006,
-      "22": 0
+      "0": 0.07999999999999999,
+      "4": 0.028999999999999998,
+      "11": 0.006,
+      "19": 0
+    },
+    "stoploss": {
+      "stoploss": -0.337
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.099,
+      "trailing_stop_positive_offset": 0.178,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 8
     }
   },
   "ft_stratparam_v": 1,
-  "export_time": "2025-02-17 16:18:54.167984+00:00"
+  "export_time": "2025-02-14 16:45:39.292122+00:00"
 }
