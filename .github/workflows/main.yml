@@ -36,7 +36,7 @@ jobs:
 
     # 🔧 Commutation relations
     runs-on: ${{ matrix.config.os }}
-    continue-on-error: ${{ matrix.config.id != 1 && true || false }}
+    continue-on-error: ${{ matrix.config.id != 1 && false || true }}
 
     steps:
       - name: 📂 Checkout
@@ -119,8 +119,8 @@ jobs:
     ## ✔️ Completeness status
     needs: lexering
     runs-on: ${{ matrix.config.os }}
-    if: ${{ (needs.lexering.result == 'success') }}
-    continue-on-error: ${{ matrix.config.id == 3 && false || true }}
+    #if: ${{ (needs.lexering.result == 'success') }}
+    continue-on-error: ${{ matrix.config.id == 3 && true || false }}
      
     steps:
       - name: 📂 Checkout
