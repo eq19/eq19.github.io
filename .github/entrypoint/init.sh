@@ -48,7 +48,7 @@ fi
 echo -e "\n$hr\nWORKSPACE\n$hr"
 if [[ "${JOB_ID}" == "1" ]]; then
 
-  [[ "${LATEST_COMMIT}" == *"RERUN_RUNNER"* ]] && gh variable set RERUN_RUNNER --body "true"
+  #[[ "${LATEST_COMMIT}" == *"RERUN_RUNNER"* ]] && gh variable set RERUN_RUNNER --body "true"
 
   cd ${GITHUB_WORKSPACE} && rm -rf .github
   cp -r /home/runner/work/_actions/eq19/eq19/v2/.github .
