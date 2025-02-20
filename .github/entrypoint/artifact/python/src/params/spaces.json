@@ -25,13 +25,13 @@
       "buy_rsi": 41,
       "buy_slow_ema": "34",
       "buy_swing_period": 50,
-      "buy_additional_indicator": "TTM"
+      "buy_additional_indicator": "NONE"
     },
     "sell": {
       "sell_fib_level": "0.382",
       "sell_rsi": 87,
       "sell_rsi_threshold": 64,
-      "sell_additional_indicator": "FIBBO, TTM"
+      "sell_additional_indicator": "NONE"
     },
     "protection": {
       "cooldown_lookback": 7,
