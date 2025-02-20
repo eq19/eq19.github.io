@@ -164,7 +164,7 @@ runs:
             Environment="HOME=/home/runner"
             ExecStop=/usr/bin/docker exec mydb -s quit
             ExecStartPre=/usr/bin/docker-credential-gcr configure-docker
-            ExecStart=/usr/bin/docker run --rm -e POSTGRES_DB=postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e TELEGRAM_CHAT_ID=${{ inputs.chat_id }} -e MONITOR_BOT_TOKEN=${{ inputs.bot_token }} -e WARNING_BOT_TOKEN=${{ inputs.logs_token }} -v /mnt:/mnt -v /mnt/disks/deeplearning/home/runner:/home/runner --name=mydb -p 5432:5432 --pull=always eq19/feed:spin-${{ env.IMAGE_TAG }}
+            ExecStart=/usr/bin/docker run --rm -e POSTGRES_DB=postgres -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e TELEGRAM_CHAT_ID=${{ inputs.chat_id }} -e MONITOR_BOT_TOKEN=${{ inputs.bot_token }} -e WARNING_BOT_TOKEN=${{ inputs.logs_token }} -v /mnt:/mnt -v /mnt/disks/deeplearning/home/runner:/home/runner -v /mnt/disks/deeplearning/var:/var --name=mydb -p 5432:5432 --pull=always eq19/feed:spin-${{ env.IMAGE_TAG }}
 
         - path: /etc/systemd/system/runner.service
           permissions: "0644"

@@ -20,23 +20,23 @@
       "max_open_trades": Infinity
     },
     "buy": {
-      "buy_additional_indicator": "STOCHRSI",
+      "buy_additional_indicator": "NONE",
       "buy_fast_dema": "13",
       "buy_fib_level": "0.618",
       "buy_rsi": 45,
       "buy_slow_ema": "34",
-      "buy_stoch_osc": 10,
       "buy_swing_period": 50,
       "period": 14,
       "SmoothK": 2,
-      "smoothD": 2
+      "buy_stoch_osc": 29,
+      "smoothD": 3
     },
     "sell": {
-      "sell_additional_indicator": "STOCHRSI",
+      "sell_additional_indicator": "NONE",
       "sell_fib_level": "0.382",
       "sell_rsi": 70,
       "sell_rsi_threshold": 64,
-      "sell_stoch_osc": 77
+      "sell_stoch_osc": 85
     },
     "protection": {
       "cooldown_lookback": 7,
@@ -50,5 +50,5 @@
     }
   },
   "ft_stratparam_v": 1,
-  "export_time": "2025-02-20 10:25:41.340327+00:00"
+  "export_time": "2025-02-20 13:28:29.884316+00:00"
 }
