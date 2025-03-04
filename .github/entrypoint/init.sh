@@ -82,7 +82,7 @@ elif [[ "${JOB_ID}" == "3" ]]; then
 
   rm -rf ${RUNNER_TEMP}/Sidebar.md && cp _Sidebar.md ${RUNNER_TEMP}/Sidebar.md
   sed -i 's/0. \[\[//g' ${RUNNER_TEMP}/Sidebar.md && sed -i 's/\]\]//g' ${RUNNER_TEMP}/Sidebar.md
-  cd /home/runner/_site && cp -R ${RUNNER_TEMP}/gistdir/* . && ls -lR .
+  cd /home/runner/_site && cp -R ${RUNNER_TEMP}/gistdir/* . && github_pages.sh && ls -lR .
 
 else
 
