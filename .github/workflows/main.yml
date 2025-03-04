@@ -132,7 +132,7 @@ jobs:
           ref: ${{ matrix.config.id == 3 && 'gh-source' || 'gh-pages' }}                  
 
       - name: 🚀 Setup Parser
-        if: ${{ env.PASS == 'true' }}
+        #if: ${{ env.PASS == 'true' }}
         uses: eq19/parser@v2
         id: set-parser
         with:
