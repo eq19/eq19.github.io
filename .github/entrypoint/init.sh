@@ -75,12 +75,12 @@ elif [[ "${JOB_ID}" == "2" ]]; then
 elif [[ "${JOB_ID}" == "3" ]]; then
 
   cd /home/runner/_site && cat _config.yml
-  gist.sh ${BASE} > /dev/null && cat ${RUNNER_TEMP}/spin.txt
-  cp -R ${RUNNER_TEMP}/wikidir/* .
+  gist.sh ${BASE} > /dev/null && cat ${RUNNER_TEMP}/spin.txt && cp -R ${RUNNER_TEMP}/wikidir/* .
 
   if [[ "${WIKI}" != "${BASE}" ]]; then
-    gist.sh ${WIKI} > /dev/null && cat ${RUNNER_TEMP}/spin.txt
+    gist.sh ${WIKI} > /dev/nul && echo -e "\n$hr\n${FOLDER}\n$hr" && cat ${RUNNER_TEMP}/spin.txt
     find . -type d -name "${FOLDER}" -prune -exec sh -c 'cp -R ${RUNNER_TEMP}/wikidir/* "$1/"' sh {} \;
+    find . -type d -name "${FOLDER}" -prune -exec sh -c 'cat ${RUNNER_TEMP}/wikidir/README.md >> $1/README.md' sh {} \;
   fi
 
 else
