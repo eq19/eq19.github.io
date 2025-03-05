@@ -14,7 +14,7 @@ edit_file () {
     G+=("${SPIN[7]}")
   done < ${RUNNER_TEMP}/spin.txt
 
-  IFS=$'\n' read -d '' -r -a LINE < ${RUNNER_TEMP}/Sidebar.md; unset IFS;
+  IFS=$'\n' read -d '' -r -a LINE < ${RUNNER_TEMP}/wikidir/_Sidebar.md; unset IFS;
   for ((i=0; i < ${#LINE[@]}; i++)); do
     TEXT="${LINE[$i]}";
     IFS='|'; array=($TEXT); unset IFS;
