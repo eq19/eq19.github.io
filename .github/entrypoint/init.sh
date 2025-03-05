@@ -74,14 +74,15 @@ elif [[ "${JOB_ID}" == "2" ]]; then
 
 elif [[ "${JOB_ID}" == "3" ]]; then
 
-  cd /home/runner/_site && cat _config.yml
-  gist.sh ${BASE} > /dev/null && cat ${RUNNER_TEMP}/spin.txt && cp -R ${RUNNER_TEMP}/wikidir/* .
+  cat /home/runner/_site/_config.yml
+  gist.sh ${TARGET_REPOSITORY} ${FOLDER}
 
-  if [[ "${WIKI}" != "${BASE}" ]]; then
-    gist.sh ${WIKI} > /dev/nul && echo -e "\n$hr\n${FOLDER}\n$hr" && cat ${RUNNER_TEMP}/spin.txt
-    find . -type d -name "${FOLDER}" -prune -exec sh -c 'cp -R ${RUNNER_TEMP}/wikidir/* "$1/"' sh {} \;
-    find . -type d -name "${FOLDER}" -prune -exec sh -c 'cat ${RUNNER_TEMP}/wikidir/README.md >> $1/README.md' sh {} \;
-  fi
+  find ${RUNNER_TEMP}/gistdir -type d -name .git -prune -exec rm -rf {} \;
+  mv -f ${RUNNER_TEMP}/workdir/* /home/runner/_site/
+
+  rm -rf ${RUNNER_TEMP}/Sidebar.md && cp _Sidebar.md ${RUNNER_TEMP}/Sidebar.md
+  sed -i 's/0. \[\[//g' ${RUNNER_TEMP}/Sidebar.md && sed -i 's/\]\]//g' ${RUNNER_TEMP}/Sidebar.md
+  cd /home/runner/_site && cp -R ${RUNNER_TEMP}/gistdir/* . && github_pages.sh && ls -lR .
 
 else
 
@@ -89,6 +90,7 @@ else
   git clone --single-branch --branch gh-source $TARGET_REPO gh-source
   
   cd ${GITHUB_WORKSPACE//\\//}
+  #find -not -path "./.git/*" -not -name ".git" | grep git
   find -not -path "./.git/*" -not -name ".git" -delete
 
   rm -rf ${RUNNER_TEMP//\\//}/gh-source/.git
