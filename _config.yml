@@ -1,9 +1,9 @@
 id: 1
 user: eq19
-span: span-164
+span: span18
 title: eQuantum
 repository: eq19/eq19.github.io
-action: ZeroWeak/dstroot/actions/runs/11651074627
+action: ZeroWeak/algorithms/actions/runs/13686579108
 description: An attempt to discover the Final Theory
 
 #debug:
@@ -14,6 +14,7 @@ description: An attempt to discover the Final Theory
 lsi: false
 incremental: true
 highlighter: rouge
+plugins_dir: _plugins
 
 gist:
   noscript: false
@@ -27,6 +28,7 @@ readme_index:
 
 exclude:
   - LICENSE
+  - vendor/
   - action.yml  
   - Dockerfile
 
