@@ -37,11 +37,27 @@ set_secret() {
         return
     fi
 
-    # Save the public key to a temporary file
+    # Decode the Base64-encoded public key
+    decoded_key=$(echo "$key_value" | base64 --decode)
+
+    # Verify the decoded key
+    if [[ -z "$decoded_key" ]]; then
+        echo "❌ Failed to decode public key for $repo"
+        return
+    fi
+
+    # Save the decoded public key to a temporary file in PEM format
     public_key_file=$(mktemp)
     echo "-----BEGIN PUBLIC KEY-----" > "$public_key_file"
-    echo "$key_value" | fold -w 64 >> "$public_key_file"
+    echo "$decoded_key" | fold -w 64 >> "$public_key_file"
     echo "-----END PUBLIC KEY-----" >> "$public_key_file"
+
+    # Verify the public key file
+    if ! openssl pkey -in "$public_key_file" -pubin -noout > /dev/null 2>&1; then
+        echo "❌ Invalid public key format for $repo"
+        rm -f "$public_key_file"
+        return
+    fi
 
     # Encrypt secret value using the public key
     encrypted_value=$(echo -n "$secret_value" | openssl pkeyutl -encrypt -pubin -inkey "$public_key_file" | base64 -w 0)
