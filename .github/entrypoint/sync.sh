@@ -59,9 +59,7 @@ sync_secrets_and_variables() {
     for secret in $secrets; do
         if [[ "$(check_secret_exists "$target_repo" "$secret")" == "404" ]]; then
             echo "➕ Secret '$secret' does not exist in $target_repo. Copying..."
-            secret_value=$(curl -s -H "Authorization: token $GITHUB_PAT" \
-                -H "Accept: application/vnd.github.v3+json" "$GITHUB_API/repos/$source_repo/actions/secrets/$secret" | jq -r '.value')
-            set_secret "$target_repo" "$secret" "$secret_value"
+            set_secret "$target_repo" "$secret" "${!secret}"
         else
             echo "✅ Secret '$secret' already exists in $target_repo."
         fi
