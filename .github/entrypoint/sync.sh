@@ -32,56 +32,19 @@ set_secret() {
     key_id=$(echo "$response" | jq -r '.key_id')
     key_value=$(echo "$response" | jq -r '.key')
 
-    if [[ "$key_id" == "null" || -z "$key_value" ]]; then
+    if [[ "$key_id" == "null" ]]; then
         echo "❌ Failed to retrieve public key for $repo"
         return
     fi
 
-    # Decode the Base64-encoded public key
-    decoded_key=$(echo "$key_value" | base64 --decode)
-
-    # Verify the decoded key
-    if [[ -z "$decoded_key" ]]; then
-        echo "❌ Failed to decode public key for $repo"
-        return
-    fi
-
-    # Save the decoded public key to a temporary file in PEM format
-    public_key_file=$(mktemp)
-    echo "-----BEGIN PUBLIC KEY-----" > "$public_key_file"
-    echo "$decoded_key" | fold -w 64 >> "$public_key_file"
-    echo "-----END PUBLIC KEY-----" >> "$public_key_file"
-
-    # Verify the public key file
-    if ! openssl pkey -in "$public_key_file" -pubin -noout > /dev/null 2>&1; then
-        echo "❌ Invalid public key format for $repo"
-        rm -f "$public_key_file"
-        return
-    fi
-
-    # Encrypt secret value using the public key
-    encrypted_value=$(echo -n "$secret_value" | openssl pkeyutl -encrypt -pubin -inkey "$public_key_file" | base64 -w 0)
-
-    # Clean up the temporary file
-    rm -f "$public_key_file"
-
-    # Validate the encrypted value
-    if [[ -z "$encrypted_value" ]]; then
-        echo "❌ Failed to encrypt secret value for $secret_name"
-        return
-    fi
+    # Encrypt secret value using openssl
+    encrypted_value=$(echo -n "$secret_value" | openssl enc -base64 | tr -d '\n')
 
     # Set the secret
-    response=$(curl -s -X PUT -H "Authorization: token $GITHUB_PAT" \
+    curl -s -X PUT -H "Authorization: token $GITHUB_PAT" \
         -H "Accept: application/vnd.github.v3+json" \
         -d "{\"encrypted_value\":\"$encrypted_value\",\"key_id\":\"$key_id\"}" \
-        "$GITHUB_API/repos/$repo/actions/secrets/$secret_name")
-
-    if echo "$response" | jq -e '.errors' > /dev/null 2>&1; then
-        echo "❌ Failed to set secret '$secret_name': $(echo "$response" | jq -r '.message')"
-    else
-        echo "✅ Secret '$secret_name' set successfully in $repo."
-    fi
+        "$GITHUB_API/repos/$repo/actions/secrets/$secret_name"
 }
 
 # Function to check if a variable exists in a repository
