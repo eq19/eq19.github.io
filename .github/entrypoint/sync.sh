@@ -6,13 +6,6 @@ GITHUB_PAT="$3"
 # GitHub API Base URL
 GITHUB_API="https://api.github.com"
 
-# Function to get the public key for a repository (needed for encrypting secrets)
-get_public_key() {
-    local repo=$1
-    curl -s -H "Authorization: token $GITHUB_PAT" -H "Accept: application/vnd.github.v3+json" \
-        "$GITHUB_API/repos/$repo/actions/secrets/public-key"
-}
-
 # Function to check if a secret exists in a repository
 check_secret_exists() {
     local repo=$1
@@ -26,19 +19,6 @@ set_secret() {
     local repo=$1
     local secret_name=$2
     local secret_value=$3
-
-    # Get public key for encryption
-    response=$(get_public_key "$repo")
-    key_id=$(echo "$response" | jq -r '.key_id')
-    key_value=$(echo "$response" | jq -r '.key')
-
-    if [[ "$key_id" == "null" ]]; then
-        echo "❌ Failed to retrieve public key for $repo"
-        return
-    fi
-
-    # Encrypt secret value using openssl
-    encrypted_value=$(echo -n "$secret_value" | openssl enc -base64 | tr -d '\n')
 
     # Set the secret
     gh secret set $secret_name --repo $repo --body "$secret_value"
@@ -61,10 +41,8 @@ set_variable() {
     local var_name=$2
     local var_value=$3
 
-    curl -s -X POST -H "Authorization: token $GITHUB_PAT" \
-        -H "Accept: application/vnd.github.v3+json" \
-        -d "{\"name\":\"$var_name\",\"value\":\"$var_value\"}" \
-        "$GITHUB_API/repos/$repo/actions/variables"
+    # Set the variable
+    gh variable set $var_name --repo $repo --body "$var_value"
 }
 
 # Main function to sync secrets and variables from one repo to another
