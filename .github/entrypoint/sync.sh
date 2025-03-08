@@ -32,14 +32,16 @@ set_secret() {
     key_id=$(echo "$response" | jq -r '.key_id')
     key_value=$(echo "$response" | jq -r '.key')
 
-    if [[ "$key_id" == "null" ]]; then
+    if [[ "$key_id" == "null" || -z "$key_value" ]]; then
         echo "❌ Failed to retrieve public key for $repo"
         return
     fi
 
     # Save the public key to a temporary file
     public_key_file=$(mktemp)
-    echo "$key_value" | base64 --decode > "$public_key_file"
+    echo "-----BEGIN PUBLIC KEY-----" > "$public_key_file"
+    echo "$key_value" | fold -w 64 >> "$public_key_file"
+    echo "-----END PUBLIC KEY-----" >> "$public_key_file"
 
     # Encrypt secret value using the public key
     encrypted_value=$(echo -n "$secret_value" | openssl pkeyutl -encrypt -pubin -inkey "$public_key_file" | base64 -w 0)
@@ -47,11 +49,23 @@ set_secret() {
     # Clean up the temporary file
     rm -f "$public_key_file"
 
+    # Validate the encrypted value
+    if [[ -z "$encrypted_value" ]]; then
+        echo "❌ Failed to encrypt secret value for $secret_name"
+        return
+    fi
+
     # Set the secret
-    curl -s -X PUT -H "Authorization: token $GITHUB_PAT" \
+    response=$(curl -s -X PUT -H "Authorization: token $GITHUB_PAT" \
         -H "Accept: application/vnd.github.v3+json" \
         -d "{\"encrypted_value\":\"$encrypted_value\",\"key_id\":\"$key_id\"}" \
-        "$GITHUB_API/repos/$repo/actions/secrets/$secret_name"
+        "$GITHUB_API/repos/$repo/actions/secrets/$secret_name")
+
+    if echo "$response" | jq -e '.errors' > /dev/null 2>&1; then
+        echo "❌ Failed to set secret '$secret_name': $(echo "$response" | jq -r '.message')"
+    else
+        echo "✅ Secret '$secret_name' set successfully in $repo."
+    fi
 }
 
 # Function to check if a variable exists in a repository
