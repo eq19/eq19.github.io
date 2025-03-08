@@ -37,8 +37,15 @@ set_secret() {
         return
     fi
 
+    # Save the public key to a temporary file
+    public_key_file=$(mktemp)
+    echo "$key_value" | base64 --decode > "$public_key_file"
+
     # Encrypt secret value using the public key
-    encrypted_value=$(echo -n "$secret_value" | openssl pkeyutl -encrypt -pubin -inkey <(echo "$key_value" | base64 --decode) | base64 -w 0)
+    encrypted_value=$(echo -n "$secret_value" | openssl pkeyutl -encrypt -pubin -inkey "$public_key_file" | base64 -w 0)
+
+    # Clean up the temporary file
+    rm -f "$public_key_file"
 
     # Set the secret
     curl -s -X PUT -H "Authorization: token $GITHUB_PAT" \
