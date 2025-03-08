@@ -113,8 +113,8 @@ sync_secrets_and_variables() {
 }
 
 # Check for required arguments
-if [[ $# -ne 2 ]]; then
-    echo "Usage: $0 <source_repo> <target_repo>"
+if [[ $# -ne 3 ]]; then
+    echo "Usage: $0 <source_repo> <target_repo> <github_pat>"
     exit 1
 fi
 
