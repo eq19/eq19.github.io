@@ -38,7 +38,7 @@ set_secret() {
     fi
 
     # Encrypt secret value using openssl
-    encrypted_value=$(echo -n "secret_value" | openssl pkeyutl -encrypt -pubin -inkey <(echo "$key_value" | base64 -d) | base64)
+    encrypted_value=$(echo -n "$secret_value" | openssl enc -base64 | tr -d '\n')
 
     # Set the secret
     curl -s -X PUT -H "Authorization: token $GITHUB_PAT" \

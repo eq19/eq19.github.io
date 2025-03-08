@@ -76,8 +76,6 @@ set_target() {
 }
 
 jekyll_build() {
-
-  echo -e "\n$hr\nCONFIG\n$hr"
   
   [[ $1 == *"github.io"* ]] && OWNER=$2
   if [[ $1 != "eq19.github.io" ]]; then SITEID=$(( $3 + 2 )); else SITEID=1; fi
@@ -102,6 +100,8 @@ jekyll_build() {
   echo 'repo='${TARGET_REPOSITORY} >> ${GITHUB_OUTPUT}
   gh variable set TARGET_REPOSITORY --body "$TARGET_REPOSITORY"
   echo 'TARGET_REPOSITORY='${TARGET_REPOSITORY} >> ${GITHUB_ENV}
+
+  echo -e "\n$hr\nSET TOKEN\n$hr"
   sync.sh ${REPO} ${TARGET_REPOSITORY} ${GH_TOKEN}
 
   sed -i "1s|^|title: eQuantum\n|" ${RUNNER_TEMP}/_config.yml
@@ -110,6 +110,8 @@ jekyll_build() {
   sed -i "1s|^|id: ${SITEID}\n|" ${RUNNER_TEMP}/_config.yml
 
   echo 'ID='${SITEID} >> ${GITHUB_ENV}
+
+  echo -e "\n$hr\nCONFIG\n$hr"
   cat ${RUNNER_TEMP}/_config.yml
    
 }
