@@ -41,10 +41,7 @@ set_secret() {
     encrypted_value=$(echo -n "$secret_value" | openssl enc -base64 | tr -d '\n')
 
     # Set the secret
-    curl -s -X PUT -H "Authorization: token $GITHUB_PAT" \
-        -H "Accept: application/vnd.github.v3+json" \
-        -d "{\"encrypted_value\":\"$encrypted_value\",\"key_id\":\"$key_id\"}" \
-        "$GITHUB_API/repos/$repo/actions/secrets/$secret_name"
+    gh secret set $secret_name --repo $repo --body "$secret_value"
 }
 
 # Function to check if a variable exists in a repository
