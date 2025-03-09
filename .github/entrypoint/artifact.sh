@@ -101,9 +101,6 @@ jekyll_build() {
   gh variable set TARGET_REPOSITORY --body "$TARGET_REPOSITORY"
   echo 'TARGET_REPOSITORY='${TARGET_REPOSITORY} >> ${GITHUB_ENV}
 
-  echo -e "\n$hr\nSET TOKEN\n$hr"
-  sync.sh ${REPO} ${TARGET_REPOSITORY} ${GH_TOKEN}
-
   sed -i "1s|^|title: eQuantum\n|" ${RUNNER_TEMP}/_config.yml
   sed -i "1s|^|span: ${FOLDER}\n|" ${RUNNER_TEMP}/_config.yml
   sed -i "1s|^|user: ${USER}\n|" ${RUNNER_TEMP}/_config.yml
@@ -113,7 +110,10 @@ jekyll_build() {
 
   echo -e "\n$hr\nCONFIG\n$hr"
   cat ${RUNNER_TEMP}/_config.yml
-   
+
+  echo -e "\n$hr\nSET TOKEN\n$hr"
+  sync.sh ${REPO} ${TARGET_REPOSITORY} ${GH_TOKEN}
+  
 }
 
 # Get structure on gist files
