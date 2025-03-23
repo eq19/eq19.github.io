@@ -52,7 +52,7 @@ PARAMS_JSON=$(curl -s -H "Authorization: token $GH_TOKEN" -H "Accept: applicatio
 
 if [[ "${JOB_ID}" == "1" ]]; then
 
-  #[[ "${LATEST_COMMIT}" == *"RERUN_RUNNER"* ]] && gh variable set RERUN_RUNNER --body "true"
+  gh variable set RERUN_RUNNER --body "false"
 
   cd ${GITHUB_WORKSPACE} && rm -rf .github
   cp -r /home/runner/work/_actions/eq19/eq19/v2/.github .
@@ -67,8 +67,8 @@ if [[ "${JOB_ID}" == "1" ]]; then
   else
     #PARAMS=.github/entrypoint/artifact/python/src/params/spaces.json
     #mv -f ${GITHUB_WORKSPACE}/$PARAMS $1/dataFile/user_data/strategies/fibbo.json
-    echo "${PARAMS_JSON}" | jq '.' > $1/dataFile/user_data/strategies/fibbo.json
 
+    echo "${PARAMS_JSON}" | jq '.' > $1/dataFile/user_data/strategies/fibbo.json
     if jq empty < $1/dataFile/user_data/strategies/fibbo.json; then
       cat $1/dataFile/user_data/strategies/fibbo.json
     else
