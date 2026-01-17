@@ -3,11 +3,11 @@ user: eq19
 span: span-151
 title: eQuantum
 repository: eq19/eq19.github.io
-action: ZeroWeak/algorithms/actions/runs/18455127822
+action: ZeroWeak/algorithms/actions/runs/21094218544
 description: An attempt to discover the Final Theory
 
 debug:
-  dist: false
+  dist: true
   compress: true
   shortcodes: true
 
