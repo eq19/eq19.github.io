@@ -198,7 +198,7 @@ runs:
         ARTIFACT: "user_data/ft_client/test_client/results/orgs.json"
       run: |
         python -m pip -q install --upgrade pip
-        python -m pip -qqq install tensorflow-cpu
+        python -m pip -qqq install "tensorflow-cpu==2.20.0"
         #python -m pip -qqq install -r ${{ inputs.action_path }}/dataFile/requirements.txt
 
         ##Ref: https://iree.dev/guides/ml-frameworks/tensorflow/
