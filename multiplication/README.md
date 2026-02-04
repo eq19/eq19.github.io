@@ -166,17 +166,11 @@ W.D. Gann: “Stocks make important changes in trend every ***30, 60, 120, 150, 
 By metaphorically linking trading components to physical forces, we propose a model that inspires a more unified approach to systematic development.
 
 ```note
-# A Theory-Inspired Framework for Strategy Hyperoptimization
-
 This paper presents a novel conceptual framework aligning the stages of trading strategy hyperoptimization with the hierarchy of fundamental forces in physics.
 
 Hyperoptimization in algorithmic trading involves tuning multiple interacting components — such as buy/sell logic, ROI models, risk protections, and meta-settings. To manage this complexity and define a meaningful sequence, we draw an analogy from the layered architecture of physics: from weak nuclear interactions to the theory of everything.
 
 This model proposes not only a logical order of optimization but also a coherent conceptual narrative. Each stage corresponds to a fundamental force or unifying theory, collectively guiding development through **Seven Layers of Optimization**.
-
----
-
-## The Seven Layers of Optimization and Their Physical Analogs
 
 ### 1. **Weak Nuclear** – _[buy¹, custom-entry²]_
 The buy logic initiates trades and responds to localized, short-lived signals — akin to the weak nuclear force, which governs subatomic transformations. Custom entry logic represents nuanced early decision-making.
@@ -198,21 +192,14 @@ This meta-layer defines the curvature of the environment. Default settings, leve
 
 ### 7. **Theory of Everything (TOE)** – _[all¹³]_
 The final layer integrates all previous dimensions. It represents full-system optimization, where all logic, protections, and meta-controls are harmonized into a complete strategic model.
+```
 
----
-
-## Benefits of the Model
-
-This structured analogy provides:
-
-- A natural progression from localized tuning to system-wide integration.
-- A conceptual narrative that aids in **team communication**, **strategic planning**, and **educational clarity**.
-- A foundation for **theory-driven financial modeling**, encouraging deeper exploration of system dynamics and unification across trading components.
+[![The Four Fundamental Forces](https://github.com/user-attachments/assets/731865b0-7033-4e1b-a587-0c75c0dcae36)](https://eq19.github.io/#prime-unit-identity)
 
 By mapping the **13 available optimization spaces** to this seven-layered structure — with quantum mechanics **embedded** rather than added — this framework maintains coherence with both physics and practical hyperoptimization architecture.
 
----
 
+```note
 ## Footnotes (Mapping to Hyperopt Spaces)
 
 1. buy  
@@ -230,7 +217,13 @@ By mapping the **13 available optimization spaces** to this seven-layered struct
 13. all
 ```
 
-[![The Four Fundamental Forces](https://github.com/user-attachments/assets/731865b0-7033-4e1b-a587-0c75c0dcae36)](https://eq19.github.io/#prime-unit-identity)
+Let's consider a [Metaron's Cube](http://en.wikipedia.org/wiki/Metatron%27s_Cube) as a geometric figure composed of 13 equal circles with lines from the center of each circle extending out to the centers of the other 12 circles.
+
+```note
+The 13 circles of the Metatron's cube can be seen as a diagonal axis projection of a ***3-dimensional cube, as 8 corner spheres and 6 face-centered spheres***. Two spheres are projected into the center from a 3-fold symmetry axis. The face-centered points represent an [octahedron](https://en.wikipedia.org/wiki/Octahedron). Combined these 14 points represent the [face-centered cubic lattice cell](https://en.wikipedia.org/wiki/Cubic_crystal_system#Cubic_space_groups). _([Wikipedia](https://en.wikipedia.org/wiki/User:Tomruen/Metatron%27s_Cube))_
+```
+
+![image](https://github.com/eq19/maps/assets/8466209/da167d93-f8e1-42bd-b180-c86fce7d0ad6)
 
 Each stage builds upon the stability of the one before, echoing how forces in physics emerge with energy scale.
 
@@ -239,6 +232,14 @@ That is, if the powers of 10 all returned with blue spin, or as a series of rain
 ```
 
 ![169-over-109-blood-pressure](https://github.com/eq19/maps/assets/8466209/a702ea20-2ef3-424f-804e-c73a6c873692)
+
+If the four pieces are restructured in the form of a rectangle, it appears that ***the overall area has inexplicably lost one unit!*** What has happened?
+
+```note
+Notice that the divisions in the original square have been done according to some [Fibonacci numbers](https://www.sacred-geometry.es/?q=en/content/golden-ratio): 5, 8 and 13=5+8; therefore the sides of the transformed rectangle are also Fibonacci numbers because it has been constructed additively. Now, do you guess how could we correct the dimensions of the initial square so that the above transformation into a rectangle was area-preserving? Yes, as it could not be another way round, we need to introduce the Golden Ratio! If the pieces of the square are constructed according to Golden proportions, then the area of the resulting rectangle will coincide with the area of the square. _([Phi particle physics](https://www.sacred-geometry.es/?q=en/content/phi-particle-physics))_
+```
+
+[![13x13 square divided into two triangles and two quadrilateral polygons](https://github.com/eq19/maps/assets/8466209/59c6f50d-4f9c-4da8-bdbc-503930d57e4f)](https://www.sacred-geometry.es/?q=en/content/phi-particle-physics)
 
 Within these 1000 primes there will be fractions which end up with _[168 identities](https://eq19.github.io/identition/#the-powers-of-pi)_. This will be the same structure as the seven (7) pàrtitions of _[addition zones](https://eq19.github.io/addition/)_. 
 
@@ -320,21 +321,7 @@ In the matrix pictured below, we list the first 24 elements of our domain, take 
 
 ## 77s Structure
 
-Let's consider a [Metaron's Cube](http://en.wikipedia.org/wiki/Metatron%27s_Cube) as a geometric figure composed of 13 equal circles with lines from the center of each circle extending out to the centers of the other 12 circles.
-
-```note
-The 13 circles of the Metatron's cube can be seen as a diagonal axis projection of a ***3-dimensional cube, as 8 corner spheres and 6 face-centered spheres***. Two spheres are projected into the center from a 3-fold symmetry axis. The face-centered points represent an [octahedron](https://en.wikipedia.org/wiki/Octahedron). Combined these 14 points represent the [face-centered cubic lattice cell](https://en.wikipedia.org/wiki/Cubic_crystal_system#Cubic_space_groups). _([Wikipedia](https://en.wikipedia.org/wiki/User:Tomruen/Metatron%27s_Cube))_
-```
-
-![image](https://github.com/eq19/maps/assets/8466209/da167d93-f8e1-42bd-b180-c86fce7d0ad6)
-
-If the four pieces are restructured in the form of a rectangle, it appears that ***the overall area has inexplicably lost one unit!*** What has happened?
-
-```note
-Notice that the divisions in the original square have been done according to some [Fibonacci numbers](https://www.sacred-geometry.es/?q=en/content/golden-ratio): 5, 8 and 13=5+8; therefore the sides of the transformed rectangle are also Fibonacci numbers because it has been constructed additively. Now, do you guess how could we correct the dimensions of the initial square so that the above transformation into a rectangle was area-preserving? Yes, as it could not be another way round, we need to introduce the Golden Ratio! If the pieces of the square are constructed according to Golden proportions, then the area of the resulting rectangle will coincide with the area of the square. _([Phi particle physics](https://www.sacred-geometry.es/?q=en/content/phi-particle-physics))_
-```
-
-[![13x13 square divided into two triangles and two quadrilateral polygons](https://github.com/eq19/maps/assets/8466209/59c6f50d-4f9c-4da8-bdbc-503930d57e4f)](https://www.sacred-geometry.es/?q=en/content/phi-particle-physics)
+A foundation for theory-driven financial modeling, encouraging deeper exploration of system dynamics and unification across trading components.
 
 ```php
 Φ = 2,10
