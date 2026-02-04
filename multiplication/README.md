@@ -79,27 +79,7 @@ Integration of ordinary and stochastic master equations is performed on density 
 But as the module currently stands it is included to simplify some expressions and provide a simple test to make sure calculations are proceeding as they ought to. _([PySME-pdf](https://github.com/user-attachments/files/17985617/pysme-readthedocs-io-en-latest.pdf))_
 ```
 
-```txt
- Osp(8|4) |  1 |  2 |  3 |   4 | th
-==========+====+====+====+=====+====
- π(10)    |  2 |  3 |  5 |   7 | 4th
-----------+----+----+----+-----+----
- π(19)    | 11 | 13 | 17 |  19 | 8th
-----------+----+----+----+-----+----
- π(29)    | 23 | 29 |  - |   - | 10th
-==========+====+=👇=+====+=====+====
- π(41)    | 31 | 37 | 41 |   - | 13th 👈
-----------+----+----+----+-----+----
- π(59)    | 43 | 47 | 53 |  59 | 17th 
-----------+----+----+----+-----+- ---
- π(72)    | 61 | 67 | 71 |   - | 20th
-==========+====+====+====+=====+====
- π(72+11) | 73 | 79 | 83 |   - | 23th
-----------+----+----+----+-----+----
- π(83+18) | 89 | 97 |101 |   - | 26th
-----------+----+----+----+-----+----
- π(101+8) |103 |107 |109 |   - | 29th
-```
+[![Generalized Gellmann Matrices](https://github.com/user-attachments/assets/9c2ef740-7df1-483d-92ca-84b1264a3efc)](https://demonstrations.wolfram.com/EverythingAboutGellMannMatricesPart2BinaryOperations/)
 
 This density will bring the _[D3-Brane](https://eq19.github.io/addition/#structure-true-prime-pairs)_ where the lexer is being assigned per MEC30. Base on the its spin as shown in the above picture this lexer is assigned by [`Id: 33`](https://eq19.github.io/identition/#euler-partition).
 
@@ -215,6 +195,28 @@ By mapping the **13 available optimization spaces** to this seven-layered struct
 11. leverage  
 12. global-overrides  
 13. all
+```
+
+```txt
+ Osp(8|4) |  1 |  2 |  3 |   4 | th
+==========+====+====+====+=====+====
+ π(10)    |  2 |  3 |  5 |   7 | 4th
+----------+----+----+----+-----+----
+ π(19)    | 11 | 13 | 17 |  19 | 8th
+----------+----+----+----+-----+----
+ π(29)    | 23 | 29 |  - |   - | 10th
+==========+====+=👇=+====+=====+====
+ π(41)    | 31 | 37 | 41 |   - | 13th 👈
+----------+----+----+----+-----+----
+ π(59)    | 43 | 47 | 53 |  59 | 17th 
+----------+----+----+----+-----+- ---
+ π(72)    | 61 | 67 | 71 |   - | 20th
+==========+====+====+====+=====+====
+ π(72+11) | 73 | 79 | 83 |   - | 23th
+----------+----+----+----+-----+----
+ π(83+18) | 89 | 97 |101 |   - | 26th
+----------+----+----+----+-----+----
+ π(101+8) |103 |107 |109 |   - | 29th
 ```
 
 Let's consider a [Metaron's Cube](http://en.wikipedia.org/wiki/Metatron%27s_Cube) as a geometric figure composed of 13 equal circles with lines from the center of each circle extending out to the centers of the other 12 circles.
