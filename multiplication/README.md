@@ -69,31 +69,6 @@ They are used to determine critical points where an asset's momentum is likely t
 
 ## Lineage Retracement
 
-The preliminary basis having these properties that is used consists of [the generalized Gell–Mann matrices](https://mathworld.wolfram.com/GeneralizedGell-MannMatrix.html) according to the convention in [Bloch Vectors - pdf](https://github.com/user-attachments/files/18002214/0806.1174v1.pdf).
-
-```note
-Integration of ordinary and stochastic master equations is performed on density operators parametrized by 𝑑² real numbers, where 𝑑 is the dimension of the system Hilbert space.
-- These are the components of the density operator as a vector in a basis that is Hermitian and, excepting the identity, traceless.
-- Since the ordinary and [stochastic master equations - pdf](https://github.com/user-attachments/files/17985754/1507.07016v2.pdf) under consideration are trace preserving, one could neglect the basis element corresponding to the identity.
-
-But as the module currently stands it is included to simplify some expressions and provide a simple test to make sure calculations are proceeding as they ought to. _([PySME-pdf](https://github.com/user-attachments/files/17985617/pysme-readthedocs-io-en-latest.pdf))_
-```
-
-[![Generalized Gellmann Matrices](https://github.com/user-attachments/assets/9c2ef740-7df1-483d-92ca-84b1264a3efc)](https://demonstrations.wolfram.com/EverythingAboutGellMannMatricesPart2BinaryOperations/)
-
-This density will bring the _[D3-Brane](https://eq19.github.io/addition/#structure-true-prime-pairs)_ where the lexer is being assigned per MEC30. Base on the its spin as shown in the above picture this lexer is assigned by [`Id: 33`](https://eq19.github.io/identition/#euler-partition).
-
-```note
-In this short review, we have briefly described the structure of exceptional field theories (ExFT’s), which provide a (T)U-duality covariant approach to supergravity. These are based on symmetries of toroidally reduced supergravity; however are defined on a general background.
-- From the point of view of ExFT the toroidal background is a maximally symmetric solution preserving all U-duality symmetries. In this sense the approach is similar to the embedding tensor technique, which is used to define gauge supergravity in a covariant and supersymmetry invariant form. Although any particular choice of gauging breaks certain amount of supersymmetry, the formalism itself is completely invariant. Similarly the U-duality covariant approach is transferred to dynamics of branes in both string and M-theory, whose construction has not been covered here.
-- In the text, we described construction of the field content of exceptional field theories from fields of dimensionally reduced 11-dimensional supergravity, and local and global symmetries of the theories. Various solutions of the section constraint giving Type IIA/B, 11D and lower-dimensional gauged supergravities have been discussed without going deep into technical details. For readers’ convenience references for the original works are present.
-- As a formalism exceptional field theory has found essential number of application, some of which have been described in this review in more details. In particular, we have covered generalized twist reductions of ExFTs, which reproduce lower-dimensional gauged supergravities, description of non-geometric brane backgrounds and an algorithm for generating deformations of supergravity backgrounds based on frame change inside DFT. However, many fascinating applications of the DFT and ExFT formalisms have been left aside. 
-
-Among these are non-abelian T-dualities in terms of Poisson-Lie transformations inside DFT [[100](https://www.mdpi.com/2073-8994/11/8/993#B100-symmetry-11-00993),[101](https://www.mdpi.com/2073-8994/11/8/993#B101-symmetry-11-00993)]; generating supersymmetric vacua and ***consistent truncations of supergravity into lower dimensions*** [[102](https://www.mdpi.com/2073-8994/11/8/993#B102-symmetry-11-00993),[103](https://www.mdpi.com/2073-8994/11/8/993#B103-symmetry-11-00993),[104](https://www.mdpi.com/2073-8994/11/8/993#B104-symmetry-11-00993)] (for review see [[105](https://www.mdpi.com/2073-8994/11/8/993#B105-symmetry-11-00993)]); compactifications on non-geometric (Calabi-Yau) backgrounds and construction of cosmological models [[54](https://www.mdpi.com/2073-8994/11/8/993#B54-symmetry-11-00993),[55](https://www.mdpi.com/2073-8994/11/8/993#B55-symmetry-11-00993),[106](https://www.mdpi.com/2073-8994/11/8/993#B106-symmetry-11-00993),[107](https://www.mdpi.com/2073-8994/11/8/993#B107-symmetry-11-00993)]. _([U-Dualities in Type II and M-Theory](https://www.mdpi.com/2073-8994/11/8/993))_
-```
-
-[![3-forms in 7D](https://github.com/eq19/maps/assets/8466209/705213d6-00e3-4130-9b06-adfb8d06c110)](https://eq19.github.io/multiplication/#standard-model)
-
 The Golden Ratio “symbolically links each new generation to its ancestors, preserving the continuity of relationship as the means for retracing its lineage.”
 
 ```note
@@ -474,6 +449,19 @@ Generalization to SU(3) of Clebsch–Gordan coefficients is useful because of th
 
 [![The Root System for SU(3)](https://github.com/eq19/maps/assets/8466209/a91ae888-3c3f-41f7-92e1-c74e0f111e29)](https://en.wikipedia.org/wiki/Clebsch%E2%80%93Gordan_coefficients_for_SU(3))
 
+This density will bring the _[D3-Brane](https://eq19.github.io/addition/#structure-true-prime-pairs)_ where the lexer is being assigned per MEC30. Base on the its spin as shown in the above picture this lexer is assigned by [`Id: 33`](https://eq19.github.io/identition/#euler-partition).
+
+```note
+In this short review, we have briefly described the structure of exceptional field theories (ExFT’s), which provide a (T)U-duality covariant approach to supergravity. These are based on symmetries of toroidally reduced supergravity; however are defined on a general background.
+- From the point of view of ExFT the toroidal background is a maximally symmetric solution preserving all U-duality symmetries. In this sense the approach is similar to the embedding tensor technique, which is used to define gauge supergravity in a covariant and supersymmetry invariant form. Although any particular choice of gauging breaks certain amount of supersymmetry, the formalism itself is completely invariant. Similarly the U-duality covariant approach is transferred to dynamics of branes in both string and M-theory, whose construction has not been covered here.
+- In the text, we described construction of the field content of exceptional field theories from fields of dimensionally reduced 11-dimensional supergravity, and local and global symmetries of the theories. Various solutions of the section constraint giving Type IIA/B, 11D and lower-dimensional gauged supergravities have been discussed without going deep into technical details. For readers’ convenience references for the original works are present.
+- As a formalism exceptional field theory has found essential number of application, some of which have been described in this review in more details. In particular, we have covered generalized twist reductions of ExFTs, which reproduce lower-dimensional gauged supergravities, description of non-geometric brane backgrounds and an algorithm for generating deformations of supergravity backgrounds based on frame change inside DFT. However, many fascinating applications of the DFT and ExFT formalisms have been left aside. 
+
+Among these are non-abelian T-dualities in terms of Poisson-Lie transformations inside DFT [[100](https://www.mdpi.com/2073-8994/11/8/993#B100-symmetry-11-00993),[101](https://www.mdpi.com/2073-8994/11/8/993#B101-symmetry-11-00993)]; generating supersymmetric vacua and ***consistent truncations of supergravity into lower dimensions*** [[102](https://www.mdpi.com/2073-8994/11/8/993#B102-symmetry-11-00993),[103](https://www.mdpi.com/2073-8994/11/8/993#B103-symmetry-11-00993),[104](https://www.mdpi.com/2073-8994/11/8/993#B104-symmetry-11-00993)] (for review see [[105](https://www.mdpi.com/2073-8994/11/8/993#B105-symmetry-11-00993)]); compactifications on non-geometric (Calabi-Yau) backgrounds and construction of cosmological models [[54](https://www.mdpi.com/2073-8994/11/8/993#B54-symmetry-11-00993),[55](https://www.mdpi.com/2073-8994/11/8/993#B55-symmetry-11-00993),[106](https://www.mdpi.com/2073-8994/11/8/993#B106-symmetry-11-00993),[107](https://www.mdpi.com/2073-8994/11/8/993#B107-symmetry-11-00993)]. _([U-Dualities in Type II and M-Theory](https://www.mdpi.com/2073-8994/11/8/993))_
+```
+
+[![3-forms in 7D](https://github.com/eq19/maps/assets/8466209/705213d6-00e3-4130-9b06-adfb8d06c110)](https://eq19.github.io/multiplication/#standard-model)
+
 In [linear algebra](https://en.wikipedia.org/wiki/Linear_algebra), there is vector is known as _[eigenvector](https://mathworld.wolfram.com/Eigenvector.html)_, a nonzero vector that changes at most by a scalar factor when linear transformation is applied to it.
 
 ```note
@@ -481,6 +469,18 @@ The eigenvectors of the matrix (red lines) are the two special directions such t
 ```
 
 [![Eigenvectors_of_a_linear_operator](https://user-images.githubusercontent.com/8466209/228168805-ab93185d-4172-4284-8459-040e2f8797d4.gif)](https://eq19.github.io/identition/#partition-function)
+
+The preliminary basis having these properties that is used consists of [the generalized Gell–Mann matrices](https://mathworld.wolfram.com/GeneralizedGell-MannMatrix.html) according to the convention in [Bloch Vectors - pdf](https://github.com/user-attachments/files/18002214/0806.1174v1.pdf).
+
+```note
+Integration of ordinary and stochastic master equations is performed on density operators parametrized by 𝑑² real numbers, where 𝑑 is the dimension of the system Hilbert space.
+- These are the components of the density operator as a vector in a basis that is Hermitian and, excepting the identity, traceless.
+- Since the ordinary and [stochastic master equations - pdf](https://github.com/user-attachments/files/17985754/1507.07016v2.pdf) under consideration are trace preserving, one could neglect the basis element corresponding to the identity.
+
+But as the module currently stands it is included to simplify some expressions and provide a simple test to make sure calculations are proceeding as they ought to. _([PySME-pdf](https://github.com/user-attachments/files/17985617/pysme-readthedocs-io-en-latest.pdf))_
+```
+
+[![Generalized Gellmann Matrices](https://github.com/user-attachments/assets/9c2ef740-7df1-483d-92ca-84b1264a3efc)](https://demonstrations.wolfram.com/EverythingAboutGellMannMatricesPart2BinaryOperations/)
 
 In later sections, we will discuss finding all the solutions to a polynomial function. We will also discuss solving multiple equations with multiple unknowns. 
 
