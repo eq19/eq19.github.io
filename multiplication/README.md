@@ -393,6 +393,14 @@ The symmetries that come into focus when the lense aperature, of ***the Prime Sp
 
 ## Palindromic Sequence 
 
+It turns out that quantum string theory always destroys the symmetries of classical string theory, **except in one special case: when the number of dimensions is 10**.
+
+```note
+Below is a model of E11 (shown by 11 dimensions). Its absolute dimensions represent all related key knowledges of modern physics. Moreover this model represents [Quark-Gluon Plasma](https://en.wikipedia.org/wiki/Quark%E2%80%93gluon_plasma), with all of the [fundamental forces](https://eq19.github.io/exponentiation/#fundamental-forces) in the early stage after _[Big Bang](https://youtu.be/7VgoECW06-s?si=_l-Pu42gwtnxzzT2)_ which probably comes from [Absolute Nothingness](https://www.quora.com/What-is-the-difference-between-the-universe-the-cosmos-space-and-nothing/answer/George-Davros).
+```
+
+[![default](https://user-images.githubusercontent.com/8466209/242000067-6d2ac164-06d6-4546-a118-10642982ce52.png)](https://www.youtube.com/watch?v=dEoMeHi-6kM)
+
 ```note
 The terminating digits of the prime root angles (24,264,868; see illustration of [Prime Spiral Sieve](https://www.primesdemystified.com/#primespiralsieve)) when added to their reversal (86,846,242) = 111,111,110, not to mention this sequence possesses symmetries that dovetail perfectly with the prime root and Fibo sequences.
 - And when you combine the terminating digit symmetries described above, capturing three rotations around the sieve in their actual sequences, you produce the ultimate combinatorial symmetry:[![Prime-Numbers-Demystified-by-8-Dimensional-Algorithms.pdf](https://user-images.githubusercontent.com/8466209/219261961-10e4d77f-ead3-43d4-9407-f01d83f1f204.png)](https://github.com/eq19/maps/files/14009880/Prime-Numbers-Demystified-by-8-Dimensional-Algorithms.pdf)
