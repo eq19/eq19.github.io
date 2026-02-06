@@ -401,8 +401,10 @@ Below is a model of E11 (shown by 11 dimensions). Its absolute dimensions repres
 
 [![default](https://user-images.githubusercontent.com/8466209/242000067-6d2ac164-06d6-4546-a118-10642982ce52.png)](https://www.youtube.com/watch?v=dEoMeHi-6kM)
 
+Not to mention this sequence possesses symmetries that dovetail perfectly with the prime root and Fibo sequences
+
 ```note
-The terminating digits of the prime root angles (24,264,868; see illustration of [Prime Spiral Sieve](https://www.primesdemystified.com/#primespiralsieve)) when added to their reversal (86,846,242) = 111,111,110, not to mention this sequence possesses symmetries that dovetail perfectly with the prime root and Fibo sequences.
+The terminating digits of the prime root angles (24,264,868; see illustration of [Prime Spiral Sieve](https://www.primesdemystified.com/#primespiralsieve)) when added to their reversal (86,846,242) = 111,111,110.
 - And when you combine the terminating digit symmetries described above, capturing three rotations around the sieve in their actual sequences, you produce the ultimate combinatorial symmetry:[![Prime-Numbers-Demystified-by-8-Dimensional-Algorithms.pdf](https://user-images.githubusercontent.com/8466209/219261961-10e4d77f-ead3-43d4-9407-f01d83f1f204.png)](https://github.com/eq19/maps/files/14009880/Prime-Numbers-Demystified-by-8-Dimensional-Algorithms.pdf)
 - ***The pattern of 9's created by decomposing and summing either the digits of Fibonacci numbers*** indexed to the first two rotations of the spiral (a palindromic pattern {1393717997173931} that ***repeats every 16 Fibo index numbers***) or, similarly, decomposing and summing the prime root angles.
 - The decomposition works as follows (in digit sum arithmetic this would be termed summing to the digital root) of F17 (the 17th Fibonacci number) = 1597 = 1 + 5 + 9 + 7 = 22 = 2 + 2 = 4:
@@ -411,8 +413,10 @@ Parsing the squares by their mod 90 congruence reveals that there are 96 perfect
 
 [![image](https://github.com/eq19/maps/assets/8466209/133532ab-8500-44bc-97c7-d7c41e8ed600)](https://www.primesdemystified.com)
 
+Based on the idea of stable, knotted vortices in the ether or [aether](https://en.wikipedia.org/wiki/Aether_theories), it contributed an important mathematical legacy.
+
 ```note
-The vortex theory of the atom was a 19th-century attempt by [William Thomson](https://en.wikipedia.org/wiki/William_Thomson,_1st_Baron_Kelvin) (later Lord Kelvin) to explain why the [atoms](https://en.wikipedia.org/wiki/Atom) recently discovered by chemists came in only relatively few varieties but in very great numbers of each kind. Based on the idea of stable, knotted vortices in the ether or [aether](https://en.wikipedia.org/wiki/Aether_theories), it contributed an important mathematical legacy.
+The vortex theory of the atom was a 19th-century attempt by [William Thomson](https://en.wikipedia.org/wiki/William_Thomson,_1st_Baron_Kelvin) (later Lord Kelvin) to explain why the [atoms](https://en.wikipedia.org/wiki/Atom) recently discovered by chemists came in only relatively few varieties but in very great numbers of each kind.
 - The vortex theory of the atom was based on the observation that a stable [vortex](https://en.wikipedia.org/wiki/Vortex) can be created in a fluid by making it into a ring with no ends. Such vortices could be sustained in the [luminiferous aether](https://en.wikipedia.org/wiki/Luminiferous_aether), a hypothetical fluid thought at the time to pervade all of space. In the vortex theory of the [atom](https://en.wikipedia.org/wiki/Atom), a chemical atom is modelled by such a vortex in the aether.
 - Knots can be tied in the core of such a vortex, leading to the hypothesis that each [chemical element](https://en.wikipedia.org/wiki/Chemical_element) corresponds to a different kind of knot. The simple [toroidal vortex](https://en.wikipedia.org/wiki/Toroidal_vortex), represented by the circular "unknot" 01, was thought to represent [hydrogen](https://en.wikipedia.org/wiki/Hydrogen). Many elements had yet to be discovered, so the next knot, the [trefoil knot](https://en.wikipedia.org/wiki/Trefoil_knot) 31, was thought to represent [carbon](https://en.wikipedia.org/wiki/Carbon).
 
