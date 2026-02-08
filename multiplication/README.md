@@ -49,13 +49,17 @@ A square system of coupled nonlinear equations can be solved iteratively by Newt
 
 [![gradien](https://user-images.githubusercontent.com/36441664/128025898-187ba576-795f-4578-af71-ff02a8b682b1.png)](https://eq19.github.io/addition/#undiscovered-features)
 
-Each of the nine (9) types express themselves as one of the ***three (3) subtypes***. So from this perspective, there are 27 distinct patterns which are usually denoted by letters.
+The preliminary basis having these properties that is used consists of [the generalized Gell–Mann matrices](https://mathworld.wolfram.com/GeneralizedGell-MannMatrix.html) according to the convention in [Bloch Vectors - pdf](https://github.com/user-attachments/files/18002214/0806.1174v1.pdf).
 
 ```note
-Mathematically, this type of system requires ***27 letters (1-9, 10–90, 100–900)***. In practice, the last letter, tav (which has the value 400), is used in combination with itself or other letters from qof (100) onwards to generate numbers from 500 and above. Alternatively, the 22-letter Hebrew numeral set is sometimes ***extended to 27 by using 5 sofit (final)*** forms of the [Hebrew letters](https://en.wikipedia.org/wiki/Hebrew_numerals#cite_note-7). _([Wikipedia](https://en.wikipedia.org/wiki/Hebrew_numerals))_
+Integration of ordinary and stochastic master equations is performed on density operators parametrized by 𝑑² real numbers, where 𝑑 is the dimension of the system Hilbert space.
+- These are the components of the density operator as a vector in a basis that is Hermitian and, excepting the identity, traceless.
+- Since the ordinary and [stochastic master equations - pdf](https://github.com/user-attachments/files/17985754/1507.07016v2.pdf) under consideration are trace preserving, one could neglect the basis element corresponding to the identity.
+
+But as the module currently stands it is included to simplify some expressions and provide a simple test to make sure calculations are proceeding as they ought to. _([PySME-pdf](https://github.com/user-attachments/files/17985617/pysme-readthedocs-io-en-latest.pdf))_
 ```
 
-[![The Parameter Zones](https://github.com/eq19/maps/assets/8466209/1895c35b-8da4-4dae-bbf7-38fe5d34d1dd)](https://eq19.github.io/multiplication/13.html#decay-objects)
+[![Generalized Gellmann Matrices](https://github.com/user-attachments/assets/9c2ef740-7df1-483d-92ca-84b1264a3efc)](https://demonstrations.wolfram.com/EverythingAboutGellMannMatricesPart2BinaryOperations/)
 
 We found also a useful method called ***Square of Nine*** which was developed by _[WD Gann](https://en.wikipedia.org/wiki/William_Delbert_Gann)_ to analyze stock market behaviour base on astrological pattern.
 
@@ -385,18 +389,6 @@ The eigenvectors of the matrix (red lines) are the two special directions such t
 ```
 
 [![Eigenvectors_of_a_linear_operator](https://user-images.githubusercontent.com/8466209/228168805-ab93185d-4172-4284-8459-040e2f8797d4.gif)](https://eq19.github.io/identition/#partition-function)
-
-The preliminary basis having these properties that is used consists of [the generalized Gell–Mann matrices](https://mathworld.wolfram.com/GeneralizedGell-MannMatrix.html) according to the convention in [Bloch Vectors - pdf](https://github.com/user-attachments/files/18002214/0806.1174v1.pdf).
-
-```note
-Integration of ordinary and stochastic master equations is performed on density operators parametrized by 𝑑² real numbers, where 𝑑 is the dimension of the system Hilbert space.
-- These are the components of the density operator as a vector in a basis that is Hermitian and, excepting the identity, traceless.
-- Since the ordinary and [stochastic master equations - pdf](https://github.com/user-attachments/files/17985754/1507.07016v2.pdf) under consideration are trace preserving, one could neglect the basis element corresponding to the identity.
-
-But as the module currently stands it is included to simplify some expressions and provide a simple test to make sure calculations are proceeding as they ought to. _([PySME-pdf](https://github.com/user-attachments/files/17985617/pysme-readthedocs-io-en-latest.pdf))_
-```
-
-[![Generalized Gellmann Matrices](https://github.com/user-attachments/assets/9c2ef740-7df1-483d-92ca-84b1264a3efc)](https://demonstrations.wolfram.com/EverythingAboutGellMannMatricesPart2BinaryOperations/)
 
 In later sections, we will discuss finding all the solutions to a polynomial function. We will also discuss solving multiple equations with multiple unknowns. 
 
