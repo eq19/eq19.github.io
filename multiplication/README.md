@@ -71,7 +71,6 @@ He designed a new approach to predicting market behavior using several disciplin
 
 They are used to determine critical points where an asset's momentum is likely to reverse for the equities when paired with additional momentum
 
-
 ```note
 The Hexagon chart begins with a 0 in the center, surrounded by the numbers 1 through 6. ***Each additional layer adds 6 more numbers as we move out, and these numbers are arranged into a Hexagon formation***. This is pretty much as far as Gann went in his descriptions. He basically said, "This works, but you have to figure out how."One method that I've found that works well on ***all these kinds of charts is plotting planetary longitude values on them, and looking for patterns***. On the chart above, each dot represents the location of a particular planet. The red one at the bottom is the Sun, and up from it is Mars. These are marked on the chart. Notice that the Sun and Mars are connected along a pink line running through the center of the chart. The idea is that when two planets line up along a similar line, we have a signal event similar to a conjunction in the sky. ***Any market vibrating to the Hexagon arrangement should show some kind of response to this situation***. _([Wave59](https://www.wave59.com/showcase/121304.asp))_
 ```
@@ -90,28 +89,23 @@ W.D. Gann: “Stocks make important changes in trend every ***30, 60, 120, 150, 
 
 ## Palindromic Sequence 
 
-It turns out that quantum string theory always destroys the symmetries of classical string theory, **except in one special case: when the number of dimensions is 10**.
+Below is a model of E11 (shown by 11 dimensions). Its absolute dimensions represent all related key knowledges of modern physics.
 
 ```note
-Below is a model of E11 (shown by 11 dimensions). Its absolute dimensions represent all related key knowledges of modern physics. Moreover this model represents [Quark-Gluon Plasma](https://en.wikipedia.org/wiki/Quark%E2%80%93gluon_plasma), with all of the [fundamental forces](https://eq19.github.io/exponentiation/#fundamental-forces) in the early stage after _[Big Bang](https://youtu.be/7VgoECW06-s?si=_l-Pu42gwtnxzzT2)_ which probably comes from [Absolute Nothingness](https://www.quora.com/What-is-the-difference-between-the-universe-the-cosmos-space-and-nothing/answer/George-Davros).
+It turns out that quantum string theory always destroys the symmetries of classical string theory, **except in one special case: when the number of dimensions is 10**. Moreover this model represents [Quark-Gluon Plasma](https://en.wikipedia.org/wiki/Quark%E2%80%93gluon_plasma), with all of the [fundamental forces](https://eq19.github.io/exponentiation/#fundamental-forces) in the early stage after _[Big Bang](https://youtu.be/7VgoECW06-s?si=_l-Pu42gwtnxzzT2)_ which probably comes from [Absolute Nothingness](https://www.quora.com/What-is-the-difference-between-the-universe-the-cosmos-space-and-nothing/answer/George-Davros).
 ```
 
 [![default](https://user-images.githubusercontent.com/8466209/242000067-6d2ac164-06d6-4546-a118-10642982ce52.png)](https://www.youtube.com/watch?v=dEoMeHi-6kM)
 
-During this interchange, the two 16-plets will be crossing over and farther apart but they are more likely to ***[stick together](https://eq19.github.io/multiplication/#fractal-dimensions)*** and not switch places.
+Mathematics grows when it finds new objects that capture some of the most important relationships  between numbers, equations and shapes.
 
 ```note
-Another fascinating feature of this array is that any even number of–not necessarily contiguous–factors drawn from any one of ***the 32 angles in this modulo 120*** configuration distribute products to 1(mod 120) or 49 (mod 120), along with the squares.
-- We see from the graphic above that the digital roots of the Fibonacci numbers indexed to our domain (Numbers ≌ to {1,7,11,13,17,19,23,29} modulo 30) ***repeat palindromically every 32 digits (or 4 thirts) consisting of 16 pairs of bilateral 9 sums***.[![16 squares](https://github.com/eq19/maps/assets/8466209/efe55c6d-926c-47bb-80db-7d892eb3f103)](https://www.primesdemystified.com/)
+The first 1000 prime numbers are silently screaming: "Pay attention to us, for we hold the secret to the distribution of all primes!" We heard the call, and with 'strange coincidences' leading the way have discovered compelling evidence that the 1000th prime number,
+- 7919, is the perfectly positioned cornerstone of a mathematical object with highly organized substructures and stunning reflectional symmetries.
+- This object is dually enveloped by 892 = 7921 and 7920 = 22 x 360 in conjunction with 1092 − 892 = 3960 = 11 x 360 (while mindful that both 1/89 and 1/109 have the Fibonacci sequence secreted in their decimal expansions).
+- And we note the astonishing fact that primes 11 + 89 + 109 + 7919 = 8128, the fourth perfect number, the first three of which are 6, 28, and 496. 
 
-- The digital root sequence of our domain, on the other hand, repeats every 24 digits (or 3 thirts) and possesses 12 pairs of bilateral 9 sums. The entire Prime Root sequence end-to-end covering 360° has 48 pairs of bilateral 9 sums.
-- And finally, the Prime Root elements themselves within the Cirque, ***consisting of 96 elements, has 48 pairs of bilateral sums totaling 360***. Essentially, the prime number highway consists of infinitely telescoping circles ...
-- Also note, the digital roots of the Prime Root Set as well as the digital roots of Fibonnaci numbers and Lucas numbers (the latter not shown above) ***indexed to it all sum to 432 (48x9) in 360° cycles***.
-- The sequence involving Fibonacci digital roots repeats every 120°, and has been documented by the author on the On-Line Encyclopedia of Integer Sequences: [Digital root of Fibonacci numbers indexed by natural numbers not divisible by 2, 3 or 5 (A227896)](https://oeis.org/A227896).
-- The four faces of our pyramid additively cascade ***32 four-times triangular numbers*** (Note that 4 x 32 = 128 = the perimeter of the square base which has an area of ***32^2 = 1024 = 2^10***).
-- These include Fibo1-3 equivalent 112 (rooted in T7 = 28; 28 x 4 = 112), which creates a pyramidion or capstone in our model, and 2112 (rooted in T32 = 528; 528 x 4 = 2112), which is the index number of ***the 1000th prime*** within our domain, and equals the total number of 'elements' used to construct the pyramid. 
-
-A thirt, in case you're wondering, is a useful unit of measure when discussing intervals in natural numbers not divisible by 2, 3 or 5. A thirt, equivalent to one rotation around the [Prime Spiral Sieve](https://www.primesdemystified.com/) is like a mile marker on the prime number highway. If we take the Modulo 30 Prime Spiral Sieve and expand it to ***Modulo 360***, we see that ***there are 12 thirts*** in one complete circle, or 'cirque' as we've dubbed it. ***Each thirt consists of 8 elements***. _([PrimesDemystified](https://www.primesdemystified.com/twinprimes.html))_
+By the matrices above it is clearly shows that there is a fascinating connection between prime numbers and the Golden ratio.
 ```
 
 ***1000 x (π(11) + 360) days = 1000 x 365 days = 1000 years***
@@ -178,16 +172,14 @@ By our project, these 37 files are located within _[the wiki of main repository]
 
 ![](https://user-images.githubusercontent.com/8466209/244139208-378b2229-c3e8-4f1f-8829-dee6687348fb.png)
 
+Each stage corresponds to a fundamental force or unifying theory, collectively guiding development through **Seven Layers of Optimization**.
+
 ## The Interchange Layers
 
-By metaphorically linking trading components to physical forces, we propose a model that inspires a more unified approach to systematic development.
-
-```note
 This paper presents a novel conceptual framework aligning the stages of trading strategy hyperoptimization with the hierarchy of fundamental forces in physics.
 
+```note
 Hyperoptimization in algorithmic trading involves tuning multiple interacting components — such as buy/sell logic, ROI models, risk protections, and meta-settings. To manage this complexity and define a meaningful sequence, we draw an analogy from the layered architecture of physics: from weak nuclear interactions to the theory of everything.
-
-This model proposes not only a logical order of optimization but also a coherent conceptual narrative. Each stage corresponds to a fundamental force or unifying theory, collectively guiding development through **Seven Layers of Optimization**.
 
 ### 1. **Weak Nuclear** – _[buy¹, custom-entry²]_
 The buy logic initiates trades and responds to localized, short-lived signals — akin to the weak nuclear force, which governs subatomic transformations. Custom entry logic represents nuanced early decision-making.
@@ -209,6 +201,8 @@ This meta-layer defines the curvature of the environment. Default settings, leve
 
 ### 7. **Theory of Everything (TOE)** – _[all¹³]_
 The final layer integrates all previous dimensions. It represents full-system optimization, where all logic, protections, and meta-controls are harmonized into a complete strategic model.
+
+By metaphorically linking trading components to physical forces, we propose a model that inspires a more unified approach to systematic development.
 ```
 
 [![The Four Fundamental Forces](https://github.com/user-attachments/assets/731865b0-7033-4e1b-a587-0c75c0dcae36)](https://eq19.github.io/#prime-unit-identity)
@@ -306,20 +300,30 @@ Total of all primes = 329 + (329-40) = 329+289 = 618 = 619-1 = 619 primes - Δ1
 The Golden Ratio “symbolically links each new generation to its ancestors, preserving the continuity of relationship as the means for retracing its lineage.”
 
 ```note
-During the last few years of the 12th century, ***Fibonacci*** undertook a series of travels around the Mediterranean. At this time, the world’s most prominent mathematicians were Arabs, and he spent much time studying with them. His work, whose title translates as the Book of Calculation, was extremely influential in that ***it popularized the use of the Arabic numerals in Europe***, thereby revolutionizing arithmetic and allowing scientific experiment and discovery to progress more quickly. _([Famous Mathematicians](https://famous-mathematicians.org/leonardo-pisano-bigollo/))_
-```
-
-[![phi-continued-fraction](https://github.com/eq19/maps/assets/8466209/df218fdb-71b0-4261-a33c-a6e6f09aaf1c)](https://www.cosmic-core.org/free/article-56-geometry-the-golden-ratio-part-1-introduction/)
-
-By the six (6) matrices above it is clearly shows that there is a fascinating connection between prime numbers and the Golden ratio.
-
-```note
 There is a fascinating connection between prime numbers and the Golden ratio.
 - The Golden ratio is an irrational number, which means that it cannot be expressed as a ratio of two integers. However, it can be approximated by dividing consecutive Fibonacci numbers.
 - Additionally, it has been observed that the frequency of prime numbers in certain sequences related to the Golden ratio (such as the continued fraction expansion of the Golden ratio) appears to be higher than in other sequences.
 - Interestingly, the Fibonacci sequence is closely related to prime numbers, as any two consecutive Fibonacci numbers are always coprime.
 
-However, the exact nature of the relationship between primes and the Golden ratio is still an active area of research.
+However, the exact nature of the relationship between primes and the Golden ratio is still an active area of research. During the last few years of the 12th century, ***Fibonacci*** undertook a series of travels around the Mediterranean. At this time, the world’s most prominent mathematicians were Arabs, and he spent much time studying with them. His work, whose title translates as the Book of Calculation, was extremely influential in that ***it popularized the use of the Arabic numerals in Europe***, thereby revolutionizing arithmetic and allowing scientific experiment and discovery to progress more quickly. _([Famous Mathematicians](https://famous-mathematicians.org/leonardo-pisano-bigollo/))_
+```
+
+[![phi-continued-fraction](https://github.com/eq19/maps/assets/8466209/df218fdb-71b0-4261-a33c-a6e6f09aaf1c)](https://www.cosmic-core.org/free/article-56-geometry-the-golden-ratio-part-1-introduction/)
+
+During this interchange, the two 16-plets will be crossing over and farther apart but they are more likely to ***[stick together](https://eq19.github.io/multiplication/#fractal-dimensions)*** and not switch places.
+
+```note
+Another fascinating feature of this array is that any even number of–not necessarily contiguous–factors drawn from any one of ***the 32 angles in this modulo 120*** configuration distribute products to 1(mod 120) or 49 (mod 120), along with the squares.
+- We see from the graphic above that the digital roots of the Fibonacci numbers indexed to our domain (Numbers ≌ to {1,7,11,13,17,19,23,29} modulo 30) ***repeat palindromically every 32 digits (or 4 thirts) consisting of 16 pairs of bilateral 9 sums***.[![16 squares](https://github.com/eq19/maps/assets/8466209/efe55c6d-926c-47bb-80db-7d892eb3f103)](https://www.primesdemystified.com/)
+
+- The digital root sequence of our domain, on the other hand, repeats every 24 digits (or 3 thirts) and possesses 12 pairs of bilateral 9 sums. The entire Prime Root sequence end-to-end covering 360° has 48 pairs of bilateral 9 sums.
+- And finally, the Prime Root elements themselves within the Cirque, ***consisting of 96 elements, has 48 pairs of bilateral sums totaling 360***. Essentially, the prime number highway consists of infinitely telescoping circles ...
+- Also note, the digital roots of the Prime Root Set as well as the digital roots of Fibonnaci numbers and Lucas numbers (the latter not shown above) ***indexed to it all sum to 432 (48x9) in 360° cycles***.
+- The sequence involving Fibonacci digital roots repeats every 120°, and has been documented by the author on the On-Line Encyclopedia of Integer Sequences: [Digital root of Fibonacci numbers indexed by natural numbers not divisible by 2, 3 or 5 (A227896)](https://oeis.org/A227896).
+- The four faces of our pyramid additively cascade ***32 four-times triangular numbers*** (Note that 4 x 32 = 128 = the perimeter of the square base which has an area of ***32^2 = 1024 = 2^10***).
+- These include Fibo1-3 equivalent 112 (rooted in T7 = 28; 28 x 4 = 112), which creates a pyramidion or capstone in our model, and 2112 (rooted in T32 = 528; 528 x 4 = 2112), which is the index number of ***the 1000th prime*** within our domain, and equals the total number of 'elements' used to construct the pyramid. 
+
+A thirt, in case you're wondering, is a useful unit of measure when discussing intervals in natural numbers not divisible by 2, 3 or 5. A thirt, equivalent to one rotation around the [Prime Spiral Sieve](https://www.primesdemystified.com/) is like a mile marker on the prime number highway. If we take the Modulo 30 Prime Spiral Sieve and expand it to ***Modulo 360***, we see that ***there are 12 thirts*** in one complete circle, or 'cirque' as we've dubbed it. ***Each thirt consists of 8 elements***. _([PrimesDemystified](https://www.primesdemystified.com/twinprimes.html))_
 ```
 
 ***π(1000) = π(Φ x 618) = 168***
@@ -472,6 +476,8 @@ A foundation for theory-driven financial modeling, encouraging deeper exploratio
 ***32 + 11×7 = 109 = ((10th)th prime)***
 
 [![77s Structure](https://github.com/eq19/maps/assets/8466209/8362e5e8-a102-435e-8e6a-788456d00148)](https://eq19.github.io/addition/#hidden-dimensions)
+
+This model proposes not only a logical order of optimization but also a coherent conceptual narrative. 
 
 ```note
 The [Standard Model](https://en.wikipedia.org/wiki/Standard_Model) presently recognizes seventeen distinct particles—twelve [fermions](https://en.wikipedia.org/wiki/Fermion) and ***five [bosons](https://en.wikipedia.org/wiki/Boson)***. As a consequence of [flavor](https://en.wikipedia.org/wiki/Flavour_(particle_physics)) and [color](https://en.wikipedia.org/wiki/Quantum_chromodynamics) combinations and [antimatter](https://en.wikipedia.org/wiki/Antimatter), the fermions and bosons are known to have 48 and ***13 variations***, respectively.[[](https://en.wikipedia.org/wiki/Elementary_particle#cite_note-braibant-2) _([Wikipedia](https://en.wikipedia.org/wiki/Elementary_particle))_
