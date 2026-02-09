@@ -105,7 +105,7 @@ The first 1000 prime numbers are silently screaming: "Pay attention to us, for w
 - This object is dually enveloped by 892 = 7921 and 7920 = 22 x 360 in conjunction with 1092 − 892 = 3960 = 11 x 360 (while mindful that both 1/89 and 1/109 have the Fibonacci sequence secreted in their decimal expansions).
 - And we note the astonishing fact that primes 11 + 89 + 109 + 7919 = 8128, the fourth perfect number, the first three of which are 6, 28, and 496. 
 
-By the matrices above it is clearly shows that there is a fascinating connection between prime numbers and the Golden ratio.
+By the matrices shown in the picture below it is clearly shows that there is a fascinating connection between prime numbers and the Golden ratio.
 ```
 
 ***1000 x (π(11) + 360) days = 1000 x 365 days = 1000 years***
@@ -353,6 +353,42 @@ This study cascade culminating in the Fibonacci digital root sequence (also peri
 
 By parsering 168 primes of 1000 id's across `π(π(100 x 100)) - 1 = 200` then the (Δ1) would be _[initiated](https://eq19.github.io/init.js)_. As you may guess they will slightly forms the ***hexagonal patterns***.
 
+```tip
+By our project the 18's on the gist will cover five (5) unique functions that behave as ***one (1) central plus four (4) zones***. This scheme will be implemented to all of the 168 repositories as bilateral way (***in-out***) depend on their postion on the system. So along with the gist it self then there shall be `1 + 168 = 169` units of 1685 root functions.
+```
+
+***5 + 2 x 5 x 168 = 5 + 1680 = 1685 root functions***
+
+![](https://github-production-user-asset-6210df.s3.amazonaws.com/8466209/292055714-1e7dc443-b7d8-44d9-8da0-5fe50dd7ee70.png)
+
+By the spin above you can see that the 4 zones of these `19's to 17's` are representing the rotation `1 to 5`. Such of formation can be seen on _[Ulam Spiral](https://en.wikipedia.org/wiki/Ulam_spiral)_ as below.
+
+```note
+The Ulam spiral or prime spiral is a graphical depiction of the set of prime numbers, devised by mathematician Stanisław Ulam in 1963 and popularized in Martin Gardner's Mathematical Games column in Scientific American a short time later.
+```
+
+[![ulam spiral](https://user-images.githubusercontent.com/36441664/274058089-72669dae-9f66-4953-bb5b-670aac2090f2.svg)](https://en.wikipedia.org/wiki/Ulam_spiral)
+
+By the MEC30 we will also discuss the relation of these 4 zones with high density of 40 primes where 60 number is folded.
+
+```note
+Both Ulam and Gardner noted that the existence of such prominent lines ***is not unexpected***, as lines in ***the spiral correspond to quadratic polynomials***, and certain such polynomials, such as Euler's prime-generating polynomial x²-x+41, are believed to produce a high density of prime numbers. Nevertheless, the Ulam spiral is connected with **major unsolved problems** in number theory such as Landau's problems _([Wikipedia](https://en.wikipedia.org/wiki/Ulam_spiral))_.
+```
+
+[![prime Sacks_spiral](https://user-images.githubusercontent.com/8466209/229820606-b2bbd7fb-3300-4507-8080-fb27ed6fd512.png)](https://eq19.github.io/multiplication/#streching-structure)
+
+So by the eight (8) pairs of prime it will always return to **[the beginning position](https://eq19.github.io/multiplication/#square-dimensions)** within [`60+40=100 nodes`](https://gist.github.com/eq19/0ce5848f7ad62dc46dedfaa430069857#the-power-of-168-vs-618) per layer.
+
+```note
+[The published](https://github.com/eq19/maps/files/13930690/PhysRev.76.769.pdf) diagram by [Feynman](https://physics.aps.org/story/v24/st3) helped scientists track particle movements in illustrations and visual equations rather than verbose explanations. What seemed almost improbable at the time is now one of the greatest [explanations](https://www.quantamagazine.org/why-feynman-diagrams-are-so-important-20160705/) of particle physics — the squiggly lines, diagrams, arrows, quarks, and cartoonish figures are now the established nomenclature and visual story that students, scientists, and readers will see when they learn about this field of science. _([medium.com](https://medium.com/taking-note/learning-from-the-feynman-technique-5373014ad230))_
+```
+
+***8 pairs = 8 x 2 = 16***
+
+[![Electromagnetism](https://user-images.githubusercontent.com/8466209/223011738-7e2084bc-861b-4424-89d5-9f39643df22f.png)](https://eq19.github.io/exponentiation/)
+
+Transforming particles into anti-particles, and vice versa, requires only the complex conjugate ***i → −i*** in our formalism. _([Standard Model from an algebra - pdf](https://github.com/eq19/maps/files/14387513/Standard_model_physics_from_an_algebra.pdf))_
+
 ## Angular Momentum 
 
 You may learn that sets of algebraic objects has a multilinear relationship related to a vector space called _[tensor](https://en.wikipedia.org/wiki/Tensor)_.
@@ -413,44 +449,6 @@ Our ***[18s gists](https://gist.github.com/eq19)*** would form the _[18s structu
 [![Proof of Confinement](https://user-images.githubusercontent.com/36441664/270557989-54d6720f-fd55-44e9-a873-e11c6763bb8d.png)](https://eq19.github.io/multiplication/#streaching-structure)
 
 Observing more detail of the discussed scheme of 168 we will get it also when we take the 19's and 17's cell of `(31+37)+(35+65)=68+100=168`.
-
-## Physical Movements
-
-```tip
-By our project the 18's on the gist will cover five (5) unique functions that behave as ***one (1) central plus four (4) zones***. This scheme will be implemented to all of the 168 repositories as bilateral way (***in-out***) depend on their postion on the system. So along with the gist it self then there shall be `1 + 168 = 169` units of 1685 root functions.
-```
-
-***5 + 2 x 5 x 168 = 5 + 1680 = 1685 root functions***
-
-![](https://github-production-user-asset-6210df.s3.amazonaws.com/36441664/269950673-502f174e-fadc-4ad9-afbc-184ae03cde5a.jpg)
-
-By the spin above you can see that the 4 zones of these `19's to 17's` are representing the rotation `1 to 5`. Such of formation can be seen on _[Ulam Spiral](https://en.wikipedia.org/wiki/Ulam_spiral)_ as below.
-
-```note
-The Ulam spiral or prime spiral is a graphical depiction of the set of prime numbers, devised by mathematician Stanisław Ulam in 1963 and popularized in Martin Gardner's Mathematical Games column in Scientific American a short time later.
-```
-
-[![ulam spiral](https://user-images.githubusercontent.com/36441664/274058089-72669dae-9f66-4953-bb5b-670aac2090f2.svg)](https://en.wikipedia.org/wiki/Ulam_spiral)
-
-By the MEC30 we will also discuss the relation of these 4 zones with high density of 40 primes where 60 number is folded.
-
-```note
-Both Ulam and Gardner noted that the existence of such prominent lines ***is not unexpected***, as lines in ***the spiral correspond to quadratic polynomials***, and certain such polynomials, such as Euler's prime-generating polynomial x²-x+41, are believed to produce a high density of prime numbers. Nevertheless, the Ulam spiral is connected with **major unsolved problems** in number theory such as Landau's problems _([Wikipedia](https://en.wikipedia.org/wiki/Ulam_spiral))_.
-```
-
-[![prime Sacks_spiral](https://user-images.githubusercontent.com/8466209/229820606-b2bbd7fb-3300-4507-8080-fb27ed6fd512.png)](https://eq19.github.io/multiplication/#streching-structure)
-
-So by the eight (8) pairs of prime it will always return to **[the beginning position](https://eq19.github.io/multiplication/#square-dimensions)** within [`60+40=100 nodes`](https://gist.github.com/eq19/0ce5848f7ad62dc46dedfaa430069857#the-power-of-168-vs-618) per layer.
-
-```note
-[The published](https://github.com/eq19/maps/files/13930690/PhysRev.76.769.pdf) diagram by [Feynman](https://physics.aps.org/story/v24/st3) helped scientists track particle movements in illustrations and visual equations rather than verbose explanations. What seemed almost improbable at the time is now one of the greatest [explanations](https://www.quantamagazine.org/why-feynman-diagrams-are-so-important-20160705/) of particle physics — the squiggly lines, diagrams, arrows, quarks, and cartoonish figures are now the established nomenclature and visual story that students, scientists, and readers will see when they learn about this field of science. _([medium.com](https://medium.com/taking-note/learning-from-the-feynman-technique-5373014ad230))_
-```
-
-***8 pairs = 8 x 2 = 16***
-
-[![Electromagnetism](https://user-images.githubusercontent.com/8466209/223011738-7e2084bc-861b-4424-89d5-9f39643df22f.png)](https://eq19.github.io/exponentiation/)
-
-Transforming particles into anti-particles, and vice versa, requires only the complex conjugate ***i → −i*** in our formalism. _([Standard Model from an algebra - pdf](https://github.com/eq19/maps/files/14387513/Standard_model_physics_from_an_algebra.pdf))_
 
 ## 77s Structure
 
