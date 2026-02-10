@@ -136,13 +136,13 @@ Not to mention this sequence possesses symmetries that dovetail perfectly with t
 
 ```note
 The terminating digits of the prime root angles (24,264,868; see illustration of [Prime Spiral Sieve](https://www.primesdemystified.com/#primespiralsieve)) when added to their reversal (86,846,242) = 111,111,110.
-- And when you combine the terminating digit symmetries described above, capturing three rotations around the sieve in their actual sequences, you produce the ultimate combinatorial symmetry:[![Prime-Numbers-Demystified-by-8-Dimensional-Algorithms.pdf](https://user-images.githubusercontent.com/8466209/219261961-10e4d77f-ead3-43d4-9407-f01d83f1f204.png)](https://github.com/eq19/maps/files/14009880/Prime-Numbers-Demystified-by-8-Dimensional-Algorithms.pdf)
+- And when you combine the terminating digit symmetries described above, capturing three rotations around the sieve in their actual sequences, you produce the ultimate combinatorial symmetry:[![Prime Numbers Demystified by 8 Dimensional Algorithms - pdf](https://github.com/eq19/maps/assets/8466209/133532ab-8500-44bc-97c7-d7c41e8ed600)](https://github.com/eq19/maps/files/14009880/Prime-Numbers-Demystified-by-8-Dimensional-Algorithms.pdf)
 - ***The pattern of 9's created by decomposing and summing either the digits of Fibonacci numbers*** indexed to the first two rotations of the spiral (a palindromic pattern {1393717997173931} that ***repeats every 16 Fibo index numbers***) or, similarly, decomposing and summing the prime root angles.
 - The decomposition works as follows (in digit sum arithmetic this would be termed summing to the digital root) of F17 (the 17th Fibonacci number) = 1597 = 1 + 5 + 9 + 7 = 22 = 2 + 2 = 4:
 Parsing the squares by their mod 90 congruence reveals that there are 96 perfect squares generated with each 4 * 90 = 360 degree cycle, which ***distribute 16 squares to each of 6 mod 90 congruence sub-sets*** defined as n congruent to {1, 19, 31, 49, 61, 79} forming 4 bilateral 80 sums. _([PrimesDemystified](https://www.primesdemystified.com/First1000Primes.html))_
 ```
 
-[![image](https://github.com/eq19/maps/assets/8466209/133532ab-8500-44bc-97c7-d7c41e8ed600)](https://www.primesdemystified.com)
+[![image](https://user-images.githubusercontent.com/8466209/219261961-10e4d77f-ead3-43d4-9407-f01d83f1f204.png)](https://www.primesdemystified.com)
 
 Based on the idea of stable, knotted vortices in the ether or [aether](https://en.wikipedia.org/wiki/Aether_theories), it contributed an important mathematical legacy.
 
@@ -434,11 +434,15 @@ In later sections, we will discuss finding all the solutions to a polynomial fun
 
 ![Symmetry State](https://github.com/eq19/maps/assets/8466209/70cb2eb0-0955-4d18-8400-e05ac1b9d325)
 
+Standard heuristic mathematical models of population dynamics are often constructed using ordinary differential equations (ODEs).
+
 ```note
 From what we learned above about segregating twin prime candidates, we can demonstrate that they compile additively in perfect progression, completing an infinite sequence of circles (multiples of 30 and 360)
 ```
 
 [![Base of TOE](https://user-images.githubusercontent.com/8466209/249753163-6cfbcecf-3713-409b-8d8b-5fa5cf8489ac.png)](https://www.hexspin.com/finding-a-number-in-the-hexagon/)
+
+Observing more detail of the discussed scheme of 168 we will get it also when we take the 19's and 17's cell of `(31+37)+(35+65)=68+100=168`.
 
 ```tip
 Our ***[18s gists](https://gist.github.com/eq19)*** would form the _[18s structure of 11s and 7s](https://eq19.github.io/addition/#structure-true-prime-pairs)_ where by the 11s, the 20th prime 71 would stand as _[eigenvalue](https://eq19.github.io/multiplication/#streaching-structure)_ and by the 7s, the 11th prime 31 would stand as the _[new symmetical zero axis](https://eq19.github.io/exponentiation/#parsering-structure)_ by means of _[MEC30 Structure](https://eq19.github.io/exponentiation/#self-repetition)_. So whenever the 11s is _[compactified](https://eq19.github.io/identition/#the-powers-of-10)_ down to ***[4 dimensions](https://eq19.github.io/exponentiation/#parsering-structure)*** it will always be compactifed by the 7s as their _[extended branes](https://eq19.github.io/identition/#extra-dimensions)_ which including the _[eigenvector](https://eq19.github.io/addition/#18s-structure)_ of _[dark energy](https://eq19.github.io/identition/#string-theory)_ and finally become another level of ***[11 dimensions](https://eq19.github.io/identitionl/#the-powers-of-pi)*** that lead to the concept of _[multiple universes](https://eq19.github.io/identition/#extra-dimensions)_. 
@@ -448,7 +452,7 @@ Our ***[18s gists](https://gist.github.com/eq19)*** would form the _[18s structu
 
 [![Proof of Confinement](https://user-images.githubusercontent.com/36441664/270557989-54d6720f-fd55-44e9-a873-e11c6763bb8d.png)](https://eq19.github.io/multiplication/#streaching-structure)
 
-Observing more detail of the discussed scheme of 168 we will get it also when we take the 19's and 17's cell of `(31+37)+(35+65)=68+100=168`.
+These deterministic models yield pre-dictable results which allow researchers to make informed recommendations on public policy.
 
 ## 77s Structure
 
