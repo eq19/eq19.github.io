@@ -1,6 +1,6 @@
 # Prime Unit Identity
 
-We are going to assign prime identity as a ***standard model*** that attempts to stimulate a quantum field model called ***[eQuantum](https://github.com/eq19)*** for _[the four (4) known fundamental forces](https://en.wikipedia.org/wiki/Fundamental_interaction)_.
+We are going to assign prime identity as a ***standard model*** to stimulate a quantum field model called ***[eQuantum](https://github.com/eq19)*** for _[the four (4) known fundamental forces](https://en.wikipedia.org/wiki/Fundamental_interaction)_.
 
 {% include list.liquid all=true %}
 
@@ -90,11 +90,11 @@ layer | node | sub |  i  |  f
 ------|------|-----+-----+------
 ```
 
-The main background is that, as you may aware, the prime number theorem describes the [asymptotic distribution](https://youtu.be/j5s0h42GfvM) of prime numbers which is still a major problem in mathematic. 
+As you may aware, the prime number theorem describes the [asymptotic distribution](https://youtu.be/j5s0h42GfvM) of prime numbers which is still a major problem in mathematic. 
 
 ## Multiplication Zones
 
-Instead of a proved formula we came to a unique expression called ***zeta function***. This expression first appeared in a paper in 1737 entitled _Variae observationes circa series infinitas_. 
+Instead of a proved formula we came to an expression called ***zeta function*** that first appeared in a paper in 1737 entitled _Variae observationes circa series infinitas_. 
 
 ```tip
 This expression states that the sum of the zeta function is equal to the product of the reciprocal of one minus the reciprocal of primes to the powers. But what has this got to do with the primes?  The answer is in the following product taken over the primes p (discovered by _[Leonhard Euler](https://en.wikipedia.org/wiki/Leonhard_Euler)_):
@@ -110,7 +110,11 @@ In addition to the trivial roots, there also exist ***complex roots*** for real 
 
 [![trivial roots](https://user-images.githubusercontent.com/8466209/219828222-615a2037-dbcd-4412-95bf-740bb32094de.png)](https://www.mathpages.com/home/kmath738/kmath738.htm)
 
+The Riemann zeta function provides a way to give an exact formula for π(x) by summing over the non-trivial zeros of the zeta function.
+
+```note
 Meanwhile obtaining the non complex numbers it is easier to look at a graph like the one below which shows Li(x) (blue), R(x) (black), π(x) (red) and x/ln x (green); and then proclaim "R(x) is the best estimate of π(x)." Indeed it is for that range, but as we mentioned above, Li(x)-π(x) changes sign infinitely often, and near where it does, Li(x) would be the best value.
+```
 
 [![non complex numbers](https://user-images.githubusercontent.com/8466209/219214486-e6412fb0-d190-45ae-990f-524532661444.png)](https://primes.utm.edu/howmany.html#better)
 
@@ -134,10 +138,16 @@ We have Λ ≤ 0.2. The next entry is conditional on taking H a little higher th
 
 [![functional equation](https://user-images.githubusercontent.com/8466209/219715694-751fe538-378d-4f58-ae82-ac9e6823ad65.png)](https://arxiv.org/pdf/2004.09765.pdf)
 
-This Euler formula represents the distribution of a group of numbers that are positioned at regular intervals on a straight line to each other. Riemann later extended the definition of zeta(s) to all complex numbers (***except the simple pole at s=1 with residue one***). Euler's product still holds if the real part of s is greater than one. Riemann derived the functional equation of zeta function.
+This Euler formula represents the distribution of a group of numbers that are positioned at regular intervals on a straight line to each other.
 
 ```danger
-The Riemann zeta function has the trivial zeros at -2, -4, -6, ... (the poles of gamma(s/2)).  Using the Euler product (with the functional equation) it is easy to show that all the other zeros are in the critical strip of non-real complex numbers with 0 < Re(s) < 1, and that they are symmetric about the critical line Re(s)=1/2. The unproved Riemann hypothesis is that all of the nontrivial zeros are actually on the critical line _([primes.utm.edu](https://primes.utm.edu/notes/rh.html))_.
+Riemann later extended the definition of zeta(s) to all complex numbers (***except the simple pole at s=1 with residue one***).
+
+- Euler's product still holds if the real part of s is greater than one.
+- Riemann derived the functional equation of zeta function. This Riemann zeta function has the trivial zeros at -2, -4, -6, ... (the poles of gamma(s/2)).
+- Using the Euler product (with the functional equation) it is easy to show that all the other zeros are in the critical strip of non-real complex numbers with 0 < Re(s) < 1, and that they are symmetric about the critical line Re(s)=1/2.
+
+The unproved Riemann hypothesis is that all of the nontrivial zeros are actually on the critical line _([primes.utm.edu](https://primes.utm.edu/notes/rh.html))_.
 ```
 
 [![zeta function](https://user-images.githubusercontent.com/8466209/219720444-e5ba30ac-e000-4c85-8678-186676b93d2b.png)](https://primes.utm.edu/notes/rh.html)
