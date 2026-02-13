@@ -16,10 +16,10 @@ It is a taxicab number, and is variously known as Ramanujan's number and the Ram
 
 [![Ramanujan-Hardy number](https://user-images.githubusercontent.com/36441664/103107461-173c2b00-4671-11eb-962c-da7e9eab022e.png)](https://en.wikipedia.org/wiki/1729_(number))
 
-These three (3) number are [twin primes](https://en.wikipedia.org/wiki/Twin_prime). We called the pairs as _[True Prime Pairs](https://eq19.github.io/addition/file02.html#true-prime-pairs)_. Our scenario is mapping the distribution out of these pairs by taking the symmetrical behaviour of 36 as the smallest power (greater than 1) which is not a prime power.
+These three (3) number are [twin primes](https://en.wikipedia.org/wiki/Twin_prime). We called the pairs as _[True Prime Pairs](https://eq19.github.io/addition/spin1/)_. Our scenario is mapping the distribution out of these pairs by taking the symmetrical behaviour of 36 as the smallest power (greater than 1) which is not a prime power.
 
 ```tip
-The smallest square number expressible as the sum of **four (4) consecutive primes** in two ways (5 + 7 + 11 + 13 and 17 + 19) which are also **two (2) couples** of prime twins! _([Prime Curios!](https://en.wikipedia.org/wiki/1729_(number)](https://primes.utm.edu/curios/page.php?number_id=270)))_.
+It is the sum of the fourth pair of [twin-primes](https://en.wikipedia.org/wiki/Twin_prime) ([17](https://en.wikipedia.org/wiki/17_(number)) + [19](https://en.wikipedia.org/wiki/19_(number))) _([Wikipedia!](https://en.wikipedia.org/wiki/36_(number)))_.
 ```
 
 ```scss
@@ -43,6 +43,15 @@ $True Prime Pairs:
 ```
 
 Thus in short this is all about a method that we called as the ***[19 vs 18 Scenario](https://eq19.github.io/grammar/identition/#the-77-principles)*** of mapping [the quantum way](https://www.google.com/search?q=eQuantum) within a huge of [primes objects](https://github.com/eq19) (5 to 19) by [lexering](https://en.wikipedia.org/wiki/Lexer_generator) (11) the un[grammar](https://en.wikipedia.org/wiki/Grammar)ed feed (7) and [parsering](https://en.wikipedia.org/wiki/Comparison_of_parser_generators) (13) across [syntax](https://en.wikipedia.org/wiki/Syntax) (17). 
+
+```note
+The number 36 is a composite. Here are some of the other points taken from  _([Prime Curios!](https://t5k.org/curios/page.php?number_id=270))_.
+- The exact number of ways to partition the integer 36 is prime.
+- The smallest number which is the sum of two distinct odd primes in four ways (36 = 5 + 31 = 7 + 29 = 13 + 23 = 17 + 19). [McCranie]
+- The smallest square that is the sum of a twin prime pair {17, 19}. [Trotter]
+- The smallest number expressible as the sum of consecutive primes in two ways (5 + 7 + 11 + 13 and 17 + 19). [De Geest]
+- 5+7+11+13 is the smallest square number expressible as the sum of four consecutive primes which are also two couples of prime twins! [Herault]
+```
 
 ***Φ(1,2,3) = Φ(6,12,18) = Φ(13,37,61)***
 
