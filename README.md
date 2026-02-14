@@ -1,6 +1,6 @@
 # Prime Unit Identity
 
-We are going to assign prime identity as a ***standard model*** to stimulate a quantum field model called ***[eQuantum](https://github.com/eq19)*** for _[the four (4) known fundamental forces](https://en.wikipedia.org/wiki/Fundamental_interaction)_.
+We are going to assign prime identity as the ***Standard Model*** to stimulate a quantum field model called ***[eQuantum](https://github.com/eq19)*** for _[the four (4) known fundamental forces](https://en.wikipedia.org/wiki/Fundamental_interaction)_.
 
 {% include list.liquid all=true %}
 
@@ -42,7 +42,7 @@ $True Prime Pairs:
  -----+-----+---------
 ```
 
-Thus in short this is all about a method that we called as the ***[19 vs 18 Scenario](https://eq19.github.io/grammar/identition/#the-77-principles)*** of mapping [the quantum way](https://www.google.com/search?q=eQuantum) within a huge of [primes objects](https://github.com/eq19) (5 to 19) by [lexering](https://en.wikipedia.org/wiki/Lexer_generator) (11) the un[grammar](https://en.wikipedia.org/wiki/Grammar)ed feed (7) and [parsering](https://en.wikipedia.org/wiki/Comparison_of_parser_generators) (13) across [syntax](https://en.wikipedia.org/wiki/Syntax) (17). 
+Thus, in short, this is principally all about a method that we called as the ***[19 vs 18 Scenario](https://eq19.github.io/grammar/identition/#the-77-principles)*** of mapping [the quantum way](https://www.google.com/search?q=eQuantum) within a huge of [primes objects](https://github.com/eq19) (5 to 19) by [lexering](https://en.wikipedia.org/wiki/Lexer_generator) (11) the un[grammar](https://en.wikipedia.org/wiki/Grammar)ed feed (7) and [parsering](https://en.wikipedia.org/wiki/Comparison_of_parser_generators) (13) across [syntax](https://en.wikipedia.org/wiki/Syntax) (17). 
 
 ```note
 The number 36 is a composite. Here are some of the other points taken from  _([Prime Curios!](https://t5k.org/curios/page.php?number_id=270))_.
@@ -202,7 +202,7 @@ The finiteness position of Euler's identity by the said _MEC30_ opens up the pos
 Nothing is going to be easly about the nature of prime numbers but they demonstrably congruent to something organized. Let's discuss starting with the _[addition zones](https://eq19.github.io/addition/)_.
 
 **[eQuantum Project](https://github.com/eq19)**   
-Copyright © 2023-2024
+Copyright © 2023-2026
 
 Reference:
 * [Riemann Zeta](https://commons.wikimedia.org/wiki/File:RiemannZeta_Zeros.svg)
