@@ -114,7 +114,7 @@ jekyll_build() {
   
   TARGET_REPOSITORY="${OWNER}/$1"
   echo 'repo='${TARGET_REPOSITORY} >> ${GITHUB_OUTPUT}
-  [[ "TARGET_REPOSITORY" == "eq19/maps" ]] && SITEID=31
+  [[ "$TARGET_REPOSITORY" == "eq19/maps" ]] && SITEID=31
   gh variable set TARGET_REPOSITORY --body "$TARGET_REPOSITORY"
   echo 'TARGET_REPOSITORY='${TARGET_REPOSITORY} >> ${GITHUB_ENV}
 
