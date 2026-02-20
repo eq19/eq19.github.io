@@ -99,6 +99,12 @@ layer | node | sub |  i  |  f
 ------|------|-----+-----+------
 ```
 
+So there would be the empty spaces for `18 - 7 = 11` numbers. By our project these spaces will be _[unified](https://eq19.github.io/exponentiation/#god-particle)_ by all of the eleven (11) members of ***[identition zones](https://eq19.github.io/identition/)***.
+
+***(11x7) + (29+11) + (25+6) + (11+7) + (4+1) = 77+40+31+18+5 = 171***
+
+[![extended branes](https://github.com/eq19/maps/assets/8466209/deb0e309-2178-4dc5-a1d6-30c81c4a8305)](https://eq19.github.io/multiplication/)
+
 As you may aware, the prime number theorem describes the [asymptotic distribution](https://youtu.be/j5s0h42GfvM) of prime numbers which is still a major problem in mathematic. 
 
 ## Multiplication Zones
@@ -129,7 +135,6 @@ Meanwhile obtaining the non complex numbers it is easier to look at a graph like
 
 And we can see in the same way that the function Li(x)-(1/2)Li(x1/2) is 'on the average' a better approximation than Li(x) to π(x); but no importance can be attached to the latter terms in Riemann's formula even by repeated averaging.
 
-## Exponentiation Zones
 
 The problem is that the contributions from the non-trivial zeros at times swamps that of any but the main terms in these expansions.
 
@@ -173,8 +178,6 @@ On the other hand, the possibility of obtaining the function of the distribution
 
 Or may be [start again from the Euler Function](https://youtu.be/FCpRl0NzVu4).
 
-## Identition Zones
-
 _[Freeman Dyson](https://en.wikipedia.org/wiki/Freeman_Dyson#Quantum_physics_and_prime_numbers)_ discovered an intriguing connection between quantum physics and [Montgomery's pair correlation conjecture](https://en.wikipedia.org/wiki/Montgomery%27s_pair_correlation_conjecture) about the zeros of the [zeta function](https://gist.github.com/eq19/e9832026b5b78f694e4ad22c3eb6c3ef#zeta-function) which dealts with the distribution of primes.
 
 ```note
@@ -193,11 +196,139 @@ Euler's identity is considered to be an exemplar of deep mathematical beauty as 
 
 The finiteness position of Euler's identity by the said _MEC30_ opens up the possibility of accurately representing the self-similarity based on the distribution of _[True Prime Pairs](https://eq19.github.io/addition/file02.html#true-prime-pairs)_ so that all number would belongs together with [their own identitities](https://eq19.github.io/identition/). 
 
+[![DE102011101032A9.pdf](https://user-images.githubusercontent.com/36441664/74591731-f5cfe300-504c-11ea-9e04-d814c57aa969.png)](https://eq19.github.io/exponentiation/#parsering-structure)
+
+This behaviour finaly brings us to a suggestion that the dimension in string theory are linked with ***the prime distribution level*** as indicated by the _[self repetition](https://eq19.github.io/exponentiation/#self-repetition)_ on MEC30.
+
+```note
+***There are 7 hidden dimensions in 11-d Supergravity, which is the low energy approximation to M theory, which also has 7 hidden dimensions***. _([Prime Curios!](https://t5k.org/curios/page.php?curio_id=20686))_
+```
+
+***π(1000) - loop(1,30) - loop(31,36) = 168 - 29 - 25 = 114***
+
+[![self repetition](https://github.com/eq19/maps/assets/8466209/bde2248a-2feb-4c4b-85fe-f75de640775d)](https://eq19.github.io/exponentiation/#self-repetition)
+
+By the _[identition zones](https://eq19.github.io/identition/)_ we are going to discuss in detail how this reversal behaviour of 8-dimensions is converting the 11 dimensions to `7 x 11 = 77` partitions.
+
+## Exponentiation Zones
+
+By _[The Δ(19 vs 18) Scenario](https://eq19.github.io/identition/#%CE%B419-vs-18-scenario)_ those three are exactly landed in the ***0's cell*** out of Δ18. See that the sum of 30 and 36 is 66 while the difference between 36 and 102 is also 66.
+
+```note
+You likely noticed I began with 2 rather than 1 or 0 when I first constructed the hexagon. Why? Because they do not fit inside — they stick off the hexagon like a tail. Perhaps that’s where they belong. However, if one makes a significant and interesting assumption, then 1 and 0 fall in their logical locations – in the 1 and 0 cells, respectively. _([HexSpin](https://www.hexspin.com/0-1-and-negative-numbers/))
+```
+
+***0 + 30 + 36 + 102 = 168 = π(1000)***
+
+[![19 vs 18](https://github.com/eq19/maps/assets/8466209/19f68eca-c0e1-48fc-9c9a-60d01cf26057)](https://www.hexspin.com/0-1-and-negative-numbers/)
+
+This scheme goes to the unification of 11s with 7s to 18s meanwhile the 11th it self behave as residual by the 5th minor hexagon between the ***[30 to 36' cells](https://eq19.github.io/exponentiation/#fundamental-forces)***.
+
+```note
+The interaction of any pair of fermions in perturbation theory can be modelled as:
+
+***Two fermions go in → interaction by boson exchange → Two changed fermions go out.***
+
+The exchange of bosons always carries energy and momentum between the fermions, thereby ***changing their speed and direction***. The exchange may also transport a charge between the fermions, changing the charges of the fermions in the process (e.g., turn them from one type of fermion to another). Since bosons carry one unit of angular momentum, ***the fermion's spin direction will flip from +1⁄2 to −1⁄2 (or vice versa)*** during such an exchange (in units of the reduced Planck's constant). _([Wikipedia](https://en.wikipedia.org/wiki/Fundamental_interaction))_
+```
+
+***36th prime - 30th prime = 151 - 113 = 1 + 37***
+
+[![Defining the Prime Hexagon](https://user-images.githubusercontent.com/8466209/282279534-a448cd09-3d5e-4006-a84d-2574f7ed85c3.png)](https://www.hexspin.com/defining-the-prime-hexagon/)
+
+The boson, photon and gravity forces are assigned to ***30, 31 and 32***. Gluon force and exchange are assigned to ***33 and 34*** which are then standing as the ***[lexer](https://eq19.github.io/multiplication/#assigning-a-lexer)*** and ***[parser](https://eq19.github.io/exponentiation/#parsering-structure)***.
+
+```note
+Below we will demonstrate how factorization algorithms and twin prime dyad cycling at the digital root level rotate the vertices of ***equilateral triangles within {9/3}*** star polygons like the one pictured above. These rotations are ***encoded in 3 x 3 matrices generated by period-24 digital root dyad tri-level cycling***. We will also reveal the Latin Square reflecting {3,6,9} hidden in plain sight betwixt and between the twin prime distribution channels; ***all of its rows, columns and principal diagonals summing to 18***. _[PrimesDemystified](https://www.primesdemystified.com/twinprimes.html)_
+```
+
+***19 + 18 + 102 = 37 + 102 = 139 = 34th prime = (40 - 6)the prime***
+
+[![exponentiation zones](https://user-images.githubusercontent.com/8466209/200024664-afc433a0-5f7f-4ec1-9bfc-77d672817fed.png)](https://github.com/eq19)
+
+This lead to a consequence of _[SU(5) grand unification](https://github.com/eq19/maps/files/14394752/MWmassShiftTalk.pdf)_ ***(assigned to 35)*** showing a complex scalar Higgs boson of 24 gauge groups _[observe mass of W boson](https://www.sciencedirect.com/science/article/pii/S0370269322004403)_ ***(assigned to 36)***.
+
+```tip
+An overview of the various families of elementary and composite particles, and their interactions. Fermions are on the left, and Bosons are on the right.
+
+[![Elementary Particle](https://github.com/eq19/maps/assets/8466209/b6b6ea3c-cbbc-431c-b767-ecabf1cba933)](https://en.wikipedia.org/wiki/Fundamental_interaction)
+
+According to the [Standard Model](https://en.wikipedia.org/wiki/Standard_Model_of_Particle_Physics) ***there are five (5) elementary bosons with thirteen (13) variations***. These 5 and 13 will be assigned to the "5xid's of **31~35** (sequenced)" and "13xid's of **36~68** (unsequenced)", respectively (see the sidebar menu).
+- One (1) [scalar boson](https://en.wikipedia.org/wiki/Scalar_boson) (***spin = 0***) [Higgs boson](https://en.wikipedia.org/wiki/Higgs_boson) – the particle that contributes to the phenomenon of [mass](https://en.wikipedia.org/wiki/Mass) via the [Higgs mechanism](https://en.wikipedia.org/wiki/Higgs_mechanism) (assigned to "19xid's of **2~30**").
+- Four (4) [vector bosons](https://en.wikipedia.org/wiki/Vector_boson) (***spin = 1***) that act as [force carriers](https://en.wikipedia.org/wiki/Force_carriers). These four are the [gauge bosons](https://en.wikipedia.org/wiki/Gauge_boson), they have ***twelve (12) different types*** originated from the interaction on _[bispinor-2 and -3](https://eq19.github.io/multiplication/12.html#free-parameters)_ to the _twelve (12) spinors of majorana_:
+  - [γ](https://en.wikipedia.org/wiki/Photon) [Photon](https://en.wikipedia.org/wiki/Photon) – the force carrier of the [electromagnetic field](https://en.wikipedia.org/wiki/Electromagnetic_field) (**id:31**).
+  - [g](https://en.wikipedia.org/wiki/Gluon) [Gluons](https://en.wikipedia.org/wiki/Gluon) (***eight (8) different types***) – force carriers originated from the _eight (8) spinors of bispinor-1 to -4_ that mediate the [strong force](https://en.wikipedia.org/wiki/Strong_interaction) (**id:33**)
+  - [Z](https://en.wikipedia.org/wiki/Z_boson) [Neutral weak boson](https://en.wikipedia.org/wiki/W_and_Z_bosons) – the force carrier that mediates the [weak force](https://en.wikipedia.org/wiki/Weak_interaction) and
+  - [W±](https://en.wikipedia.org/wiki/W_boson) [Charged weak bosons](https://en.wikipedia.org/wiki/W_and_Z_bosons) (***two (2) types***) – force carriers that mediate the weak force (**id:34**).
+- A second order tensor boson (***spin = 2***) called the [graviton](https://en.wikipedia.org/wiki/Graviton) (G). It has been hypothesised as the force carrier for [gravity](https://en.wikipedia.org/wiki/Gravitational_force) (**id:32**).
+```
+
+[![The exchange of virtual pions](https://user-images.githubusercontent.com/8466209/282278731-ac8438f7-afd4-41f8-8c6a-a41c0d740825.png)](https://eq19.github.io/identition/#partition-function)
+
+So the 36 should behave as a central. Therefore the total files that inherited from this scheme will be `1 + 7 + 29 = 37` including [one (1) main page](https://eq19.github.io). 
+
+## Identition Zones
+
+During this interchange, the two 16-plets will be crossing over and farther apart but they are more likely to ***[stick together](https://eq19.github.io/multiplication/#fractal-dimensions)*** and not switch places.
+
+```note
+Another fascinating feature of this array is that any even number of–not necessarily contiguous–factors drawn from any one of ***the 32 angles in this modulo 120*** configuration distribute products to 1(mod 120) or 49 (mod 120), along with the squares.
+- We see from the graphic above that the digital roots of the Fibonacci numbers indexed to our domain (Numbers ≌ to {1,7,11,13,17,19,23,29} modulo 30) ***repeat palindromically every 32 digits (or 4 thirts) consisting of 16 pairs of bilateral 9 sums***.[![16 squares](https://github.com/eq19/maps/assets/8466209/efe55c6d-926c-47bb-80db-7d892eb3f103)](https://www.primesdemystified.com/)
+
+- The digital root sequence of our domain, on the other hand, repeats every 24 digits (or 3 thirts) and possesses 12 pairs of bilateral 9 sums. The entire Prime Root sequence end-to-end covering 360° has 48 pairs of bilateral 9 sums.
+- And finally, the Prime Root elements themselves within the Cirque, ***consisting of 96 elements, has 48 pairs of bilateral sums totaling 360***. Essentially, the prime number highway consists of infinitely telescoping circles ...
+- Also note, the digital roots of the Prime Root Set as well as the digital roots of Fibonnaci numbers and Lucas numbers (the latter not shown above) ***indexed to it all sum to 432 (48x9) in 360° cycles***.
+- The sequence involving Fibonacci digital roots repeats every 120°, and has been documented by the author on the On-Line Encyclopedia of Integer Sequences: [Digital root of Fibonacci numbers indexed by natural numbers not divisible by 2, 3 or 5 (A227896)](https://oeis.org/A227896).
+- The four faces of our pyramid additively cascade ***32 four-times triangular numbers*** (Note that 4 x 32 = 128 = the perimeter of the square base which has an area of ***32^2 = 1024 = 2^10***).
+- These include Fibo1-3 equivalent 112 (rooted in T7 = 28; 28 x 4 = 112), which creates a pyramidion or capstone in our model, and 2112 (rooted in T32 = 528; 528 x 4 = 2112), which is the index number of ***the 1000th prime*** within our domain, and equals the total number of 'elements' used to construct the pyramid. 
+
+A thirt, in case you're wondering, is a useful unit of measure when discussing intervals in natural numbers not divisible by 2, 3 or 5. A thirt, equivalent to one rotation around the [Prime Spiral Sieve](https://www.primesdemystified.com/) is like a mile marker on the prime number highway. If we take the Modulo 30 Prime Spiral Sieve and expand it to ***Modulo 360***, we see that ***there are 12 thirts*** in one complete circle, or 'cirque' as we've dubbed it. ***Each thirt consists of 8 elements***. _([PrimesDemystified](https://www.primesdemystified.com/twinprimes.html))_
+```
+
+***π(1000) = π(Φ x 618) = 168***
+
+[![default](https://user-images.githubusercontent.com/8466209/195963923-0796217c-7a87-4b2d-ba93-f47465304c03.png)](https://www.nausetschools.org/cms/lib/MA02212418/Centricity/Domain/204/Linkage%20Map%20Worksheet%20Genetics%202017.pdf)
+
+The mathematically significant Fibonacci sequence defines a set of ratios which can be used to determine probable entry and exit points.
+
+```note
+Simply stated, the Golden Ratio establishes that the small is to the large as the large is to the whole. This is usually applied to proportions between segments.
+- In the special case of a unit segment, the Golden Ratio provides the only way to divide unity in two parts that are in a geometric progression:[![Phi_division_unity](https://github.com/eq19/maps/assets/8466209/485cc8f8-4964-4d82-8fee-e78b38abfb6a)](https://www.sacred-geometry.es/?q=en/content/golden-ratio)
+- The side of a pentagon-pentagram can clearly be seen as in relation to its diagonal as 1: (√5 +1)/2 or 1:φ, the Golden Section:[![golden-ratio-pentagram-lr](https://github.com/eq19/maps/assets/8466209/bbc7688d-d656-4a14-97eb-8bb073b41fea)](https://www.cosmic-core.org/free/article-56-geometry-the-golden-ratio-part-1-introduction/)
+- When you draw all the diagonals in the pentagon you end up with the pentagram. The pentagram shows that the Golden Gnomon, and therefore Golden Ratio, are iteratively contained inside the pentagon:[![Phi_Squared_Circle_Mides](https://github.com/eq19/maps/assets/8466209/9afc48e0-326b-47ee-86fd-68697705d187)](https://www.sacred-geometry.es/?q=en/content/golden-ratio)
+- There are set of sequence known as _[Fibonacci retracement](https://www.investopedia.com/ask/answers/05/fibonacciretracement.asp#:~:text=The%20key%20Fibonacci%20ratio%20of,two%20spots%20to%20the%20right.)_. For unknown reasons, these Fibonacci ratios seem to play a role in the _[stock market](https://eq19.github.io/exponentiation/#hexagonal-patterns)_, just as they do in nature.  The Fibonacci retracement levels are 0.236, 0.382, ***0.618, and 0.786***.[![Fibonacci retracement](https://user-images.githubusercontent.com/36441664/277129518-a7bfc713-40f5-47a5-9a1d-37c3e3fde1ff.png)](https://www.investopedia.com/ask/answers/05/fibonacciretracement.asp#:~:text=The%20key%20Fibonacci%20ratio%20of,two%20spots%20)
+  - The key Fibonacci ratio of 61.8% is found by dividing one number in the series by the number that follows it. For example, 21 divided by 34 equals 0.6176, and 55 divided by 89 equals about 0.61798.
+  - The 38.2% ratio is discovered by dividing a number in the series by the number located two spots to the right. For instance, 55 divided by 144 equals approximately 0.38194.
+  - The 23.6% ratio is found by dividing one number in the series by the number that is three places to the right. For example, 8 divided by 34 equals about 0.23529.
+  - The 78.6% level is given by the _[square root](https://youtu.be/K-AvE0B1KMw)_ of 61.8%
+- While not officially a Fibonacci ratio, 0.5 is also commonly referenced (50% is derived not from the Fibonacci sequence but rather from the idea that on average stocks retrace half their earlier movements).
+
+This study cascade culminating in the Fibonacci digital root sequence (also period-24). _([Golden Ratio - Articles](https://www.fnb.co.za/blog/investments/articles/FibonacciandtheGoldenRatio/))_
+```
+
+***(√0.618 - 0.618) x 1000  = (0.786 - 0.618) x 1000 = 0.168 x 1000 = 168 = π(1000)***
+
+[![24-digital root](https://user-images.githubusercontent.com/8466209/225589915-8f7690c8-4c17-4232-be51-63e79efb2c51.png)](https://eq19.github.io/addition/#the-24-cells-hexagon)
+
+```tip
+This behaviour finaly brings us to a suggestion that the dimension in string theory are linked with ***the prime distribution level*** as indicated by the _[self repetition](https://eq19.github.io/exponentiation/#self-repetition)_ on MEC30.
+```
+
+***7th spin - 4th spin = (168 - 102)s = 66s = 6 x 11s = 30s + 36s***
+
+![IMG_20231221_074421](https://github.com/eq19/maps/assets/8466209/1e7dc443-b7d8-44d9-8da0-5fe50dd7ee70)
+
+The above scheme is also applied in to our project sections which is consists of four (4) zones, the 1st- layer covers addition and multiplication zones, the rest are single zones.
+
+[![Section layers](https://user-images.githubusercontent.com/8466209/260024883-f0246ce7-0a26-40a6-bc6f-4fcca4a6f1a4.png)](https://eq19.github.io/#eulers-identity)
+
 ```tip
 {{ site.github.latest_release.body }}
 ```
 
-[![DE102011101032A9.pdf](https://user-images.githubusercontent.com/36441664/74591731-f5cfe300-504c-11ea-9e04-d814c57aa969.png)](https://eq19.github.io/exponentiation/#parsering-structure)
+***109 = 29th prime = (10th prime)th prime***
+
+[![IMG_20240114_014704](https://user-images.githubusercontent.com/36441664/262341222-6c71005e-2f44-45d9-ac42-b1464c045a45.png)](https://eq19.github.io/multiplication/#77s-structure)
 
 Nothing is going to be easly about the nature of prime numbers but they demonstrably congruent to something organized. Let's discuss starting with the _[addition zones](https://eq19.github.io/addition/)_.
 
