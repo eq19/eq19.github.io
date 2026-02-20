@@ -101,18 +101,22 @@ layer | node | sub |  i  |  f
 
 So there would be the empty spaces for `18 - 7 = 11` numbers. By our project these spaces will be _[unified](https://eq19.github.io/exponentiation/#god-particle)_ by all of the eleven (11) members of ***[identition zones](https://eq19.github.io/identition/)***.
 
+```tip
+***There are 7 hidden dimensions in 11-d Supergravity, which is the low energy approximation to M theory, which also has 7 hidden dimensions***. _([Prime Curios!](https://t5k.org/curios/page.php?curio_id=20686))_
+```
+
 ***(11x7) + (29+11) + (25+6) + (11+7) + (4+1) = 77+40+31+18+5 = 171***
 
 [![extended branes](https://github.com/eq19/maps/assets/8466209/deb0e309-2178-4dc5-a1d6-30c81c4a8305)](https://eq19.github.io/multiplication/)
 
-As you may aware, the prime number theorem describes the [asymptotic distribution](https://youtu.be/j5s0h42GfvM) of prime numbers which is still a major problem in mathematic. 
+This path is being applied as you can find on the left sidebar. (Please change the view to desktop mode if you are on mobile browser).
 
 ## Multiplication Zones
 
-Instead of a proved formula we came to an expression called ***zeta function*** that first appeared in a paper in 1737 entitled _Variae observationes circa series infinitas_. 
+As you may aware, the prime number theorem describes the [asymptotic distribution](https://youtu.be/j5s0h42GfvM) of prime numbers which is still a major problem in mathematic. 
 
 ```tip
-This expression states that the sum of the zeta function is equal to the product of the reciprocal of one minus the reciprocal of primes to the powers. But what has this got to do with the primes?  The answer is in the following product taken over the primes p (discovered by _[Leonhard Euler](https://en.wikipedia.org/wiki/Leonhard_Euler)_):
+Instead of a proved formula we came to an expression called ***zeta function*** that first appeared in a paper in 1737 entitled _Variae observationes circa series infinitas_. This expression states that the sum of the zeta function is equal to the product of the reciprocal of one minus the reciprocal of primes to the powers. But what has this got to do with the primes?  The answer is in the following product taken over the primes p (discovered by _[Leonhard Euler](https://en.wikipedia.org/wiki/Leonhard_Euler)_):
 ```
 
 ![zeta function](https://user-images.githubusercontent.com/8466209/219739322-ebdc1916-249a-49da-8ded-ce0fe1205550.png)
@@ -178,9 +182,9 @@ On the other hand, the possibility of obtaining the function of the distribution
 
 Or may be [start again from the Euler Function](https://youtu.be/FCpRl0NzVu4).
 
+```note
 _[Freeman Dyson](https://en.wikipedia.org/wiki/Freeman_Dyson#Quantum_physics_and_prime_numbers)_ discovered an intriguing connection between quantum physics and [Montgomery's pair correlation conjecture](https://en.wikipedia.org/wiki/Montgomery%27s_pair_correlation_conjecture) about the zeros of the [zeta function](https://gist.github.com/eq19/e9832026b5b78f694e4ad22c3eb6c3ef#zeta-function) which dealts with the distribution of primes.
 
-```note
 The Mathematical Elementary Cell 30 (***MEC30***) standard _[unites](https://eq19.github.io/multiplication/12.html#entrypoint-of-momentum-spin-3)_ the mathematical and physical results of 1972 by _the mathematician Hugh Montgomery and the physicist Freeman Dyson_ and thus reproduces energy distribution in systems as a path plan ***more accurately than a measurement***. _([Google Patent DE102011101032A9](https://patents.google.com/patent/DE102011101032A9/en#similarDocuments))_
 ```
 
@@ -199,10 +203,6 @@ The finiteness position of Euler's identity by the said _MEC30_ opens up the pos
 [![DE102011101032A9.pdf](https://user-images.githubusercontent.com/36441664/74591731-f5cfe300-504c-11ea-9e04-d814c57aa969.png)](https://eq19.github.io/exponentiation/#parsering-structure)
 
 This behaviour finaly brings us to a suggestion that the dimension in string theory are linked with ***the prime distribution level*** as indicated by the _[self repetition](https://eq19.github.io/exponentiation/#self-repetition)_ on MEC30.
-
-```note
-***There are 7 hidden dimensions in 11-d Supergravity, which is the low energy approximation to M theory, which also has 7 hidden dimensions***. _([Prime Curios!](https://t5k.org/curios/page.php?curio_id=20686))_
-```
 
 ***π(1000) - loop(1,30) - loop(31,36) = 168 - 29 - 25 = 114***
 
@@ -223,14 +223,6 @@ You likely noticed I began with 2 rather than 1 or 0 when I first constructed th
 [![19 vs 18](https://github.com/eq19/maps/assets/8466209/19f68eca-c0e1-48fc-9c9a-60d01cf26057)](https://www.hexspin.com/0-1-and-negative-numbers/)
 
 This scheme goes to the unification of 11s with 7s to 18s meanwhile the 11th it self behave as residual by the 5th minor hexagon between the ***[30 to 36' cells](https://eq19.github.io/exponentiation/#fundamental-forces)***.
-
-```note
-The interaction of any pair of fermions in perturbation theory can be modelled as:
-
-***Two fermions go in → interaction by boson exchange → Two changed fermions go out.***
-
-The exchange of bosons always carries energy and momentum between the fermions, thereby ***changing their speed and direction***. The exchange may also transport a charge between the fermions, changing the charges of the fermions in the process (e.g., turn them from one type of fermion to another). Since bosons carry one unit of angular momentum, ***the fermion's spin direction will flip from +1⁄2 to −1⁄2 (or vice versa)*** during such an exchange (in units of the reduced Planck's constant). _([Wikipedia](https://en.wikipedia.org/wiki/Fundamental_interaction))_
-```
 
 ***36th prime - 30th prime = 151 - 113 = 1 + 37***
 
@@ -319,6 +311,14 @@ This behaviour finaly brings us to a suggestion that the dimension in string the
 ![IMG_20231221_074421](https://github.com/eq19/maps/assets/8466209/1e7dc443-b7d8-44d9-8da0-5fe50dd7ee70)
 
 The above scheme is also applied in to our project sections which is consists of four (4) zones, the 1st- layer covers addition and multiplication zones, the rest are single zones.
+
+```note
+The interaction of any pair of fermions in perturbation theory can be modelled as:
+
+***Two fermions go in → interaction by boson exchange → Two changed fermions go out.***
+
+The exchange of bosons always carries energy and momentum between the fermions, thereby ***changing their speed and direction***. The exchange may also transport a charge between the fermions, changing the charges of the fermions in the process (e.g., turn them from one type of fermion to another). Since bosons carry one unit of angular momentum, ***the fermion's spin direction will flip from +1⁄2 to −1⁄2 (or vice versa)*** during such an exchange (in units of the reduced Planck's constant). _([Wikipedia](https://en.wikipedia.org/wiki/Fundamental_interaction))_
+```
 
 [![Section layers](https://user-images.githubusercontent.com/8466209/260024883-f0246ce7-0a26-40a6-bc6f-4fcca4a6f1a4.png)](https://eq19.github.io/#eulers-identity)
 
