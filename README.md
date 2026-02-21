@@ -330,8 +330,6 @@ According to the [Standard Model](https://en.wikipedia.org/wiki/Standard_Model_o
 
 So the 36 should behave as a central. Therefore the total files that inherited from this scheme will be `1 + 7 + 29 = 37` including [one (1) main page](https://eq19.github.io). 
 
-## Identition Zones
-
 ```tip
 This behaviour finaly brings us to a suggestion that the dimension in string theory are linked with ***the prime distribution level*** as indicated by the _[self repetition](https://eq19.github.io/exponentiation/#self-repetition)_ on MEC30.
 ```
@@ -344,7 +342,7 @@ During this interchange, the two 16-plets will be crossing over and farther apar
 
 ```note
 Another fascinating feature of this array is that any even number of–not necessarily contiguous–factors drawn from any one of ***the 32 angles in this modulo 120*** configuration distribute products to 1(mod 120) or 49 (mod 120), along with the squares.
-- We see from the graphic above that the digital roots of the Fibonacci numbers indexed to our domain (Numbers ≌ to {1,7,11,13,17,19,23,29} modulo 30) ***repeat palindromically every 32 digits (or 4 thirts) consisting of 16 pairs of bilateral 9 sums***.[![16 squares](https://github.com/eq19/maps/assets/8466209/efe55c6d-926c-47bb-80db-7d892eb3f103)](https://www.primesdemystified.com/)
+- We see from the graphic above that the digital roots of the Fibonacci numbers indexed to our domain (Numbers ≌ to {1,7,11,13,17,19,23,29} modulo 30) ***repeat palindromically every 32 digits (or 4 thirts) consisting of 16 pairs of bilateral 9 sums***.
 
 - The digital root sequence of our domain, on the other hand, repeats every 24 digits (or 3 thirts) and possesses 12 pairs of bilateral 9 sums. The entire Prime Root sequence end-to-end covering 360° has 48 pairs of bilateral 9 sums.
 - And finally, the Prime Root elements themselves within the Cirque, ***consisting of 96 elements, has 48 pairs of bilateral sums totaling 360***. Essentially, the prime number highway consists of infinitely telescoping circles ...
@@ -355,6 +353,10 @@ Another fascinating feature of this array is that any even number of–not neces
 
 A thirt, in case you're wondering, is a useful unit of measure when discussing intervals in natural numbers not divisible by 2, 3 or 5. A thirt, equivalent to one rotation around the [Prime Spiral Sieve](https://www.primesdemystified.com/) is like a mile marker on the prime number highway. If we take the Modulo 30 Prime Spiral Sieve and expand it to ***Modulo 360***, we see that ***there are 12 thirts*** in one complete circle, or 'cirque' as we've dubbed it. ***Each thirt consists of 8 elements***. _([PrimesDemystified](https://www.primesdemystified.com/twinprimes.html))_
 ```
+
+[![16 squares](https://github.com/eq19/maps/assets/8466209/efe55c6d-926c-47bb-80db-7d892eb3f103)](https://www.primesdemystified.com/)
+
+## Identition Zones
 
 ***π(1000) = π(Φ x 618) = 168***
 
@@ -392,6 +394,8 @@ The exchange of bosons always carries energy and momentum between the fermions, 
 ```
 
 [![Section layers](https://user-images.githubusercontent.com/8466209/260024883-f0246ce7-0a26-40a6-bc6f-4fcca4a6f1a4.png)](https://eq19.github.io/#eulers-identity)
+
+The (3) layers represents generation in the [Standard Model](https://en.wikipedia.org/wiki/Standard_Model) of flavor that counts ***six (6) flavours of [quarks](https://en.wikipedia.org/wiki/Quark)*** and ***six (6) flavours of [leptons](https://en.wikipedia.org/wiki/Lepton)***.
 
 ```tip
 {{ site.github.latest_release.body }}
