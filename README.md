@@ -291,6 +291,8 @@ This behaviour finaly brings us to a suggestion that the dimension in string the
 
 [![self repetition](https://github.com/eq19/maps/assets/8466209/bde2248a-2feb-4c4b-85fe-f75de640775d)](https://eq19.github.io/exponentiation/#self-repetition)
 
+By our project, these 37 files are located within _[the wiki of main repository](https://github.com/eq19/eq19.github.io/wiki)_ and organized by [the 18's structure](https://eq19.github.io/addition/#structure-true-prime-pairs) located per the _[18 files of  project gist](https://gist.github.com/eq19)_.
+
 ## Exponentiation Zones
 
 This scheme goes to the unification of 11s with 7s to 18s meanwhile the 11th it self behave as residual by the 5th minor hexagon between the ***[30 to 36' cells](https://eq19.github.io/exponentiation/#fundamental-forces)***.
