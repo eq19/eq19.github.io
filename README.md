@@ -99,6 +99,79 @@ layer | node | sub |  i  |  f
 ------|------|-----+-----+------
 ```
 
+You may notice that there are twists and turns until 19 abuts 2 therefore this addition zone takes only the seven (7) primes out of the 18's structure of _[True Prime Pairs](https://eq19.github.io/addition/file02.html#true-prime-pairs)_.
+
+```tip
+By the _[identition zones](https://eq19.github.io/identition/)_ we are going to discuss in detail how this reversal behaviour of 8-dimensions is converting the 11 dimensions to `7 x 11 = 77` partitions.
+```
+
+```
+$True Prime Pairs:
+(5,7), (11,13), (17,19)
+ 
+layer | node | sub |  i  |  f
+------+------+-----+----------
+      |      |     |  1  | --------------------------
+      |      |  1  +-----+                           |    
+      |  1   |     |  2  | (5)                       |
+      |      |-----+-----+                           |
+      |      |     |  3  |                           |
+  1   +------+  2  +-----+----                       |
+      |      |     |  4  |                           |
+      |      +-----+-----+                           |
+      |  2   |     |  5  | (7)                       |
+      |      |  3  +-----+                           |
+      |      |     |  6  |                          11s
+------+------+-----+-----+------      } (36)         |
+      |      |     |  7  |                           |
+      |      |  4  +-----+                           |
+      |  3   |     |  8  | (11)                      |
+      |      +-----+-----+                           |
+      |      |     |  9  |                           |
+  2   +------|  5  +-----+-----                      |
+      |      |     |  10 |                           |
+      |      |-----+-----+                           |
+      |  4   |     |  11 | (13) ---------------------
+      |      |  6  +-----+
+      |      |     |  12 |---------------------------
+------+------+-----+-----+------------               |
+      |      |     |  13 |                           |
+      |      |  7  +-----+                           |
+      |  5   |     |  14 | (17)                      |
+      |      |-----+-----+                           |
+      |      |     |  15 |                           7s √
+  3   +------+  8  +-----+-----       } (36)         |
+      |      |     |  16 |                           |
+      |      |-----+-----+                           |
+      |  6   |     |  17 | (19)                      |
+      |      |  9  +-----+                           |
+      |      |     |  18 | --------------------------
+------|------|-----+-----+------
+```
+
+The tessellating field of equilateral triangles fills with numbers, with spin orientation flipping with each prime number encountered, creating ***3 minor hexagons***.
+
+```tip
+Prime numbers are numbers that have only 2 factors: 1 and themselves.
+- For example, the first 5 prime numbers are 2, 3, 5, 7, and 11. By contrast, numbers with more than 2 factors are call composite numbers.
+- 1 is not a prime number because it can not be divided by any other integer except for 1 and itself. The only factor of 1 is 1.
+- On the other hand, 1 is also not a composite number because it can not be divided by any other integer except for 1 and itself.
+
+In conclusion, the number 1 is neither prime nor composite.
+```
+
+***π(6+11) = π(17) = 7***
+
+![](https://user-images.githubusercontent.com/36441664/274093531-0878e3e5-6be3-448e-9ad4-3b34523c1e9c.jpg)
+
+So the most important thing that need to be investigated is ***why the prime spinned by module six (6)***. What is the special thing about this number six (6) in primes behaviour?
+
+```note
+Similarly, I have a six colored dice in the form of the hexagon.  If I take a known, logical sequence of numbers, say 10, 100, 1000, 10000, and look at their spins in the hexagon, the resulting colors associated with each number should appear random – ***unless the sequence I’m investigating is linked to the nature of the prime numbers***.
+```
+
+![](https://user-images.githubusercontent.com/36441664/74550123-6dd1d680-4f83-11ea-8810-3b8f4f50a9c0.png)
+
 So there would be the empty spaces for `18 - 7 = 11` numbers. By our project these spaces will be _[unified](https://eq19.github.io/exponentiation/#god-particle)_ by all of the eleven (11) members of ***[identition zones](https://eq19.github.io/identition/)***.
 
 ```tip
@@ -202,16 +275,6 @@ The finiteness position of Euler's identity by the said _MEC30_ opens up the pos
 
 [![DE102011101032A9.pdf](https://user-images.githubusercontent.com/36441664/74591731-f5cfe300-504c-11ea-9e04-d814c57aa969.png)](https://eq19.github.io/exponentiation/#parsering-structure)
 
-This behaviour finaly brings us to a suggestion that the dimension in string theory are linked with ***the prime distribution level*** as indicated by the _[self repetition](https://eq19.github.io/exponentiation/#self-repetition)_ on MEC30.
-
-***π(1000) - loop(1,30) - loop(31,36) = 168 - 29 - 25 = 114***
-
-[![self repetition](https://github.com/eq19/maps/assets/8466209/bde2248a-2feb-4c4b-85fe-f75de640775d)](https://eq19.github.io/exponentiation/#self-repetition)
-
-By the _[identition zones](https://eq19.github.io/identition/)_ we are going to discuss in detail how this reversal behaviour of 8-dimensions is converting the 11 dimensions to `7 x 11 = 77` partitions.
-
-## Exponentiation Zones
-
 By _[The Δ(19 vs 18) Scenario](https://eq19.github.io/identition/#%CE%B419-vs-18-scenario)_ those three are exactly landed in the ***0's cell*** out of Δ18. See that the sum of 30 and 36 is 66 while the difference between 36 and 102 is also 66.
 
 ```note
@@ -221,6 +284,14 @@ You likely noticed I began with 2 rather than 1 or 0 when I first constructed th
 ***0 + 30 + 36 + 102 = 168 = π(1000)***
 
 [![19 vs 18](https://github.com/eq19/maps/assets/8466209/19f68eca-c0e1-48fc-9c9a-60d01cf26057)](https://www.hexspin.com/0-1-and-negative-numbers/)
+
+This behaviour finaly brings us to a suggestion that the dimension in string theory are linked with ***the prime distribution level*** as indicated by the _[self repetition](https://eq19.github.io/exponentiation/#self-repetition)_ on MEC30.
+
+***π(1000) - loop(1,30) - loop(31,36) = 168 - 29 - 25 = 114***
+
+[![self repetition](https://github.com/eq19/maps/assets/8466209/bde2248a-2feb-4c4b-85fe-f75de640775d)](https://eq19.github.io/exponentiation/#self-repetition)
+
+## Exponentiation Zones
 
 This scheme goes to the unification of 11s with 7s to 18s meanwhile the 11th it self behave as residual by the 5th minor hexagon between the ***[30 to 36' cells](https://eq19.github.io/exponentiation/#fundamental-forces)***.
 
@@ -260,6 +331,14 @@ According to the [Standard Model](https://en.wikipedia.org/wiki/Standard_Model_o
 So the 36 should behave as a central. Therefore the total files that inherited from this scheme will be `1 + 7 + 29 = 37` including [one (1) main page](https://eq19.github.io). 
 
 ## Identition Zones
+
+```tip
+This behaviour finaly brings us to a suggestion that the dimension in string theory are linked with ***the prime distribution level*** as indicated by the _[self repetition](https://eq19.github.io/exponentiation/#self-repetition)_ on MEC30.
+```
+
+***7th spin - 4th spin = (168 - 102)s = 66s = 6 x 11s = 30s + 36s***
+
+![IMG_20231221_074421](https://github.com/eq19/maps/assets/8466209/1e7dc443-b7d8-44d9-8da0-5fe50dd7ee70)
 
 During this interchange, the two 16-plets will be crossing over and farther apart but they are more likely to ***[stick together](https://eq19.github.io/multiplication/#fractal-dimensions)*** and not switch places.
 
@@ -301,14 +380,6 @@ This study cascade culminating in the Fibonacci digital root sequence (also peri
 ***(√0.618 - 0.618) x 1000  = (0.786 - 0.618) x 1000 = 0.168 x 1000 = 168 = π(1000)***
 
 [![24-digital root](https://user-images.githubusercontent.com/8466209/225589915-8f7690c8-4c17-4232-be51-63e79efb2c51.png)](https://eq19.github.io/addition/#the-24-cells-hexagon)
-
-```tip
-This behaviour finaly brings us to a suggestion that the dimension in string theory are linked with ***the prime distribution level*** as indicated by the _[self repetition](https://eq19.github.io/exponentiation/#self-repetition)_ on MEC30.
-```
-
-***7th spin - 4th spin = (168 - 102)s = 66s = 6 x 11s = 30s + 36s***
-
-![IMG_20231221_074421](https://github.com/eq19/maps/assets/8466209/1e7dc443-b7d8-44d9-8da0-5fe50dd7ee70)
 
 The above scheme is also applied in to our project sections which is consists of four (4) zones, the 1st- layer covers addition and multiplication zones, the rest are single zones.
 
