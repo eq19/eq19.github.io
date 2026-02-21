@@ -285,7 +285,8 @@ You likely noticed I began with 2 rather than 1 or 0 when I first constructed th
 
 [![19 vs 18](https://github.com/eq19/maps/assets/8466209/19f68eca-c0e1-48fc-9c9a-60d01cf26057)](https://www.hexspin.com/0-1-and-negative-numbers/)
 
-This behaviour finaly brings us to a suggestion that the dimension in string theory are linked with ***the prime distribution level*** as indicated by the _[self repetition](https://eq19.github.io/exponentiation/#self-repetition)_ on MEC30.
+Therefore the total files that inherited from this scheme will be `1 + 7 + 29 = 37` including [one (1) main page](https://eq19.github.io). Where the 6 x 6 = 36 should behave as a central. 
+
 
 ***π(1000) - loop(1,30) - loop(31,36) = 168 - 29 - 25 = 114***
 
@@ -330,11 +331,7 @@ According to the [Standard Model](https://en.wikipedia.org/wiki/Standard_Model_o
 
 [![The exchange of virtual pions](https://user-images.githubusercontent.com/8466209/282278731-ac8438f7-afd4-41f8-8c6a-a41c0d740825.png)](https://eq19.github.io/identition/#partition-function)
 
-So the 36 should behave as a central. Therefore the total files that inherited from this scheme will be `1 + 7 + 29 = 37` including [one (1) main page](https://eq19.github.io). 
-
-```tip
 This behaviour finaly brings us to a suggestion that the dimension in string theory are linked with ***the prime distribution level*** as indicated by the _[self repetition](https://eq19.github.io/exponentiation/#self-repetition)_ on MEC30.
-```
 
 ***7th spin - 4th spin = (168 - 102)s = 66s = 6 x 11s = 30s + 36s***
 
@@ -426,7 +423,7 @@ Nothing is going to be easly about the nature of prime numbers but they demonstr
 **[eQuantum Project](https://github.com/eq19)**   
 Copyright © 2023-2026
 
-Reference:
+References:
 * [Riemann Zeta](https://commons.wikimedia.org/wiki/File:RiemannZeta_Zeros.svg)
 * [Mersenne Prime](https://en.wikipedia.org/wiki/Mersenne_prime)
 * [The Prime Hexagon](https://youtu.be/fQL4KRH3wUQ)
