@@ -1,6 +1,6 @@
 # Prime Unit Identity
 
-We are going to assign prime identity as the ***Standard Model*** to stimulate a quantum field model called ***[eQuantum](https://github.com/eq19)*** for _[the four (4) known fundamental forces](https://en.wikipedia.org/wiki/Fundamental_interaction)_.
+We are going to assign prime identity as the _[Standard Model](https://en.wikipedia.org/wiki/Standard_Model)_ to stimulate a quantum field model called ***[eQuantum](https://github.com/eq19)*** for _[the four (4) known fundamental forces](https://en.wikipedia.org/wiki/Fundamental_interaction)_.
 
 {% include list.liquid all=true %}
 
@@ -341,9 +341,10 @@ This behaviour finaly brings us to a suggestion that the dimension in string the
 During this interchange, the two 16-plets will be crossing over and farther apart but they are more likely to ***[stick together](https://eq19.github.io/multiplication/#fractal-dimensions)*** and not switch places.
 
 ```note
-Another fascinating feature of this array is that any even number of–not necessarily contiguous–factors drawn from any one of ***the 32 angles in this modulo 120*** configuration distribute products to 1(mod 120) or 49 (mod 120), along with the squares.
-- We see from the graphic above that the digital roots of the Fibonacci numbers indexed to our domain (Numbers ≌ to {1,7,11,13,17,19,23,29} modulo 30) ***repeat palindromically every 32 digits (or 4 thirts) consisting of 16 pairs of bilateral 9 sums***.
+A thirt, in case you're wondering, is a useful unit of measure when discussing intervals in natural numbers not divisible by 2, 3 or 5.
 
+- Another fascinating feature of this array is that any even number of–not necessarily contiguous–factors drawn from any one of ***the 32 angles in this modulo 120*** configuration distribute products to 1(mod 120) or 49 (mod 120), along with the squares.
+- We see from the graphic above that the digital roots of the Fibonacci numbers indexed to our domain (Numbers ≌ to {1,7,11,13,17,19,23,29} modulo 30) ***repeat palindromically every 32 digits (or 4 thirts) consisting of 16 pairs of bilateral 9 sums***.
 - The digital root sequence of our domain, on the other hand, repeats every 24 digits (or 3 thirts) and possesses 12 pairs of bilateral 9 sums. The entire Prime Root sequence end-to-end covering 360° has 48 pairs of bilateral 9 sums.
 - And finally, the Prime Root elements themselves within the Cirque, ***consisting of 96 elements, has 48 pairs of bilateral sums totaling 360***. Essentially, the prime number highway consists of infinitely telescoping circles ...
 - Also note, the digital roots of the Prime Root Set as well as the digital roots of Fibonnaci numbers and Lucas numbers (the latter not shown above) ***indexed to it all sum to 432 (48x9) in 360° cycles***.
@@ -351,14 +352,27 @@ Another fascinating feature of this array is that any even number of–not neces
 - The four faces of our pyramid additively cascade ***32 four-times triangular numbers*** (Note that 4 x 32 = 128 = the perimeter of the square base which has an area of ***32^2 = 1024 = 2^10***).
 - These include Fibo1-3 equivalent 112 (rooted in T7 = 28; 28 x 4 = 112), which creates a pyramidion or capstone in our model, and 2112 (rooted in T32 = 528; 528 x 4 = 2112), which is the index number of ***the 1000th prime*** within our domain, and equals the total number of 'elements' used to construct the pyramid. 
 
-A thirt, in case you're wondering, is a useful unit of measure when discussing intervals in natural numbers not divisible by 2, 3 or 5. A thirt, equivalent to one rotation around the [Prime Spiral Sieve](https://www.primesdemystified.com/) is like a mile marker on the prime number highway. If we take the Modulo 30 Prime Spiral Sieve and expand it to ***Modulo 360***, we see that ***there are 12 thirts*** in one complete circle, or 'cirque' as we've dubbed it. ***Each thirt consists of 8 elements***. _([PrimesDemystified](https://www.primesdemystified.com/twinprimes.html))_
+If we take the Modulo 30 Prime Spiral Sieve and expand it to ***Modulo 360***, we see that ***there are 12 thirts*** in one complete circle, or 'cirque' as we've dubbed it. ***Each thirt consists of 8 elements***. _([PrimesDemystified](https://www.primesdemystified.com/twinprimes.html))_
 ```
 
 [![16 squares](https://github.com/eq19/maps/assets/8466209/efe55c6d-926c-47bb-80db-7d892eb3f103)](https://www.primesdemystified.com/)
 
+A thirt, equivalent to one rotation around the _[Prime Spiral Sieve](https://www.primesdemystified.com/)_ is like a mile marker on the prime number highway.
+
 ## Identition Zones
 
-***π(1000) = π(Φ x 618) = 168***
+The Golden Ratio "symbolically links each new generation to its ancestors, preserving the continuity of relationship as the means for retracing its lineage."
+
+```note
+There is a fascinating connection between prime numbers and the Golden ratio.
+- The Golden ratio is an irrational number, which means that it cannot be expressed as a ratio of two integers. However, it can be approximated by dividing consecutive Fibonacci numbers.
+- Additionally, it has been observed that the frequency of prime numbers in certain sequences related to the Golden ratio (such as the continued fraction expansion of the Golden ratio) appears to be higher than in other sequences.
+- Interestingly, the Fibonacci sequence is closely related to prime numbers, as any two consecutive Fibonacci numbers are always coprime.
+
+However, the exact nature of the relationship between primes and the Golden ratio is still an active area of research. During the last few years of the 12th century, ***Fibonacci*** undertook a series of travels around the Mediterranean. At this time, the world’s most prominent mathematicians were Arabs, and he spent much time studying with them. His work, whose title translates as the Book of Calculation, was extremely influential in that ***it popularized the use of the Arabic numerals in Europe***, thereby revolutionizing arithmetic and allowing scientific experiment and discovery to progress more quickly. _([Famous Mathematicians](https://famous-mathematicians.org/leonardo-pisano-bigollo/))_
+```
+
+***π(Φ x (329 + 289)) = π(Φ x 618) = π(1000) = 168 = 169 - 1***
 
 [![default](https://user-images.githubusercontent.com/8466209/195963923-0796217c-7a87-4b2d-ba93-f47465304c03.png)](https://www.nausetschools.org/cms/lib/MA02212418/Centricity/Domain/204/Linkage%20Map%20Worksheet%20Genetics%202017.pdf)
 
