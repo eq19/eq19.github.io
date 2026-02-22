@@ -11,7 +11,7 @@ This presentation was inspired by [theoretical works](https://github.com/eq19/ma
 Below is the list of primes spin along with their position, the polarity of the number, and the prime hexagon's overall rotation [within 1000 numbers](https://github.com/tsgallion/prime-hexagon/blob/master/tests/good-0000-1000-01.txt).
 
 ```note
-[The Prime Hexagon](https://www.hexspin.com/) is a mathematical structure developed by mathematician _[Tad Gallion](https://www.hexspin.com/about-me/)_. A Prime Hexagon is formed when integers are sequentially added to a field of tessellating equilateral triangles, where the path of the integers is changed whenever a prime number is encountered _([GitHub: kaustubhcs/prime-hexagon](https://github.com/kaustubhcs/prime-hexagon#prime-hexagon))_.
+[The Prime Hexagon](https://youtu.be/fQL4KRH3wUQ) is a mathematical structure developed by mathematician _Tad Gallion_. A Prime Hexagon is formed when integers are sequentially added to a field of tessellating equilateral triangles, where the path of the integers is changed whenever a prime number is encountered _([GitHub: kaustubhcs/prime-hexagon](https://github.com/kaustubhcs/prime-hexagon#prime-hexagon))_.
 ```
 
 ```csv
@@ -189,6 +189,8 @@ Including the 1st (2) and 2nd prime (3) all together will have a total of ***168
 The number of primes less than or equal to a thousand (π(1000) = 168) equals the number of hours in a week (7 * 24 = 168).
 ```
 
+![](https://github.com/user-attachments/assets/4d6d1215-8929-451c-a056-e3d2ca6719df)
+
 Here we would like to explain the way of said prime identity on getting the [arithmetic expression](https://youtu.be/S9oPqBeSsZA) of an ***individual unit identity*** such as a taxicab number below.
 
 ```note
@@ -203,7 +205,7 @@ These three (3) number are [twin primes](https://en.wikipedia.org/wiki/Twin_prim
 It is the sum of the fourth pair of [twin-primes](https://en.wikipedia.org/wiki/Twin_prime) ([17](https://en.wikipedia.org/wiki/17_(number)) + [19](https://en.wikipedia.org/wiki/19_(number))) _([Wikipedia!](https://en.wikipedia.org/wiki/36_(number)))_.
 ```
 
-```scss
+```
 $True Prime Pairs:
  (5,7), (11,13), (17,19)
  
@@ -236,7 +238,7 @@ The number 36 is a composite. Here are some of the other points taken from  _([P
 
 ***Φ(1,2,3) = Φ(6,12,18) = Φ(13,37,61)***
 
-```scss
+```
 $True Prime Pairs:
 (5,7), (11,13), (17,19)
  
@@ -286,7 +288,7 @@ You may notice that there are twists and turns until 19 abuts 2 therefore this a
 ***There are 7 hidden dimensions in 11-d Supergravity, which is the low energy approximation to M theory, which also has 7 hidden dimensions***. _([Prime Curios!](https://t5k.org/curios/page.php?curio_id=20686))_
 ```
 
-```scss
+```
 $True Prime Pairs:
 (5,7), (11,13), (17,19)
  
@@ -356,7 +358,7 @@ Similarly, I have a six colored dice in the form of the hexagon.  If I take a kn
 So there would be the empty spaces for `18 - 7 = 11` numbers. By our project these spaces will be _[unified](https://eq19.github.io/exponentiation/#god-particle)_ by all of the eleven (11) members of ***[identition zones](https://eq19.github.io/identition/)***.
 
 ```tip
-By the _[multiplication zones](https://eq19.github.io/#multiplication-zones)_ onwards we are going to discuss in detail how this reversal behaviour of 8-dimensions is converting the 11 dimensions to `7 x 11 = 77` partitions.
+By the _[multiplication zones](https://eq19.github.io/#multiplication-zones)_ onwards we will discuss how this reversal behaviour is converting the 11 dimensions to `7 x 11 = 77` partitions.
 ```
 
 ***(11x7) + (29+11) + (25+6) + (11+7) + (4+1) = 77+40+31+18+5 = 171***
@@ -459,12 +461,12 @@ The finiteness position of Euler's identity by the said _MEC30_ opens up the pos
 By _[The Δ(19 vs 18) Scenario](https://eq19.github.io/identition/#%CE%B419-vs-18-scenario)_ those three are exactly landed in the ***0's cell*** out of Δ18. See that the sum of 30 and 36 is 66 while the difference between 36 and 102 is also 66.
 
 ```note
-You likely noticed I began with 2 rather than 1 or 0 when I first constructed the hexagon. Why? Because they do not fit inside — they stick off the hexagon like a tail. Perhaps that’s where they belong. However, if one makes a significant and interesting assumption, then 1 and 0 fall in their logical locations – in the 1 and 0 cells, respectively. _([HexSpin](https://www.hexspin.com/0-1-and-negative-numbers/))
+You likely noticed I began with 2 rather than 1 or 0 when I first constructed the hexagon. Why? Because they do not fit inside — they stick off the hexagon like a tail. Perhaps that’s where they belong. However, if one makes a significant and interesting assumption, then 1 and 0 fall in their logical locations – in the 1 and 0 cells, respectively. _([HexSpin](https://youtu.be/fQL4KRH3wUQ))
 ```
 
 ***0 + 30 + 36 + 102 = 168 = π(1000)***
 
-[![19 vs 18](https://github.com/eq19/maps/assets/8466209/19f68eca-c0e1-48fc-9c9a-60d01cf26057)](https://www.hexspin.com/0-1-and-negative-numbers/)
+![19 vs 18](https://github.com/eq19/maps/assets/8466209/19f68eca-c0e1-48fc-9c9a-60d01cf26057)
 
 Therefore the total files that inherited from this scheme will be `1 + 7 + 29 = 37` files including [one (1) main page](https://eq19.github.io). Where the `6 x 6 = 36` should behave as a central. 
 
@@ -480,7 +482,7 @@ This scheme goes to the unification of 11s with 7s to 18s meanwhile the 11th it 
 
 ***36th prime - 30th prime = 151 - 113 = 1 + 37***
 
-[![Defining the Prime Hexagon](https://user-images.githubusercontent.com/8466209/282279534-a448cd09-3d5e-4006-a84d-2574f7ed85c3.png)](https://www.hexspin.com/defining-the-prime-hexagon/)
+![Defining the Prime Hexagon](https://user-images.githubusercontent.com/8466209/282279534-a448cd09-3d5e-4006-a84d-2574f7ed85c3.png)
 
 The boson, photon and gravity forces are assigned to ***30, 31 and 32***. Gluon force and exchange are assigned to ***33 and 34*** which are then standing as the ***[lexer](https://eq19.github.io/multiplication/#assigning-a-lexer)*** and ***[parser](https://eq19.github.io/exponentiation/#parsering-structure)***.
 
@@ -540,9 +542,9 @@ A thirt, equivalent to one rotation around the _[Prime Spiral Sieve](https://www
 
 ## Identition Zones
 
-By our project the processes above are iterated back into _[Additional Zones](https://eq19.github.io/#addition-zones)_. The following illustrates the process of iterative division that lead into successive [Golden ratio](https://en.wikipedia.org/wiki/Golden_ratio).
+By our project the rotation as above is iterated back into _[Additional Zones](https://eq19.github.io/#addition-zones)_. The following illustrates the process of iterative division that lead into successive [Golden ratio](https://en.wikipedia.org/wiki/Golden_ratio).
 
-```scss
+```
 $True Prime Pairs:
 (5,7), (11,13), (17,19)
  
@@ -625,7 +627,7 @@ This study cascade culminating in the Fibonacci digital root sequence (also peri
 Another is that phi and its members have a pisano period if the resulting fractional numbers are truncated. 
 
 ```note
-I wondered if that property might hold for the incremental powers of phi as well. For this reason I chose to see numbers in the hexagon as quantum, and truncate off the decimal values to determine which integer cell they land in. That is what I found. ***Phi and its members have a pisano period if the resulting fractional numbers are truncated***. _([HexSpin](https://www.hexspin.com/phi-not-pi-and-why-i-truncate-to-determine-integer-values/))_.
+I wondered if that property might hold for the incremental powers of phi as well. For this reason I chose to see numbers in the hexagon as quantum, and truncate off the decimal values to determine which integer cell they land in. That is what I found. ***Phi and its members have a pisano period if the resulting fractional numbers are truncated***. _([HexSpin](https://youtu.be/fQL4KRH3wUQ))_.
 ```
 
 [![truncated fractional numbers](https://user-images.githubusercontent.com/8466209/229198281-8dbd72fb-cd0b-46c3-8a2c-ddc66107333e.png)](https://eq19.github.io/identition/#the-powers-of-pi)
