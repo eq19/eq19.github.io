@@ -8,6 +8,187 @@ This presentation was inspired by [theoretical works](https://github.com/eq19/ma
 
 ## Addition Zones
 
+Below is the list of primes spin along with their position, the polarity of the number, and the prime hexagon's overall rotation [within 1000 numbers](https://github.com/tsgallion/prime-hexagon/blob/master/tests/good-0000-1000-01.txt).
+
+```note
+[The Prime Hexagon](https://www.hexspin.com/) is a mathematical structure developed by mathematician _[Tad Gallion](https://www.hexspin.com/about-me/)_. A Prime Hexagon is formed when integers are sequentially added to a field of tessellating equilateral triangles, where the path of the integers is changed whenever a prime number is encountered _([GitHub: kaustubhcs/prime-hexagon](https://github.com/kaustubhcs/prime-hexagon#prime-hexagon))_.
+```
+
+```csv
+5, 2, 1, 0
+7, 3, 1, 0
+11, 4, 1, 0
+13, 5, 1, 0
+17, 0, 1, 1
+19, 1, 1, 1
+23, 2, 1, 1
+29, 2, -1, 1
+31, 1, -1, 1
+37, 1, 1, 1
+41, 2, 1, 1
+43, 3, 1, 1
+47, 4, 1, 1
+53, 4, -1, 1
+59, 4, 1, 1
+61, 5, 1, 1
+67, 5, -1, 1
+71, 4, -1, 1
+73, 3, -1, 1
+79, 3, 1, 1
+83, 4, 1, 1
+89, 4, -1, 1
+97, 3, -1, 1
+101, 2, -1, 1
+103, 1, -1, 1
+107, 0, -1, 1
+109, 5, -1, 0
+113, 4, -1, 0
+127, 3, -1, 0
+131, 2, -1, 0
+137, 2, 1, 0
+139, 3, 1, 0
+149, 4, 1, 0
+151, 5, 1, 0
+157, 5, -1, 0
+163, 5, 1, 0
+167, 0, 1, 1
+173, 0, -1, 1
+179, 0, 1, 1
+181, 1, 1, 1
+191, 2, 1, 1
+193, 3, 1, 1
+197, 4, 1, 1
+199, 5, 1, 1
+211, 5, -1, 1
+223, 5, 1, 1
+227, 0, 1, 2
+229, 1, 1, 2
+233, 2, 1, 2
+239, 2, -1, 2
+241, 1, -1, 2
+251, 0, -1, 2
+257, 0, 1, 2
+263, 0, -1, 2
+269, 0, 1, 2
+271, 1, 1, 2
+277, 1, -1, 2
+281, 0, -1, 2
+283, 5, -1, 1
+293, 4, -1, 1
+307, 3, -1, 1
+311, 2, -1, 1
+313, 1, -1, 1
+317, 0, -1, 1
+331, 5, -1, 0
+337, 5, 1, 0
+347, 0, 1, 1
+349, 1, 1, 1
+353, 2, 1, 1
+359, 2, -1, 1
+367, 1, -1, 1
+373, 1, 1, 1
+379, 1, -1, 1
+383, 0, -1, 1
+389, 0, 1, 1
+397, 1, 1, 1
+401, 2, 1, 1
+409, 3, 1, 1
+419, 4, 1, 1
+421, 5, 1, 1
+431, 0, 1, 2
+433, 1, 1, 2
+439, 1, -1, 2
+443, 0, -1, 2
+449, 0, 1, 2
+457, 1, 1, 2
+461, 2, 1, 2
+463, 3, 1, 2
+467, 4, 1, 2
+479, 4, -1, 2
+487, 3, -1, 2
+491, 2, -1, 2
+499, 1, -1, 2
+503, 0, -1, 2
+509, 0, 1, 2
+521, 0, -1, 2
+523, 5, -1, 1
+541, 5, 1, 1
+547, 5, -1, 1
+557, 4, -1, 1
+563, 4, 1, 1
+569, 4, -1, 1
+571, 3, -1, 1
+577, 3, 1, 1
+587, 4, 1, 1
+593, 4, -1, 1
+599, 4, 1, 1
+601, 5, 1, 1
+607, 5, -1, 1
+613, 5, 1, 1
+617, 0, 1, 2
+619, 1, 1, 2
+631, 1, -1, 2
+641, 0, -1, 2
+643, 5, -1, 1
+647, 4, -1, 1
+653, 4, 1, 1
+659, 4, -1, 1
+661, 3, -1, 1
+673, 3, 1, 1
+677, 4, 1, 1
+683, 4, -1, 1
+691, 3, -1, 1
+701, 2, -1, 1
+709, 1, -1, 1
+719, 0, -1, 1
+727, 5, -1, 0
+733, 5, 1, 0
+739, 5, -1, 0
+743, 4, -1, 0
+751, 3, -1, 0
+757, 3, 1, 0
+761, 4, 1, 0
+769, 5, 1, 0
+773, 0, 1, 1
+787, 1, 1, 1
+797, 2, 1, 1
+809, 2, -1, 1
+811, 1, -1, 1
+821, 0, -1, 1
+823, 5, -1, 0
+827, 4, -1, 0
+829, 3, -1, 0
+839, 2, -1, 0
+853, 1, -1, 0
+857, 0, -1, 0
+859, 5, -1, -1
+863, 4, -1, -1
+877, 3, -1, -1
+881, 2, -1, -1
+883, 1, -1, -1
+887, 0, -1, -1
+907, 5, -1, -2
+911, 4, -1, -2
+919, 3, -1, -2
+929, 2, -1, -2
+937, 1, -1, -2
+941, 0, -1, -2
+947, 0, 1, -2
+953, 0, -1, -2
+967, 5, -1, -3
+971, 4, -1, -3
+977, 4, 1, -3
+983, 4, -1, -3
+991, 3, -1, -3
+997, 3, 1, -3
+```
+
+Including the 1st (2) and 2nd prime (3) all together will have a total of ***168 primes***. The number of 168 it self is in between 39th (167) and 40th prime (173).
+
+```tip
+The number of primes less than or equal to a thousand (π(1000) = 168) equals the number of hours in a week (7 * 24 = 168).
+```
+
 Here we would like to explain the way of said prime identity on getting the [arithmetic expression](https://youtu.be/S9oPqBeSsZA) of an ***individual unit identity*** such as a taxicab number below.
 
 ```note
@@ -72,7 +253,7 @@ layer | node | sub |  i  |  f
       |  2   |     |  5  | (7)
       |      |  3  +-----+
       |      |     |  6  |
-------+------+-----+-----+------      } (36)
+------+------+-----+-----+------      } (36) ✓
       |      |     |  7  |
       |      |  4  +-----+
       |  3   |     |  8  | (11)
@@ -90,7 +271,7 @@ layer | node | sub |  i  |  f
       |  5   |     |  14 | (17)
       |      |-----+-----+
       |      |     |  15 |
-  3   +------+  8  +-----+-----       } (36)
+  3   +------+  8  +-----+-----       } (36) ✓
       |      |     |  16 |
       |      |-----+-----+
       |  6   |     |  17 | (19)
@@ -102,10 +283,10 @@ layer | node | sub |  i  |  f
 You may notice that there are twists and turns until 19 abuts 2 therefore this addition zone takes only the seven (7) primes out of the 18's structure of _[True Prime Pairs](https://eq19.github.io/addition/file02.html#true-prime-pairs)_.
 
 ```tip
-By the _[identition zones](https://eq19.github.io/identition/)_ we are going to discuss in detail how this reversal behaviour of 8-dimensions is converting the 11 dimensions to `7 x 11 = 77` partitions.
+***There are 7 hidden dimensions in 11-d Supergravity, which is the low energy approximation to M theory, which also has 7 hidden dimensions***. _([Prime Curios!](https://t5k.org/curios/page.php?curio_id=20686))_
 ```
 
-```
+```scss
 $True Prime Pairs:
 (5,7), (11,13), (17,19)
  
@@ -121,7 +302,7 @@ layer | node | sub |  i  |  f
       |      +-----+-----+                           |
       |  2   |     |  5  | (7)                       |
       |      |  3  +-----+                           |
-      |      |     |  6  |                          11s
+      |      |     |  6  |                          11s ✓
 ------+------+-----+-----+------      } (36)         |
       |      |     |  7  |                           |
       |      |  4  +-----+                           |
@@ -151,7 +332,7 @@ layer | node | sub |  i  |  f
 
 The tessellating field of equilateral triangles fills with numbers, with spin orientation flipping with each prime number encountered, creating ***3 minor hexagons***.
 
-```tip
+```note
 Prime numbers are numbers that have only 2 factors: 1 and themselves.
 - For example, the first 5 prime numbers are 2, 3, 5, 7, and 11. By contrast, numbers with more than 2 factors are call composite numbers.
 - 1 is not a prime number because it can not be divided by any other integer except for 1 and itself. The only factor of 1 is 1.
@@ -175,12 +356,12 @@ Similarly, I have a six colored dice in the form of the hexagon.  If I take a kn
 So there would be the empty spaces for `18 - 7 = 11` numbers. By our project these spaces will be _[unified](https://eq19.github.io/exponentiation/#god-particle)_ by all of the eleven (11) members of ***[identition zones](https://eq19.github.io/identition/)***.
 
 ```tip
-***There are 7 hidden dimensions in 11-d Supergravity, which is the low energy approximation to M theory, which also has 7 hidden dimensions***. _([Prime Curios!](https://t5k.org/curios/page.php?curio_id=20686))_
+By the _[multiplication zones](https://eq19.github.io/#multiplication-zones)_ onwards we are going to discuss in detail how this reversal behaviour of 8-dimensions is converting the 11 dimensions to `7 x 11 = 77` partitions.
 ```
 
 ***(11x7) + (29+11) + (25+6) + (11+7) + (4+1) = 77+40+31+18+5 = 171***
 
-[![extended branes](https://github.com/eq19/maps/assets/8466209/deb0e309-2178-4dc5-a1d6-30c81c4a8305)](https://eq19.github.io/multiplication/)
+[![extended branes](https://github.com/eq19/maps/assets/8466209/deb0e309-2178-4dc5-a1d6-30c81c4a8305)](https://eq19.github.io/addition/)
 
 This path is being applied as you can find on the left sidebar. (Please change the view to desktop mode if you are on mobile browser).
 
@@ -285,12 +466,11 @@ You likely noticed I began with 2 rather than 1 or 0 when I first constructed th
 
 [![19 vs 18](https://github.com/eq19/maps/assets/8466209/19f68eca-c0e1-48fc-9c9a-60d01cf26057)](https://www.hexspin.com/0-1-and-negative-numbers/)
 
-Therefore the total files that inherited from this scheme will be `1 + 7 + 29 = 37` including [one (1) main page](https://eq19.github.io). Where the 6 x 6 = 36 should behave as a central. 
-
+Therefore the total files that inherited from this scheme will be `1 + 7 + 29 = 37` files including [one (1) main page](https://eq19.github.io). Where the `6 x 6 = 36` should behave as a central. 
 
 ***π(1000) - loop(1,30) - loop(31,36) = 168 - 29 - 25 = 114***
 
-[![self repetition](https://github.com/eq19/maps/assets/8466209/bde2248a-2feb-4c4b-85fe-f75de640775d)](https://eq19.github.io/exponentiation/#self-repetition)
+[![self repetition](https://github.com/eq19/maps/assets/8466209/bde2248a-2feb-4c4b-85fe-f75de640775d)](https://eq19.github.io/multiplication)
 
 By our project, these 37 files are located within _[the wiki of main repository](https://github.com/eq19/eq19.github.io/wiki)_ and organized by [the 18's structure](https://eq19.github.io/addition/#structure-true-prime-pairs) located per the _[18 files of  project gist](https://gist.github.com/eq19)_.
 
@@ -329,7 +509,7 @@ According to the [Standard Model](https://en.wikipedia.org/wiki/Standard_Model_o
 - A second order tensor boson (***spin = 2***) called the [graviton](https://en.wikipedia.org/wiki/Graviton) (G). It has been hypothesised as the force carrier for [gravity](https://en.wikipedia.org/wiki/Gravitational_force) (**id:32**).
 ```
 
-[![The exchange of virtual pions](https://user-images.githubusercontent.com/8466209/282278731-ac8438f7-afd4-41f8-8c6a-a41c0d740825.png)](https://eq19.github.io/identition/#partition-function)
+[![The exchange of virtual pions](https://user-images.githubusercontent.com/8466209/282278731-ac8438f7-afd4-41f8-8c6a-a41c0d740825.png)](https://eq19.github.io/exponentiation/)
 
 This behaviour finaly brings us to a suggestion that the dimension in string theory are linked with ***the prime distribution level*** as indicated by the _[self repetition](https://eq19.github.io/exponentiation/#self-repetition)_ on MEC30.
 
@@ -359,6 +539,52 @@ If we take the Modulo 30 Prime Spiral Sieve and expand it to ***Modulo 360***, w
 A thirt, equivalent to one rotation around the _[Prime Spiral Sieve](https://www.primesdemystified.com/)_ is like a mile marker on the prime number highway.
 
 ## Identition Zones
+
+By our project the processes above are iterated back into _[Additional Zones](https://eq19.github.io/#addition-zones)_. The following illustrates the process of iterative division that lead into successive [Golden ratio](https://en.wikipedia.org/wiki/Golden_ratio).
+
+```scss
+$True Prime Pairs:
+(5,7), (11,13), (17,19)
+ 
+layer | node | sub |  i  |  f
+------+------+-----+----------           ✓
+      |      |     |  1  | ----------‹ 289® ‹--------
+      |      |  1  +-----+                           |    
+      |  1   |     |  2  | (5)                       |
+      |      |-----+-----+                           |
+      |      |     |  3  |                           |
+  1   +------+  2  +-----+----                       |
+      |      |     |  4  |                           |
+      |      +-----+-----+                           |
+      |  2   |     |  5  | (7)                       |
+      |      |  3  +-----+                           |
+      |      |     |  6  |                          11s
+------+------+-----+-----+------      } (36)         |
+      |      |     |  7  |                           |
+      |      |  4  +-----+                           |
+      |  3   |     |  8  | (11)                      |
+      |      +-----+-----+                           |
+      |      |     |  9  |                           |
+  2   +------|  5  +-----+-----                      |
+      |      |     |  10 |                           |
+      |      |-----+-----+               ✓           |
+      |  4   |     |  11 | (13) -----› 329® ›---------
+      |      |  6  +-----+               ✓
+      |      |     |  12 |-----------‹ 359® ‹--------
+------+------+-----+-----+------------               |
+      |      |     |  13 |                           |
+      |      |  7  +-----+                           |
+      |  5   |     |  14 | (17)                      |
+      |      |-----+-----+                           |
+      |      |     |  15 |                           7s
+  3   +------+  8  +-----+-----       } (36)         |
+      |      |     |  16 |                           |
+      |      |-----+-----+                           |
+      |  6   |     |  17 | (19)                      |
+      |      |  9  +-----+               ✓           |
+      |      |     |  18 | ----------› 169® ›--------
+------|------|-----+-----+------
+```
 
 The Golden Ratio "symbolically links each new generation to its ancestors, preserving the continuity of relationship as the means for retracing its lineage."
 
@@ -396,6 +622,14 @@ This study cascade culminating in the Fibonacci digital root sequence (also peri
 
 [![24-digital root](https://user-images.githubusercontent.com/8466209/225589915-8f7690c8-4c17-4232-be51-63e79efb2c51.png)](https://eq19.github.io/addition/#the-24-cells-hexagon)
 
+Another is that phi and its members have a pisano period if the resulting fractional numbers are truncated. 
+
+```note
+I wondered if that property might hold for the incremental powers of phi as well. For this reason I chose to see numbers in the hexagon as quantum, and truncate off the decimal values to determine which integer cell they land in. That is what I found. ***Phi and its members have a pisano period if the resulting fractional numbers are truncated***. _([HexSpin](https://www.hexspin.com/phi-not-pi-and-why-i-truncate-to-determine-integer-values/))_.
+```
+
+[![truncated fractional numbers](https://user-images.githubusercontent.com/8466209/229198281-8dbd72fb-cd0b-46c3-8a2c-ddc66107333e.png)](https://eq19.github.io/identition/#the-powers-of-pi)
+
 The above scheme is also applied in to our project sections which is consists of four (4) zones, the 1st- layer covers addition and multiplication zones, the rest are single zones.
 
 ```note
@@ -406,7 +640,7 @@ The interaction of any pair of fermions in perturbation theory can be modelled a
 The exchange of bosons always carries energy and momentum between the fermions, thereby ***changing their speed and direction***. The exchange may also transport a charge between the fermions, changing the charges of the fermions in the process (e.g., turn them from one type of fermion to another). Since bosons carry one unit of angular momentum, ***the fermion's spin direction will flip from +1⁄2 to −1⁄2 (or vice versa)*** during such an exchange (in units of the reduced Planck's constant). _([Wikipedia](https://en.wikipedia.org/wiki/Fundamental_interaction))_
 ```
 
-[![Section layers](https://user-images.githubusercontent.com/8466209/260024883-f0246ce7-0a26-40a6-bc6f-4fcca4a6f1a4.png)](https://eq19.github.io/#eulers-identity)
+[![Section layers](https://user-images.githubusercontent.com/8466209/260024883-f0246ce7-0a26-40a6-bc6f-4fcca4a6f1a4.png)](https://eq19.github.io/grammar/identition/)
 
 The (3) layers represents generation in the [Standard Model](https://en.wikipedia.org/wiki/Standard_Model) of flavor that counts ***six (6) flavours of [quarks](https://en.wikipedia.org/wiki/Quark)*** and ***six (6) flavours of [leptons](https://en.wikipedia.org/wiki/Lepton)***.
 
@@ -416,7 +650,7 @@ The (3) layers represents generation in the [Standard Model](https://en.wikipedi
 
 ***109 = 29th prime = (10th prime)th prime***
 
-[![IMG_20240114_014704](https://user-images.githubusercontent.com/36441664/262341222-6c71005e-2f44-45d9-ac42-b1464c045a45.png)](https://eq19.github.io/multiplication/#77s-structure)
+[![IMG_20240114_014704](https://user-images.githubusercontent.com/36441664/262341222-6c71005e-2f44-45d9-ac42-b1464c045a45.png)](https://eq19.github.io/grammar/identition/#the-77-principles)
 
 Nothing is going to be easly about the nature of prime numbers but they demonstrably congruent to something organized. Let's discuss starting with the _[addition zones](https://eq19.github.io/addition/)_.
 
