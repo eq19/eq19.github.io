@@ -293,6 +293,8 @@ The holonomy tells you how to propagate MEC30. A spin network state assigns an a
 
 This kind of approach has some obvious properties: there are non-linear gravitons, a connection to lattice gauge field theory and a ***dimensional reduction from 4D to 2D***.
 
+[![DE102011101032A9.pdf](https://user-images.githubusercontent.com/36441664/74591731-f5cfe300-504c-11ea-9e04-d814c57aa969.png)](https://eq19.github.io/exponentiation/#parsering-structure)
+
 ## Bilateral 9 Sums
 
 ```note

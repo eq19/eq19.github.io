@@ -454,10 +454,6 @@ Euler's identity is considered to be an exemplar of deep mathematical beauty as 
 
 [![Euler's identity](https://user-images.githubusercontent.com/8466209/219584666-703f4584-db7c-4f2d-9714-f52067869ef3.png)](https://en.wikipedia.org/wiki/Euler%27s_identity)
 
-The finiteness position of Euler's identity by the said _MEC30_ opens up the possibility of accurately representing the self-similarity based on the distribution of _[True Prime Pairs](https://eq19.github.io/addition/file02.html#true-prime-pairs)_ so that all number would belongs together with [their own identitities](https://eq19.github.io/identition/). 
-
-[![DE102011101032A9.pdf](https://user-images.githubusercontent.com/36441664/74591731-f5cfe300-504c-11ea-9e04-d814c57aa969.png)](https://eq19.github.io/exponentiation/#parsering-structure)
-
 By _[The Δ(19 vs 18) Scenario](https://eq19.github.io/identition/#%CE%B419-vs-18-scenario)_ those three are exactly landed in the ***0's cell*** out of Δ18. See that the sum of 30 and 36 is 66 while the difference between 36 and 102 is also 66.
 
 ```note
@@ -470,7 +466,11 @@ You likely noticed I began with 2 rather than 1 or 0 when I first constructed th
 
 Therefore the total files that inherited from this scheme will be `1 + 7 + 29 = 37` files including [one (1) main page](https://eq19.github.io). Where the `6 x 6 = 36` should behave as a central. 
 
-***π(1000) - loop(1,30) - loop(31,36) = 168 - 29 - 25 = 114***
+```tip
+The finiteness position of Euler's identity by the said _MEC30_ opens up the possibility of accurately representing the self-similarity based on the distribution of _[True Prime Pairs](https://eq19.github.io/addition/file02.html#true-prime-pairs)_ so that all number would belongs together with [their own identitities](https://eq19.github.io/identition/). 
+```
+
+***102 + 7 = 109 = 29th prime = (10th prime)th prime***
 
 [![self repetition](https://github.com/eq19/maps/assets/8466209/bde2248a-2feb-4c4b-85fe-f75de640775d)](https://eq19.github.io/multiplication)
 
@@ -479,6 +479,17 @@ By our project, these 37 files are located within _[the wiki of main repository]
 ## Exponentiation Zones
 
 This scheme goes to the unification of 11s with 7s to 18s meanwhile the 11th it self behave as residual by the 5th minor hexagon between the ***[30 to 36' cells](https://eq19.github.io/exponentiation/#fundamental-forces)***.
+
+```note
+***There are 8 different types of tiny particles, or 'states', that we can find in a special kind of space that has 6 dimensions*** and involves both real and imaginary numbers. These particles include:
+- ***The Higgs field***, which doesn't spin and is represented by 0.
+- ***Fermions***, which are particles like electrons, having a spin of plus or minus a half.
+- ***Bosons***, like photons, which have a spin of plus or minus 1.
+- ***Anti-fermions***, which are like fermions but have a spin of plus or minus two-thirds.
+- ***The graviton***, believed to be responsible for gravity, with a spin of 2.
+
+***In a diagram at the top left, this 6-dimensional space is shown to be curved***. In another diagram at the bottom right, we see two waves that are perpendicular to each other, representing the motion of a particle in a 'Dirac harmonic oscillator' – a concept in quantum mechanics. _([Physics In History](https://twitter.com/PhysInHistory/status/1739158977089274165))_
+```
 
 ***36th prime - 30th prime = 151 - 113 = 1 + 37***
 
@@ -515,11 +526,15 @@ According to the [Standard Model](https://en.wikipedia.org/wiki/Standard_Model_o
 
 This behaviour finaly brings us to a suggestion that the dimension in string theory are linked with ***the prime distribution level*** as indicated by the _[self repetition](https://eq19.github.io/exponentiation/#self-repetition)_ on MEC30.
 
-***7th spin - 4th spin = (168 - 102)s = 66s = 6 x 11s = 30s + 36s***
+```tip
+By our project the 18's on the gist will cover five (5) unique functions that behave as ***one (1) central plus four (4) zones***. This scheme will be implemented to all of the 168 repositories as bilateral way (***in-out***) depend on their postion on the system. So along with the gist it self then there shall be `1 + 168 = 169` units of 1685 root functions.
+```
+
+***5 + 2 x 5 x 168 = 5 + 1680 = 1685 root functions***
 
 ![IMG_20231221_074421](https://github.com/eq19/maps/assets/8466209/1e7dc443-b7d8-44d9-8da0-5fe50dd7ee70)
 
-During this interchange, the two 16-plets will be crossing over and farther apart but they are more likely to ***[stick together](https://eq19.github.io/multiplication/#fractal-dimensions)*** and not switch places.
+The thirt, equivalent to one rotation around the _[Prime Spiral Sieve](https://www.primesdemystified.com/)_ is like a mile marker on the prime number highway.
 
 ```note
 A thirt, in case you're wondering, is a useful unit of measure when discussing intervals in natural numbers not divisible by 2, 3 or 5.
@@ -536,13 +551,27 @@ A thirt, in case you're wondering, is a useful unit of measure when discussing i
 If we take the Modulo 30 Prime Spiral Sieve and expand it to ***Modulo 360***, we see that ***there are 12 thirts*** in one complete circle, or 'cirque' as we've dubbed it. ***Each thirt consists of 8 elements***. _([PrimesDemystified](https://www.primesdemystified.com/twinprimes.html))_
 ```
 
+***7th spin - 4th spin = (168 - 102)s = 66s = 6 x 11s = 30s + 36s***
+
 [![16 squares](https://github.com/eq19/maps/assets/8466209/efe55c6d-926c-47bb-80db-7d892eb3f103)](https://www.primesdemystified.com/)
 
-A thirt, equivalent to one rotation around the _[Prime Spiral Sieve](https://www.primesdemystified.com/)_ is like a mile marker on the prime number highway.
+During this interchange, the two 16-plets will be crossing over and farther apart but they are more likely to ***[stick together](https://eq19.github.io/multiplication/#fractal-dimensions)*** and not switch places.
 
 ## Identition Zones
 
-By our project the rotation as above is iterated back into _[Additional Zones](https://eq19.github.io/#addition-zones)_. The following illustrates the process of iterative division that lead into successive [Golden ratio](https://en.wikipedia.org/wiki/Golden_ratio).
+By our project the rotation as above is iterated back into [Additional Zones](https://eq19.github.io/#addition-zones). This process brings the concept of higher dimensions that lead into successive _[Golden ratio](https://en.wikipedia.org/wiki/Golden_ratio)_.
+
+```note
+The [Klein bottle](https://en.wikipedia.org/wiki/Klein_bottle) is in someways a 3D version of the Mobius strip and even though it exists in 3 dimensions, to make a true one you need to “fold through” the 4th dimension.
+
+[![image](https://user-images.githubusercontent.com/8466209/280599328-a9fa1ac3-aed2-4568-a9ed-8ed8f720e2a5.png)](https://en.wikipedia.org/wiki/Klein_bottle)
+
+- In [mathematics](https://en.wikipedia.org/wiki/Mathematics), the Klein bottle ([/ˈklaɪn/](https://en.wikipedia.org/wiki/Help:IPA/English)) is an example of a [non-orientable](https://en.wikipedia.org/wiki/Orientability) [surface](https://en.wikipedia.org/wiki/Surface_(topology)); that is, informally, a one-sided surface which, if traveled upon, could be followed back to the point of origin while flipping the traveler upside down.
+- More formally, the Klein bottle is a [two-dimensional](https://en.wikipedia.org/wiki/Two-dimensional) [manifold](https://en.wikipedia.org/wiki/Manifold) on which one cannot define a [normal vector](https://en.wikipedia.org/wiki/Normal_vector) at each point that varies [continuously](https://en.wikipedia.org/wiki/Continuous_function) over the whole manifold.
+- Other related non-orientable surfaces include the [Möbius strip](https://en.wikipedia.org/wiki/M%C3%B6bius_strip) and the [real projective plane](https://en.wikipedia.org/wiki/Real_projective_plane). 
+
+While a Möbius strip is a surface with a [boundary](https://en.wikipedia.org/wiki/Boundary_(topology)), a Klein bottle has no boundary. For comparison, a [sphere](https://en.wikipedia.org/wiki/Sphere) is an orientable surface with no boundary.
+```
 
 ```
 $True Prime Pairs:
@@ -596,7 +625,7 @@ There is a fascinating connection between prime numbers and the Golden ratio.
 - Additionally, it has been observed that the frequency of prime numbers in certain sequences related to the Golden ratio (such as the continued fraction expansion of the Golden ratio) appears to be higher than in other sequences.
 - Interestingly, the Fibonacci sequence is closely related to prime numbers, as any two consecutive Fibonacci numbers are always coprime.
 
-However, the exact nature of the relationship between primes and the Golden ratio is still an active area of research. During the last few years of the 12th century, ***Fibonacci*** undertook a series of travels around the Mediterranean. At this time, the world’s most prominent mathematicians were Arabs, and he spent much time studying with them. His work, whose title translates as the Book of Calculation, was extremely influential in that ***it popularized the use of the Arabic numerals in Europe***, thereby revolutionizing arithmetic and allowing scientific experiment and discovery to progress more quickly. _([Famous Mathematicians](https://famous-mathematicians.org/leonardo-pisano-bigollo/))_
+However, the exact nature of the relationship between primes and the Golden ratio is still an active area of research.
 ```
 
 ***π(Φ x (329 + 289)) = π(Φ x 618) = π(1000) = 168 = 169 - 1***
@@ -627,7 +656,7 @@ This study cascade culminating in the Fibonacci digital root sequence (also peri
 Another is that phi and its members have a pisano period if the resulting fractional numbers are truncated. 
 
 ```note
-I wondered if that property might hold for the incremental powers of phi as well. For this reason I chose to see numbers in the hexagon as quantum, and truncate off the decimal values to determine which integer cell they land in. That is what I found. ***Phi and its members have a pisano period if the resulting fractional numbers are truncated***. _([HexSpin](https://youtu.be/fQL4KRH3wUQ))_.
+I wondered if that property might hold for the incremental powers of phi as well. For this reason I chose to see numbers in the hexagon as quantum, and truncate off the decimal values to determine which integer cell they land in. That is what I found. ***Phi and its members have a pisano period if the resulting fractional numbers are truncated***. _([Prime Hexagon](https://youtu.be/fQL4KRH3wUQ))_.
 ```
 
 [![truncated fractional numbers](https://user-images.githubusercontent.com/8466209/229198281-8dbd72fb-cd0b-46c3-8a2c-ddc66107333e.png)](https://eq19.github.io/identition/#the-powers-of-pi)
@@ -635,22 +664,18 @@ I wondered if that property might hold for the incremental powers of phi as well
 The above scheme is also applied in to our project sections which is consists of four (4) zones, the 1st- layer covers addition and multiplication zones, the rest are single zones.
 
 ```note
-The interaction of any pair of fermions in perturbation theory can be modelled as:
-
-***Two fermions go in → interaction by boson exchange → Two changed fermions go out.***
-
-The exchange of bosons always carries energy and momentum between the fermions, thereby ***changing their speed and direction***. The exchange may also transport a charge between the fermions, changing the charges of the fermions in the process (e.g., turn them from one type of fermion to another). Since bosons carry one unit of angular momentum, ***the fermion's spin direction will flip from +1⁄2 to −1⁄2 (or vice versa)*** during such an exchange (in units of the reduced Planck's constant). _([Wikipedia](https://en.wikipedia.org/wiki/Fundamental_interaction))_
+The (3) layers represents generation in the [Standard Model](https://en.wikipedia.org/wiki/Standard_Model) of flavor that counts ***six (6) flavours of [quarks](https://en.wikipedia.org/wiki/Quark)*** and ***six (6) flavours of [leptons](https://en.wikipedia.org/wiki/Lepton)***.
 ```
 
 [![Section layers](https://user-images.githubusercontent.com/8466209/260024883-f0246ce7-0a26-40a6-bc6f-4fcca4a6f1a4.png)](https://eq19.github.io/grammar/identition/)
 
-The (3) layers represents generation in the [Standard Model](https://en.wikipedia.org/wiki/Standard_Model) of flavor that counts ***six (6) flavours of [quarks](https://en.wikipedia.org/wiki/Quark)*** and ***six (6) flavours of [leptons](https://en.wikipedia.org/wiki/Lepton)***.
+We apply these generators to the rest of the space, and find that it breaks down into the _[SU(3)c representations](https://en.wikipedia.org/wiki/Clebsch%E2%80%93Gordan_coefficients_for_SU(3))_ of exactly ***three generations of quarks and leptons***.
 
 ```tip
 {{ site.github.latest_release.body }}
 ```
 
-***109 = 29th prime = (10th prime)th prime***
+***π(1000) - loop(1,30) - loop(31,36) = 168 - 29 - 25 = 114 = π(1 + 618)***
 
 [![IMG_20240114_014704](https://user-images.githubusercontent.com/36441664/262341222-6c71005e-2f44-45d9-ac42-b1464c045a45.png)](https://eq19.github.io/grammar/identition/#the-77-principles)
 
