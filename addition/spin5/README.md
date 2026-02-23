@@ -33,7 +33,7 @@ Mobius strip only has one side, there are two more bizarre shapes with strange p
 
 ## The Klein bottle 
 
-The Klein bottleis in someways a 3D version of the Mobius strip and even though it exists in 3 dimensions, to make a true one you need to “fold through” the 4th dimension.
+The Klein bottle is in someways a 3D version of the Mobius strip and even though it exists in 3 dimensions, to make a true one you need to “fold through” the 4th dimension.
 
 ```note
 In [mathematics](https://en.wikipedia.org/wiki/Mathematics), the Klein bottle ([/ˈklaɪn/](https://en.wikipedia.org/wiki/Help:IPA/English)) is an example of a [non-orientable](https://en.wikipedia.org/wiki/Orientability) [surface](https://en.wikipedia.org/wiki/Surface_(topology)); that is, informally, a one-sided surface which, if traveled upon, could be followed back to the point of origin while flipping the traveler upside down.
