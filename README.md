@@ -559,18 +559,10 @@ During this interchange, the two 16-plets will be crossing over and farther apar
 
 ## Identition Zones
 
-By our project the rotation as above is iterated back into [Additional Zones](https://eq19.github.io/#addition-zones). This process brings the concept of higher dimensions that lead into successive _[Golden ratio](https://en.wikipedia.org/wiki/Golden_ratio)_.
+By our project the rotation as above is iterated back into [Additional Zones](https://eq19.github.io/#addition-zones). This process brings the concept of ***higher dimensions*** that lead into successive _[Golden ratio](https://en.wikipedia.org/wiki/Golden_ratio)_.
 
-```note
-The [Klein bottle](https://en.wikipedia.org/wiki/Klein_bottle) is in someways a 3D version of the Mobius strip and even though it exists in 3 dimensions, to make a true one you need to “fold through” the 4th dimension.
-
-[![image](https://user-images.githubusercontent.com/8466209/280599328-a9fa1ac3-aed2-4568-a9ed-8ed8f720e2a5.png)](https://en.wikipedia.org/wiki/Klein_bottle)
-
-- In [mathematics](https://en.wikipedia.org/wiki/Mathematics), the Klein bottle ([/ˈklaɪn/](https://en.wikipedia.org/wiki/Help:IPA/English)) is an example of a [non-orientable](https://en.wikipedia.org/wiki/Orientability) [surface](https://en.wikipedia.org/wiki/Surface_(topology)); that is, informally, a one-sided surface which, if traveled upon, could be followed back to the point of origin while flipping the traveler upside down.
-- More formally, the Klein bottle is a [two-dimensional](https://en.wikipedia.org/wiki/Two-dimensional) [manifold](https://en.wikipedia.org/wiki/Manifold) on which one cannot define a [normal vector](https://en.wikipedia.org/wiki/Normal_vector) at each point that varies [continuously](https://en.wikipedia.org/wiki/Continuous_function) over the whole manifold.
-- Other related non-orientable surfaces include the [Möbius strip](https://en.wikipedia.org/wiki/M%C3%B6bius_strip) and the [real projective plane](https://en.wikipedia.org/wiki/Real_projective_plane). 
-
-While a Möbius strip is a surface with a [boundary](https://en.wikipedia.org/wiki/Boundary_(topology)), a Klein bottle has no boundary. For comparison, a [sphere](https://en.wikipedia.org/wiki/Sphere) is an orientable surface with no boundary.
+```tip
+The [Klein bottle](https://en.wikipedia.org/wiki/Klein_bottle) is in someways a 3D version of the _[Mobius strip](https://en.wikipedia.org/wiki/M%C3%B6bius_strip)_ and ***even though it exists in 3 dimensions, to make a true one you need to “fold through” the 4th dimension***. Suppose for clarification that we adopt time as that fourth dimension.
 ```
 
 ```
