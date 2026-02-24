@@ -562,7 +562,7 @@ During this interchange, the two 16-plets will be crossing over and farther apar
 By our project the rotation as above is iterated back into [Additional Zones](https://eq19.github.io/#addition-zones). This process brings the concept of ***higher dimensions*** that lead into successive _[Golden ratio](https://en.wikipedia.org/wiki/Golden_ratio)_.
 
 ```tip
-The ***[Klein bottle](https://en.wikipedia.org/wiki/Klein_bottle)*** is in someways a 3D version of the _[Mobius strip](https://en.wikipedia.org/wiki/M%C3%B6bius_strip)_ and even though it exists in 3 dimensions, to make a true one you need to “fold through” the ***[4th dimension](https://en.wikipedia.org/wiki/Four-dimensional_space)***. Suppose for clarification that we adopt time as that fourth dimension.
+The _[Klein bottle](https://en.wikipedia.org/wiki/Klein_bottle)_ is in someways a 3D version of the [Mobius strip](https://en.wikipedia.org/wiki/M%C3%B6bius_strip). Even though it exists in 3 dimensions, to make a true one you need to “fold through” the ***[4th dimension](https://en.wikipedia.org/wiki/Four-dimensional_space)***. Suppose for clarification that we adopt time as that fourth dimension.
 ```
 
 ```
@@ -664,7 +664,11 @@ The (3) layers represents generation in the [Standard Model](https://en.wikipedi
 In the special case of a unit segment, the Golden Ratio provides the only way to divide unity in two parts that are in a geometric progression
 
 ```note
-One of the most promising attempts to go beyond the standard model of particle physics is superstring theory. As it is well known, special relativity fused time and space together, then came general relativity and introduced a curvature to space-time. Kaluza and later on Klein added one more dimension to the classical four in order to unify general relativity and electromagnetism. The dimensionality of space-time plays a paramount role in the theoretical physics of unification and has led to the introduction of the 26 dimensions of string theory, the 10 dimensions of superstring theory, and finally the heterotic string theory with the dimensional hierarchy 4, 6, 10, 16 and 26
+One of the most promising attempts to go beyond the standard model of particle physics is superstring theory.
+- As it is well known, special relativity fused time and space together, then came general relativity and introduced a curvature to space-time.
+- Kaluza and later on Klein added one more dimension to the classical four in order to unify general relativity and electromagnetism.
+
+The dimensionality of space-time plays a paramount role in the theoretical physics of unification and has led to the introduction of the 26 dimensions of string theory, the 10 dimensions of superstring theory, and finally the heterotic string theory with the dimensional hierarchy 4, 6, 10, 16 and 26
 ```
 
 [![Pascal Octonion](https://github.com/eq19/maps/assets/8466209/bafeea01-1add-4546-96de-21213950cad6)](https://theoryofeverything.org/theToE/2013/11/15/another-look-at-integrating-the-pascal-triangle-to-clifford-algebra-e8-lie-algebragroups-octonions-and-particle-physics-standard-model/)
