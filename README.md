@@ -478,6 +478,71 @@ By our project, these 37 files are located within _[the wiki of main repository]
 
 ## Exponentiation Zones
 
+The cyclic behaviors of MEC30 are represented by the pure numerical of the 8 × 8 square product positions that sets continues infinitely.
+
+```note
+In this one system, represented as an icon, we can see the distribution profile of the prime numbersas well as their products via a chessboard-like model in Fig. 4. This fundamental chewing
+- We show the connection in the MEC 30 mathematically and precisely in the table Fig. 13. The organization of this table is based on the well-known idea of Christian Goldbach.
+- That every even number from the should be the sum of two prime numbers. From now on we call all pairs of prime numbers without “1”, 2, 3, 5 Goldbach couples.
+
+The MEC 30 transforms this idea from Christian Goldbach into the structure of a numerical double strand, into an opposite link of the MEC 30 scale. _([MEC 30 - pdf](https://patentimages.storage.googleapis.com/6f/e3/f0/b8f7292f1f2749/DE102011101032A9.pdf))_
+```
+
+[![MEC30 Square](https://user-images.githubusercontent.com/36441664/262213707-63aa0a64-cf7d-4fb7-9f1a-f3d1ba805643.png)](https://eq19.github.io/addition/#77s-structure)
+
+Below is a model of E11 (shown by 11 dimensions). Its absolute dimensions represent all related key knowledges of modern physics.
+
+```note
+It turns out that quantum string theory always destroys the symmetries of classical string theory, **except in one special case: when the number of dimensions is 10**. Moreover this model represents [Quark-Gluon Plasma](https://en.wikipedia.org/wiki/Quark%E2%80%93gluon_plasma), with all of the [fundamental forces](https://eq19.github.io/exponentiation/#fundamental-forces) in the early stage after _[Big Bang](https://youtu.be/7VgoECW06-s?si=_l-Pu42gwtnxzzT2)_ which probably comes from [Absolute Nothingness](https://www.quora.com/What-is-the-difference-between-the-universe-the-cosmos-space-and-nothing/answer/George-Davros).
+```
+
+[![default](https://user-images.githubusercontent.com/8466209/242000067-6d2ac164-06d6-4546-a118-10642982ce52.png)](https://www.youtube.com/watch?v=dEoMeHi-6kM)
+
+The SM was basically developed in 1970-s. It describes the electromagnetic, weak and strong fundamental interactions.
+
+```note
+At ordinary energies (a few eV or less), the forces differ greatly. However, at energies available in accelerators, the weak nuclear and electromagnetic (EM) forces become unified. Unfortunately, the energies at which the strong nuclear and electroweak forces become the same are unreachable in any conceivable accelerator. The universe may provide a laboratory, and nature may show effects at ordinary energies that give us clues about the validity of this graph.
+
+[![The Four Fundamental Forces](https://github.com/user-attachments/assets/731865b0-7033-4e1b-a587-0c75c0dcae36)](https://eq19.github.io/#prime-unit-identity)
+
+The relative strengths of the four basic forces vary with distance, and, hence, energy is needed to probe small distances. 
+
+[![T. Morii, C.S. Lim, and S.N. Mukherjee. The Physics of the Standard Model and
+Beyond. World Scientific, 2004](https://user-images.githubusercontent.com/36441664/89119081-a172cf80-d4d5-11ea-9bd2-35e95f419f30.jpg)](https://github.com/eq19/maps/files/13793234/the-physics-of-the-standard-model-and-beyond.pdf)
+
+[The (3) layers](https://github.com/eq19/eq19/blob/v1/.github/entrypoint/artifact/python/manual_v2.ipynb) represents generation in the _[particle objects](https://github.com/eq19/eq19/blob/v1/.github/entrypoint/artifact/python/manual_v2.ipynb)_ of flavor that counts ***six (6) flavours of [quarks](https://en.wikipedia.org/wiki/Quark)*** and ***six (6) flavours of [leptons](https://en.wikipedia.org/wiki/Lepton)***.
+
+[![Testing Explanations of Short Baseline Neutrino Anomalies](https://github.com/eq19/maps/assets/8466209/9ebbb332-7818-496f-a50e-7beb707fc644)](https://github.com/eq19/maps/files/13777171/Testing_Explanations_of_Short_Baseline_Neutrino_An_compressed.1.pdf)
+
+The newly discovered Higgs Boson interacts with all the Quarks and the first group of Leptons (electron, muon and tau) providing them with their mass. The neutrinos which are the other Leptons originally were thought to have zero mass, but recent discoveries argue that this is not the case.
+
+[![fundamental interaction in nature](https://user-images.githubusercontent.com/8466209/284403402-a0ba27e5-1964-46c2-b7d8-72758eb0944d.png)](https://en.wikipedia.org/wiki/Talk:Standard_Model/Archive_2)
+
+The Weak bosons interact with both Leptons and Quarks, these are responsible for the Weak nuclear forces. The exchange of photon is responsible for the Electromagnetic Force.
+```
+
+|QUARKS|no|LEPTONS|no|GAUGE AND HIGGS BOSONS|no|
+|------|---|------|----|--|--|
+|d|19|$$e^-$$|13|$$\\gamma$$|7|
+|u|18|$$\\nu_e$$|12|$$g$$|5(6)|
+|s|17|$$\\mu^-$$|11|$$H^0$$|4|
+|c|16|$$\\nu_\\mu$$|10|$$W^+$$|3|
+|b|15|$$\\tau^-$$|9|$$W^-$$|2|
+|t|14|$$\\nu_\\tau$$|8|$$Z^0$$|1|
+
+This results in a fundamental causal relation to the primes, systemically the products are entered into the position system.
+
+```note
+In this one system, reproduced as an icon, we can show the distribution profile of the primes as well as their products over a checkerboard-like model in the 4.
+- We show this fundamental causal relationship in the MEC 30 mathematically accurate in the table 13 , The organization of this table is based on the well-known idea of Christian Goldbach. That every even number should consist of the sum of two primes.
+- All pairs of prime numbers without "1", 2, 3, 5, we call henceforth Goldbach pairs. The MEC 30 transforms this idea of Christian Goldbach into the structure of a numerical double-strand, into an opposing member of the MEC 30 scale.
+- We call this double strand a convolution, which results in an opposite arrangement. It represents the natural vibration, thus also the redundant vibrations in the energy transfer. In the 6 For example, in the graph, the even number 60 is folded. At folding of the even number 60 6 result in 8 prime pairs.
+- In this case, among the 8 pairs of prime pairs there are only 6 Goldbach pairs. 2 prime positions in the prime position pairs carry products of the factors "1 × 1" and 7 × 7. Thus, 2 prime pairs do not fulfill the requirements of the Goldbach pairs. In general, any even number larger than 30 can be represented graphically within a cycle (MEC 30) as a specific cyclic convolution. This characteristic convolution of the even numbers is a fundamental test element in the numerical table. The result Even the even numbers to infinity occupy a fixed position within the 30s system MEC 30. The even numbers thus have 15 positions: 30/2 = 15 even positions of the MEC 30.
+- There are therefore only 15 even positions for all even numbers to infinity. Every even number has a specific convolution due to its position in the 30s system. First, we have to determine the positions of the even numbers in the 30s system to make them one in the following graph 7 attributable to the 15 specific folds.
+```
+
+![](https://user-images.githubusercontent.com/36441664/74591945-2b75cb80-504f-11ea-85dd-14d0a803ee6b.png)
+
 This scheme goes to the unification of 11s with 7s to 18s meanwhile the 11th it self behave as residual by the 5th minor hexagon between the ***[30 to 36' cells](https://eq19.github.io/exponentiation/#fundamental-forces)***.
 
 ```note
@@ -497,16 +562,6 @@ This scheme goes to the unification of 11s with 7s to 18s meanwhile the 11th it 
 
 The boson, photon and gravity forces are assigned to ***30, 31 and 32***. Gluon force and exchange are assigned to ***33 and 34*** which are then standing as the ***[lexer](https://eq19.github.io/multiplication/#assigning-a-lexer)*** and ***[parser](https://eq19.github.io/exponentiation/#parsering-structure)***.
 
-```note
-Below we will demonstrate how factorization algorithms and twin prime dyad cycling at the digital root level rotate the vertices of ***equilateral triangles within {9/3}*** star polygons like the one pictured above. These rotations are ***encoded in 3 x 3 matrices generated by period-24 digital root dyad tri-level cycling***. We will also reveal the Latin Square reflecting {3,6,9} hidden in plain sight betwixt and between the twin prime distribution channels; ***all of its rows, columns and principal diagonals summing to 18***. _[PrimesDemystified](https://www.primesdemystified.com/twinprimes.html)_
-```
-
-***19 + 18 + 102 = 37 + 102 = 139 = 34th prime = (40 - 6)the prime***
-
-[![exponentiation zones](https://user-images.githubusercontent.com/8466209/200024664-afc433a0-5f7f-4ec1-9bfc-77d672817fed.png)](https://github.com/eq19)
-
-This lead to a consequence of _[SU(5) grand unification](https://github.com/eq19/maps/files/14394752/MWmassShiftTalk.pdf)_ ***(assigned to 35)*** showing a complex scalar Higgs boson of 24 gauge groups _[observe mass of W boson](https://www.sciencedirect.com/science/article/pii/S0370269322004403)_ ***(assigned to 36)***.
-
 ```tip
 An overview of the various families of elementary and composite particles, and their interactions. Fermions are on the left, and Bosons are on the right.
 
@@ -520,6 +575,16 @@ According to the [Standard Model](https://en.wikipedia.org/wiki/Standard_Model_o
   - [Z](https://en.wikipedia.org/wiki/Z_boson) [Neutral weak boson](https://en.wikipedia.org/wiki/W_and_Z_bosons) – the force carrier that mediates the [weak force](https://en.wikipedia.org/wiki/Weak_interaction) and
   - [W±](https://en.wikipedia.org/wiki/W_boson) [Charged weak bosons](https://en.wikipedia.org/wiki/W_and_Z_bosons) (***two (2) types***) – force carriers that mediate the weak force (**id:34**).
 - A second order tensor boson (***spin = 2***) called the [graviton](https://en.wikipedia.org/wiki/Graviton) (G). It has been hypothesised as the force carrier for [gravity](https://en.wikipedia.org/wiki/Gravitational_force) (**id:32**).
+```
+
+***19 + 18 + 102 = 37 + 102 = 139 = 34th prime = (40 - 6)the prime***
+
+[![exponentiation zones](https://user-images.githubusercontent.com/8466209/200024664-afc433a0-5f7f-4ec1-9bfc-77d672817fed.png)](https://github.com/eq19)
+
+This lead to a consequence of _[SU(5) grand unification](https://github.com/eq19/maps/files/14394752/MWmassShiftTalk.pdf)_ ***(assigned to 35)*** showing a complex scalar Higgs boson of 24 gauge groups _[observe mass of W boson](https://www.sciencedirect.com/science/article/pii/S0370269322004403)_ ***(assigned to 36)***.
+
+```note
+The eight (8) steps between id:30 to 37 represents the _[Eightfold Way](https://en.wikipedia.org/wiki/Eightfold_way_(physics))_ in the [context of E8](https://en.wikipedia.org/wiki/An_Exceptionally_Simple_Theory_of_Everything), a pattern developing in physics to represent the fundamental particles. E8 is at the heart of many bits of physics. One interpretation of why we have such a quirky list of fundamental particles is because they all result from different facets of the symmetries of E8. ***The enigmatic E8 is the largest and most complicated of the five exceptional Lie groups, and contains four subgroups that are related to the four fundamental forces of nature***: the electromagnetic force; the strong force (which binds quarks); the weak force (which controls radioactive decay); and the gravitational force. _([Wordpress.com](https://nitinuchil.wordpress.com/2020/09/09/hypercomplex-math/))_
 ```
 
 [![The exchange of virtual pions](https://user-images.githubusercontent.com/8466209/282278731-ac8438f7-afd4-41f8-8c6a-a41c0d740825.png)](https://eq19.github.io/exponentiation/)
