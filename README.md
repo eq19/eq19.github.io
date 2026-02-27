@@ -490,14 +490,6 @@ The MEC 30 transforms this idea from Christian Goldbach into the structure of a 
 
 [![MEC30 Square](https://user-images.githubusercontent.com/36441664/262213707-63aa0a64-cf7d-4fb7-9f1a-f3d1ba805643.png)](https://eq19.github.io/addition/#77s-structure)
 
-Below is a model of E11 (shown by 11 dimensions). Its absolute dimensions represent all related key knowledges of modern physics.
-
-```note
-It turns out that quantum string theory always destroys the symmetries of classical string theory, **except in one special case: when the number of dimensions is 10**. Moreover this model represents [Quark-Gluon Plasma](https://en.wikipedia.org/wiki/Quark%E2%80%93gluon_plasma), with all of the [fundamental forces](https://eq19.github.io/exponentiation/#fundamental-forces) in the early stage after _[Big Bang](https://youtu.be/7VgoECW06-s?si=_l-Pu42gwtnxzzT2)_ which probably comes from [Absolute Nothingness](https://www.quora.com/What-is-the-difference-between-the-universe-the-cosmos-space-and-nothing/answer/George-Davros).
-```
-
-[![default](https://user-images.githubusercontent.com/8466209/242000067-6d2ac164-06d6-4546-a118-10642982ce52.png)](https://www.youtube.com/watch?v=dEoMeHi-6kM)
-
 The SM was basically developed in 1970-s. It describes the electromagnetic, weak and strong fundamental interactions.
 
 ```note
@@ -523,12 +515,20 @@ The Weak bosons interact with both Leptons and Quarks, these are responsible for
 
 |QUARKS|no|LEPTONS|no|GAUGE AND HIGGS BOSONS|no|
 |------|---|------|----|--|--|
-|d|19|$$e^-$$|13|$$\\gamma$$|7|
-|u|18|$$\\nu_e$$|12|$$g$$|5(6)|
-|s|17|$$\\mu^-$$|11|$$H^0$$|4|
-|c|16|$$\\nu_\\mu$$|10|$$W^+$$|3|
-|b|15|$$\\tau^-$$|9|$$W^-$$|2|
-|t|14|$$\\nu_\\tau$$|8|$$Z^0$$|1|
+|d|19|$$e^-$$|13|$$γ$$|7|
+|u|18|$$ν_e$$|12|$$g$$|5(6)|
+|s|17|$$μ^-$$|11|$$H^0$$|4|
+|c|16|$$ν_μ$$|10|$$W^+$$|3|
+|b|15|$$τ^-$$|9|$$W^-$$|2|
+|t|14|$$ν_τ$$|8|$$Z^0$$|1|
+
+Below is a model of E11 (shown by 11 dimensions). Its absolute dimensions represent all related key knowledges of modern physics.
+
+```note
+It turns out that quantum string theory always destroys the symmetries of classical string theory, **except in one special case: when the number of dimensions is 10**. Moreover this model represents [Quark-Gluon Plasma](https://en.wikipedia.org/wiki/Quark%E2%80%93gluon_plasma), with all of the [fundamental forces](https://eq19.github.io/exponentiation/#fundamental-forces) in the early stage after _[Big Bang](https://youtu.be/7VgoECW06-s?si=_l-Pu42gwtnxzzT2)_ which probably comes from [Absolute Nothingness](https://www.quora.com/What-is-the-difference-between-the-universe-the-cosmos-space-and-nothing/answer/George-Davros).
+```
+
+[![default](https://user-images.githubusercontent.com/8466209/242000067-6d2ac164-06d6-4546-a118-10642982ce52.png)](https://www.youtube.com/watch?v=dEoMeHi-6kM)
 
 This results in a fundamental causal relation to the primes, systemically the products are entered into the position system.
 
