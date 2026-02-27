@@ -395,7 +395,6 @@ Meanwhile obtaining the non complex numbers it is easier to look at a graph like
 
 And we can see in the same way that the function Li(x)-(1/2)Li(x1/2) is 'on the average' a better approximation than Li(x) to π(x); but no importance can be attached to the latter terms in Riemann's formula even by repeated averaging.
 
-
 The problem is that the contributions from the non-trivial zeros at times swamps that of any but the main terms in these expansions.
 
 ```warning
@@ -490,30 +489,20 @@ The MEC 30 transforms this idea from Christian Goldbach into the structure of a 
 
 [![MEC30 Square](https://user-images.githubusercontent.com/36441664/262213707-63aa0a64-cf7d-4fb7-9f1a-f3d1ba805643.png)](https://eq19.github.io/addition/#77s-structure)
 
-The SM was basically developed in 1970-s. It describes the electromagnetic, weak and strong fundamental interactions.
+There are more than one version of Standard Model (SM) being developed. Here we are referring to the one that is match to the behaviour of MEC30.
 
 ```note
-At ordinary energies (a few eV or less), the forces differ greatly. However, at energies available in accelerators, the weak nuclear and electromagnetic (EM) forces become unified. Unfortunately, the energies at which the strong nuclear and electroweak forces become the same are unreachable in any conceivable accelerator. The universe may provide a laboratory, and nature may show effects at ordinary energies that give us clues about the validity of this graph.
-
-[![The Four Fundamental Forces](https://github.com/user-attachments/assets/731865b0-7033-4e1b-a587-0c75c0dcae36)](https://eq19.github.io/#prime-unit-identity)
-
-The relative strengths of the four basic forces vary with distance, and, hence, energy is needed to probe small distances. 
-
-[![T. Morii, C.S. Lim, and S.N. Mukherjee. The Physics of the Standard Model and
+The SM was basically developed in 1970-s. It describes the electromagnetic, weak and strong fundamental interactions.
+- At ordinary energies (a few eV or less), the forces differ greatly. However, at energies available in accelerators, the weak nuclear and electromagnetic (EM) forces become unified. Unfortunately, the energies at which the strong nuclear and electroweak forces become the same are unreachable in any conceivable accelerator.[![The Four Fundamental Forces](https://github.com/user-attachments/assets/731865b0-7033-4e1b-a587-0c75c0dcae36)](https://eq19.github.io/#prime-unit-identity)
+- The relative strengths of the four basic forces vary with distance, and, hence, energy is needed to probe small distances.[![T. Morii, C.S. Lim, and S.N. Mukherjee. The Physics of the Standard Model and
 Beyond. World Scientific, 2004](https://user-images.githubusercontent.com/36441664/89119081-a172cf80-d4d5-11ea-9bd2-35e95f419f30.jpg)](https://github.com/eq19/maps/files/13793234/the-physics-of-the-standard-model-and-beyond.pdf)
-
-[The (3) layers](https://github.com/eq19/eq19/blob/v1/.github/entrypoint/artifact/python/manual_v2.ipynb) represents generation in the _[particle objects](https://github.com/eq19/eq19/blob/v1/.github/entrypoint/artifact/python/manual_v2.ipynb)_ of flavor that counts ***six (6) flavours of [quarks](https://en.wikipedia.org/wiki/Quark)*** and ***six (6) flavours of [leptons](https://en.wikipedia.org/wiki/Lepton)***.
-
-[![Testing Explanations of Short Baseline Neutrino Anomalies](https://github.com/eq19/maps/assets/8466209/9ebbb332-7818-496f-a50e-7beb707fc644)](https://github.com/eq19/maps/files/13777171/Testing_Explanations_of_Short_Baseline_Neutrino_An_compressed.1.pdf)
-
-The newly discovered Higgs Boson interacts with all the Quarks and the first group of Leptons (electron, muon and tau) providing them with their mass. The neutrinos which are the other Leptons originally were thought to have zero mass, but recent discoveries argue that this is not the case.
-
-[![fundamental interaction in nature](https://user-images.githubusercontent.com/8466209/284403402-a0ba27e5-1964-46c2-b7d8-72758eb0944d.png)](https://en.wikipedia.org/wiki/Talk:Standard_Model/Archive_2)
+- [The (3) layers](https://github.com/eq19/eq19/blob/v1/.github/entrypoint/artifact/python/manual_v2.ipynb) represents generation in the _[particle objects](https://github.com/eq19/eq19/blob/v1/.github/entrypoint/artifact/python/manual_v2.ipynb)_ of flavor that counts ***six (6) flavours of [quarks](https://en.wikipedia.org/wiki/Quark)*** and ***six (6) flavours of [leptons](https://en.wikipedia.org/wiki/Lepton)***.[![Testing Explanations of Short Baseline Neutrino Anomalies](https://github.com/eq19/maps/assets/8466209/9ebbb332-7818-496f-a50e-7beb707fc644)](https://github.com/eq19/maps/files/13777171/Testing_Explanations_of_Short_Baseline_Neutrino_An_compressed.1.pdf)
+- The newly discovered Higgs Boson interacts with all the Quarks and the first group of Leptons (electron, muon and tau) providing them with their mass. The neutrinos which are the other Leptons originally were thought to have zero mass, but recent discoveries argue that this is not the case.[![fundamental interaction in nature](https://user-images.githubusercontent.com/8466209/284403402-a0ba27e5-1964-46c2-b7d8-72758eb0944d.png)](https://en.wikipedia.org/wiki/Talk:Standard_Model/Archive_2)
 
 The Weak bosons interact with both Leptons and Quarks, these are responsible for the Weak nuclear forces. The exchange of photon is responsible for the Electromagnetic Force.
 ```
 
-|QUARKS|no|LEPTONS|no|GAUGE AND HIGGS BOSONS|no|
+|6 QUARKS|no|6 LEPTONS|no|7 BOSONS (GAUGE AND HIGGS)|no|
 |------|---|------|----|--|--|
 |d|19|$$e^-$$|13|$$γ$$|7|
 |u|18|$$ν_e$$|12|$$g$$|5(6)|
@@ -521,14 +510,6 @@ The Weak bosons interact with both Leptons and Quarks, these are responsible for
 |c|16|$$ν_μ$$|10|$$W^+$$|3|
 |b|15|$$τ^-$$|9|$$W^-$$|2|
 |t|14|$$ν_τ$$|8|$$Z^0$$|1|
-
-Below is a model of E11 (shown by 11 dimensions). Its absolute dimensions represent all related key knowledges of modern physics.
-
-```note
-It turns out that quantum string theory always destroys the symmetries of classical string theory, **except in one special case: when the number of dimensions is 10**. Moreover this model represents [Quark-Gluon Plasma](https://en.wikipedia.org/wiki/Quark%E2%80%93gluon_plasma), with all of the [fundamental forces](https://eq19.github.io/exponentiation/#fundamental-forces) in the early stage after _[Big Bang](https://youtu.be/7VgoECW06-s?si=_l-Pu42gwtnxzzT2)_ which probably comes from [Absolute Nothingness](https://www.quora.com/What-is-the-difference-between-the-universe-the-cosmos-space-and-nothing/answer/George-Davros).
-```
-
-[![default](https://user-images.githubusercontent.com/8466209/242000067-6d2ac164-06d6-4546-a118-10642982ce52.png)](https://www.youtube.com/watch?v=dEoMeHi-6kM)
 
 This results in a fundamental causal relation to the primes, systemically the products are entered into the position system.
 
