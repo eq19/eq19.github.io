@@ -502,7 +502,7 @@ Beyond. World Scientific, 2004](https://user-images.githubusercontent.com/364416
 The Weak bosons interact with both Leptons and Quarks, these are responsible for the Weak nuclear forces. The exchange of photon is responsible for the Electromagnetic Force.
 ```
 
-_Rearrangement of [StandardModel](https://github.com/bin-wu-phys/StandardModel/blob/master/python/manual_v2.ipynb) originally developed by [Bin Wu](https://github.com/bin-wu-phys) from [CERN](https://theory.cern/roster/wu-bin)_
+_Rearrangement of [StandardModel](https://github.com/bin-wu-phys/StandardModel/blob/master/python/manual_v2.ipynb) originally developed by [Bin Wu](https://github.com/bin-wu-phys) from CERN_
 
 |6 QUARKS|no|6 LEPTONS|no|7 BOSONS (GAUGE AND HIGGS)|no|
 |------|---|------|----|--|--|
@@ -693,7 +693,7 @@ This study cascade culminating in the Fibonacci digital root sequence (also peri
 
 [![24-digital root](https://user-images.githubusercontent.com/8466209/225589915-8f7690c8-4c17-4232-be51-63e79efb2c51.png)](https://eq19.github.io/addition/#the-24-cells-hexagon)
 
-Another is that phi and its members have a pisano period if the resulting fractional numbers are truncated. 
+So when we trace back with [Exponential Zones](https://eq19.github.io/#exponentiation-zones), these 618 and 168 behave as composite particles and forces that are _[generated recursively](https://eq19.github.io/grammar/identition/span12/#the-27-parameters)_.
 
 ```note
 I wondered if that property might hold for the incremental powers of phi as well. For this reason I chose to see numbers in the hexagon as quantum, and truncate off the decimal values to determine which integer cell they land in. That is what I found. ***Phi and its members have a pisano period if the resulting fractional numbers are truncated***. _([Prime Hexagon](https://youtu.be/fQL4KRH3wUQ))_.
