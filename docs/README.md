@@ -502,15 +502,15 @@ Beyond. World Scientific, 2004](https://user-images.githubusercontent.com/364416
 The Weak bosons interact with both Leptons and Quarks, these are responsible for the Weak nuclear forces. The exchange of photon is responsible for the Electromagnetic Force.
 ```
 
-_Rearrangement of [StandardModel](https://github.com/bin-wu-phys/StandardModel/blob/master/python/manual_v2.ipynb) originally developed by [Bin Wu](https://github.com/bin-wu-phys) from CERN_
+_Rearrangement of [StandardModel](https://github.com/bin-wu-phys/StandardModel/blob/master/python/manual_v2.ipynb) originally developed by [Bin Wu](https://github.com/bin-wu-phys) from [CERN](https://theory.cern/roster/wu-bin)_
 
 |6 QUARKS|no|6 LEPTONS|no|7 BOSONS (GAUGE AND HIGGS)|no|
 |------|---|------|----|--|--|
 |d: Down|19|$$e^-$$: electron|13|$$γ$$: photon|7|
 |u: Up|18|$$ν_e$$: $$e$$ neutrino|12|$$g$$: gluons|5(6)|
 |s: Strange|17|$$μ^-$$: muon|11|$$H^0$$: Higgs boson|4|
-|c: Charm|16|$$ν_μ$$: $$μ$$ neutrino|10|$$W^+$$: (+) charged weak boson|3|
-|b: Bottom|15|$$τ^-$$: tau|9|$$W^-$$: (-) charged weak boson|2|
+|c: Charm|16|$$ν_μ$$: $$μ$$ neutrino|10|$$W^+$$: positively charged weak boson|3|
+|b: Bottom|15|$$τ^-$$: tau|9|$$W^-$$: negatively charged weak boson|2|
 |t: Top|14|$$ν_τ$$: $$τ$$ neutrino|8|$$Z^0$$: neutral weak boson|1|
 
 This results in a fundamental causal relation to the primes, systemically the products are entered into the position system.
@@ -693,7 +693,30 @@ This study cascade culminating in the Fibonacci digital root sequence (also peri
 
 [![24-digital root](https://user-images.githubusercontent.com/8466209/225589915-8f7690c8-4c17-4232-be51-63e79efb2c51.png)](https://eq19.github.io/addition/#the-24-cells-hexagon)
 
-So when we trace back with [Exponential Zones](https://eq19.github.io/#exponentiation-zones), these 618 and 168 behave as composite particles and forces that are _[generated recursively](https://eq19.github.io/grammar/identition/span12/#the-27-parameters)_.
+Within these 1000 primes there will be fractions which end up with _[168 identities](https://eq19.github.io/identition/#the-powers-of-pi)_. This will be the same structure as the seven (7) pàrtitions of _[addition zones](https://eq19.github.io/addition/)_. 
+
+```note
+The first 1000 prime numbers are silently screaming: "Pay attention to us, for we hold the secret to the distribution of all primes!" We heard the call, and with 'strange coincidences' leading the way have discovered compelling evidence that the 1000th prime number, 7919, is the perfectly positioned cornerstone of a mathematical object with highly organized substructures and stunning reflectional symmetries. _([PrimesDemystified](https://www.primesdemystified.com/First1000Primes.html))_
+```
+
+```liquid
+1st layer (addition):
+It has a total of 1000 numbers
+Total primes = π(1000) = 168 primes
+
+2nd layer (multiplication):
+It will start by π(168)+1 as the 40th prime
+It has 100x100 numbers or π(π(10000)) = 201 primes
+Total cum primes = 168 + (201-40) = 168+161 = 329 primes
+
+3rd layer (conduct exponentially):
+Behave reversal to 2nd layer which has a total of 329 primes
+The primes will start by π(π(π(1000th prime)))+1 as the 40th prime
+This 1000 primes will become 1000 numbers by 1st layer of the next level
+Total of all primes = 329 + (329-40) = 329+289 = 618 = 619-1 = 619 primes - Δ1 
+```
+
+So when we trace back with [Exponential Zones](https://eq19.github.io/#exponentiation-zones), the 618 and 168 perform themselves as composite particles and forces that are _[generated recursively](https://eq19.github.io/grammar/identition/span12/#the-27-parameters)_.
 
 ```note
 I wondered if that property might hold for the incremental powers of phi as well. For this reason I chose to see numbers in the hexagon as quantum, and truncate off the decimal values to determine which integer cell they land in. That is what I found. ***Phi and its members have a pisano period if the resulting fractional numbers are truncated***. _([Prime Hexagon](https://youtu.be/fQL4KRH3wUQ))_.
