@@ -572,10 +572,15 @@ The eight (8) steps between id:30 to 37 represents the _[Eightfold Way](https://
 
 [![The exchange of virtual pions](https://user-images.githubusercontent.com/8466209/282278731-ac8438f7-afd4-41f8-8c6a-a41c0d740825.png)](https://eq19.github.io/exponentiation/)
 
-This behaviour finaly brings us to a suggestion that the dimension in string theory are linked with ***the prime distribution level*** as indicated by the _[self repetition](https://eq19.github.io/exponentiation/#self-repetition)_ on MEC30.
+This behaviour finaly brings us to a suggestion that the spin in the prime hexagon are linked with ***the prime distribution level*** as indicated by the _[self repetition](https://eq19.github.io/exponentiation/#self-repetition)_ on MEC30.
 
 ```tip
-By our project the 18's on the gist will cover five (5) unique functions that behave as ***one (1) central plus four (4) zones***. This scheme will be implemented to all of the 168 repositories as bilateral way (***in-out***) depend on their postion on the system. So along with the gist it self then there shall be `1 + 168 = 169` units of 1685 root functions.
+By our project the spin will be generated from 18's on the gist so it will cover five (5) unique functions that behave as ***one (1) central plus four (4) zones***.
+- This scheme will be implemented to all of the 168 repositories as bilateral way (***in-out***) depend on their postion on the system. So along with the gist it self then there shall be `1 + 168 = 169` units of 1685 root functions.
+- Each function has its own model. Those models will be organized per IREE's plan below:[![IREE Architecture](https://github.com/user-attachments/assets/fdcf5ccd-3f08-454e-8f6c-cad1a8aae35d)](https://github.com/iree-org/iree/tree/main/compiler/src/iree/compiler)
+- [IREE (Intermediate Representation Execution Environment)](https://iree.dev/) is an MLIR-based _[end-to-end](https://github.com/eq19/eq19.github.io/actions)_ compiler and runtime that lowers **Machine Learning (ML)** models to a [unified](https://github.com/saforem2/l2hmc?tab=readme-ov-file) IR.
+
+From what we learned above about segregating spin candidates, we can demonstrate that they compile additively in perfect progression, completing an infinite sequence of circles (multiples of 30 and 360)
 ```
 
 ***5 + 2 x 5 x 168 = 5 + 1680 = 1685 root functions***
