@@ -528,23 +528,6 @@ In this one system, reproduced as an icon, we can show the distribution profile 
 
 This scheme goes to the unification of 11s with 7s to 18s meanwhile the 11th it self behave as residual by the 5th minor hexagon between the ***[30 to 36' cells](https://eq19.github.io/exponentiation/#fundamental-forces)***.
 
-```note
-***There are 8 different types of tiny particles, or 'states', that we can find in a special kind of space that has 6 dimensions*** and involves both real and imaginary numbers. These particles include:
-- ***The Higgs field***, which doesn't spin and is represented by 0.
-- ***Fermions***, which are particles like electrons, having a spin of plus or minus a half.
-- ***Bosons***, like photons, which have a spin of plus or minus 1.
-- ***Anti-fermions***, which are like fermions but have a spin of plus or minus two-thirds.
-- ***The graviton***, believed to be responsible for gravity, with a spin of 2.
-
-***In a diagram at the top left, this 6-dimensional space is shown to be curved***. In another diagram at the bottom right, we see two waves that are perpendicular to each other, representing the motion of a particle in a 'Dirac harmonic oscillator' – a concept in quantum mechanics. _([Physics In History](https://twitter.com/PhysInHistory/status/1739158977089274165))_
-```
-
-***36th prime - 30th prime = 151 - 113 = 1 + 37***
-
-![Defining the Prime Hexagon](https://user-images.githubusercontent.com/8466209/282279534-a448cd09-3d5e-4006-a84d-2574f7ed85c3.png)
-
-The boson, photon and gravity forces are assigned to ***30, 31 and 32***. Gluon force and exchange are assigned to ***33 and 34*** which are then standing as the ***[lexer](https://eq19.github.io/multiplication/#assigning-a-lexer)*** and ***[parser](https://eq19.github.io/exponentiation/#parsering-structure)***.
-
 ```tip
 An overview of the various families of elementary and composite particles, and their interactions. Fermions are on the left, and Bosons are on the right.
 
@@ -560,25 +543,42 @@ According to the [Standard Model](https://en.wikipedia.org/wiki/Standard_Model_o
 - A second order tensor boson (***spin = 2***) called the [graviton](https://en.wikipedia.org/wiki/Graviton) (G). It has been hypothesised as the force carrier for [gravity](https://en.wikipedia.org/wiki/Gravitational_force) (**id:32**).
 ```
 
+***36th prime - 30th prime = 151 - 113 = 1 + 37***
+
+![Defining the Prime Hexagon](https://user-images.githubusercontent.com/8466209/282279534-a448cd09-3d5e-4006-a84d-2574f7ed85c3.png)
+
+The boson, photon and gravity forces are assigned to ***30, 31 and 32***. Gluon force and exchange are assigned to ***33 and 34*** which are then standing as the ***[lexer](https://eq19.github.io/multiplication/#assigning-a-lexer)*** and ***[parser](https://eq19.github.io/exponentiation/#parsering-structure)***.
+
+```note
+***There are 8 different types of tiny particles, or 'states', that we can find in a special kind of space that has 6 dimensions*** and involves both real and imaginary numbers. These particles include:
+- ***The Higgs field***, which doesn't spin and is represented by 0.
+- ***Fermions***, which are particles like electrons, having a spin of plus or minus a half.
+- ***Bosons***, like photons, which have a spin of plus or minus 1.
+- ***Anti-fermions***, which are like fermions but have a spin of plus or minus two-thirds.
+- ***The graviton***, believed to be responsible for gravity, with a spin of 2.
+
+***In a diagram at the top left, this 6-dimensional space is shown to be curved***. In another diagram at the bottom right, we see two waves that are perpendicular to each other, representing the motion of a particle in a 'Dirac harmonic oscillator' – a concept in quantum mechanics. _([Physics In History](https://twitter.com/PhysInHistory/status/1739158977089274165))_
+```
+
 ***19 + 18 + 102 = 37 + 102 = 139 = 34th prime = (40 - 6)the prime***
 
 [![exponentiation zones](https://user-images.githubusercontent.com/8466209/200024664-afc433a0-5f7f-4ec1-9bfc-77d672817fed.png)](https://github.com/eq19)
 
 This lead to a consequence of _[SU(5) grand unification](https://github.com/eq19/maps/files/14394752/MWmassShiftTalk.pdf)_ ***(assigned to 35)*** showing a complex scalar Higgs boson of 24 gauge groups _[observe mass of W boson](https://www.sciencedirect.com/science/article/pii/S0370269322004403)_ ***(assigned to 36)***.
 
-```note
-The eight (8) steps between id:30 to 37 represents the _[Eightfold Way](https://en.wikipedia.org/wiki/Eightfold_way_(physics))_ in the [context of E8](https://en.wikipedia.org/wiki/An_Exceptionally_Simple_Theory_of_Everything), a pattern developing in physics to represent the fundamental particles.
+```tio
+The eight (8) steps between id:30 to 37 represents the _[Eightfold Way](https://en.wikipedia.org/wiki/Eightfold_way_(physics))_ in the context of [E8 Theory](https://en.wikipedia.org/wiki/An_Exceptionally_Simple_Theory_of_Everything), a pattern developing in physics to represent the fundamental particles.
 - E8 is at the heart of many bits of physics. One interpretation of why we have such a quirky list of fundamental particles is because they all result from different facets of the symmetries of E8.
 - ***The enigmatic E8 is the largest and most complicated of the five exceptional Lie groups, and contains four subgroups that are related to the four fundamental forces of nature***: the electromagnetic force; the strong force (which binds quarks); the weak force (which controls radioactive decay); and the gravitational force.
 
-Even if i turns out to be wrong, the E8 theory he has pioneered showcases striking patterns in particle physics that any unified theory will need to explain._([Wordpress.com](https://nitinuchil.wordpress.com/2020/09/09/hypercomplex-math/))_
+Even if i turns out to be wrong, the E8 theory he has pioneered showcases striking patterns in particle physics that any unified theory will need to explain. _([Wordpress](https://nitinuchil.wordpress.com/2020/09/09/hypercomplex-math/))_
 ```
 
 [![The exchange of virtual pions](https://user-images.githubusercontent.com/8466209/282278731-ac8438f7-afd4-41f8-8c6a-a41c0d740825.png)](https://eq19.github.io/exponentiation/)
 
 This behaviour finaly brings us to a suggestion that the spin in the prime hexagon are linked with ***the prime distribution level*** as indicated by the _[self repetition](https://eq19.github.io/exponentiation/#self-repetition)_ on MEC30.
 
-```tip
+```note
 By our project the spin will be generated from 18's on the gist so it will cover five (5) unique functions that behave as ***one (1) central plus four (4) zones***.
 - This scheme will be implemented to all of the 168 repositories as bilateral way (***in-out***) depend on their postion on the system. So along with the gist it self then there shall be `1 + 168 = 169` units of 1685 root functions. Each of functions has their own model. Those models will be organized per IREE's plan below:[![IREE Architecture](https://github.com/user-attachments/assets/fdcf5ccd-3f08-454e-8f6c-cad1a8aae35d)](https://github.com/iree-org/iree/tree/main/compiler/src/iree/compiler)
 - [IREE (Intermediate Representation Execution Environment)](https://iree.dev/) is an MLIR-based _[end-to-end](https://github.com/eq19/eq19.github.io/actions)_ compiler and runtime that lowers **Machine Learning (ML)** models to a [unified](https://github.com/saforem2/l2hmc?tab=readme-ov-file) IR that scales up to meet the needs of the datacenter and down to satisfy the constraints and special considerations of mobile and edge deployments.
