@@ -453,16 +453,6 @@ Euler's identity is considered to be an exemplar of deep mathematical beauty as 
 
 [![Euler's identity](https://user-images.githubusercontent.com/8466209/219584666-703f4584-db7c-4f2d-9714-f52067869ef3.png)](https://en.wikipedia.org/wiki/Euler%27s_identity)
 
-By _[The Δ(19 vs 18) Scenario](https://eq19.github.io/identition/#%CE%B419-vs-18-scenario)_ those three are exactly landed in the ***0's cell*** out of Δ18. See that the sum of 30 and 36 is 66 while the difference between 36 and 102 is also 66.
-
-```note
-You likely noticed I began with 2 rather than 1 or 0 when I first constructed the hexagon. Why? Because they do not fit inside — they stick off the hexagon like a tail. Perhaps that’s where they belong. However, if one makes a significant and interesting assumption, then 1 and 0 fall in their logical locations – in the 1 and 0 cells, respectively. _([HexSpin](https://youtu.be/fQL4KRH3wUQ))
-```
-
-***0 + 30 + 36 + 102 = 168 = π(1000)***
-
-![19 vs 18](https://github.com/eq19/maps/assets/8466209/19f68eca-c0e1-48fc-9c9a-60d01cf26057)
-
 Therefore the total files that inherited from this scheme will be `1 + 7 + 29 = 37` files including [one (1) main page](https://eq19.github.io). Where the `6 x 6 = 36` should behave as a central. 
 
 ```tip

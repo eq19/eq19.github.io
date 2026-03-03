@@ -2088,3 +2088,44 @@ You can find a great and fairly complete overview of [ML papers in HEP](https://
 [![teaching-machines-glouppe_compressed.pdf](https://user-images.githubusercontent.com/8466209/222966425-9da703ef-9189-44e6-8fc1-8b766cf9f7bb.png)](https://eq19.github.io/identition/)
 
 This way will also be our approach to [Euler's identity](https://gist.github.com/eq19/e9832026b5b78f694e4ad22c3eb6c3ef#eulers-identity). By taking the correlation between ***f(π) as P*** vs ***f(i) as NP*** where ***e<sup>iπ</sup> + 1 = 0*** then [theoretically](https://github.com/eq19/maps/files/13765788/teaching-machines-glouppe_compressed.pdf) they shall be correlated to get an expression of the prime distribution similar to _[MEC30](https://gist.github.com/eq19/e9832026b5b78f694e4ad22c3eb6c3ef#eulers-identity)_.
+
+## Hidden Dimensions
+
+By the _[Δ(19 vs 18) Scenario](https://eq19.github.io/identition/span12/#the-seven-7-groups)_ those three are exactly landed in the ***0's cell*** out of Δ18. See that the sum of 30 and 36 is 66 while the difference between 36 and 102 is also 66.
+
+```note
+You likely noticed I began with 2 rather than 1 or 0 when I first constructed the hexagon. Why? Because they do not fit inside — they stick off the hexagon like a tail. Perhaps that’s where they belong. However, if one makes a significant and interesting assumption, then 1 and 0 fall in their logical locations – in the 1 and 0 cells, respectively. _([HexSpin](https://www.hexspin.com/0-1-and-negative-numbers/))
+```
+
+***0 + 30 + 36 + 102 = 168 = π(1000)***
+
+[![0, 1 and negative numbers](https://github.com/eq19/maps/assets/8466209/19f68eca-c0e1-48fc-9c9a-60d01cf26057)](https://www.hexspin.com/0-1-and-negative-numbers/)
+
+The equality between the product on the 1st-line and the formulas ***in the 3rd- and 4th-lines*** is _[Euler's pentagonal number](https://en.m.wikipedia.org/wiki/Pentagonal_number_theorem)_ where `p(33) = 10143` landed exactly by `n - 7`.
+
+```note
+Using Euler's method to find p(40): A ruler with plus and minus signs (grey box) is slid downwards, the relevant terms added or subtracted. The positions of the signs are given by differences of alternating natural (blue) and odd (orange) numbers. In the SVG file, hover over the image to move the ruler _([Wikipedia](https://en.wikipedia.org/wiki/Partition_function_(number_theory)#Generating_function))_.
+```
+
+***π(π(π(1000th prime))) + 1 = 40***
+
+[![image](https://github.com/eq19/maps/assets/8466209/810f734c-fe35-44de-a096-6021ebfecc76)
+](https://eq19.github.io/addition/3.html#subclasses-of-partitions)
+
+As explicitly indicated by `n - 7` within identition zones this `p(33)` behave reversal to the _[exponentiation zones](https://eq19.github.io/exponentiation/#exponentiation-zones-31-36)_ so it would stand as [`π(π(π(1000th prime)))+1`](https://eq19.github.io/addition/file02.html#true-prime-pairs).
+
+```note
+Because the value 30 is the first (common) product of the first 3 primes. And this 30th order repeats itself to infinity. Even in the first 30s system, therefore, the positions are fixed in which the number information positions itself to infinity. We call it the first member of the MEC 30.
+- The numbers not divisible by 2, 3 or 5 are highlighted. We call them prime positions, hence 1, 7, 11, 13, 17, 19, 23, 29. Important for our work is that in the following the term prime refers only to prime numbers that are in the prime positions. So primes 2, 3 and 5 are always excluded.
+- These positions: 1 7 11 13 17 19 23 29. We refer to this basic system as MEC 30 - "Mathematical Elementary Cell 30". By repeating the positions we show the function of the basic system in the next step. If we extend the 30th order of the MEC, for example, to the number 120, the result is ***4 times a 30th order*** and thus 4 × 8 = 32 prime positions.
+- Hypothetical assumption: If the product of the primes (except 2, 3, 5,) would not fall into the prime positions, thus be divided by 2, 3 or 5, the information would have 120 = 32 primes in 32 prime positions: 1, 7, 11, 13, 17, 19, 23, 29, / 31, 37, 41, 43, 47, 49, 53, 59, / 61, 67, 71, 73, 77, 79, 83, 89, / 91, 97, 101, 103, 107, 109, 113, 119
+- These forms gives prime positions:  1, 7, 11, 13, 17, 19, 23, 29, / 1, 7, 11, 13, 17, 19, 23, 29, / 1, 7, 11, 13, 17 , 19, 23, 29, / 1, 7, 11, 13, 17, 19, 23, 29. The 30th order is repeated in the number space ***120 = 4 times, 4 × 8 = 32 prime positions, thus 4 terms***.
+
+From our consideration we can conclude that the distribution of prime numbers must have a static base structure, which is also confirmed logically in the further course. This static structure is altered by the products of the primes themselves, since these products must fall into the prime positions since they are not divisible by 2, 3 and 5. _([Google Patent DE102011101032A9](https://patents.google.com/patent/DE102011101032A9/en#similarDocuments))_
+```
+
+***p(33) = p(40-7) = loop (100000) = 4 + 25 + 139 + 1091 + 8884 = 10143***
+
+[![identities zones](https://user-images.githubusercontent.com/8466209/241491860-72da956a-1740-4ed7-83ef-3844ae1ff8d2.png)](https://eq19.github.io/#identition-zones)
+
+So by simple words this 11 dimensions brings us back to the _[root functions](https://eq19.github.io/exponentiation/#root-functions)_. The only difference is _the base unit_. It is now carrying the above `p(33) = 10143`.
