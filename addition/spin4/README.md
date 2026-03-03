@@ -69,10 +69,6 @@ layer | node | sub |  i  |  f.                                       MEC 30 / 2
 ------|------|-----+-----+-----  ‹----------------------------------- 30 {+1/2}
 ```
 
-This scheme goes to the unification of 11s with 7s to 18s meanwhile the 11th it self behave as residual by the 5th minor hexagon between the ***[30 to 36' cells](https://eq19.github.io/exponentiation/#fundamental-forces)***.
-
-![74550123-6dd1d680-4f83-11ea-8810-3b8f4f50a9c0](https://github.com/eq19/maps/assets/8466209/dd0a99e5-07e6-43ab-aa07-47c49f963220)
-
 ```txt
  1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18
 ---+---+---+---+---+---+---+---+---+----+----+----+----+----+----+----+----+----
