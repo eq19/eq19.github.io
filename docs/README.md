@@ -583,7 +583,7 @@ By our project the spin will be generated from 18's on the gist so it will cover
 - This scheme will be implemented to all of the 168 repositories as bilateral way (***in-out***) depend on their postion on the system. So along with the gist it self then there shall be `1 + 168 = 169` units of 1685 root functions. Each of functions has their own model. Those models will be organized per IREE's plan below:[![IREE Architecture](https://github.com/user-attachments/assets/fdcf5ccd-3f08-454e-8f6c-cad1a8aae35d)](https://github.com/iree-org/iree/tree/main/compiler/src/iree/compiler)
 - [IREE (Intermediate Representation Execution Environment)](https://iree.dev/) is an MLIR-based _[end-to-end](https://github.com/eq19/eq19.github.io/actions)_ compiler and runtime that lowers **Machine Learning (ML)** models to a [unified](https://github.com/saforem2/l2hmc?tab=readme-ov-file) IR that scales up to meet the needs of the datacenter and down to satisfy the constraints and special considerations of mobile and edge deployments.
 
-From what we learned above about segregating spin candidates, we can demonstrate that they compile additively in perfect progression, completing an infinite sequence of circles (multiples of 30 and 360) which is inline with the behaviour of MEC30.
+From what we have learned about segregating spin candidates, we can demonstrate that they compile additively in perfect progression, completing an infinite sequence of circles (multiples of 30 and 360) which is inline with the behaviour of MEC30.
 ```
 
 ***5 + 2 x 5 x 168 = 5 + 1680 = 1685 root functions***
