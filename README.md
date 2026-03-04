@@ -540,7 +540,7 @@ According to the [Standard Model](https://en.wikipedia.org/wiki/Standard_Model_o
 The boson, photon and gravity forces are assigned to ***30, 31 and 32***. Gluon force and exchange are assigned to ***33 and 34*** which are then standing as the ***[lexer](https://eq19.github.io/multiplication/#assigning-a-lexer)*** and ***[parser](https://eq19.github.io/exponentiation/#parsering-structure)***.
 
 ```note
-***There are 8 different types of tiny particles, or 'states', that we can find in a special kind of space that has 6 dimensions*** and involves both real and imaginary numbers. These particles include:
+***There are 8 different types of [tiny particles](https://en.wikipedia.org/wiki/Elementary_particle), or 'states', that we can find in a special kind of space that has 6 dimensions*** and involves both real and imaginary numbers. These particles include:
 - ***The Higgs field***, which doesn't spin and is represented by 0.
 - ***Fermions***, which are particles like electrons, having a spin of plus or minus a half.
 - ***Bosons***, like photons, which have a spin of plus or minus 1.

@@ -25,86 +25,16 @@ Each time a prime number is encountered, the spin or ‘wall preference’ is sw
 
 And it is the fact that 168 divided by 24 is ***exactly seven (7)***.
 
-```note
-Cell types are interesting, but they simply reflect a ***modulo 6 view of numbers***.  More interesting are the six internal hexagons within the Prime Hexagon.  Like the Prime Hexagon, they are newly discovered. The minor hexagons form solely from the order, and type, of primes along the number line _([HexSpin](https://www.hexspin.com/minor-hexagons/))_.
+```tip
+The number of primes less than or equal to a thousand [`π(1000) = 168`](https://eq19.github.io/addition/#prime-hexagon) equals the number of hours in a week [`24 × 7 = 168`](https://eq19.github.io/#addition-zones). The tessellating field of equilateral triangles fills with numbers, with spin orientation flipping with each prime number encountered, creating ***three (3)*** minor hexagons.
 ```
 
 [![Euler Partition](https://github.com/eq19/maps/assets/8466209/b73fec0f-1798-4679-bbc2-ed6060484543)](https://eq19.github.io/identition/#euler-partition)
-
-You may notice that there are twists and turns until 19 abuts 2 therefore this addition zone takes only the seven (7) primes out of the 18's structure of _[True Prime Pairs](https://eq19.github.io/addition/file02.html#true-prime-pairs)_.
-
-```
-$True Prime Pairs:
-(5,7), (11,13), (17,19)
- 
-layer | node | sub |  i  |  f
-------+------+-----+----------
-      |      |     |  1  | --------------------------
-      |      |  1  +-----+                           |    
-      |  1   |     |  2  | (5)                       |
-      |      |-----+-----+                           |
-      |      |     |  3  |                           |
-  1   +------+  2  +-----+----                       |
-      |      |     |  4  |                           |
-      |      +-----+-----+                           |
-      |  2   |     |  5  | (7)                       |
-      |      |  3  +-----+                           |
-      |      |     |  6  |                          11s
-------+------+-----+-----+------      } (36)         |
-      |      |     |  7  |                           |
-      |      |  4  +-----+                           |
-      |  3   |     |  8  | (11)                      |
-      |      +-----+-----+                           |
-      |      |     |  9  |                           |
-  2   +------|  5  +-----+-----                      |
-      |      |     |  10 |                           |
-      |      |-----+-----+                           |
-      |  4   |     |  11 | (13) ---------------------
-      |      |  6  +-----+
-      |      |     |  12 |---------------------------
-------+------+-----+-----+------------               |
-      |      |     |  13 |                           |
-      |      |  7  +-----+                           |
-      |  5   |     |  14 | (17)                      |
-      |      |-----+-----+                           |
-      |      |     |  15 |                           7s √
-  3   +------+  8  +-----+-----       } (36)         |
-      |      |     |  16 |                           |
-      |      |-----+-----+                           |
-      |  6   |     |  17 | (19)                      |
-      |      |  9  +-----+                           |
-      |      |     |  18 | --------------------------
-------|------|-----+-----+------
-```
-
-The tessellating field of equilateral triangles fills with numbers, with spin orientation flipping with each prime number encountered, creating ***3 minor hexagons***.
-
-```tip
-Prime numbers are numbers that have only 2 factors: 1 and themselves.
-- For example, the first 5 prime numbers are 2, 3, 5, 7, and 11. By contrast, numbers with more than 2 factors are call composite numbers.
-- 1 is not a prime number because it can not be divided by any other integer except for 1 and itself. The only factor of 1 is 1.
-- On the other hand, 1 is also not a composite number because it can not be divided by any other integer except for 1 and itself.
-
-In conclusion, the number 1 is neither prime nor composite.
-```
-
-***π(6+11) = π(17) = 7***
-
-![](https://user-images.githubusercontent.com/36441664/274093531-0878e3e5-6be3-448e-9ad4-3b34523c1e9c.jpg)
 
 As the number line winds about toward infinity, bending around prime numbers, it never exits the ***24 cells***.
 
 ```note
 Surprisingly, the 24-cell hexagon confines all natural numbers. The reason: no prime numbers occupy a cell with a right or left wall on the t-hexagon’s outer boundary, other than 2 and 3, the initial primes that forced the number line into this complex coil. Without a prime number in the outer set of triangles, the number line does not change to an outward course and ***remains forever contained in the 24 cells***. _([HexSpin](https://www.hexspin.com/defining-the-prime-hexagon/))_
-```
-
-![Screen-Shot-2016-11-07-at-5 11 59-PM](https://user-images.githubusercontent.com/8466209/226644534-00cf4fe3-04f9-4b28-8a8b-674bcf4bd585.png)
-
-Let's consider a prime spin theory of compactifying the 7-dimensional manifold on the 3-sphere of a fixed radius and study its [dimensional reduction](https://en.wikipedia.org/wiki/Dimensional_reduction
-) to 4D.
-
-```note
-Proceeding, the number line begins to coil upon itself; 20 lands on 2’s cell, 21 on 3’s cell. Prime number 23 sends the number line left to form the fourth (4th) hexagon, purple. As it is not a twin, the clockwise progression (rotation) reverses itself. Twin primes ***29 and 31 define the fifth (5th) hexagon***, cyan. Finally, 37, again not a twin, reverses the rotation of the system, so 47 can define the yellow hexagon _([HexSpin](https://www.hexspin.com/defining-the-prime-hexagon/))_.
 ```
 
 ![74550123-6dd1d680-4f83-11ea-8810-3b8f4f50a9c0](https://github.com/eq19/maps/assets/8466209/dd0a99e5-07e6-43ab-aa07-47c49f963220)
@@ -117,21 +47,9 @@ That is, if the powers of 10 all returned with blue spin, or as a series of rain
 
 ![image](https://github.com/eq19/maps/assets/36441664/8997b388-e0b8-481f-a763-76a46a07e085)
 
-```note
-In our approach a 3-form is not an object that exist in addition to the metric, it is the only object that exist and in particular ***[the 4D metric, is defined by the 3-form](https://eq19.github.io/identition/span12/#three-3-layers)***.
-- We would like to say that our present use of G2 structures (3-forms in 7D) is different from what
-one can find in the literature on Kaluza–Klein compactifications of supergravity.
-- We show that the resulting 4D theory is (Riemannian) [General Relativity](https://www.sciencedirect.com/topics/physics-and-astronomy/general-relativity) (GR) in Plebanski formulation, modulo corrections that are negligible for curvatures smaller than Planckian.
-- Possibly the most interesting point of this construction is that the dimensionally reduced theory is GR with a non-zero cosmological constant, and the value of the cosmological constant is directly related to the size of . Realistic values of Λ correspond to of Planck size.
-
-Also, in the supergravity context a 7D manifold with a G2 structure is used for compactifying the 11D supergravity down to 4D. In contrast, we compactify from 7D to 4D. _([General relativity from three-forms in seven dimensions - pdf](https://github.com/eq19/maps/files/14064088/1-s2.0-S0370269317304926-main.pdf))_
-```
-
-![Standard Spin](https://github.com/eq19/maps/assets/8466209/a675ed2e-2a9b-4506-a6c3-ddbb92474219)
-
 So there should be a tight connection between 168 primes within 1000 with the _[24-cell hexagon](https://eq19.github.io/multiplication/#assigning-a-lexer)_. Indeed it is also correlated with [1000 prime numbers](https://www.primesdemystified.com/First1000Primes.html).
 
-# Spin Polarity
+## Spin Polarity
 
 ```php
 0 (1, 1) blue_0  ◄--- 0
@@ -309,6 +227,24 @@ So there should be a tight connection between 168 primes within 1000 with the _[
 168 (0, 1) cyan_0  ◄--- 168=π(1000)
 ```
 
+Here is the usual model of ***the seven points and seven lines*** (including the circle) of the smallest finite projective plane (the [Fano plane](http://mathworld.wolfram.com/FanoPlane.html)):
+
+```note
+Every permutation of the plane's points that preserves collinearity is a symmetry of the  plane. [The group of symmetries ](http://en.wikipedia.org/wiki/PSL%282,7%29)of ***the Fano plane is of order 168*** and is isomorphic to the group  [PSL(2,7) = PSL(3,2) = GL(3,2)](http://web.mat.bham.ac.uk/atlas/v2.0/lin/L32/). (See [Cameron on linear groups](http://www.ipm.ac.ir/IPM/homepage/cameron5.pdf) (pdf) and [Knight Moves: Geometry of the Eightfold Cube](http://finitegeometry.org/sc/8/knight.html).) The model indicates with great clarity six symmetries of the plane-- those it shares with the equilateral triangle. ***It does not, however, indicate where the other 162 symmetries come from***.  
+```
+
+[![17725871866978639554485627109887](https://github.com/user-attachments/assets/f8262923-89dc-4304-a86b-9f2529d4fec7)](http://finitegeometry.org/sc/8/plane.html)
+
+
+Let's consider a prime spin theory of compactifying the 7-dimensional manifold on the 3-sphere of a fixed radius and study its [dimensional reduction](https://en.wikipedia.org/wiki/Dimensional_reduction
+) to 4D.
+
+```note
+Proceeding, the number line begins to coil upon itself; 20 lands on 2’s cell, 21 on 3’s cell. Prime number 23 sends the number line left to form the fourth (4th) hexagon, purple. As it is not a twin, the clockwise progression (rotation) reverses itself. Twin primes ***29 and 31 define the fifth (5th) hexagon***, cyan. Finally, 37, again not a twin, reverses the rotation of the system, so 47 can define the yellow hexagon _([HexSpin](https://www.hexspin.com/defining-the-prime-hexagon/))_.
+```
+
+![Screen-Shot-2016-11-07-at-5 11 59-PM](https://user-images.githubusercontent.com/8466209/226644534-00cf4fe3-04f9-4b28-8a8b-674bcf4bd585.png)
+
 By _[The Δ(19 vs 18) Scenario](https://eq19.github.io/identition/#%CE%B419-vs-18-scenario)_ those three are exactly landed in the ***0's cell*** out of Δ18. See that the sum of 30 and 36 is 66 while the difference between 36 and 102 is also 66.
 
 ```note
@@ -318,4 +254,105 @@ You likely noticed I began with 2 rather than 1 or 0 when I first constructed th
 ***0 + 30 + 36 + 102 = 168 = π(1000)***
 
 ![19 vs 18](https://github.com/eq19/maps/assets/8466209/19f68eca-c0e1-48fc-9c9a-60d01cf26057)
+
+## Minor Hexagon
+
+```php
+0 (1, 1) blue_0  ◄--- 0
+1 (1, 1) blue_1
+2 (1, 1) blue_2
+3 (1, 1) blue_3
+4 (1, 1) blue_4
+5 (2, 1) purple_5
+6 (2, 1) purple_0
+7 (3, 1) red_1
+8 (3, 1) red_2
+9 (3, 1) red_3
+10 (3, 1) red_4
+11 (4, 1) yellow_5
+12 (4, 1) yellow_0
+13 (5, 1) green_1
+14 (5, 1) green_2
+15 (5, 1) green_3
+16 (5, 1) green_4
+17 (0, 1) cyan_5
+18 (0, 1) cyan_0  ◄---  18
+```
+
+You may notice that there are twists and turns until 19 abuts 2 therefore this addition zone takes only the seven (7) primes out of the 18's structure of _[True Prime Pairs](https://eq19.github.io/addition/file02.html#true-prime-pairs)_.
+
+```note
+Cell types are interesting, but they simply reflect a ***modulo 6 view of numbers***.  More interesting are the six internal hexagons within the Prime Hexagon.  Like the Prime Hexagon, they are newly discovered. The minor hexagons form solely from the order, and type, of primes along the number line _([HexSpin](https://www.hexspin.com/minor-hexagons/))_.
+```
+
+```
+$True Prime Pairs:
+(5,7), (11,13), (17,19)
+ 
+layer | node | sub |  i  |  f
+------+------+-----+----------           ✓
+      |      |     |  1  | ----------‹ 289® ‹--------
+      |      |  1  +-----+                           |    
+      |  1   |     |  2  | (5)                       |
+      |      |-----+-----+                           |
+      |      |     |  3  |                           |
+  1   +------+  2  +-----+----                       |
+      |      |     |  4  |                           |
+      |      +-----+-----+                           |
+      |  2   |     |  5  | (7)                       |
+      |      |  3  +-----+                           |
+      |      |     |  6  |                          11s
+------+------+-----+-----+------      } (36)         |
+      |      |     |  7  |                           |
+      |      |  4  +-----+                           |
+      |  3   |     |  8  | (11)                      |
+      |      +-----+-----+                           |
+      |      |     |  9  |                           |
+  2   +------|  5  +-----+-----                      |
+      |      |     |  10 |                           |
+      |      |-----+-----+               ✓           |
+      |  4   |     |  11 | (13) -----› 329® ›---------
+      |      |  6  +-----+               ✓
+      |      |     |  12 |-----------‹ 169® ‹--------
+------+------+-----+-----+------------               |
+      |      |     |  13 |                           |
+      |      |  7  +-----+                           |
+      |  5   |     |  14 | (17)                      |
+      |      |-----+-----+                           |
+      |      |     |  15 |                           7s
+  3   +------+  8  +-----+-----       } (36)         |
+      |      |     |  16 |                           |
+      |      |-----+-----+                           |
+      |  6   |     |  17 | (19)                      |
+      |      |  9  +-----+               ✓           |
+      |      |     |  18 | ----------› 359® ›--------
+------|------|-----+-----+------
+```
+
+The tessellating field of equilateral triangles fills with numbers, with spin orientation flipping with each prime number encountered, creating ***3 minor hexagons***.
+
+```tip
+Prime numbers are numbers that have only 2 factors: 1 and themselves.
+- For example, the first 5 prime numbers are 2, 3, 5, 7, and 11. By contrast, numbers with more than 2 factors are call composite numbers.
+- 1 is not a prime number because it can not be divided by any other integer except for 1 and itself. The only factor of 1 is 1.
+- On the other hand, 1 is also not a composite number because it can not be divided by any other integer except for 1 and itself.
+
+In conclusion, the number 1 is neither prime nor composite.
+```
+
+***π(6+11) = π(17) = 7***
+
+![](https://user-images.githubusercontent.com/36441664/274093531-0878e3e5-6be3-448e-9ad4-3b34523c1e9c.jpg)
+
+```note
+In our approach a 3-form is not an object that exist in addition to the metric, it is the only object that exist and in particular ***[the 4D metric, is defined by the 3-form](https://eq19.github.io/identition/span12/#three-3-layers)***.
+- We would like to say that our present use of G2 structures (3-forms in 7D) is different from what
+one can find in the literature on Kaluza–Klein compactifications of supergravity.
+- We show that the resulting 4D theory is (Riemannian) [General Relativity](https://www.sciencedirect.com/topics/physics-and-astronomy/general-relativity) (GR) in Plebanski formulation, modulo corrections that are negligible for curvatures smaller than Planckian.
+- Possibly the most interesting point of this construction is that the dimensionally reduced theory is GR with a non-zero cosmological constant, and the value of the cosmological constant is directly related to the size of . Realistic values of Λ correspond to of Planck size.
+
+Also, in the supergravity context a 7D manifold with a G2 structure is used for compactifying the 11D supergravity down to 4D. In contrast, we compactify from 7D to 4D. _([General relativity from three-forms in seven dimensions - pdf](https://github.com/eq19/maps/files/14064088/1-s2.0-S0370269317304926-main.pdf))_
+```
+
+![Standard Spin](https://github.com/eq19/maps/assets/8466209/a675ed2e-2a9b-4506-a6c3-ddbb92474219)
 
