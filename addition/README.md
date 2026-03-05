@@ -47,8 +47,6 @@ That is, if the powers of 10 all returned with blue spin, or as a series of rain
 
 ![image](https://github.com/eq19/maps/assets/36441664/8997b388-e0b8-481f-a763-76a46a07e085)
 
-So there should be a tight connection between 168 primes within 1000 with the _[24-cell hexagon](https://eq19.github.io/multiplication/#assigning-a-lexer)_. Indeed it is also correlated with [1000 prime numbers](https://www.primesdemystified.com/First1000Primes.html).
-
 ## Spin Polarity
 
 ```php
@@ -235,15 +233,61 @@ Every permutation of the plane's points that preserves collinearity is a symmetr
 
 [![17725871866978639554485627109887](https://github.com/user-attachments/assets/f8262923-89dc-4304-a86b-9f2529d4fec7)](http://finitegeometry.org/sc/8/plane.html)
 
-
-Let's consider a prime spin theory of compactifying the 7-dimensional manifold on the 3-sphere of a fixed radius and study its [dimensional reduction](https://en.wikipedia.org/wiki/Dimensional_reduction
-) to 4D.
-
 ```note
-Proceeding, the number line begins to coil upon itself; 20 lands on 2’s cell, 21 on 3’s cell. Prime number 23 sends the number line left to form the fourth (4th) hexagon, purple. As it is not a twin, the clockwise progression (rotation) reverses itself. Twin primes ***29 and 31 define the fifth (5th) hexagon***, cyan. Finally, 37, again not a twin, reverses the rotation of the system, so 47 can define the yellow hexagon _([HexSpin](https://www.hexspin.com/defining-the-prime-hexagon/))_.
+Cell types are interesting, but they simply reflect a ***modulo 6 view of numbers***.  More interesting are the six internal hexagons within the Prime Hexagon.  Like the Prime Hexagon, they are newly discovered. The minor hexagons form solely from the order, and type, of primes along the number line _([HexSpin](https://www.hexspin.com/minor-hexagons/))_.
 ```
 
-![Screen-Shot-2016-11-07-at-5 11 59-PM](https://user-images.githubusercontent.com/8466209/226644534-00cf4fe3-04f9-4b28-8a8b-674bcf4bd585.png)
+```
+$True Prime Pairs:
+(5,7), (11,13), (17,19)
+ 
+layer | node | sub |  i  |  f
+------+------+-----+----------
+      |      |     |  1  | ----------‹ 289® ‹--------
+      |      |  1  +-----+                           |    
+      |  1   |     |  2  | (5)                       |
+      |      |-----+-----+                           |
+      |      |     |  3  |                           |
+  1   +------+  2  +-----+----                       |
+      |      |     |  4  |                           |
+      |      +-----+-----+                           |
+      |  2   |     |  5  | (7)                       |
+      |      |  3  +-----+                           |
+      |      |     |  6  |                          11s
+------+------+-----+-----+------      } (36)         |
+      |      |     |  7  |                           |
+      |      |  4  +-----+                           |
+      |  3   |     |  8  | (11)                      |
+      |      +-----+-----+                           |
+      |      |     |  9  |                           |
+  2   +------|  5  +-----+-----                      |
+      |      |     |  10 |                           |
+      |      |-----+-----+                           |
+      |  4   |     |  11 | (13) -----› 329® ›---------
+      |      |  6  +-----+               ✓
+      |      |     |  12 |-----------‹ 168® ‹--------
+------+------+-----+-----+------------               |
+      |      |     |  13 |                           |
+      |      |  7  +-----+                           |
+      |  5   |     |  14 | (17)                      |
+      |      |-----+-----+                           |
+      |      |     |  15 |                           7s
+  3   +------+  8  +-----+-----       } (36)         |
+      |      |     |  16 |                           |
+      |      |-----+-----+                           |
+      |  6   |     |  17 | (19)                      |
+      |      |  9  +-----+               ✓           |
+      |      |     |  18 | ----------› 360® ›--------
+------|------|-----+-----+------
+```
+
+So there should be a tight connection between 168 primes within 1000 with the _[24-cell hexagon](https://eq19.github.io/multiplication/#assigning-a-lexer)_. Indeed it is also correlated with [1000 prime numbers](https://www.primesdemystified.com/First1000Primes.html).
+
+```note
+1092 − 892 = 3960 and 3960 x 2 = 7920; which equates to 8,363,520/(1092 − 892) = 2112, and when you plug 7919 into the formula for triangular numbers you generate 31,359,240 = 7919 x (1092 − 892). And here's another grouping that relates to these ratios: (672 − 232) = (1092 − 892) and (672 + 1092) − (232 + 892) = 7920 = 2(1092 − 892). And here we correlate 11's additive sums with 3960, 7920 and the first 1000 prime numbers. _([PrimesDemystified](https://www.primesdemystified.com/First1000Primes.html))_
+```
+
+[![11_3960_1st_1000_primes](https://github.com/eq19/maps/assets/8466209/46a23e95-fc39-47e8-9ea0-cfd349217538)](https://www.primesdemystified.com/First1000Primes.html)
 
 By _[The Δ(19 vs 18) Scenario](https://eq19.github.io/identition/#%CE%B419-vs-18-scenario)_ those three are exactly landed in the ***0's cell*** out of Δ18. See that the sum of 30 and 36 is 66 while the difference between 36 and 102 is also 66.
 
@@ -279,56 +323,6 @@ You likely noticed I began with 2 rather than 1 or 0 when I first constructed th
 18 (0, 1) cyan_0  ◄---  18
 ```
 
-You may notice that there are twists and turns until 19 abuts 2 therefore this addition zone takes only the seven (7) primes out of the 18's structure of _[True Prime Pairs](https://eq19.github.io/addition/file02.html#true-prime-pairs)_.
-
-```note
-Cell types are interesting, but they simply reflect a ***modulo 6 view of numbers***.  More interesting are the six internal hexagons within the Prime Hexagon.  Like the Prime Hexagon, they are newly discovered. The minor hexagons form solely from the order, and type, of primes along the number line _([HexSpin](https://www.hexspin.com/minor-hexagons/))_.
-```
-
-```
-$True Prime Pairs:
-(5,7), (11,13), (17,19)
- 
-layer | node | sub |  i  |  f
-------+------+-----+----------           ✓
-      |      |     |  1  | ----------‹ 289® ‹--------
-      |      |  1  +-----+                           |    
-      |  1   |     |  2  | (5)                       |
-      |      |-----+-----+                           |
-      |      |     |  3  |                           |
-  1   +------+  2  +-----+----                       |
-      |      |     |  4  |                           |
-      |      +-----+-----+                           |
-      |  2   |     |  5  | (7)                       |
-      |      |  3  +-----+                           |
-      |      |     |  6  |                          11s
-------+------+-----+-----+------      } (36)         |
-      |      |     |  7  |                           |
-      |      |  4  +-----+                           |
-      |  3   |     |  8  | (11)                      |
-      |      +-----+-----+                           |
-      |      |     |  9  |                           |
-  2   +------|  5  +-----+-----                      |
-      |      |     |  10 |                           |
-      |      |-----+-----+               ✓           |
-      |  4   |     |  11 | (13) -----› 329® ›---------
-      |      |  6  +-----+               ✓
-      |      |     |  12 |-----------‹ 169® ‹--------
-------+------+-----+-----+------------               |
-      |      |     |  13 |                           |
-      |      |  7  +-----+                           |
-      |  5   |     |  14 | (17)                      |
-      |      |-----+-----+                           |
-      |      |     |  15 |                           7s
-  3   +------+  8  +-----+-----       } (36)         |
-      |      |     |  16 |                           |
-      |      |-----+-----+                           |
-      |  6   |     |  17 | (19)                      |
-      |      |  9  +-----+               ✓           |
-      |      |     |  18 | ----------› 359® ›--------
-------|------|-----+-----+------
-```
-
 The tessellating field of equilateral triangles fills with numbers, with spin orientation flipping with each prime number encountered, creating ***3 minor hexagons***.
 
 ```tip
@@ -343,6 +337,17 @@ In conclusion, the number 1 is neither prime nor composite.
 ***π(6+11) = π(17) = 7***
 
 ![](https://user-images.githubusercontent.com/36441664/274093531-0878e3e5-6be3-448e-9ad4-3b34523c1e9c.jpg)
+
+```note
+Proceeding, the number line begins to coil upon itself; 20 lands on 2’s cell, 21 on 3’s cell. Prime number 23 sends the number line left to form the fourth (4th) hexagon, purple. As it is not a twin, the clockwise progression (rotation) reverses itself. Twin primes ***29 and 31 define the fifth (5th) hexagon***, cyan. Finally, 37, again not a twin, reverses the rotation of the system, so 47 can define the yellow hexagon _([HexSpin](https://www.hexspin.com/defining-the-prime-hexagon/))_.
+```
+
+![](https://github.com/eq19/maps/assets/8466209/a04f4573-5f35-41d3-8cae-06506616cbab)
+
+Let's consider a prime spin theory of compactifying the 7-dimensional manifold on the 3-sphere of a fixed radius and study its [dimensional reduction](https://en.wikipedia.org/wiki/Dimensional_reduction
+) to 4D.
+
+![Screen-Shot-2016-11-07-at-5 11 59-PM](https://user-images.githubusercontent.com/8466209/226644534-00cf4fe3-04f9-4b28-8a8b-674bcf4bd585.png)
 
 ```note
 In our approach a 3-form is not an object that exist in addition to the metric, it is the only object that exist and in particular ***[the 4D metric, is defined by the 3-form](https://eq19.github.io/identition/span12/#three-3-layers)***.
