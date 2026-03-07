@@ -58,6 +58,8 @@ Exponentiation zones allows _[multiplication zones](https://eq19.github.io/multi
 36 (1, -1) cyan_0  ◄--- 36
 ```
 
+Each stage corresponds to a fundamental force or unifying theory, collectively guiding development through **Seven Layers of Optimization**.
+
 ```note
 As we've already alluded, to lay the foundation for a bijection with numbers not divisible by 2, 3, or 5, each of the pyramid's four lateral faces is constructed from a 32-step triangular number progression (oeis.org/A000217: a(n) = n(n+1)/2 ...).
 ```
@@ -80,6 +82,8 @@ As we've already alluded, to lay the foundation for a bijection with numbers not
  π(19)  | 11 | 13 | 17 | 19 | 8th ✔️
 ```
 
+[![The Four Fundamental Forces](https://github.com/user-attachments/assets/731865b0-7033-4e1b-a587-0c75c0dcae36)](https://eq19.github.io/#prime-unit-identity)
+
 ***29 = 10th prime***
 
 ```txt
@@ -91,6 +95,14 @@ As we've already alluded, to lay the foundation for a bijection with numbers not
 --------+----+----+----+----+----
  π(29)  | 23 | 29 |  - |  - | 10th ✔️
 ```
+
+Each stage builds upon the stability of the one before, echoing how forces in physics emerge with energy scale.
+
+```note
+That is, if the powers of 10 all returned with blue spin, or as a series of rainbows, or evenly alternating colors or other non-random results, ***then I’d say prime numbers appear to have a linkage to 10.  I may not know what the the linkage is, just that it appears to exist*** _([HexSpin](https://www.hexspin.com/minor-hexagons/))_.
+```
+
+![169-over-109-blood-pressure](https://github.com/eq19/maps/assets/8466209/a702ea20-2ef3-424f-804e-c73a6c873692)
 
 ***109 = 29th prime***
 
@@ -163,29 +175,82 @@ As we've already alluded, to lay the foundation for a bijection with numbers not
  π(101+8) |103 |107 |109 |   - | 29th 👈 π(29+1) ✔️
 ```
 
-## Standard Model
-
-There is a proof that it is [impossible](https://en.wikipedia.org/wiki/An_Exceptionally_Simple_Theory_of_Everything) to embed all the three generations  in E8 without the presence of additional particles that do not exist in the physical world.
+This paper presents a novel conceptual framework aligning the stages of trading strategy hyperoptimization with the hierarchy of fundamental forces in physics.
 
 ```note
-This is a somewhat arbitrary choice, selected for leaving W3 and color invariant. Once the first generation of fermions, with correct charges and spins, are assigned to elements of e8, this T rotates them to the second and third generations.
-- The second and third generations only have the correct spins and charges when considered as equivalent under this T. ***When considered as independent fields with E8 quantum numbers, irrespective of this triality relationship, the second and third generation of fields do not have correct charges and spins.***
-- The W3 and color charges are invariant under our choice of T but the spins and hypercharges are only correct through triality equivalence. This relationship between fermion generations and triality is the least understood aspect of this theory.
-- It is conceivable that there is a more complicated way of assigning three generations of fermions to the E8 roots to get standard model quantum numbers for all three generations without triality equivalence.
+Hyperoptimization in algorithmic trading involves tuning multiple interacting components — such as buy/sell logic, ROI models, risk protections, and meta-settings. To manage this complexity and define a meaningful sequence, we draw an analogy from the layered architecture of physics: from weak nuclear interactions to the theory of everything.
 
-There is such an assignment known to the author that gives the correct hypercharges for all three generations, but it is not a triality rotation and it produces unusual spins. A correct description of the relationship between triality and generations, if it exists, awaits a better understanding. _([An Exceptionally  Simple Theory of Everything - pdf](https://github.com/eq19/maps/files/14151110/0711.0770.pdf))_
+### 1. **Weak Nuclear** – _[buy¹, custom-entry²]_
+The buy logic initiates trades and responds to localized, short-lived signals — akin to the weak nuclear force, which governs subatomic transformations. Custom entry logic represents nuanced early decision-making.
+
+### 2. **Electromagnetic (QED)** – _[sell³, custom-exit⁴]_
+The sell logic reacts to opposing conditions and manages exits through symmetric, responsive forces. Like electromagnetism, this governs interactions and balance through custom-exit dynamics.
+
+### 3. **Electroweak (QED + Weak + QM)** – _[custom-entry², custom-exit⁴, roi⁵]_
+This layer unifies buying and selling into a cohesive interactive force. **Here, quantum mechanics** is conceptually embedded: representing probabilistic filters, confidence thresholds, and dynamic decision-making within `custom-entry` and `custom-exit`. ROI emerges here as a modulated outcome of quantum-level signal interaction.
+
+### 4. **Strong Nuclear (QCD)** – _[trailing⁶, protection⁷, timeframe⁸]_
+Trailing stops, protection logic, and timeframe define the internal trade architecture. This layer offers resilience and cohesion, much like the strong nuclear force binds particles under high tension.
+
+### 5. **Grand Unified Theory (GUT)** – _[trades⁹, roi⁵]_
+Abstracting above local behaviors, this layer analyzes trade performance and profit structure. It combines earlier logic into a unifying profit mechanism and long-term strategy shaping.
+
+### 6. **Quantum Gravity (Meta-Layer)** – _[default¹⁰, leverage¹¹, global-overrides¹²]_
+This meta-layer defines the curvature of the environment. Default settings, leverage, and global overrides determine the system’s flexibility and risk profile — mirroring how gravity shapes the space-time structure of the trading universe.
+
+### 7. **Theory of Everything (TOE)** – _[all¹³]_
+The final layer integrates all previous dimensions. It represents full-system optimization, where all logic, protections, and meta-controls are harmonized into a complete strategic model.
+
+By metaphorically linking trading components to physical forces, we propose a model that inspires a more unified approach to systematic development.
+
+By mapping the **13 available optimization spaces** to this seven-layered structure — with quantum mechanics **embedded** rather than added — this framework maintains coherence with both physics and practical hyperoptimization architecture.
+
+## Footnotes (Mapping to Hyperopt Spaces)
+
+1. buy  
+2. custom-entry  
+3. sell  
+4. custom-exit  
+5. roi  
+6. trailing  
+7. protection  
+8. timeframe  
+9. trades  
+10. default  
+11. leverage  
+12. global-overrides  
+13. all
 ```
 
-[![An Exceptionally Simple Theory of Everything](https://github.com/eq19/maps/assets/8466209/0e0db7cf-9b02-4719-8521-26bb8973709a)](https://www.researchgate.net/publication/2217412_An_Exceptionally_Simple_Theory_of_Everything)
-
-```note
-The matter representations come in three copies (generations) of the 16 representation. The [Yukawa coupling](https://en.wikipedia.org/wiki/Yukawa_coupling) is 10H 16f 16f. ***This includes a right-handed neutrino**". One may either include three copies of [singlet](https://en.wikipedia.org/wiki/Singlet_state) representations φ and a Yukawa coupling (the "double seesaw mechanism"); or else, add the Yukawa interaction or add the [nonrenormalizable](https://en.wikipedia.org/wiki/Nonrenormalizable) coupling. _([Wikipedia](https://en.wikipedia.org/wiki/SO(10)))_ mass of the heavy 24 gauge bosons, while mT = mHT is the mass of the triplet Higgs.
-
-```note
-The cleanest signature for a Higgs sector with triplet fields would be the discovery of [doubly charged](https://www.researchgate.net/publication/13276480_Higgs_triplets_in_the_standard_model) Higgs Bosons. Like Pauli’s bold prediction of the neutrino and GIM’s bold prediction of the charm quark, the equally bold speculation of Kobayashi and Maskawa was proved absolutely correct, when the ***fermions of the third generation*** began to be discovered one by one. First came the tau lepton in 1975, closely followed by the bottom quark in 1977. There followed a 17-year hiatus till the 1994 discovery of the top quark, and another 6 years wait till the existence of the tau neutrino νwas confirmed in 2000.
+```txt
+ Osp(8|4) |  1 |  2 |  3 |   4 | th
+==========+====+====+====+=====+====
+ π(10)    |  2 |  3 |  5 |   7 | 4th
+----------+----+----+----+-----+----
+ π(19)    | 11 | 13 | 17 |  19 | 8th
+----------+----+----+----+-----+----
+ π(29)    | 23 | 29 |  - |   - | 10th
+==========+====+=👇=+====+=====+====
+ π(41)    | 31 | 37 | 41 |   - | 13th 👈
+----------+----+----+----+-----+----
+ π(59)    | 43 | 47 | 53 |  59 | 17th 
+----------+----+----+----+-----+- ---
+ π(72)    | 61 | 67 | 71 |   - | 20th
+==========+====+====+====+=====+====
+ π(72+11) | 73 | 79 | 83 |   - | 23th
+----------+----+----+----+-----+----
+ π(83+18) | 89 | 97 |101 |   - | 26th
+----------+----+----+----+-----+----
+ π(101+8) |103 |107 |109 |   - | 29th
 ```
 
-[![24 matriks](https://github.com/eq19/maps/assets/8466209/f37dc9db-2d96-4a1b-884f-83299590cf75)](https://github.com/eq19/maps/files/14414508/kitgut_s_12.pdf)
+Let's consider a [Metaron's Cube](http://en.wikipedia.org/wiki/Metatron%27s_Cube) as a geometric figure composed of 13 equal circles with lines from the center of each circle extending out to the centers of the other 12 circles.
+
+```note
+The 13 circles of the Metatron's cube can be seen as a diagonal axis projection of a ***3-dimensional cube, as 8 corner spheres and 6 face-centered spheres***. Two spheres are projected into the center from a 3-fold symmetry axis. The face-centered points represent an [octahedron](https://en.wikipedia.org/wiki/Octahedron). Combined these 14 points represent the [face-centered cubic lattice cell](https://en.wikipedia.org/wiki/Cubic_crystal_system#Cubic_space_groups). _([Wikipedia](https://en.wikipedia.org/wiki/User:Tomruen/Metatron%27s_Cube))_
+```
+
+![image](https://github.com/eq19/maps/assets/8466209/da167d93-f8e1-42bd-b180-c86fce7d0ad6)
 
 Is the fermion red? green? blue? Does the fermion have isospin up? down? These five questions can be represented by an exterior algebra of 2⁵ or _[32-complex dimensional](https://github.com/eq19/maps/files/14387513/Standard_model_physics_from_an_algebra.pdf)_.
 
@@ -250,8 +315,6 @@ Answer-2: 6 flavour x 3 colors x 2 types = 36 quarks
 ```txt
 Answer-3: 6 flavour x 3 colour x 4 bispinor = 72 quarks
 ```
-
-## There are 72 quarks
 
 ```note
 In order to be ***[four-spinors](https://en.wikipedia.org/wiki/Dirac_spinor#Four-spinor_for_particles)*** like the electron and other [lepton](https://en.wikipedia.org/wiki/Lepton) components, there must be one quark component for every combination of [flavour](https://en.wikipedia.org/wiki/Flavor_(particle_physics)) and [colour](https://en.wikipedia.org/wiki/Color_charge), ***bringing the total to 24 (3 for charged leptons, 3 for neutrinos, and 2·3·3 = 18 for quarks). Each of these is a four (4) component [bispinor](https://en.wikipedia.org/wiki/Bispinor), for a total of [96 complex-valued components](https://github.com/eq19/maps/files/13796986/NEUTRINOS_Mysterious_Particles_with_Fascinating_Fe.pdf) for the fermion field***. _([Wikipedia](https://en.wikipedia.org/wiki/Mathematical_formulation_of_the_Standard_Model))_
@@ -666,221 +729,6 @@ to the fermion mass The dotted line represents the dynamical Higgs particles h a
 [![1-s2 0-S0550321321002340-gr008_lrg](https://github.com/eq19/maps/assets/8466209/636313e9-fdc9-4555-b704-38ad21fba3a8)](https://www.sciencedirect.com/science/article/pii/S0550321321002340)
 
 The first diagram corresponds to the ***first term*** at _[right hand side of equality](https://www.sciencedirect.com/science/article/pii/S0550321321002340#fm1770)_, while the other two diagrams with back-moving lines combine to produce the ***second term***.
-
-## The Interchange Layers
-
-This paper presents a novel conceptual framework aligning the stages of trading strategy hyperoptimization with the hierarchy of fundamental forces in physics.
-
-```note
-Hyperoptimization in algorithmic trading involves tuning multiple interacting components — such as buy/sell logic, ROI models, risk protections, and meta-settings. To manage this complexity and define a meaningful sequence, we draw an analogy from the layered architecture of physics: from weak nuclear interactions to the theory of everything.
-
-### 1. **Weak Nuclear** – _[buy¹, custom-entry²]_
-The buy logic initiates trades and responds to localized, short-lived signals — akin to the weak nuclear force, which governs subatomic transformations. Custom entry logic represents nuanced early decision-making.
-
-### 2. **Electromagnetic (QED)** – _[sell³, custom-exit⁴]_
-The sell logic reacts to opposing conditions and manages exits through symmetric, responsive forces. Like electromagnetism, this governs interactions and balance through custom-exit dynamics.
-
-### 3. **Electroweak (QED + Weak + QM)** – _[custom-entry², custom-exit⁴, roi⁵]_
-This layer unifies buying and selling into a cohesive interactive force. **Here, quantum mechanics** is conceptually embedded: representing probabilistic filters, confidence thresholds, and dynamic decision-making within `custom-entry` and `custom-exit`. ROI emerges here as a modulated outcome of quantum-level signal interaction.
-
-### 4. **Strong Nuclear (QCD)** – _[trailing⁶, protection⁷, timeframe⁸]_
-Trailing stops, protection logic, and timeframe define the internal trade architecture. This layer offers resilience and cohesion, much like the strong nuclear force binds particles under high tension.
-
-### 5. **Grand Unified Theory (GUT)** – _[trades⁹, roi⁵]_
-Abstracting above local behaviors, this layer analyzes trade performance and profit structure. It combines earlier logic into a unifying profit mechanism and long-term strategy shaping.
-
-### 6. **Quantum Gravity (Meta-Layer)** – _[default¹⁰, leverage¹¹, global-overrides¹²]_
-This meta-layer defines the curvature of the environment. Default settings, leverage, and global overrides determine the system’s flexibility and risk profile — mirroring how gravity shapes the space-time structure of the trading universe.
-
-### 7. **Theory of Everything (TOE)** – _[all¹³]_
-The final layer integrates all previous dimensions. It represents full-system optimization, where all logic, protections, and meta-controls are harmonized into a complete strategic model.
-
-By metaphorically linking trading components to physical forces, we propose a model that inspires a more unified approach to systematic development.
-```
-
-[![The Four Fundamental Forces](https://github.com/user-attachments/assets/731865b0-7033-4e1b-a587-0c75c0dcae36)](https://eq19.github.io/#prime-unit-identity)
-
-By mapping the **13 available optimization spaces** to this seven-layered structure — with quantum mechanics **embedded** rather than added — this framework maintains coherence with both physics and practical hyperoptimization architecture.
-
-
-```note
-## Footnotes (Mapping to Hyperopt Spaces)
-
-1. buy  
-2. custom-entry  
-3. sell  
-4. custom-exit  
-5. roi  
-6. trailing  
-7. protection  
-8. timeframe  
-9. trades  
-10. default  
-11. leverage  
-12. global-overrides  
-13. all
-```
-
-```txt
- Osp(8|4) |  1 |  2 |  3 |   4 | th
-==========+====+====+====+=====+====
- π(10)    |  2 |  3 |  5 |   7 | 4th
-----------+----+----+----+-----+----
- π(19)    | 11 | 13 | 17 |  19 | 8th
-----------+----+----+----+-----+----
- π(29)    | 23 | 29 |  - |   - | 10th
-==========+====+=👇=+====+=====+====
- π(41)    | 31 | 37 | 41 |   - | 13th 👈
-----------+----+----+----+-----+----
- π(59)    | 43 | 47 | 53 |  59 | 17th 
-----------+----+----+----+-----+- ---
- π(72)    | 61 | 67 | 71 |   - | 20th
-==========+====+====+====+=====+====
- π(72+11) | 73 | 79 | 83 |   - | 23th
-----------+----+----+----+-----+----
- π(83+18) | 89 | 97 |101 |   - | 26th
-----------+----+----+----+-----+----
- π(101+8) |103 |107 |109 |   - | 29th
-```
-
-Let's consider a [Metaron's Cube](http://en.wikipedia.org/wiki/Metatron%27s_Cube) as a geometric figure composed of 13 equal circles with lines from the center of each circle extending out to the centers of the other 12 circles.
-
-```note
-The 13 circles of the Metatron's cube can be seen as a diagonal axis projection of a ***3-dimensional cube, as 8 corner spheres and 6 face-centered spheres***. Two spheres are projected into the center from a 3-fold symmetry axis. The face-centered points represent an [octahedron](https://en.wikipedia.org/wiki/Octahedron). Combined these 14 points represent the [face-centered cubic lattice cell](https://en.wikipedia.org/wiki/Cubic_crystal_system#Cubic_space_groups). _([Wikipedia](https://en.wikipedia.org/wiki/User:Tomruen/Metatron%27s_Cube))_
-```
-
-![image](https://github.com/eq19/maps/assets/8466209/da167d93-f8e1-42bd-b180-c86fce7d0ad6)
-
-Each stage builds upon the stability of the one before, echoing how forces in physics emerge with energy scale.
-
-```note
-That is, if the powers of 10 all returned with blue spin, or as a series of rainbows, or evenly alternating colors or other non-random results, ***then I’d say prime numbers appear to have a linkage to 10.  I may not know what the the linkage is, just that it appears to exist*** _([HexSpin](https://www.hexspin.com/minor-hexagons/))_.
-```
-
-![169-over-109-blood-pressure](https://github.com/eq19/maps/assets/8466209/a702ea20-2ef3-424f-804e-c73a6c873692)
-
-If the four pieces are restructured in the form of a rectangle, it appears that ***the overall area has inexplicably lost one unit!*** What has happened?
-
-```note
-Notice that the divisions in the original square have been done according to some [Fibonacci numbers](https://www.sacred-geometry.es/?q=en/content/golden-ratio): 5, 8 and 13=5+8; therefore the sides of the transformed rectangle are also Fibonacci numbers because it has been constructed additively. Now, do you guess how could we correct the dimensions of the initial square so that the above transformation into a rectangle was area-preserving? Yes, as it could not be another way round, we need to introduce the Golden Ratio! If the pieces of the square are constructed according to Golden proportions, then the area of the resulting rectangle will coincide with the area of the square. _([Phi particle physics](https://www.sacred-geometry.es/?q=en/content/phi-particle-physics))_
-```
-
-[![13x13 square divided into two triangles and two quadrilateral polygons](https://github.com/eq19/maps/assets/8466209/59c6f50d-4f9c-4da8-bdbc-503930d57e4f)](https://www.sacred-geometry.es/?q=en/content/phi-particle-physics)
-
-Within these 1000 primes there will be fractions which end up with _[168 identities](https://eq19.github.io/identition/#the-powers-of-pi)_. This will be the same structure as the seven (7) pàrtitions of _[addition zones](https://eq19.github.io/addition/)_. 
-
-```note
-The first 1000 prime numbers are silently screaming: "Pay attention to us, for we hold the secret to the distribution of all primes!" We heard the call, and with 'strange coincidences' leading the way have discovered compelling evidence that the 1000th prime number, 7919, is the perfectly positioned cornerstone of a mathematical object with highly organized substructures and stunning reflectional symmetries. _([PrimesDemystified](https://www.primesdemystified.com/First1000Primes.html))_
-```
-
-```liquid
-1st layer:
-It has a total of 1000 numbers
-Total primes = π(1000) = 168 primes
-
-2nd layer:
-It will start by π(168)+1 as the 40th prime
-It has 100x100 numbers or π(π(10000)) = 201 primes
-Total cum primes = 168 + (201-40) = 168+161 = 329 primes
-
-3rd layer:
-Behave reversal to 2nd layer which has a total of 329 primes
-The primes will start by π(π(π(1000th prime)))+1 as the 40th prime
-This 1000 primes will become 1000 numbers by 1st layer of the next level
-Total of all primes = 329 + (329-40) = 329+289 = 618 = 619-1 = 619 primes - Δ1 
-```
-
-The Golden Ratio “symbolically links each new generation to its ancestors, preserving the continuity of relationship as the means for retracing its lineage.”
-
-```note
-There is a fascinating connection between prime numbers and the Golden ratio.
-- The Golden ratio is an irrational number, which means that it cannot be expressed as a ratio of two integers. However, it can be approximated by dividing consecutive Fibonacci numbers.
-- Additionally, it has been observed that the frequency of prime numbers in certain sequences related to the Golden ratio (such as the continued fraction expansion of the Golden ratio) appears to be higher than in other sequences.
-- Interestingly, the Fibonacci sequence is closely related to prime numbers, as any two consecutive Fibonacci numbers are always coprime.
-
-However, the exact nature of the relationship between primes and the Golden ratio is still an active area of research. During the last few years of the 12th century, ***Fibonacci*** undertook a series of travels around the Mediterranean. At this time, the world’s most prominent mathematicians were Arabs, and he spent much time studying with them. His work, whose title translates as the Book of Calculation, was extremely influential in that ***it popularized the use of the Arabic numerals in Europe***, thereby revolutionizing arithmetic and allowing scientific experiment and discovery to progress more quickly. _([Famous Mathematicians](https://famous-mathematicians.org/leonardo-pisano-bigollo/))_
-```
-
-[![phi-continued-fraction](https://github.com/eq19/maps/assets/8466209/df218fdb-71b0-4261-a33c-a6e6f09aaf1c)](https://www.cosmic-core.org/free/article-56-geometry-the-golden-ratio-part-1-introduction/)
-
-During this interchange, the two 16-plets will be crossing over and farther apart but they are more likely to ***[stick together](https://eq19.github.io/multiplication/#fractal-dimensions)*** and not switch places.
-
-```note
-Another fascinating feature of this array is that any even number of–not necessarily contiguous–factors drawn from any one of ***the 32 angles in this modulo 120*** configuration distribute products to 1(mod 120) or 49 (mod 120), along with the squares.
-- We see from the graphic above that the digital roots of the Fibonacci numbers indexed to our domain (Numbers ≌ to {1,7,11,13,17,19,23,29} modulo 30) ***repeat palindromically every 32 digits (or 4 thirts) consisting of 16 pairs of bilateral 9 sums***.[![16 squares](https://github.com/eq19/maps/assets/8466209/efe55c6d-926c-47bb-80db-7d892eb3f103)](https://www.primesdemystified.com/)
-
-- The digital root sequence of our domain, on the other hand, repeats every 24 digits (or 3 thirts) and possesses 12 pairs of bilateral 9 sums. The entire Prime Root sequence end-to-end covering 360° has 48 pairs of bilateral 9 sums.
-- And finally, the Prime Root elements themselves within the Cirque, ***consisting of 96 elements, has 48 pairs of bilateral sums totaling 360***. Essentially, the prime number highway consists of infinitely telescoping circles ...
-- Also note, the digital roots of the Prime Root Set as well as the digital roots of Fibonnaci numbers and Lucas numbers (the latter not shown above) ***indexed to it all sum to 432 (48x9) in 360° cycles***.
-- The sequence involving Fibonacci digital roots repeats every 120°, and has been documented by the author on the On-Line Encyclopedia of Integer Sequences: [Digital root of Fibonacci numbers indexed by natural numbers not divisible by 2, 3 or 5 (A227896)](https://oeis.org/A227896).
-- The four faces of our pyramid additively cascade ***32 four-times triangular numbers*** (Note that 4 x 32 = 128 = the perimeter of the square base which has an area of ***32^2 = 1024 = 2^10***).
-- These include Fibo1-3 equivalent 112 (rooted in T7 = 28; 28 x 4 = 112), which creates a pyramidion or capstone in our model, and 2112 (rooted in T32 = 528; 528 x 4 = 2112), which is the index number of ***the 1000th prime*** within our domain, and equals the total number of 'elements' used to construct the pyramid. 
-
-A thirt, in case you're wondering, is a useful unit of measure when discussing intervals in natural numbers not divisible by 2, 3 or 5. A thirt, equivalent to one rotation around the [Prime Spiral Sieve](https://www.primesdemystified.com/) is like a mile marker on the prime number highway. If we take the Modulo 30 Prime Spiral Sieve and expand it to ***Modulo 360***, we see that ***there are 12 thirts*** in one complete circle, or 'cirque' as we've dubbed it. ***Each thirt consists of 8 elements***. _([PrimesDemystified](https://www.primesdemystified.com/twinprimes.html))_
-```
-
-***π(1000) = π(Φ x 618) = 168***
-
-[![default](https://user-images.githubusercontent.com/8466209/195963923-0796217c-7a87-4b2d-ba93-f47465304c03.png)](https://www.nausetschools.org/cms/lib/MA02212418/Centricity/Domain/204/Linkage%20Map%20Worksheet%20Genetics%202017.pdf)
-
-The mathematically significant Fibonacci sequence defines a set of ratios which can be used to determine probable entry and exit points.
-
-```note
-Simply stated, the Golden Ratio establishes that the small is to the large as the large is to the whole. This is usually applied to proportions between segments.
-- In the special case of a unit segment, the Golden Ratio provides the only way to divide unity in two parts that are in a geometric progression:[![Phi_division_unity](https://github.com/eq19/maps/assets/8466209/485cc8f8-4964-4d82-8fee-e78b38abfb6a)](https://www.sacred-geometry.es/?q=en/content/golden-ratio)
-- The side of a pentagon-pentagram can clearly be seen as in relation to its diagonal as 1: (√5 +1)/2 or 1:φ, the Golden Section:[![golden-ratio-pentagram-lr](https://github.com/eq19/maps/assets/8466209/bbc7688d-d656-4a14-97eb-8bb073b41fea)](https://www.cosmic-core.org/free/article-56-geometry-the-golden-ratio-part-1-introduction/)
-- When you draw all the diagonals in the pentagon you end up with the pentagram. The pentagram shows that the Golden Gnomon, and therefore Golden Ratio, are iteratively contained inside the pentagon:[![Phi_Squared_Circle_Mides](https://github.com/eq19/maps/assets/8466209/9afc48e0-326b-47ee-86fd-68697705d187)](https://www.sacred-geometry.es/?q=en/content/golden-ratio)
-- There are set of sequence known as _[Fibonacci retracement](https://www.investopedia.com/ask/answers/05/fibonacciretracement.asp#:~:text=The%20key%20Fibonacci%20ratio%20of,two%20spots%20to%20the%20right.)_. For unknown reasons, these Fibonacci ratios seem to play a role in the _[stock market](https://eq19.github.io/exponentiation/#hexagonal-patterns)_, just as they do in nature.  The Fibonacci retracement levels are 0.236, 0.382, ***0.618, and 0.786***.[![Fibonacci retracement](https://user-images.githubusercontent.com/36441664/277129518-a7bfc713-40f5-47a5-9a1d-37c3e3fde1ff.png)](https://www.investopedia.com/ask/answers/05/fibonacciretracement.asp#:~:text=The%20key%20Fibonacci%20ratio%20of,two%20spots%20)
-  - The key Fibonacci ratio of 61.8% is found by dividing one number in the series by the number that follows it. For example, 21 divided by 34 equals 0.6176, and 55 divided by 89 equals about 0.61798.
-  - The 38.2% ratio is discovered by dividing a number in the series by the number located two spots to the right. For instance, 55 divided by 144 equals approximately 0.38194.
-  - The 23.6% ratio is found by dividing one number in the series by the number that is three places to the right. For example, 8 divided by 34 equals about 0.23529.
-  - The 78.6% level is given by the _[square root](https://youtu.be/K-AvE0B1KMw)_ of 61.8%
-- While not officially a Fibonacci ratio, 0.5 is also commonly referenced (50% is derived not from the Fibonacci sequence but rather from the idea that on average stocks retrace half their earlier movements).
-
-This study cascade culminating in the Fibonacci digital root sequence (also period-24). _([Golden Ratio - Articles](https://www.fnb.co.za/blog/investments/articles/FibonacciandtheGoldenRatio/))_
-```
-
-***(√0.618 - 0.618) x 1000  = (0.786 - 0.618) x 1000 = 0.168 x 1000 = 168 = π(1000)***
-
-[![24-digital root](https://user-images.githubusercontent.com/8466209/225589915-8f7690c8-4c17-4232-be51-63e79efb2c51.png)](https://eq19.github.io/addition/#the-24-cells-hexagon)
-
-By parsering 168 primes of 1000 id's across `π(π(100 x 100)) - 1 = 200` then the (Δ1) would be _[initiated](https://eq19.github.io/init.js)_. As you may guess they will slightly forms the ***hexagonal patterns***.
-
-```tip
-By our project the 18's on the gist will cover five (5) unique functions that behave as ***one (1) central plus four (4) zones***. This scheme will be implemented to all of the 168 repositories as bilateral way (***in-out***) depend on their postion on the system. So along with the gist it self then there shall be `1 + 168 = 169` units of 1685 root functions.
-```
-
-***5 + 2 x 5 x 168 = 5 + 1680 = 1685 root functions***
-
-![](https://github-production-user-asset-6210df.s3.amazonaws.com/8466209/292055714-1e7dc443-b7d8-44d9-8da0-5fe50dd7ee70.png)
-
-By the spin above you can see that the 4 zones of these `19's to 17's` are representing the rotation `1 to 5`. Such of formation can be seen on _[Ulam Spiral](https://en.wikipedia.org/wiki/Ulam_spiral)_ as below.
-
-```note
-The Ulam spiral or prime spiral is a graphical depiction of the set of prime numbers, devised by mathematician Stanisław Ulam in 1963 and popularized in Martin Gardner's Mathematical Games column in Scientific American a short time later.
-```
-
-[![ulam spiral](https://user-images.githubusercontent.com/36441664/274058089-72669dae-9f66-4953-bb5b-670aac2090f2.svg)](https://en.wikipedia.org/wiki/Ulam_spiral)
-
-By the MEC30 we will also discuss the relation of these 4 zones with high density of 40 primes where 60 number is folded.
-
-```note
-Both Ulam and Gardner noted that the existence of such prominent lines ***is not unexpected***, as lines in ***the spiral correspond to quadratic polynomials***, and certain such polynomials, such as Euler's prime-generating polynomial x²-x+41, are believed to produce a high density of prime numbers. Nevertheless, the Ulam spiral is connected with **major unsolved problems** in number theory such as Landau's problems _([Wikipedia](https://en.wikipedia.org/wiki/Ulam_spiral))_.
-```
-
-[![prime Sacks_spiral](https://user-images.githubusercontent.com/8466209/229820606-b2bbd7fb-3300-4507-8080-fb27ed6fd512.png)](https://eq19.github.io/multiplication/#streching-structure)
-
-So by the eight (8) pairs of prime it will always return to **[the beginning position](https://eq19.github.io/multiplication/#square-dimensions)** within [`60+40=100 nodes`](https://gist.github.com/eq19/0ce5848f7ad62dc46dedfaa430069857#the-power-of-168-vs-618) per layer.
-
-```note
-[The published](https://github.com/eq19/maps/files/13930690/PhysRev.76.769.pdf) diagram by [Feynman](https://physics.aps.org/story/v24/st3) helped scientists track particle movements in illustrations and visual equations rather than verbose explanations. What seemed almost improbable at the time is now one of the greatest [explanations](https://www.quantamagazine.org/why-feynman-diagrams-are-so-important-20160705/) of particle physics — the squiggly lines, diagrams, arrows, quarks, and cartoonish figures are now the established nomenclature and visual story that students, scientists, and readers will see when they learn about this field of science. _([medium.com](https://medium.com/taking-note/learning-from-the-feynman-technique-5373014ad230))_
-```
-
-***8 pairs = 8 x 2 = 16***
-
-[![Electromagnetism](https://user-images.githubusercontent.com/8466209/223011738-7e2084bc-861b-4424-89d5-9f39643df22f.png)](https://eq19.github.io/exponentiation/)
-
-Transforming particles into anti-particles, and vice versa, requires only the complex conjugate ***i → −i*** in our formalism. _([Standard Model from an algebra - pdf](https://github.com/eq19/maps/files/14387513/Standard_model_physics_from_an_algebra.pdf))_
 
 ## The Quantum Gravity
 
