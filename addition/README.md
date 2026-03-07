@@ -284,7 +284,12 @@ layer | node | sub |  i  |  f
 So there should be a tight connection between 168 primes within 1000 with the _[24-cell hexagon](https://eq19.github.io/multiplication/#assigning-a-lexer)_. Indeed it is also correlated with [1000 prime numbers](https://www.primesdemystified.com/First1000Primes.html).
 
 ```note
-1092 − 892 = 3960 and 3960 x 2 = 7920; which equates to 8,363,520/(1092 − 892) = 2112, and when you plug 7919 into the formula for triangular numbers you generate 31,359,240 = 7919 x (1092 − 892). And here's another grouping that relates to these ratios: (672 − 232) = (1092 − 892) and (672 + 1092) − (232 + 892) = 7920 = 2(1092 − 892). And here we correlate 11's additive sums with 3960, 7920 and the first 1000 prime numbers. _([PrimesDemystified](https://www.primesdemystified.com/First1000Primes.html))_
+The first 1000 prime numbers are silently screaming: "Pay attention to us, for we hold the secret to the distribution of all primes!" We heard the call, and with 'strange coincidences' leading the way have discovered compelling evidence that the 1000th prime number,
+- 7919, is the perfectly positioned cornerstone of a mathematical object with highly organized substructures and stunning reflectional symmetries.
+- This object is dually enveloped by 892 = 7921 and 7920 = 22 x 360 in conjunction with 1092 − 892 = 3960 = 11 x 360 (while mindful that both 1/89 and 1/109 have the Fibonacci sequence secreted in their decimal expansions).
+- And we note the astonishing fact that primes 11 + 89 + 109 + 7919 = 8128, the fourth perfect number, the first three of which are 6, 28, and 496. 
+
+By the matrices shown in the picture below it is clearly shows that there is a fascinating connection between prime numbers and the Golden ratio.
 ```
 
 [![11_3960_1st_1000_primes](https://github.com/eq19/maps/assets/8466209/46a23e95-fc39-47e8-9ea0-cfd349217538)](https://www.primesdemystified.com/First1000Primes.html)
