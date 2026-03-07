@@ -193,8 +193,6 @@ $$
 \end{aligned}
 $$
 
-[![base](https://user-images.githubusercontent.com/8466209/249753163-6cfbcecf-3713-409b-8d8b-5fa5cf8489ac.png)](https://www.hexspin.com/finding-a-number-in-the-hexagon/)
-
 [![the 5 cells](https://github.com/eq19/maps/assets/8466209/d3c8e7cb-2239-4b93-a4be-97e3ddbc8c94)](https://eq19.github.io/multiplication/18.html#higgs-mechanism)
 
 It is supposed that elementary particles participate in gravitational interactions as well, though there is no sufficient quantum gravity theory.

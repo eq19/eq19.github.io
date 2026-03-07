@@ -158,22 +158,6 @@ For every lepton flavor, there is a corresponding type of [antiparticle](https:/
 
 ![force_chart](https://github.com/eq19/maps/assets/8466209/dd7cc532-a84e-4921-834c-1e9939937f66)
 
-When we take all the forces that we understand, i.e., ***[not including gravity](https://youtu.be/NsUm9mNXrX4)***, and write down the QFT version of them, we arrive at the predictions of the Standard Model.
-
-```note
-This is where the idea of ***12 fermion fields and 12 boson fields*** come from. These fields are excitations of the underlying theories (the Standard Model) that describe the known Universe in its entirety, and include:
-- The six (6): up-, down-, strange-, charm-, bottom-, top-quarks, and their antiquark counterparts,
-- The three (3) charged (electron, muon, tau) and three (3) neutral (electron neutrino, muon neutrino, tau neutrino) leptons, and their antimatter counterparts,
-- The eight (8) gluons (because of the eight possible color combinations),
-- The one (1) electromagnetic (photon) boson,
-- The two (2) weak (W-and-Z) bosons,
-- And the Higgs boson.
-
-The quarks and leptons are fermions, which is why they have antimatter counterparts, and the W boson comes in two equal-and-opposite varieties (positively and negatively charged), but all told, ***there are 24 unique, fundamental excitations of quantum fields possible***. This is where the 24 fields idea comes from. _([Forbes](https://www.forbes.com/sites/startswithabang/2018/11/17/ask-ethan-are-quantum-fields-real/?sh=32c398b3777a))_
-```
-
-[![SM-particles](https://github.com/eq19/maps/assets/36441664/37b9ddf0-8069-4786-ac49-d918aff20aec)](https://www.forbes.com/sites/startswithabang/2018/11/17/ask-ethan-are-quantum-fields-real/?sh=32c398b3777a)
-
 So there are thought to be ***[24 separate quantum fields](https://youtu.be/euNr9PozCmg?t=41m25s)*** that permit the universe. It consists of 12 various [fundamental forces](https://eq19.github.io/exponentiation/#fundamental-forces) including mass, 9 quarks, and 3 leptons.
 
 ```note
@@ -1311,7 +1295,7 @@ The present particle physics or standard model based on the "unreal gauge transf
 
 Thus it appears that the [cosmological models](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7897631/#RSPA20200786C24) derived from compactification of 11d supergravity on a manifold with [G2 holonomy](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7897631/) have some ***[hidden E7 symmetry](https://eq19.github.io/identition/span12/#the-seven-7-groups).***
 
-## 77s Structure
+## The 77 Principles
 
 A foundation for theory-driven financial modeling, encouraging deeper exploration of system dynamics and unification across trading components.
 
