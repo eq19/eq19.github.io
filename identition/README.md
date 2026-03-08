@@ -1320,6 +1320,20 @@ A foundation for theory-driven financial modeling, encouraging deeper exploratio
 
 [![77s Structure](https://github.com/eq19/maps/assets/8466209/8362e5e8-a102-435e-8e6a-788456d00148)](https://eq19.github.io/addition/#hidden-dimensions)
 
+Using this concept we are going to stimulate a model of [the 11 dimensions](https://eq19.github.io/identition/span12/#the-11-dimensions) through the rank of their partition using github organizations of 13 repositories each.
+
+```tip
+The _[Root Function](https://eq19.github.io/exponentiation/#root-functions)_ of ***13 repositories*** per each of organization above is not arranged to directly follow the _[partition function](https://eq19.github.io/identition/#partition-function)_ but through _[the 18 gists](https://gist.github.com/eq19)_ via their _[.github profiles](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile#adding-a-public-organization-profile-readme)_. Each of the user profiles will have ***seven (7) user repositories*** consist of one (1) main of [`github.io`](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll) and six (6) user pinned repositories. Meanwhile each of organizations will have one (1) profile of [`.github`](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile#adding-a-public-organization-profile-readme) repository and thirteen (13) organization repositories consist of one (1) main of [`github.io`](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site), and ***twelve (12) pinned repositories*** under [`member and public view`](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile#pinning-repositories-to-your-organizations-profile) that represents _[6 by 6 flavors](https://eq19.github.io/identition/span12/#three-3-layers)_.
+```
+
+***[®main](https://github.com/eq19) + [®gist](https://gist.github.com/eq19) + [®orgs](https://github.com/settings/organizations) = 7 + (7+11) + (11x13) = 7 + 18 + 143 = 24 x 7 = 168 = π(1000)***
+
+{% for item in site.data.orgs %}
+  1. {{ item.name | jsonify }}
+     - {{ item.key1 | jsonify }}
+     - {{ item.key2 | jsonify }}
+{% endfor %}
+
 This model proposes not only a logical order of optimization but also a coherent conceptual narrative. 
 
 ```note
@@ -1370,10 +1384,6 @@ Every repository on GitHub.com comes equipped with a section for hosting documen
 
 ![](https://user-images.githubusercontent.com/8466209/244855108-b80b3c2e-1a13-4b55-828a-72ed15b448dd.png)
 
-Finally we found that the loop corresponds to a _[quadratic polynomial](https://eq19.github.io/identition/span9/#quadratic-polynomials-span-9)_ originated from the 4th coupling of MEC30 which is holded by ***five (5) cells between 13 and 17***.
-
-[![the 5 cells](https://github.com/eq19/maps/assets/8466209/d3c8e7cb-2239-4b93-a4be-97e3ddbc8c94)](https://eq19.github.io/multiplication/18.html#higgs-mechanism)
-
 Further observation of this _13 vs 17 phenomenon_ also introduces a _[lower bound](https://www.primesdemystified.com/Factorization.html)_ of Mod 90 to four (4) of possible length scales in the structure of prime recycling.
 
 [![Modulo_90_Congruency_Matrix_Twin_Prime_Page](https://github.com/eq19/maps/assets/8466209/aaea3897-5503-4142-b59a-f2f690d59927)](https://www.primesdemystified.com/Factorization.html)
@@ -1391,22 +1401,6 @@ This is geometric confirmation of the deep if not profound connection between th
 [![Theory of Everything](https://github.com/eq19/maps/assets/8466209/6e26ada0-c545-4771-810b-9f721512a03c)](https://eq19.github.io/identition/span12/)
 
 The symmetries that come into focus when the lense aperature, of ***the Prime Spiral Sieve is tripled to modulo 90***, synchronizing its modulus with its _[period-24 digital root](https://eq19.github.io/addition/#the-24-cells-hexagon)_.
-
-Using this concept we are going to stimulate a model of [the 11 dimensions](https://eq19.github.io/identition/span12/#the-11-dimensions) through the rank of their partition using github organizations of 13 repositories each.
-
-```tip
-Each of the user profiles will have ***seven (7) user repositories*** consist of one (1) main of [`github.io`](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll) and six (6) user pinned repositories. Meanwhile each of organizations will have one (1) profile of [`.github`](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile#adding-a-public-organization-profile-readme) repository and thirteen (13) organization repositories consist of one (1) main of [`github.io`](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site), and ***twelve (12) pinned repositories*** under [`member and public view`](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile#pinning-repositories-to-your-organizations-profile) that represents _[6 by 6 flavors](https://eq19.github.io/identition/span12/#three-3-layers)_.
-```
-
-***[®main](https://github.com/eq19) + [®gist](https://gist.github.com/eq19) + [®orgs](https://github.com/settings/organizations) = 7 + (7+11) + (11x13) = 7 + 18 + 143 = 24 x 7 = 168 = π(1000)***
-
-{% for item in site.data.orgs %}
-  1. {{ item.name | jsonify }}
-     - {{ item.key1 | jsonify }}
-     - {{ item.key2 | jsonify }}
-{% endfor %}
-
-The _[Root Function](https://eq19.github.io/exponentiation/#root-functions)_ of ***13 repositories*** per each of organization above is not arranged to directly follow the _[partition function](https://eq19.github.io/identition/#partition-function)_ but through _[the 18 gists](https://gist.github.com/eq19)_ via their _[.github profiles](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/customizing-your-organizations-profile#adding-a-public-organization-profile-readme)_.
 
 ```tip
 By this tabulation you may see that all the numbers between 37 and 102 are located within ***11 columns*** where the 31 behave as a _[new axis](https://eq19.github.io/exponentiation/#parsering-structure)_.
@@ -1469,7 +1463,7 @@ By the tabulation, here you can see that _[the layout](https://gist.github.com/e
 
 The gist contain prime data called 77 Principles that used to organize the 7 groups vs 11 dimensions in [Eightfold Way](https://eq19.github.io/identition/span12/#three-3-layers).
 
-```tip
+```note
 Base on the _[11s and 7s](https://eq19.github.io/addition/#structure-true-prime-pairs)_ distribution of the 18s  structure of The True Prime Pairs, the 7s will be reflected by _[seven (7) repositories](https://eq19.github.io/exponentiation/#parsering-structure)_ of user profile with id: 30 to id: 36 meanwhile the 11s will be reflected by _[eleven (11) organizations](https://eq19.github.io/identition/#the-powers-of-pi)_.
 ```
 
