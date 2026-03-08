@@ -163,6 +163,14 @@ Parsing the squares by their mod 90 congruence reveals that there are 96 perfect
 
 [![image](https://user-images.githubusercontent.com/8466209/219261961-10e4d77f-ead3-43d4-9407-f01d83f1f204.png)](https://www.primesdemystified.com)
 
+```note
+By our project, these 37 files are located within _[the wiki of main repository](https://github.com/eq19/eq19.github.io/wiki)_ and organized by [the 18's structure](https://eq19.github.io/addition/#structure-true-prime-pairs) located per the _[18 files of  project gist](https://gist.github.com/eq19)_.[![base](https://user-images.githubusercontent.com/8466209/249753163-6cfbcecf-3713-409b-8d8b-5fa5cf8489ac.png)](https://eq19.github.io/addition/#the-24-cells-hexagon)
+```
+
+![](https://user-images.githubusercontent.com/8466209/244139208-378b2229-c3e8-4f1f-8829-dee6687348fb.png)
+
+Transforming particles into anti-particles, and vice versa, requires only the complex conjugate ***i → −i*** in our formalism. _([Standard Model from an algebra - pdf](https://github.com/eq19/maps/files/14387513/Standard_model_physics_from_an_algebra.pdf))_.
+
 ## Standard Model
 
 There is a proof that it is [impossible](https://en.wikipedia.org/wiki/An_Exceptionally_Simple_Theory_of_Everything) to embed all the three generations  in E8 without the presence of additional particles that do not exist in the physical world.
@@ -347,48 +355,3 @@ W.D. Gann: “Stocks make important changes in trend every ***30, 60, 120, 150, 
 
 ***In line with 168 there is 330 located of 10th layer***. Since the base unit of 30 repeats it self on the center then this `11 x 30 = 330` is pushed to the `10 + 1 = 11th layer`. 
 
-## Opposite Behaviour
-
-Since we are discussing about prime distribution then this 18's structure will also cover the further scheme that is inherited from the above 37 files.
-
-```note
-This web enabled demonstration shows a polar plot of ***the first 20 non-trivial Riemann zeta function zeros (including Gram points) along the critical line Zeta(1/2+it) for real values of t running from 0 to 50***. The consecutively labeled zeros have 50 red plot points between each, with zeros identified by concentric magenta rings scaled to show the relative distance between their values of t. ***Gram’s law states that the curve usually crosses the real axis once between zeros***. _([TheoryOfEverything](https://theoryofeverything.org/theToE/2016/04/23/interactive-reimann-zeta-function-zeros-demonstration/))_
-```
-
-***1 + 7 + 29 = 37 = 19 + 18***
-
-[![Riemann Zeta_Zeros](https://user-images.githubusercontent.com/36441664/268831545-9d8998b9-2528-458a-8956-5b0654e59f97.png)](https://qr.ae/pKnIbn)
-
-By the spin above you can see that the 4 zones of these `19's to 17's` are representing the rotation `1 to 5`. Such of formation can be seen on _[Ulam Spiral](https://en.wikipedia.org/wiki/Ulam_spiral)_ as below.
-
-```note
-The Ulam spiral or prime spiral is a graphical depiction of the set of prime numbers, devised by mathematician Stanisław Ulam in 1963 and popularized in Martin Gardner's Mathematical Games column in Scientific American a short time later.
-```
-
-[![ulam spiral](https://user-images.githubusercontent.com/36441664/274058089-72669dae-9f66-4953-bb5b-670aac2090f2.svg)](https://en.wikipedia.org/wiki/Ulam_spiral)
-
-By the MEC30 we will also discuss the relation of these 4 zones with high density of 40 primes where 60 number is folded.
-
-```note
-Both Ulam and Gardner noted that the existence of such prominent lines ***is not unexpected***, as lines in ***the spiral correspond to quadratic polynomials***, and certain such polynomials, such as Euler's prime-generating polynomial x²-x+41, are believed to produce a high density of prime numbers. Nevertheless, the Ulam spiral is connected with **major unsolved problems** in number theory such as Landau's problems _([Wikipedia](https://en.wikipedia.org/wiki/Ulam_spiral))_.
-```
-
-[![prime Sacks_spiral](https://user-images.githubusercontent.com/8466209/229820606-b2bbd7fb-3300-4507-8080-fb27ed6fd512.png)](https://eq19.github.io/multiplication/#streching-structure)
-
-```note
-By our project, these 37 files are located within _[the wiki of main repository](https://github.com/eq19/eq19.github.io/wiki)_ and organized by [the 18's structure](https://eq19.github.io/addition/#structure-true-prime-pairs) located per the _[18 files of  project gist](https://gist.github.com/eq19)_.[![base](https://user-images.githubusercontent.com/8466209/249753163-6cfbcecf-3713-409b-8d8b-5fa5cf8489ac.png)](https://www.hexspin.com/finding-a-number-in-the-hexagon/)
-```
-
-![](https://user-images.githubusercontent.com/8466209/244139208-378b2229-c3e8-4f1f-8829-dee6687348fb.png)
-
-So by the eight (8) pairs of prime it will always return to **[the beginning position](https://eq19.github.io/multiplication/#square-dimensions)** within [`60+40=100 nodes`](https://gist.github.com/eq19/0ce5848f7ad62dc46dedfaa430069857#the-power-of-168-vs-618) per layer.
-
-```note
-[The published](https://github.com/eq19/maps/files/13930690/PhysRev.76.769.pdf) diagram by [Feynman](https://physics.aps.org/story/v24/st3) helped scientists track particle movements in illustrations and visual equations rather than verbose explanations. What seemed almost improbable at the time is now one of the greatest [explanations](https://www.quantamagazine.org/why-feynman-diagrams-are-so-important-20160705/) of particle physics — the squiggly lines, diagrams, arrows, quarks, and cartoonish figures are now the established nomenclature and visual story that students, scientists, and readers will see when they learn about this field of science. _([medium.com](https://medium.com/taking-note/learning-from-the-feynman-technique-5373014ad230))_
-```
-
-***8 pairs = 8 x 2 = 16***
-
-[![Electromagnetism](https://user-images.githubusercontent.com/8466209/223011738-7e2084bc-861b-4424-89d5-9f39643df22f.png)](https://eq19.github.io/exponentiation/)
-
-Transforming particles into anti-particles, and vice versa, requires only the complex conjugate ***i → −i*** in our formalism. _([Standard Model from an algebra - pdf](https://github.com/eq19/maps/files/14387513/Standard_model_physics_from_an_algebra.pdf))_
