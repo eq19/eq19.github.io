@@ -34,12 +34,6 @@ The 5+7+11+13 is the smallest square number expressible as the sum of four conse
 
 ![default](https://user-images.githubusercontent.com/8466209/199364847-6a8d2d64-ee12-4379-bfa6-9f5d9fa7da59.png)
 
-This export/import process is specific to each frontend and typically involves a number of stages which can then be "imported" into [IREE](https://iree.dev/).
-
-```note
-IREE (Intermediate Representation Execution Environment[1](https://iree.dev/#fn:1)) is an [MLIR](https://mlir.llvm.org/)-based end-to-end compiler and runtime that lowers Machine Learning (ML) models to a unified IR that scales up to meet the needs of the datacenter and down to satisfy the constraints and special considerations of mobile and edge deployments.
-```
-
 ```liquid
 $True Prime Pairs:
  (5,7), (11,13), (17,19)
@@ -60,93 +54,12 @@ $True Prime Pairs:
  -----+-----+---------
 ```
 
-IREE supports most popular machine learning [frameworks](https://iree.dev/guides/ml-frameworks/#execution) using the same underlying technology. Here we are going to use SavedModels from [TensorFlow Hub](https://www.tensorflow.org/hub).
-
 ```note
-Each machine learning framework has some "export" mechanism that snapshots the structure and data in your program.
+We consider a certain theory of 3-forms in 7 dimensions, and study its dimensional reduction to 4D, compactifying the 7-dimensional manifold on the 3-sphere of a fixed radius.
+- We show that the resulting 4D theory is (Riemannian) [General Relativity](https://www.sciencedirect.com/topics/physics-and-astronomy/general-relativity) (GR) in Plebanski formulation, modulo corrections that are negligible for curvatures smaller than Planckian.
+- Possibly the most interesting point of this construction is that the dimensionally reduced theory is GR with a non-zero cosmological constant, and the value of the cosmological constant is directly related to the size of . Realistic values of Λ correspond to of Planck size.
 
-- Capture/trace/freeze the ML model into a graph
-- Write that graph to an interchange format (e.g. SavedModel, TorchScript, ONNX)
-- Load the saved program into an import tool and convert to MLIR
-- Legalize the graph's operations so only IREE-compatible operations remain
-- Write the imported MLIR to a file
-
-This fully imported form can then be compiled indepedently of the [source languages](https://iree.dev/reference/bindings/) and framework. See the [samples directory](https://github.com/iree-org/iree/tree/main/samples).
-```
-
-[![framework](https://user-images.githubusercontent.com/36441664/71587951-4f8a5580-2b52-11ea-84cd-a2b1465fce8b.png)](https://iree.dev/guides/ml-frameworks/#execution)
-
-Using this trained machine learning models we shall do [fine-tuning](https://eq19.github.io/addition/spin2/) and make it [deployable](https://eq19.github.io/addition/spin3/) to discuss the _[undiscovered features](https://eq19.github.io/addition/#undiscovered-features)_ as we have discussed before.
-
-```note
-These files can be imported into an IREE-compatible format then compiled to a series of backends. 
-- TensorFlow programs represented as [tf.Module classes](https://www.tensorflow.org/api_docs/python/tf/Module) or stored in the SavedModel [format](https://www.tensorflow.org/guide/saved_model).
-- TensorFlow Lite (TFLite) programs stored as [TFLite FlatBuffers](https://www.tensorflow.org/lite/guide).
-
-See the [deployment configuration guides](https://iree.dev/guides/deployment-configurations/) for details on selecting a compiler backend and tuning options for your choice of target platform(s) or device(s).
-```
-
-```txt
-$True Prime Pairs:
-(5,7), (11,13), (17,19)
- 
-layer | node | sub |  i  |  f
-------+------+-----+----------
-      |      |     |  1  | 
-      |      |  1  +-----+          
-      |  1   |     |  2  | (5)
-      |      |-----+-----+
-      |      |     |  3  |
-  1   +------+  2  +-----+----
-      |      |     |  4  |
-      |      +-----+-----+
-      |  2   |     |  5  | (7)
-      |      |  3  +-----+
-      |      |     |  6  |
-------+------+-----+-----+------      } (36)
-      |      |     |  7  |
-      |      |  4  +-----+
-      |  3   |     |  8  | (11)
-      |      +-----+-----+
-      |      |     |  9  |
-  2   +------|  5  +-----+-----
-      |      |     |  10 |
-      |      |-----+-----+
-      |  4   |     |  11 | (13)
-      |      |  6  +-----+
-      |      |     |  12 |
-------+------+-----+-----+------------------
-      |      |     |  13 |
-      |      |  7  +-----+
-      |  5   |     |  14 | (17)
-      |      |-----+-----+
-      |      |     |  15 |
-  3   +------+  8  +-----+-----       } (36)
-      |      |     |  16 |
-      |      |-----+-----+
-      |  6   |     |  17 | (19)
-      |      |  9  +-----+
-      |      |     |  18 |
-------|------|-----+-----+------
-```
-
-TensorFlow Quantum ([TFQ](https://www.tensorflow.org/quantum/design)) is designed for the problems of NISQ-era quantum machine learning. It brings quantum computing primitives—like building quantum circuits—to the TensorFlow ecosystem.
-
-```note
-TensorFlow Quantum implements the components needed to integrate TensorFlow with quantum computing hardware. To that end, TFQ introduces two datatype primitives:
-
-- Quantum circuit: This represents Cirq-defined quantum circuits (cirq.Circuit) within TensorFlow. Create batches of circuits of varying size, similar to batches of different real-valued datapoints.
-- Pauli sum: Represent linear combinations of tensor products of Pauli operators defined in Cirq (cirq.PauliSum). Like circuits, create batches of operators of varying size.
-
-Using the quantum circuit primitives within a tf.Tensor, TensorFlow Quantum implements ops that process these circuits and produce meaningful outputs.
-```
-
-[![blackhole simulation](https://github.com/user-attachments/assets/13e370cb-05c9-44da-825b-39986a010c2f)](https://blog.tensorflow.org/2022/12/unfolding-universe-using-tensorflow.html)
-
-TensorFlow Quantum layers expose sampling, expectation, and state calculation to developers using the [tf.keras.layers.Layer](https://www.tensorflow.org/api_docs/python/tf/keras/Layer) interface.
-
-```note
-It's convenient to create a circuit layer for classical control parameters or for readout operations. Additionally, you can create a layer with a high degree of complexity supporting batch circuit, batch control parameter value, and perform batch readout operations. See tfq.layers.Sample for an example.
+In our approach ***a 3-form is not an object that exist in addition to the metric, it is the only object that exist. The metric, and in particular the 4D metric, is defined by the 3-form***. _([General relativity from three-forms in seven dimensions - pdf](https://github.com/eq19/maps/files/14064088/1-s2.0-S0370269317304926-main.pdf))_
 ```
 
 ```txt
@@ -193,15 +106,17 @@ layer | node | sub |  i  |  f
 ------|------|-----+-----+------# 
 ```
 
-Unlike many TensorFlow operations, observables in quantum circuits do not have formulas for gradients that are relatively easy to calculate.
-
 ```note
-We consider a certain theory of 3-forms in 7 dimensions, and study its dimensional reduction to 4D, compactifying the 7-dimensional manifold on the 3-sphere of a fixed radius.
-- We show that the resulting 4D theory is (Riemannian) [General Relativity](https://www.sciencedirect.com/topics/physics-and-astronomy/general-relativity) (GR) in Plebanski formulation, modulo corrections that are negligible for curvatures smaller than Planckian.
-- Possibly the most interesting point of this construction is that the dimensionally reduced theory is GR with a non-zero cosmological constant, and the value of the cosmological constant is directly related to the size of . Realistic values of Λ correspond to of Planck size.
+The funny looking ***Möbius strip***, which was also independently discovered in 1858 by the unlucky Listing whose name left the history of mathematics untouched.
+- It is a surface with only one side and only one boundary, often used to puzzle young math students. You can easily create it by taking a strip of paper, twisting it and then joining the ends of the strip.
+- Being the first example of a surface without orientation it did not shake the grounds of mathematics as much as the other discoveries of this list did, yet it provided a lot of practical applications, such as a resistant belt, and inspired mathematicians to come up with unorientable surfaces, like the ***Klein bottle***.
 
-In our approach ***a 3-form is not an object that exist in addition to the metric, it is the only object that exist. The metric, and in particular the 4D metric, is defined by the 3-form***. _([General relativity from three-forms in seven dimensions - pdf](https://github.com/eq19/maps/files/14064088/1-s2.0-S0370269317304926-main.pdf))_
+- The name of this surface possibly comes from a double coincidence: Klein, its conceptor, originally named it Fläche, which means surface in German and sounds similar to Flasche, which means bottle. The fact that it also looked like a bottle seems to have sealed the renaming.
+
+Mathematical fields were created, we got the ***Turing Machine***, fancy looking surfaces and, most importantly, the ability to re-examine our perceptions and adapt our tools accordingly. _([freeCodeCamp](https://www.freecodecamp.org/news/10-awkward-moments-in-math-history-d364706d902d/))_
 ```
+
+[![mobius strip](https://github.com/eq19/maps/assets/8466209/d9dd8d68-3821-43a6-87f2-b04def942296)](https://www.freecodecamp.org/news/10-awkward-moments-in-math-history-d364706d902d/)
 
 ![Symmetry State](https://github.com/eq19/maps/assets/8466209/70cb2eb0-0955-4d18-8400-e05ac1b9d325)
 
@@ -219,9 +134,6 @@ The scaling behavior of this action is analyzed to obtain the classical theory o
 ```
 
 [![addition zones](https://github.com/eq19/maps/assets/8466209/4945cbd3-57ff-42ee-a363-7b27ed693a0e)](https://eq19.github.io/addition/)
-
-
-The TensorFlow ops are written in **optimized C++**. These ops sample from circuits, calculate expectation values, and output the state produced by the given circuits.
 
 ## Construction of a State
 
@@ -269,18 +181,6 @@ layer | node | sub |  i  |  f
 ------|------|-----+-----+------  <----------------- Möbius strip √
 ```
 
-```note
-The funny looking ***Möbius strip***, which was also independently discovered in 1858 by the unlucky Listing whose name left the history of mathematics untouched.
-- It is a surface with only one side and only one boundary, often used to puzzle young math students. You can easily create it by taking a strip of paper, twisting it and then joining the ends of the strip.
-- Being the first example of a surface without orientation it did not shake the grounds of mathematics as much as the other discoveries of this list did, yet it provided a lot of practical applications, such as a resistant belt, and inspired mathematicians to come up with unorientable surfaces, like the ***Klein bottle***.
-
-- The name of this surface possibly comes from a double coincidence: Klein, its conceptor, originally named it Fläche, which means surface in German and sounds similar to Flasche, which means bottle. The fact that it also looked like a bottle seems to have sealed the renaming.
-
-Mathematical fields were created, we got the ***Turing Machine***, fancy looking surfaces and, most importantly, the ability to re-examine our perceptions and adapt our tools accordingly. _([freeCodeCamp](https://www.freecodecamp.org/news/10-awkward-moments-in-math-history-d364706d902d/))_
-```
-
-[![mobius strip](https://github.com/eq19/maps/assets/8466209/d9dd8d68-3821-43a6-87f2-b04def942296)](https://www.freecodecamp.org/news/10-awkward-moments-in-math-history-d364706d902d/)
-
 These items are elementary parts possessing familiar properties but they never exist as free particles. Instead they join together by the strong force into bound states.
 
 ***f(18) = f(7) + f(11) = (1+7+29) + 11th prime = 37 + 31 = 36 + 32 = 68***
@@ -294,6 +194,10 @@ The holonomy tells you how to propagate MEC30. A spin network state assigns an a
 This kind of approach has some obvious properties: there are non-linear gravitons, a connection to lattice gauge field theory and a ***dimensional reduction from 4D to 2D***.
 
 [![DE102011101032A9.pdf](https://user-images.githubusercontent.com/36441664/74591731-f5cfe300-504c-11ea-9e04-d814c57aa969.png)](https://eq19.github.io/exponentiation/#parsering-structure)
+
+The product of each pair of terms can be given by multiplication of the coefficients and a [multiplication table](https://en.wikipedia.org/wiki/Multiplication_table) of the unit octonions, like this one[![octonion](https://github.com/user-attachments/assets/c91dc9a3-4a8a-4a9f-84fe-2955b13aeca9)]()
+
+This _[octonion](https://en.wikipedia.org/wiki/Octonion)_ with seven points and seven lines (the circle through 1, 2, and 3 is considered a line) is called the _[Fano plane](https://en.wikipedia.org/wiki/Fano_plane)_.
 
 ## Bilateral 9 Sums
 
@@ -363,6 +267,57 @@ In the matrix pictured below, we list the first 24 elements of our domain, take 
 [![collective bilateral 9 sum symmetry](https://user-images.githubusercontent.com/8466209/200229388-03811f48-2492-4845-b15f-85259cd93717.png)](https://eq19.github.io/multiplication/#elementary-structure)
 
 ## Supersymmetric Multiplet
+
+This export/import process is specific to each frontend and typically involves a number of stages which can then be "imported" into [IREE](https://iree.dev/).
+
+```note
+IREE (Intermediate Representation Execution Environment[1](https://iree.dev/#fn:1)) is an [MLIR](https://mlir.llvm.org/)-based end-to-end compiler and runtime that lowers Machine Learning (ML) models to a unified IR that scales up to meet the needs of the datacenter and down to satisfy the constraints and special considerations of mobile and edge deployments.
+```
+
+IREE supports most popular machine learning [frameworks](https://iree.dev/guides/ml-frameworks/#execution) using the same underlying technology. Here we are going to use SavedModels from [TensorFlow Hub](https://www.tensorflow.org/hub).
+
+```note
+Each machine learning framework has some "export" mechanism that snapshots the structure and data in your program.
+
+- Capture/trace/freeze the ML model into a graph
+- Write that graph to an interchange format (e.g. SavedModel, TorchScript, ONNX)
+- Load the saved program into an import tool and convert to MLIR
+- Legalize the graph's operations so only IREE-compatible operations remain
+- Write the imported MLIR to a file
+
+This fully imported form can then be compiled indepedently of the [source languages](https://iree.dev/reference/bindings/) and framework. See the [samples directory](https://github.com/iree-org/iree/tree/main/samples).
+```
+
+[![framework](https://user-images.githubusercontent.com/36441664/71587951-4f8a5580-2b52-11ea-84cd-a2b1465fce8b.png)](https://iree.dev/guides/ml-frameworks/#execution)
+
+Using this trained machine learning models we shall do [fine-tuning](https://eq19.github.io/addition/spin2/) and make it [deployable](https://eq19.github.io/addition/spin3/) to discuss the _[undiscovered features](https://eq19.github.io/addition/#undiscovered-features)_ as we have discussed before.
+
+```note
+These files can be imported into an IREE-compatible format then compiled to a series of backends. 
+- TensorFlow programs represented as [tf.Module classes](https://www.tensorflow.org/api_docs/python/tf/Module) or stored in the SavedModel [format](https://www.tensorflow.org/guide/saved_model).
+- TensorFlow Lite (TFLite) programs stored as [TFLite FlatBuffers](https://www.tensorflow.org/lite/guide).
+
+See the [deployment configuration guides](https://iree.dev/guides/deployment-configurations/) for details on selecting a compiler backend and tuning options for your choice of target platform(s) or device(s).
+```
+
+TensorFlow Quantum ([TFQ](https://www.tensorflow.org/quantum/design)) is designed for the problems of NISQ-era quantum machine learning. It brings quantum computing primitives—like building quantum circuits—to the TensorFlow ecosystem.
+
+```note
+TensorFlow Quantum implements the components needed to integrate TensorFlow with quantum computing hardware. To that end, TFQ introduces two datatype primitives:
+
+- Quantum circuit: This represents Cirq-defined quantum circuits (cirq.Circuit) within TensorFlow. Create batches of circuits of varying size, similar to batches of different real-valued datapoints.
+- Pauli sum: Represent linear combinations of tensor products of Pauli operators defined in Cirq (cirq.PauliSum). Like circuits, create batches of operators of varying size.
+
+Using the quantum circuit primitives within a tf.Tensor, TensorFlow Quantum implements ops that process these circuits and produce meaningful outputs.
+```
+
+TensorFlow Quantum layers expose sampling, expectation, and state calculation to developers using the [tf.keras.layers.Layer](https://www.tensorflow.org/api_docs/python/tf/keras/Layer) interface.
+
+```note
+Unlike many TensorFlow operations, observables in quantum circuits do not have formulas for gradients that are relatively easy to calculate. It's convenient to create a circuit layer for classical control parameters or for readout operations. Additionally, you can create a layer with a high degree of complexity supporting batch circuit, batch control parameter value, and perform batch readout operations. See tfq.layers.Sample for an example.
+```
+
+[![blackhole simulation](https://github.com/user-attachments/assets/13e370cb-05c9-44da-825b-39986a010c2f)](https://blog.tensorflow.org/2022/12/unfolding-universe-using-tensorflow.html)
 
 ```txt
 $True Prime Pairs:
@@ -438,5 +393,7 @@ We use a large-scale community-based Earth System Model to demonstrate the workf
 ```
 
 [![doxygen](https://github.com/user-attachments/assets/824735b6-a27d-4470-9835-8162e5561369)](https://www.doxygen.nl/manual/starting.html)
+
+The TensorFlow ops are written in **optimized C++**. These ops sample from circuits, calculate expectation values, and output the state produced by the given circuits.
 
 Then, we will apply machine learning approaches to aid users in optimizing software structure and functional redesigns.
