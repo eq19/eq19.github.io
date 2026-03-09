@@ -96,14 +96,6 @@ Also, physicists understand that about 95 percent of the universe is not made of
 
 It has zero spin, even (positive) parity, no electric charge, and no colour charge, and it couples to (interacts with) mass. 
 
-```note
-So now I will attempt to show the minor hexagons are significant.  This is not easy as they are linked to the nature of prime numbers, and nothing is easy about the nature of prime numbers.  But I begin with this assumption: ***if the hexagons participate in the Universe in any way other than haphazardly, they must be demonstrably congruent to something organized***.  That is, if I can show they are organized (not random) in relation to  some other thing, then primes and the thing are linked. _([Hexspin](https://www.hexspin.com/minor-hexagons/))_
-```
-
-***7th spin - 4th spin = (168 - 102)s = 66s = 6 x 11s = 30s + 36s***
-
-[![spinning particles](https://github.com/eq19/maps/assets/8466209/6e8b94dd-0162-47f3-9a61-577d4d9b8869)](https://youtu.be/j5soqexrwqY?t=52s)
-
 ## Elementary Particles
 
 In particle physics, an _[elementary particle](https://en.wikipedia.org/wiki/Elementary_particle)_ or fundamental particle is a subatomic particle that is not composed of other particles. 

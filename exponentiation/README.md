@@ -82,6 +82,14 @@ As we've already alluded, to lay the foundation for a bijection with numbers not
  π(19)  | 11 | 13 | 17 | 19 | 8th ✔️
 ```
 
+```tip
+In the Standard Model of particle physics, each different kind of elementary particle has four different [charges](https://en.wikipedia.org/wiki/Charge_(physics)), corresponding to twists along directions of a four-dimensional maximal torus in the twelve-dimensional Standard Model Lie group, SU(3)×SU(2)×U(1).
+- In [grand unified theories](https://en.wikipedia.org/wiki/Grand_unified_theories) (GUTs), the Standard Model Lie group is considered as a subgroup of a higher-dimensional Lie group, such as of 24-dimensional [SU(5)](https://en.wikipedia.org/wiki/SU(5)) in the [Georgi–Glashow model](https://en.wikipedia.org/wiki/Georgi%E2%80%93Glashow_model) or of 45-dimensional [Spin(10)](https://en.wikipedia.org/wiki/Spin_group) in the [SO(10) model](https://en.wikipedia.org/wiki/SO(10)_(physics)). Since there is a different elementary particle for each dimension of the Lie group, these theories contain additional particles beyond the content of the Standard Model.
+- In E8 Theory's current state, it is not possible to calculate masses for the existing or predicted particles. Lisi states the theory is young and incomplete, requiring a better understanding of the three fermion generations and their masses, and places a low confidence in its predictions.
+
+However, the discovery of new particles that do not fit in Lisi's classification, such as [superpartners](https://en.wikipedia.org/wiki/Superpartner) or new fermions, would fall outside the model and falsify the theory. As of 2021, none of the particles predicted by any version of E8 Theory have been detected. _([Wikipedia](https://en.wikipedia.org/wiki/An_Exceptionally_Simple_Theory_of_Everything#Overview))_
+```
+
 [![The Four Fundamental Forces](https://github.com/user-attachments/assets/731865b0-7033-4e1b-a587-0c75c0dcae36)](https://eq19.github.io/#prime-unit-identity)
 
 ***29 = 10th prime***
@@ -151,6 +159,8 @@ That is, if the powers of 10 all returned with blue spin, or as a series of rain
  π(109)   | .. | .. | .. | 109 | 29th 👈 π(29)
 ```
 
+By metaphorically linking trading components to physical forces, we propose a model that inspires a more unified approach to systematic development.
+
 ***109 - 72 = 37***
 
 ```txt
@@ -180,46 +190,15 @@ This paper presents a novel conceptual framework aligning the stages of trading 
 ```note
 Hyperoptimization in algorithmic trading involves tuning multiple interacting components — such as buy/sell logic, ROI models, risk protections, and meta-settings. To manage this complexity and define a meaningful sequence, we draw an analogy from the layered architecture of physics: from weak nuclear interactions to the theory of everything.
 
-### 1. **Weak Nuclear** – _[buy¹, custom-entry²]_
-The buy logic initiates trades and responds to localized, short-lived signals — akin to the weak nuclear force, which governs subatomic transformations. Custom entry logic represents nuanced early decision-making.
-
-### 2. **Electromagnetic (QED)** – _[sell³, custom-exit⁴]_
-The sell logic reacts to opposing conditions and manages exits through symmetric, responsive forces. Like electromagnetism, this governs interactions and balance through custom-exit dynamics.
-
-### 3. **Electroweak (QED + Weak + QM)** – _[custom-entry², custom-exit⁴, roi⁵]_
-This layer unifies buying and selling into a cohesive interactive force. **Here, quantum mechanics** is conceptually embedded: representing probabilistic filters, confidence thresholds, and dynamic decision-making within `custom-entry` and `custom-exit`. ROI emerges here as a modulated outcome of quantum-level signal interaction.
-
-### 4. **Strong Nuclear (QCD)** – _[trailing⁶, protection⁷, timeframe⁸]_
-Trailing stops, protection logic, and timeframe define the internal trade architecture. This layer offers resilience and cohesion, much like the strong nuclear force binds particles under high tension.
-
-### 5. **Grand Unified Theory (GUT)** – _[trades⁹, roi⁵]_
-Abstracting above local behaviors, this layer analyzes trade performance and profit structure. It combines earlier logic into a unifying profit mechanism and long-term strategy shaping.
-
-### 6. **Quantum Gravity (Meta-Layer)** – _[default¹⁰, leverage¹¹, global-overrides¹²]_
-This meta-layer defines the curvature of the environment. Default settings, leverage, and global overrides determine the system’s flexibility and risk profile — mirroring how gravity shapes the space-time structure of the trading universe.
-
-### 7. **Theory of Everything (TOE)** – _[all¹³]_
-The final layer integrates all previous dimensions. It represents full-system optimization, where all logic, protections, and meta-controls are harmonized into a complete strategic model.
-
-By metaphorically linking trading components to physical forces, we propose a model that inspires a more unified approach to systematic development.
+1. **Weak Nuclear** – _[buy¹, custom-entry²]_: The buy logic initiates trades and responds to localized, short-lived signals — akin to the weak nuclear force, which governs subatomic transformations. Custom entry logic represents nuanced early decision-making.
+1. **Electromagnetic (QED)** – _[sell³, custom-exit⁴]_: The sell logic reacts to opposing conditions and manages exits through symmetric, responsive forces. Like electromagnetism, this governs interactions and balance through custom-exit dynamics.
+1. **Electroweak (QED + Weak + QM)** – _[custom-entry², custom-exit⁴, roi⁵]_: This layer unifies buying and selling into a cohesive interactive force. **Here, quantum mechanics** is conceptually embedded: representing probabilistic filters, confidence thresholds, and dynamic decision-making within `custom-entry` and `custom-exit`. ROI emerges here as a modulated outcome of quantum-level signal interaction.
+1. **Strong Nuclear (QCD)** – _[trailing⁶, protection⁷, timeframe⁸]_: Trailing stops, protection logic, and timeframe define the internal trade architecture. This layer offers resilience and cohesion, much like the strong nuclear force binds particles under high tension.
+1. **Grand Unified Theory (GUT)** – _[trades⁹, roi⁵]_: Abstracting above local behaviors, this layer analyzes trade performance and profit structure. It combines earlier logic into a unifying profit mechanism and long-term strategy shaping.
+1. **Quantum Gravity (Meta-Layer)** – _[default¹⁰, leverage¹¹, global-overrides¹²]_: This meta-layer defines the curvature of the environment. Default settings, leverage, and global overrides determine the system’s flexibility and risk profile — mirroring how gravity shapes the space-time structure of the trading universe.
+1. **Theory of Everything (TOE)** – _[all¹³]_: The final layer integrates all previous dimensions. It represents full-system optimization, where all logic, protections, and meta-controls are harmonized into a complete strategic model.
 
 By mapping the **13 available optimization spaces** to this seven-layered structure — with quantum mechanics **embedded** rather than added — this framework maintains coherence with both physics and practical hyperoptimization architecture.
-
-## Footnotes (Mapping to Hyperopt Spaces)
-
-1. buy  
-2. custom-entry  
-3. sell  
-4. custom-exit  
-5. roi  
-6. trailing  
-7. protection  
-8. timeframe  
-9. trades  
-10. default  
-11. leverage  
-12. global-overrides  
-13. all
 ```
 
 ```txt
@@ -349,30 +328,6 @@ bispinor-4 |    2    |    3    |     3     |    18     |     24
 Thus fermion is constructed out of eight (8) spinors that brings the total of 96 components consist of ***12 charged leptons, 12 neutrinos and 72 quarks***.
 
 ## Free Parameters
-
-There are more than one version of Standard Model (SM) being developed. Here we are referring to the _[19 Free Parameters](https://eq19.github.io/exponentiation/#free-parameters)_ that is match to the behaviour of MEC30.
-
-```note
-The SM was basically developed in 1970-s. It describes the electromagnetic, weak and strong fundamental interactions.
-- At ordinary energies (a few eV or less), the forces differ greatly. However, at energies available in accelerators, the weak nuclear and electromagnetic (EM) forces become unified. Unfortunately, the energies at which the strong nuclear and electroweak forces become the same are unreachable.[![The Four Fundamental Forces](https://github.com/user-attachments/assets/731865b0-7033-4e1b-a587-0c75c0dcae36)](https://eq19.github.io/#prime-unit-identity)
-- The relative strengths of the four basic forces vary with distance, and, hence, energy is needed to probe small distances.[![T. Morii, C.S. Lim, and S.N. Mukherjee. The Physics of the Standard Model and
-Beyond. World Scientific, 2004](https://user-images.githubusercontent.com/36441664/89119081-a172cf80-d4d5-11ea-9bd2-35e95f419f30.jpg)](https://github.com/eq19/maps/files/13793234/the-physics-of-the-standard-model-and-beyond.pdf)
-- [The (3) layers](https://github.com/eq19/eq19/blob/v1/.github/entrypoint/artifact/python/manual_v2.ipynb) represents generation in the _[particle objects](https://github.com/eq19/eq19/blob/v1/.github/entrypoint/artifact/python/manual_v2.ipynb)_ of flavor that counts ***six (6) flavours of [quarks](https://en.wikipedia.org/wiki/Quark)*** and ***six (6) flavours of [leptons](https://en.wikipedia.org/wiki/Lepton)***.[![Testing Explanations of Short Baseline Neutrino Anomalies](https://github.com/eq19/maps/assets/8466209/9ebbb332-7818-496f-a50e-7beb707fc644)](https://github.com/eq19/maps/files/13777171/Testing_Explanations_of_Short_Baseline_Neutrino_An_compressed.1.pdf)
-- The newly discovered Higgs Boson interacts with all the Quarks and the first group of Leptons (electron, muon and tau) providing them with their mass. The neutrinos which are the other Leptons originally were thought to have zero mass, but recent discoveries argue that this is not the case.[![fundamental interaction in nature](https://user-images.githubusercontent.com/8466209/284403402-a0ba27e5-1964-46c2-b7d8-72758eb0944d.png)](https://en.wikipedia.org/wiki/Talk:Standard_Model/Archive_2#Error_in_diagram,_proposed_replacement)
-
-The Weak bosons interact with both Leptons and Quarks, these are responsible for the Weak nuclear forces. The exchange of photon is responsible for the Electromagnetic Force.
-```
-
-_Rearrangement of [StandardModel](https://github.com/bin-wu-phys/StandardModel/blob/master/python/manual_v2.ipynb) originally developed by [Bin Wu](https://github.com/bin-wu-phys) from [CERN](https://theory.cern/roster/wu-bin)_
-
-|6 QUARKS|no|6 LEPTONS|no|7 BOSONS (GAUGE AND HIGGS)|no|
-|------|---|------|----|--|--|
-|d: Down|19|$$e^-$$: electron|13|$$γ$$: photon|7|
-|u: Up|18|$$ν_e$$: $$e$$ neutrino|12|$$g$$: gluons|5(6)|
-|s: Strange|17|$$μ^-$$: muon|11|$$H^0$$: Higgs boson|4|
-|c: Charm|16|$$ν_μ$$: $$μ$$ neutrino|10|$$W^+$$: positively charged weak boson|3|
-|b: Bottom|15|$$τ^-$$: tau|9|$$W^-$$: negatively charged weak boson|2|
-|t: Top|14|$$ν_τ$$: $$τ$$ neutrino|8|$$Z^0$$: neutral weak boson|1|
 
 The physical evolution of neutrino parameters with respect to energy scale may help elucidate the mechanism for their mass generation.
 

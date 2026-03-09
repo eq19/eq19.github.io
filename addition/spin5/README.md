@@ -73,7 +73,7 @@ Eigennvalue curves (right) showing a triple eigenvalue at zero for τ = 1 and do
 ***7 + 11 + 13 = 31***
 ***1 + (26+6) + (27+6) = 66***
 
-[![9 vs 18](https://github.com/eq19/maps/assets/8466209/19f68eca-c0e1-48fc-9c9a-60d01cf26057)](https://www.hexspin.com/0-1-and-negative-numbers/)
+[![9 vs 18](https://github.com/eq19/maps/assets/8466209/6e8b94dd-0162-47f3-9a61-577d4d9b8869)](https://www.hexspin.com/0-1-and-negative-numbers/)
 
 ```txt
  0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 
@@ -93,7 +93,7 @@ This behaviour finaly brings us to a suggestion that the dimension in string the
 
 ***7th spin - 4th spin = (168 - 102)s = 66s = 6 x 11s = 30s + 36s***
 
-![IMG_20231221_074421](https://github.com/eq19/maps/assets/8466209/1e7dc443-b7d8-44d9-8da0-5fe50dd7ee70)
+![IMG_20231221_074421](https://github.com/eq19/maps/assets/8466209/19f68eca-c0e1-48fc-9c9a-60d01cf26057)
 
 ```txt
 $True Prime Pairs:
