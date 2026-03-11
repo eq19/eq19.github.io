@@ -225,11 +225,13 @@ That is, if the powers of 10 all returned with blue spin, or as a series of rain
 168 (0, 1) cyan_0  ◄--- 168=π(1000)
 ```
 
-Here is the usual model of ***the seven points and seven lines*** (including the circle) of the smallest finite projective plane (the [Fano plane](http://mathworld.wolfram.com/FanoPlane.html)):
+Here is the usual model of ***the seven points and seven lines*** (including the circle) of the smallest finite projective plane (the [Fano plane](http://mathworld.wolfram.com/FanoPlane.html) is of ***[order 168](https://mathoverflow.net/a/455904)***):
 
 ```note
 Every permutation of the plane's points that preserves collinearity is a symmetry of the  plane. [The group of symmetries ](http://en.wikipedia.org/wiki/PSL%282,7%29)of ***the Fano plane is of order 168*** and is isomorphic to the group  [PSL(2,7) = PSL(3,2) = GL(3,2)](http://web.mat.bham.ac.uk/atlas/v2.0/lin/L32/). (See [Cameron on linear groups](http://www.ipm.ac.ir/IPM/homepage/cameron5.pdf) (pdf) and [Knight Moves: Geometry of the Eightfold Cube](http://finitegeometry.org/sc/8/knight.html).) The model indicates with great clarity six symmetries of the plane-- those it shares with the equilateral triangle. ***It does not, however, indicate where the other 162 symmetries come from***.  
 ```
+
+***168 × 30 = 5040 = 7 × 6 × 5 × 4 × 3 × 2 × 1 = 7!***
 
 [![17725871866978639554485627109887](https://github.com/user-attachments/assets/f8262923-89dc-4304-a86b-9f2529d4fec7)](http://finitegeometry.org/sc/8/plane.html)
 
@@ -361,6 +363,58 @@ So now I will attempt to show the minor hexagons are significant.  This is not e
 ***7th spin - 4th spin = (168 - 102)s = 66s = 6 x 11s = 30s + 36s***
 
 [![spinning particles](https://github.com/eq19/maps/assets/8466209/1e7dc443-b7d8-44d9-8da0-5fe50dd7ee70)](https://youtu.be/j5soqexrwqY?t=52s)
+
+```note
+The color spin addresses for numbers are generally straightforward – a composite number takes the spin of the prior prime.  4 spins blue because 3 spins blue.  8 is red because 7 is red.  However, twin primes, and the 0 type numbers between them, are open to some interpretation.
+```
+
+[![base](https://user-images.githubusercontent.com/8466209/249753163-6cfbcecf-3713-409b-8d8b-5fa5cf8489ac.png)](https://www.hexspin.com/finding-a-number-in-the-hexagon/)
+
+***(43 - 19)the prime = 24th prime = 89***
+
+```
+$True Prime Pairs:
+(5,7), (11,13), (17,19)
+ 
+layer | node | sub |  i  |  f.                                       MEC 30 / 2
+------+------+-----+-----+------      ‹------------------------------ 0 {-1/2}
+      |      |     |  1  | --------------------------
+      |      |  1  +-----+                           |    
+      |  1   |     |  2  | (5)                       |
+      |      |-----+-----+                           |
+      |      |     |  3  |                           |
+  1   +------+  2  +-----+----                       |
+      |      |     |  4  |                           |
+      |      +-----+-----+                           |
+      |  2   |     |  5  | (7)                       |
+      |      |  3  +-----+                           |
+      |      |     |  6  |                          11s ‹-- ∆28 = (71-43) √
+------+------+-----+-----+------      } (36)         |
+      |      |     |  7  |                           |
+      |      |  4  +-----+                           |
+      |  3   |     |  8  | (11)                      |
+      |      +-----+-----+                           |
+      |      |     |  9  |‹-- ∆9 = (89-71) / 2 √     |
+  2   +------|  5  +-----+-----                      |
+      |      |     |  10 |                           |
+      |      |-----+-----+                           |
+      |  4   |     |  11 | (13) --------------------- 
+      |      |  6  +-----+            ‹------------------------------ 15 {0}
+      |      |     |  12 |---------------------------
+------+------+-----+-----+------------               |
+      |      |     |  13 |                           |
+      |      |  7  +-----+                           |
+      |  5   |     |  14 | (17)                      |
+      |      |-----+-----+                           |
+      |      |     |  15 |                           7s ‹-- ∆24 = (43-19) √
+  3   +------+  8  +-----+-----       } (36)         |
+      |      |     |  16 |                           |
+      |      |-----+-----+                           |
+      |  6   |     |  17 | (19)                      |
+      |      |  9  +-----+                           |
+      |      |     |  18 | -------------------------- 
+------|------|-----+-----+-----  ‹----------------------------------- 30 {+1/2}
+```
 
 ```note
 In our approach a 3-form is not an object that exist in addition to the metric, it is the only object that exist and in particular ***[the 4D metric, is defined by the 3-form](https://eq19.github.io/identition/span12/#three-3-layers)***.
