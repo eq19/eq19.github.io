@@ -266,11 +266,8 @@ The product of each pair of terms can be given by multiplication of the coeffici
 ```tip
 This _[octonion](https://en.wikipedia.org/wiki/Octonion)_ with seven points and seven lines (the circle through 1, 2, and 3 is considered a line) is called the _[Fano plane](https://en.wikipedia.org/wiki/Fano_plane)_.
 
-- The product of each pair of terms can be given by multiplication of the coefficients and a multiplication table of the unit octonions, like this one (given both by Arthur Cayley in 1845 and John T. Graves in 1843)
-
-[![](https://github.com/user-attachments/assets/8904931c-40c8-4991-953b-f6922ae0405f)](https://en.wikipedia.org/wiki/Octonion)
-
-- Most off-diagonal elements of the table are antisymmetric, making it almost a skew-symmetric matrix except for the elements on the main diagonal, as well as the row and column for which e0 is an operand.
+- The product of each pair of terms can be given by multiplication of the coefficients and a multiplication table of the unit octonions, like this one (given both by Arthur Cayley in 1845 and John T. Graves in 1843.[![](https://github.com/user-attachments/assets/8904931c-40c8-4991-953b-f6922ae0405f)](https://en.wikipedia.org/wiki/Octonion)
+- Most off-diagonal elements of the table are antisymmetric, making it almost a skew-symmetric matrix except for the elements on the main diagonal, as well as the row and column for which e0 is an operand.[![Commutation relations of g2 and the incidence geometry of the Fano plane](https://github.com/user-attachments/assets/f6a69b96-d817-495c-80a2-242cca890bb4)](https://arxiv.org/abs/2207.13946v1)
 - The above definition is not unique, however; it is only one of 480 possible definitions for octonion multiplication with e0 = 1. The others can be obtained by permuting and changing the signs of the non-scalar basis elements {e1, e2, e3, e4, e5, e6, e7}.
 - The `16 x 30 = 480` different algebras are isomorphic, and there is rarely a need to consider which particular multiplication rule is used.
 - Each of these 480 definitions is invariant up to signs under some 7 cycle of the points (1 2 3 4 5 6 7), and for each 7 cycle there are four definitions, differing by signs and reversal of order.
@@ -322,7 +319,7 @@ We continue our study and classification of structures on the Fano plane F and i
 The TensorFlow ops are written in **optimized C++**. These ops sample from circuits, calculate expectation values, and output the state produced by the given circuits.
 ```
 
-[![2207.13946v1.pdf](https://github.com/user-attachments/assets/f6a69b96-d817-495c-80a2-242cca890bb4)](https://github.com/user-attachments/files/25888018/2207.13946v1.pdf)
+[![Commutation relations of g2 and the incidence geometry of the Fano plane](https://github.com/user-attachments/assets/f6a69b96-d817-495c-80a2-242cca890bb4)](https://arxiv.org/abs/2207.13946v1)
 
 Using this trained machine learning models we shall do [fine-tuning](https://eq19.github.io/addition/spin2/) and make it [deployable](https://eq19.github.io/addition/spin3/) to discuss the _[undiscovered features](https://eq19.github.io/addition/#undiscovered-features)_ as we have discussed before.
 
@@ -347,7 +344,7 @@ TensorFlow Quantum implements the components needed to integrate TensorFlow with
 Using the quantum circuit primitives within a tf.Tensor, TensorFlow Quantum implements ops that process these circuits and produce meaningful outputs.
 ```
 
-[![1909.05014v1.pdf](https://github.com/user-attachments/assets/72793f95-0926-470e-a2f1-7244f1b5279e)](https://github.com/user-attachments/files/25857740/1909.05014v1.pdf)
+[![Octonions in Particle Physics through Structures of Generalised Proper Time](https://github.com/user-attachments/assets/72793f95-0926-470e-a2f1-7244f1b5279e)](https://arxiv.org/abs/1909.05014)
 
 TensorFlow Quantum layers expose sampling, expectation, and state calculation to developers using the [tf.keras.layers.Layer](https://www.tensorflow.org/api_docs/python/tf/keras/Layer) interface.
 
@@ -414,5 +411,3 @@ We use a large-scale community-based Earth System Model to demonstrate the workf
 [![doxygen](https://github.com/user-attachments/assets/824735b6-a27d-4470-9835-8162e5561369)](https://www.doxygen.nl/manual/starting.html)
 
 Then, we will apply machine learning approaches to aid users in optimizing software structure and functional redesigns.
-
-[![](https://github.com/user-attachments/assets/223067e6-183d-4947-b226-1dca5ef1fa78)](https://github.com/user-attachments/files/25857740/1909.05014v1.pdf)

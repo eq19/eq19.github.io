@@ -10,16 +10,21 @@ description:
 {% include list.liquid all=true %}
 
 ```note
-***The number 120 = MEC30 x 4 has 32 prime positions minus 5 prime number products = 27 prime numbers***. The information of the prime number products translates our theory into a checkerboard-like pattern using the finite 8 prime positions from the MEC 30, we call it Ikon. 8 × 8 primary positions = 64 primary positions of the checkerboard icon.
-```
-
-[![Hebrew numerals](https://github.com/eq19/maps/assets/8466209/bfc54f9e-6194-4ff9-b4c2-d83fbde3c94f)](https://en.wikipedia.org/wiki/Hebrew_numerals)
-
-```note
 Note that the hexagon in the middle has 37 circles and the total figure, a star of David has 73. For this one you go around one point of the pattern in a circle until you go past a letter that you have already covered. For instance in B-R-A-Sh you will have to switch the position for the Sh because it moves more than through the alphabet. S-I-T does the same with the T.
 ```
 
 [![Torah geometri](https://user-images.githubusercontent.com/8466209/285325173-4f017a5d-3f2b-47d6-852d-6a2e8c5b8e50.png)](https://allmynoodles.com/torah-geometry/)
+
+
+***7 + 13 + 19 + 25 = 64 = 8 × 8 = 8²***
+
+![](https://user-images.githubusercontent.com/36441664/83051968-e2cfa480-a078-11ea-8ff2-316a809a8fad.jpg)
+
+```tip
+"Not every beautiful theory has a physical application, but all fundamental physical theories found so far–without exception–have a type of beauty or symmetry." – Michio Kaku, The God Equation
+```
+
+[![Primes Platform](https://github.com/user-attachments/assets/223067e6-183d-4947-b226-1dca5ef1fa78)](https://eq19.github.io/addition/spin2/)
 
 ## Composite Contribution 
 
@@ -139,13 +144,49 @@ p r i m e s
 
 It will be forced back to Δ19 making a cycle that bring back **the 12 to → 13** of 9 collumns and replicate _[The Scheme 13:9](https://gist.github.com/eq19/0ce5848f7ad62dc46dedfaa430069857#scheme-139)_ through **(i=9,k=13)=9x3=27** with entry form of (100/50=2,60,40) as below:
 
+```note
+***The number 120 = MEC30 x 4 has 32 prime positions minus 5 prime number products = 27 prime numbers***. The information of the prime number products translates our theory into a checkerboard-like pattern using the finite 8 prime positions from the MEC 30, we call it Ikon. 8 × 8 primary positions = 64 primary positions of the checkerboard icon.
+```
+
 ![default](https://user-images.githubusercontent.com/8466209/201015369-c6ba5c75-c2c7-415b-b424-debaa5c7f64a.png)
 
 The 10 ranks will coordinate with the 18 to raise up the symmetrical behaviour of 12+24=36 which is prime pair 17+19=36 and let the 2 and 3 out of 2,3,5,7 to begin a new cycle while the 5,7 will pair the 11,13 and 17,19 as _[True Prime Pairs](https://eq19.github.io/addition/file02.html#true-prime-pairs)_.
+```
+W^\pm = \frac{1}{\sqrt{2}}(W^1 \mp iW^2)
+ | Charged weak current |
+| **Z⁰**         |  
+\[
+Z = \cos\theta_W W^3 - \sin\theta_W B
+ | Neutral weak current |
+| **γ (photon)** |  
+\[
+\gamma = \sin\theta_W W^3 + \cos\theta_W B
+ | Electromagnetism (QED) |
 
-```note
-I like that 0 can occupy a center point.  Incidentally, this circular shape minus all my numbers and colors s has been called Seed of Life / Flower of Life by certain New Age groups who claim it has a sacred geometry.  Please don’t see this as an endorsement of any spiritual group or religion. _([Prime Hexagon - Circulat Form](https://www.hexspin.com/circular/))_
+Here, **θₜ (Weinberg angle)** determines the mixing between W³ and B.
+
+## **4. What Each Boson Does**
+
+| Boson     | Source Fields    | Interacts With            | Mass    |
+|-----------|------------------|---------------------------|---------|
+| **W⁺, W⁻** | W¹, W²           | Left-handed fermions      | Massive |
+| **Z⁰**     | W³ and B⁰        | Left-handed + some right-handed fermions | Massive |
+| **γ**      | W³ and B⁰        | All electrically charged particles | Massless |
+
+## **5. Final Picture**
+
+SU(2)_L × U(1)_Y
+        |
+  (Spontaneous symmetry breaking via Higgs field)
+        ↓
+W⁺  W⁻  Z⁰   γ
+↘   ↙         ↓
+Weak force   QED
+
+- **W⁺/W⁻/Z⁰**: Responsible for weak interactions (short-range, massive)
+- **γ (photon)**: Responsible for electromagnetism (long-range, massless)
 ```
 
-[![image](https://user-images.githubusercontent.com/8466209/249753773-abe68727-cc33-4efa-a1be-23dd66141297.png)](https://www.hexspin.com/circular/)
+![Symmetry Breaking](https://github.com/user-attachments/assets/e4d223e5-cc71-487e-beb7-c64d2fdc6eb0)
+
 
