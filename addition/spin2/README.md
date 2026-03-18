@@ -246,7 +246,7 @@ These positions: 1 7 11 13 17 19 23 29. We refer to this basic system as MEC 30 
 This static structure is altered by the products of the primes themselves, since these products must fall into the prime positions since they are not divisible by 2, 3 and 5.
 ```
 
-![](https://user-images.githubusercontent.com/36441664/74366957-992db780-4e03-11ea-8f26-cca32bd26003.png)
+![disjoint 13 and 17](https://github.com/eq19/maps/assets/8466209/d3c8e7cb-2239-4b93-a4be-97e3ddbc8c94)
 
 By which we finally found if this behaviour is cascaded bilaterally within the correlation between ***61*** as [the 18th prime](https://gist.github.com/eq19/e9832026b5b78f694e4ad22c3eb6c3ef) and ***67*** as [the 19th prime](https://gist.github.com/eq19/c9bdc2bbe55f2d162535023c8d321831).
 
