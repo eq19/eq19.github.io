@@ -173,4 +173,8 @@ The magnetic moment ~, angular momentum L~, and direction of propagation with v
 
 [![a-Twisted-strip-model-for-one-wavelength-of-a-photon-with-circular-polarisation-in-at](https://github.com/eq19/maps/assets/8466209/fe25c572-6c0b-4200-b249-f9341e72c47e)](https://github.com/eq19/maps/files/13790325/LdBelectoroid.pdf)
 
+Starts with the complex octonions from the octonion unit we builds creation and annihilation operators similar to those in quantum mechanics
+
+[![Standard Model from Octonionic Algebra](https://github.com/user-attachments/assets/4a049ecb-e044-46b5-913c-8b6163309206)](https://arxiv.org/abs/1611.09182)
+
 A deeper understanding requires a unication of the aspects discussed above in terms of an underlying principle.

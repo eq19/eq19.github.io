@@ -185,22 +185,6 @@ By metaphorically linking trading components to physical forces, we propose a mo
  π(101+8) |103 |107 |109 |   - | 29th 👈 π(29+1) ✔️
 ```
 
-This paper presents a novel conceptual framework aligning the stages of trading strategy hyperoptimization with the hierarchy of fundamental forces in physics.
-
-```note
-Hyperoptimization in algorithmic trading involves tuning multiple interacting components — such as buy/sell logic, ROI models, risk protections, and meta-settings. To manage this complexity and define a meaningful sequence, we draw an analogy from the layered architecture of physics: from weak nuclear interactions to the theory of everything.
-
-1. **Weak Nuclear** – _[buy¹, custom-entry²]_: The buy logic initiates trades and responds to localized, short-lived signals — akin to the weak nuclear force, which governs subatomic transformations. Custom entry logic represents nuanced early decision-making.
-1. **Electromagnetic (QED)** – _[sell³, custom-exit⁴]_: The sell logic reacts to opposing conditions and manages exits through symmetric, responsive forces. Like electromagnetism, this governs interactions and balance through custom-exit dynamics.
-1. **Electroweak (QED + Weak + QM)** – _[custom-entry², custom-exit⁴, roi⁵]_: This layer unifies buying and selling into a cohesive interactive force. **Here, quantum mechanics** is conceptually embedded: representing probabilistic filters, confidence thresholds, and dynamic decision-making within `custom-entry` and `custom-exit`. ROI emerges here as a modulated outcome of quantum-level signal interaction.
-1. **Strong Nuclear (QCD)** – _[trailing⁶, protection⁷, timeframe⁸]_: Trailing stops, protection logic, and timeframe define the internal trade architecture. This layer offers resilience and cohesion, much like the strong nuclear force binds particles under high tension.
-1. **Grand Unified Theory (GUT)** – _[trades⁹, roi⁵]_: Abstracting above local behaviors, this layer analyzes trade performance and profit structure. It combines earlier logic into a unifying profit mechanism and long-term strategy shaping.
-1. **Quantum Gravity (Meta-Layer)** – _[default¹⁰, leverage¹¹, global-overrides¹²]_: This meta-layer defines the curvature of the environment. Default settings, leverage, and global overrides determine the system’s flexibility and risk profile — mirroring how gravity shapes the space-time structure of the trading universe.
-1. **Theory of Everything (TOE)** – _[all¹³]_: The final layer integrates all previous dimensions. It represents full-system optimization, where all logic, protections, and meta-controls are harmonized into a complete strategic model.
-
-By mapping the **13 available optimization spaces** to this seven-layered structure — with quantum mechanics **embedded** rather than added — this framework maintains coherence with both physics and practical hyperoptimization architecture.
-```
-
 ```txt
  Osp(8|4) |  1 |  2 |  3 |   4 | th
 ==========+====+====+====+=====+====
@@ -223,6 +207,26 @@ By mapping the **13 available optimization spaces** to this seven-layered struct
  π(101+8) |103 |107 |109 |   - | 29th
 ```
 
+## Complex Octonions
+
+```
+Decoded Complex Numbers:
+
+[01] (r1.0 + i1.0j)
+[02] (r2.0 + i2.0j)
+[03] (r3.0 + i3.0j)
+[04] (r4.0 + i4.0j)
+[05] (r5.0 + i5.0j)
+[06] (r6.0 + i6.0j)
+[07] (r7.0 + i7.0j)
+[08] (r8.0 + i8.0j)
+[09] (r9.0 + i9.0j)
+[10] (r10.0 + i10.0j)
+[11] (r11.0 + i11.0j)
+[12] (r12.0 + i12.0j)
+[13] (r13.0 + i13.0j)
+```
+
 Let's consider a [Metaron's Cube](http://en.wikipedia.org/wiki/Metatron%27s_Cube) as a geometric figure composed of 13 equal circles with lines from the center of each circle extending out to the centers of the other 12 circles.
 
 ```note
@@ -230,6 +234,53 @@ The 13 circles of the Metatron's cube can be seen as a diagonal axis projection 
 ```
 
 ![image](https://github.com/eq19/maps/assets/8466209/da167d93-f8e1-42bd-b180-c86fce7d0ad6)
+
+This paper presents a novel conceptual framework aligning the stages of trading strategy hyperoptimization with the hierarchy of fundamental forces in physics.
+
+```note\
+Hyperopt in algorithmic trading involves tuning multiple _[interacting components](https://schema.freqtrade.io/schema.json)_ such as buy/sell logic, ROI models, risk protections, and meta-settings. To manage this complexity and define a meaningful sequence, we draw an analogy from the layered architecture of physics: from weak nuclear interactions to the theory of everything.
+
+1. **Weak Nuclear** – _[buy¹, custom-entry²]_: The buy logic initiates trades and responds to localized, short-lived signals — akin to the weak nuclear force, which governs subatomic transformations. Custom entry logic represents nuanced early decision-making.
+1. **Electromagnetic (QED)** – _[sell³, custom-exit⁴]_: The sell logic reacts to opposing conditions and manages exits through symmetric, responsive forces. Like electromagnetism, this governs interactions and balance through custom-exit dynamics.
+1. **Electroweak (QED + Weak + QM)** – _[custom-entry², custom-exit⁴, roi⁵]_: This layer unifies buying and selling into a cohesive interactive force. **Here, quantum mechanics** is conceptually embedded: representing probabilistic filters, confidence thresholds, and dynamic decision-making within `custom-entry` and `custom-exit`. ROI emerges here as a modulated outcome of quantum-level signal interaction.
+1. **Strong Nuclear (QCD)** – _[trailing⁶, protection⁷, timeframe⁸]_: Trailing stops, protection logic, and timeframe define the internal trade architecture. This layer offers resilience and cohesion, much like the strong nuclear force binds particles under high tension.
+1. **Grand Unified Theory (GUT)** – _[trades⁹, roi⁵]_: Abstracting above local behaviors, this layer analyzes trade performance and profit structure. It combines earlier logic into a unifying profit mechanism and long-term strategy shaping.
+1. **Quantum Gravity (Meta-Layer)** – _[default¹⁰, leverage¹¹, global-overrides¹²]_: This meta-layer defines the curvature of the environment. Default settings, leverage, and global overrides determine the system’s flexibility and risk profile — mirroring how gravity shapes the space-time structure of the trading universe.
+1. **Theory of Everything (TOE)** – _[all¹³]_: The final layer integrates all previous dimensions. It represents full-system optimization, where all logic, protections, and meta-controls are harmonized into a complete strategic model.
+
+By mapping the **13 available optimization spaces** to this seven-layered structure — with quantum mechanics **embedded** rather than added — this framework maintains coherence with both physics and practical hyperoptimization architecture.
+```
+
+```
+├── DIVISION 1: TRADING STRATEGY CORE
+│   ├── Entry/Exit Strategy
+│   └── Position Management
+│
+├── DIVISION 2: CAPITAL & RISK
+│   ├── Capital Allocation
+│   └── Risk Boundaries
+│
+├── DIVISION 3: EXCHANGE OPERATIONS
+│   ├── Exchange Authentication
+│   ├── Market Connection
+│   └── Order Routing
+│
+├── DIVISION 4: MARKET DATA
+│   ├── Data Pipeline
+│   ├── Storage Layer
+│   └── Price Discovery
+│
+├── DIVISION 5: INTELLIGENCE & ANALYTICS
+│   ├── Intelligence Suite
+│   └── Analytics Dashboard
+│
+├── DIVISION 6: DEVELOPMENT & OPTIMIZATION
+│   └── Development Suite
+│
+└── DIVISION 7: SYSTEM INTEGRATION
+    ├── External Communications
+    └── System Operations
+```
 
 Is the fermion red? green? blue? Does the fermion have isospin up? down? These five questions can be represented by an exterior algebra of 2⁵ or _[32-complex dimensional](https://github.com/eq19/maps/files/14387513/Standard_model_physics_from_an_algebra.pdf)_.
 
@@ -249,8 +300,136 @@ This thesis constitutes a first attempt to derive aspects of standard model part
 Furthermore, we show that these three-generation results can be extended, so as to include ***all 48 fermionic U(1)em charges***. _([Standard Model from an algebra - pdf](https://github.com/eq19/maps/files/14387513/Standard_model_physics_from_an_algebra.pdf))_
 ```
 
-[![The-64-dimensional-octonionic-chain-algebra-splits-into-two-sets-of-SU-3-generators](https://github.com/eq19/maps/assets/8466209/b6fffa01-8eda-46c9-b093-0488336135d2)](https://github.com/eq19/maps/files/14387513/Standard_model_physics_from_an_algebra.pdf)
+[![The-64-dimensional-octonionic-chain-algebra-splits-into-two-sets-of-SU-3-generators](https://github.com/eq19/maps/assets/8466209/b6fffa01-8eda-46c9-b093-0488336135d2)](https://arxiv.org/abs/1611.09182)
 
+```
+├── DIVISION 1: TRADING STRATEGY CORE
+│   ├── Entry/Exit Strategy
+│   │   ├── timeframe
+│   │   ├── minimal_roi
+│   │   ├── use_exit_signal
+│   │   ├── exit_profit_only
+│   │   ├── exit_profit_offset
+│   │   ├── ignore_roi_if_entry_signal
+│   │   ├── ignore_buying_expired_candle_after
+│   │   ├── process_only_new_candles
+│   │   └── force_entry_enable
+│   │
+│   └── Position Management
+│       ├── position_adjustment_enable
+│       ├── max_entry_position_adjustment
+│       ├── amend_last_stake_amount
+│       └── last_stake_amount_min_ratio
+│
+├── DIVISION 2: CAPITAL & RISK
+│   ├── Capital Allocation
+│   │   ├── stake_currency
+│   │   ├── stake_amount
+│   │   ├── tradable_balance_ratio
+│   │   ├── available_capital
+│   │   ├── dry_run_wallet
+│   │   ├── amount_reserve_percent
+│   │   ├── minimum_trade_amount
+│   │   └── targeted_trade_amount
+│   │
+│   └── Risk Boundaries
+│       ├── stoploss
+│       ├── trailing_stop
+│       ├── trailing_stop_positive
+│       ├── trailing_stop_positive_offset
+│       ├── trailing_only_offset_is_reached
+│       ├── fee
+│       ├── liquidation_buffer
+│       └── custom_price_max_distance_ratio
+│
+├── DIVISION 3: EXCHANGE OPERATIONS
+│   ├── Exchange Authentication
+│   │   └── exchange (contains: name, key, secret, password, uid, account_id, wallet_address, private_key, ccxt_config, ccxt_async_config, ccxt_sync_config)
+│   │
+│   ├── Market Connection
+│   │   ├── trading_mode
+│   │   ├── margin_mode
+│   │   ├── proxy_coin
+│   │   ├── coingecko
+│   │   ├── exchange.pair_whitelist
+│   │   ├── exchange.pair_blacklist
+│   │   ├── exchange.log_responses
+│   │   ├── exchange.enable_ws
+│   │   ├── exchange.unknown_fee_rate
+│   │   ├── exchange.outdated_offset
+│   │   └── exchange.markets_refresh_interval
+│   │
+│   └── Order Routing
+│       ├── order_types
+│       ├── order_time_in_force
+│       ├── unfilledtimeout
+│       └── cancel_open_orders_on_exit
+│
+├── DIVISION 4: MARKET DATA
+│   ├── Data Pipeline
+│   │   ├── datadir
+│   │   ├── pairlists
+│   │   ├── download_trades
+│   │   ├── new_pairs_days
+│   │   └── startup_candle
+│   │
+│   ├── Storage Layer
+│   │   ├── user_data_dir
+│   │   ├── dataformat_ohlcv
+│   │   ├── dataformat_trades
+│   │   ├── db_url
+│   │   ├── export
+│   │   └── disableparamexport
+│   │
+│   └── Price Discovery
+│       ├── entry_pricing
+│       └── exit_pricing
+│
+├── DIVISION 5: INTELLIGENCE & ANALYTICS
+│   ├── Intelligence Suite
+│   │   ├── freqai
+│   │   └── orderflow
+│   │
+│   └── Analytics Dashboard
+│       ├── reduce_df_footprint
+│       ├── lookahead_analysis_exportfilename
+│       ├── recursive_strategy_search
+│       ├── disable_dataframe_checks
+│       ├── analyze_per_epoch
+│       └── print_all
+│
+├── DIVISION 6: DEVELOPMENT & OPTIMIZATION
+│   └── Development Suite
+│       ├── backtest_breakdown
+│       ├── backtest_cache
+│       ├── hyperopt_path
+│       ├── epochs
+│       ├── early_stop
+│       ├── spaces
+│       ├── hyperopt_loss
+│       ├── hyperopt_jobs
+│       ├── hyperopt_random_state
+│       └── hyperopt_min_trades
+│
+└── DIVISION 7: SYSTEM INTEGRATION
+    ├── External Communications
+    │   ├── telegram
+    │   ├── webhook
+    │   ├── discord
+    │   ├── api_server
+    │   └── bot_name
+    │
+    └── System Operations
+        ├── dry_run
+        ├── initial_state
+        ├── internals
+        ├── log_config
+        ├── external_message_consumer
+        ├── experimental
+        ├── add_config_files
+        ├── fiat_display_currency
+        └── max_open_trades
+```
 Subatomic particles such as protons or neutrons, which contain two or more elementary particles, are known as composite particles. 
 
 ```note
@@ -266,6 +445,159 @@ They interact, they transfer energy and momentum and angular momentum; excitatio
 [![fundamental interaction in nature](https://github.com/eq19/maps/assets/8466209/1837fed2-6beb-4ea2-888a-5a2cfbfef311)](https://en.wikipedia.org/wiki/Talk:Standard_Model/Archive_2)
 
 It is hypothesized that gravitational interactions are mediated by an as yet undiscovered elementary particle, dubbed the graviton.
+
+```
+***
+  "key_used": 169,
+  "row_count": 48,
+  "rows": [
+    ***
+      "pos": "1;1;1;1"
+    ***,
+    ***
+      "pos": "1;1;1;2"
+    ***,
+    ***
+      "pos": "1;1;2;1"
+    ***,
+    ***
+      "pos": "1;1;3;1"
+    ***,
+    ***
+      "pos": "1;1;3;2"
+    ***,
+    ***
+      "pos": "1;1;4;1"
+    ***,
+    ***
+      "pos": "1;1;4;2"
+    ***,
+    ***
+      "pos": "1;2;1;1"
+    ***,
+    ***
+      "pos": "1;2;1;2"
+    ***,
+    ***
+      "pos": "1;2;2;1"
+    ***,
+    ***
+      "pos": "1;2;2;2"
+    ***,
+    ***
+      "pos": "1;2;3;1"
+    ***,
+    ***
+      "pos": "1;2;4;1"
+    ***,
+    ***
+      "pos": "1;2;4;2"
+    ***,
+    ***
+      "pos": "1;3;1;1"
+    ***,
+    ***
+      "pos": "1;3;1;2"
+    ***,
+    ***
+      "pos": "1;3;2;1"
+    ***,
+    ***
+      "pos": "1;3;2;2"
+    ***,
+    ***
+      "pos": "1;4;1;1"
+    ***,
+    ***
+      "pos": "1;4;2;1"
+    ***,
+    ***
+      "pos": "1;4;3;1"
+    ***,
+    ***
+      "pos": "1;4;3;2"
+    ***,
+    ***
+      "pos": "1;5;1;1"
+    ***,
+    ***
+      "pos": "1;5;2;1"
+    ***,
+    ***
+      "pos": "1;5;3;1"
+    ***,
+    ***
+      "pos": "1;5;3;2"
+    ***,
+    ***
+      "pos": "1;5;4;1"
+    ***,
+    ***
+      "pos": "1;6;1;1"
+    ***,
+    ***
+      "pos": "1;6;1;2"
+    ***,
+    ***
+      "pos": "1;6;2;1"
+    ***,
+    ***
+      "pos": "1;6;2;2"
+    ***,
+    ***
+      "pos": "1;6;3;1"
+    ***,
+    ***
+      "pos": "1;6;3;2"
+    ***,
+    ***
+      "pos": "1;7;1;1"
+    ***,
+    ***
+      "pos": "1;7;2;1"
+    ***,
+    ***
+      "pos": "1;7;3;1"
+    ***,
+    ***
+      "pos": "1;7;3;2"
+    ***,
+    ***
+      "pos": "1;7;4;1"
+    ***,
+    ***
+      "pos": "1;7;4;2"
+    ***,
+    ***
+      "pos": "1;7;5;1"
+    ***,
+    ***
+      "pos": "1;7;6;1"
+    ***,
+    ***
+      "pos": "1;7;6;2"
+    ***,
+    ***
+      "pos": "1;7;7;1"
+    ***,
+    ***
+      "pos": "1;7;7;2"
+    ***,
+    ***
+      "pos": "1;7;8;1"
+    ***,
+    ***
+      "pos": "1;7;8;2"
+    ***,
+    ***
+      "pos": "1;7;9;1"
+    ***,
+    ***
+      "pos": "1;7;9;2"
+    ***
+  ],
+
+```
 
 ## How many quarks?
 
