@@ -237,7 +237,7 @@ The 13 circles of the Metatron's cube can be seen as a diagonal axis projection 
 
 This paper presents a novel conceptual framework aligning the stages of trading strategy hyperoptimization with the hierarchy of fundamental forces in physics.
 
-```note\
+```note
 Hyperopt in algorithmic trading involves tuning multiple _[interacting components](https://schema.freqtrade.io/schema.json)_ such as buy/sell logic, ROI models, risk protections, and meta-settings. To manage this complexity and define a meaningful sequence, we draw an analogy from the layered architecture of physics: from weak nuclear interactions to the theory of everything.
 
 1. **Weak Nuclear** – _[buy¹, custom-entry²]_: The buy logic initiates trades and responds to localized, short-lived signals — akin to the weak nuclear force, which governs subatomic transformations. Custom entry logic represents nuanced early decision-making.
