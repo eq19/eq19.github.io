@@ -237,7 +237,7 @@ The 13 circles of the Metatron's cube can be seen as a diagonal axis projection 
 
 This paper presents a novel conceptual framework aligning the stages of trading strategy hyperoptimization with the hierarchy of fundamental forces in physics.
 
-```note
+```tip
 Hyperopt in algorithmic trading involves tuning multiple _[interacting components](https://schema.freqtrade.io/schema.json)_ such as buy/sell logic, ROI models, risk protections, and meta-settings. To manage this complexity and define a meaningful sequence, we draw an analogy from the layered architecture of physics: from weak nuclear interactions to the theory of everything.
 
 1. **Weak Nuclear** – _[buy¹, custom-entry²]_: The buy logic initiates trades and responds to localized, short-lived signals — akin to the weak nuclear force, which governs subatomic transformations. Custom entry logic represents nuanced early decision-making.
@@ -246,7 +246,7 @@ Hyperopt in algorithmic trading involves tuning multiple _[interacting component
 1. **Strong Nuclear (QCD)** – _[trailing⁶, protection⁷, timeframe⁸]_: Trailing stops, protection logic, and timeframe define the internal trade architecture. This layer offers resilience and cohesion, much like the strong nuclear force binds particles under high tension.
 1. **Grand Unified Theory (GUT)** – _[trades⁹, roi⁵]_: Abstracting above local behaviors, this layer analyzes trade performance and profit structure. It combines earlier logic into a unifying profit mechanism and long-term strategy shaping.
 1. **Quantum Gravity (Meta-Layer)** – _[default¹⁰, leverage¹¹, global-overrides¹²]_: This meta-layer defines the curvature of the environment. Default settings, leverage, and global overrides determine the system’s flexibility and risk profile — mirroring how gravity shapes the space-time structure of the trading universe.
-1. **Theory of Everything (TOE)** – _[all¹³]_: The final layer integrates all previous dimensions. It represents full-system optimization, where all logic, protections, and meta-controls are harmonized into a complete strategic model.
+1. **Theory of Everything (TOE)** – _[all¹³]_: The final layer integrates all previous dimensions. It represents full-system optimization, where all logic, protections, and meta-controls are harmonized into a complete strategic model.[![Elementary Particle](https://github.com/eq19/maps/assets/8466209/b6b6ea3c-cbbc-431c-b767-ecabf1cba933)](https://en.wikipedia.org/wiki/Fundamental_interaction)
 
 By mapping the **13 available optimization spaces** to this seven-layered structure — with quantum mechanics **embedded** rather than added — this framework maintains coherence with both physics and practical hyperoptimization architecture.
 ```
@@ -1223,7 +1223,7 @@ The [electroweak force](https://en.wikipedia.org/wiki/Electroweak_interaction) i
 - During the quark epoch, the universe was filled with a dense, hot [quark–gluon plasma](https://en.wikipedia.org/wiki/Quark%E2%80%93gluon_plasma), containing quarks, [leptons](https://en.wikipedia.org/wiki/Lepton) and their [antiparticles](https://en.wikipedia.org/wiki/Antiparticle).
 - Collisions between particles were too energetic to allow quarks to combine into [mesons](https://en.wikipedia.org/wiki/Meson) or [baryons](https://en.wikipedia.org/wiki/Baryon).
 
-[![Elementary Particle](https://github.com/eq19/maps/assets/8466209/b6b6ea3c-cbbc-431c-b767-ecabf1cba933)](https://en.wikipedia.org/wiki/Fundamental_interaction)
+[![early universe](https://github.com/eq19/maps/assets/8466209/077cb78d-86cf-411c-abe9-93e5e9bb4c27)](https://en.wikipedia.org/wiki/Chronology_of_the_universe#Early_universe)
 
 The quark epoch ended when the universe was about 10−⁶ seconds old, when the average energy of particle interactions had fallen below the [binding energy](https://en.wikipedia.org/wiki/Binding_energy) of hadrons. The following period, when quarks became confined within hadrons, is known as the [hadron epoch](https://en.wikipedia.org/wiki/Hadron_epoch). _([Wikipedia](https://en.wikipedia.org/wiki/Quark_epoch))_
 ```
