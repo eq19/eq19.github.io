@@ -1380,29 +1380,6 @@ The _[Root Function](https://eq19.github.io/exponentiation/#root-functions)_ of 
      - {{ item.key2 | jsonify }}
 {% endfor %}
 
-A foundation for theory-driven financial modeling, encouraging deeper exploration of system dynamics and unification across trading components.
-
-```php
-Φ = 2,10
-Δ = 5,7,17
-3': 13,18,25,42
-2' » 13 to 77, Δ = 64
-2' and 3' » 13 to 45, Δ = 32
-
-2" + 5" = 7" = 77
-2"=22, 3"=33, 2" + 3" = 5" = 55
-
-13, 
-16, 18, 
-21, 23, 25, 
-28, 30, 32, 34, 36, 38, 40, 42, 
-45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77
-```
-
-***32 + 11×7 = 109 = ((10th)th prime)***
-
-[![77s Structure](https://github.com/eq19/maps/assets/8466209/8362e5e8-a102-435e-8e6a-788456d00148)](https://eq19.github.io/addition/#hidden-dimensions)
-
 This model proposes not only a logical order of optimization but also a coherent conceptual narrative. 
 
 ```note

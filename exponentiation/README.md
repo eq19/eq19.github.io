@@ -7,7 +7,7 @@ description:
 ---
 # Exponentiation Zones (30-36)
 
-_[Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)_ is an operation involving two numbers, the 
+[text](url)_[Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)_ is an operation involving two numbers, the 
 _[Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)_ is an operation involving two numbers, the base and the exponent or power. Exponentiation is written as ***b<sup>n</sup>***, where ***b*** is the base and ***n*** is the power.
 
 {% include list.liquid all=true %}
@@ -67,6 +67,28 @@ As we've already alluded, to lay the foundation for a bijection with numbers not
 ***7 = 4th prime***
 
 ```txt
+0 (1, 1) blue_0  ◄--- 0
+1 (1, 1) blue_1
+2 (1, 1) blue_2
+3 (1, 1) blue_3
+4 (1, 1) blue_4
+5 (2, 1) purple_5
+6 (2, 1) purple_0
+7 (3, 1) red_1
+8 (3, 1) red_2
+9 (3, 1) red_3
+10 (3, 1) red_4
+11 (4, 1) yellow_5
+12 (4, 1) yellow_0
+13 (5, 1) green_1
+14 (5, 1) green_2
+15 (5, 1) green_3
+16 (5, 1) green_4
+17 (0, 1) cyan_5
+18 (0, 1) cyan_0  ◄---  18
+```
+
+```txt
  Osp(1) |  1 |  2 |  3 |  4 
 --------+----+----+----+----
  π(10)  |  2 |  3 |  5 |  7 ✔️
@@ -75,11 +97,80 @@ As we've already alluded, to lay the foundation for a bijection with numbers not
 ***19 = 8th prime***
 
 ```txt
+0 (1, 1) blue_0  ◄--- 0
+1 (1, 1) blue_1
+2 (1, 1) blue_2
+3 (1, 1) blue_3
+4 (1, 1) blue_4
+5 (2, 1) purple_5
+6 (2, 1) purple_0
+7 (3, 1) red_1
+8 (3, 1) red_2
+9 (3, 1) red_3
+10 (3, 1) red_4
+11 (4, 1) yellow_5
+12 (4, 1) yellow_0
+13 (5, 1) green_1
+14 (5, 1) green_2
+15 (5, 1) green_3
+16 (5, 1) green_4
+17 (0, 1) cyan_5
+18 (0, 1) cyan_0  ◄---  18
+```
+
+```txt
  Osp(2) |  1 |  2 |  3 |  4 | th
 ========+====+====+====+====+====
  π(10)  |  2 |  3 |  5 |  7 | 4th
 --------+----+----+----+----+----
  π(19)  | 11 | 13 | 17 | 19 | 8th ✔️
+```
+
+***29 = 10th prime***
+
+```txt
+0 (1, 1) blue_0  ◄--- 0
+1 (1, 1) blue_1
+2 (1, 1) blue_2
+3 (1, 1) blue_3
+4 (1, 1) blue_4
+5 (2, 1) purple_5
+6 (2, 1) purple_0
+7 (3, 1) red_1
+8 (3, 1) red_2
+9 (3, 1) red_3
+10 (3, 1) red_4
+11 (4, 1) yellow_5
+12 (4, 1) yellow_0
+13 (5, 1) green_1
+14 (5, 1) green_2
+15 (5, 1) green_3
+16 (5, 1) green_4
+17 (0, 1) cyan_5
+18 (0, 1) cyan_0  ◄---  18
+-----
+19 (1, 1) blue_1
+20 (1, 1) blue_2
+21 (1, 1) blue_3
+22 (1, 1) blue_4
+23 (2, 1) purple_5
+24 (2, 1) purple_0
+25 (2, 1) purple_1
+26 (2, 1) purple_2
+27 (2, 1) purple_3
+28 (2, 1) purple_4
+29 (2, -1) blue_5
+30 (2, -1) blue_0  ◄--- 30
+```
+
+```txt
+ Osp(3) |  1 |  2 |  3 |  4 | th
+========+====+====+====+====+====
+ π(10)  |  2 |  3 |  5 |  7 | 4th
+--------+----+----+----+----+----
+ π(19)  | 11 | 13 | 17 | 19 | 8th
+--------+----+----+----+----+----
+ π(29)  | 23 | 29 |  - |  - | 10th ✔️
 ```
 
 ```tip
@@ -92,7 +183,145 @@ However, the discovery of new particles that do not fit in Lisi's classification
 
 [![The Four Fundamental Forces](https://github.com/user-attachments/assets/731865b0-7033-4e1b-a587-0c75c0dcae36)](https://eq19.github.io/#prime-unit-identity)
 
-***29 = 10th prime***
+```txt
+ Osp(1) |  1 |  2 |  3 |  4 
+--------+----+----+----+----
+ π(10)  |  2 |  3 |  5 |  7 
+                          ∆
+                          |
+                      7 Groups
+
+
+ Osp(8|4) |  1 |  2 |  3 |   4 | th
+==========+====+====+====+=====+====
+ π(10)    |  2 |  3 |  5 |   7 | 4th
+----------+----+----+----+-----+----
+ π(19)    | 11 | 13 | 17 |  19 | 8th
+----------+----+----+----+-----+----
+ π(29)    | 23 | 29 |  - |   - | 10th
+==========+====+====+====+=====+====
+ π(❓)    | .. | .. | .. |  .. | ❓th
+----------+----+----+----+-----+----
+ π(❓)    | .. | .. | .. |  .. | ❓th
+----------+----+----+----+-----+----
+ π(❓)    | .. | .. | .. |  .. | ❓th
+----------+----+----+----+-----+----
+ π(❓)    | .. | .. | .. |  .. | ❓th 👈 7th Group ✔️
+```
+
+***12 + 18 + 13 = 43***
+
+```txt
+ Osp(2) |  1 |  2 |  3 |  4 | th
+========+====+====+====+====+====
+ π(10)  |  2 |  3 |  5 |  7 | 4th
+--------+----+----+----+----+----
+ π(19)  | 11 | 13 | 17 | 19 | 8th
+          👆
+
+ Osp(8|4) |  1 |  2 |  3 |   4 | th
+==========+====+====+====+=====+====
+ π(10)    |  2 |  3 |  5 |   7 | 4th
+----------+----+----+----+-----+----
+ π(19)    | 11 | 13 | 17 |  19 | 8th
+----------+----+----+----+-----+----
+ π(29)    | 23 | 29 |  - |   - | 10th
+==========+====+=👆=+====+=====+====
+ π(31)    | 31 | .. | .. |  .. | 11th 👈 ✔️
+----------+-👆-+----+----+-----+----
+ π(❓)    | .. | .. | .. |  .. | ❓th
+----------+----+----+----+-----+----
+ π(❓)    | .. | .. | .. |  .. | ❓th
+----------+----+----+----+-----+----
+ π(❓)    | .. | .. | .. |  .. | ❓th
+```
+
+By metaphorically linking trading components to physical forces, we propose a model that inspires a more unified approach to systematic development.
+
+
+```txt
+ Osp(2) |  1 |  2 |  3 |  4 | th
+========+====+====+====+====+====
+ π(10)  |  2 |  3 |  5 |  7 | 4th
+--------+----+----+----+----+----
+ π(19)  | 11 | 13 | 17 | 19 | 8th
+               👆
+
+ Osp(8|4) |  1 |  2 |  3 |   4 | th
+==========+====+====+====+=====+====
+ π(10)    |  2 |  3 |  5 |   7 | 4th
+----------+----+----+----+-----+----
+ π(19)    | 11 | 13 | 17 |  19 | 8th
+----------+----+----+----+-----+----
+ π(29)    | 23 | 29 |  - |   - | 10th
+==========+====+====+====+=====+====
+ π(41)    | 31 | 37 | 41 |  .. | 13th 👈 ✔️
+----------+----+----+-👆-+-----+----
+ π(43)    | 43 | .. | .. |  .. | 14th 👈 ✔️
+----------+-👆-+----+----+-----+----
+ π(❓)    | .. | .. | .. |  .. | ❓th
+----------+----+----+----+-----+----
+ π(❓)    | .. | .. | .. |  .. | ❓th
+```
+
+***12 + 18 + 13 = 43***
+
+```txt
+Osp(2) |  1 |  2 |  3 |  4 | th
+========+====+====+====+====+====
+ π(10)  |  2 |  3 |  5 |  7 | 4th
+--------+----+----+----+----+----
+ π(19)  | 11 | 13 | 17 | 19 | 8th
+                    👆   👆
+
+ Osp(8|4) |  1 |  2 |  3 |   4 | th
+==========+====+====+====+=====+====
+ π(10)    |  2 |  3 |  5 |   7 | 4th
+----------+----+----+----+-----+----
+ π(19)    | 11 | 13 | 17 |  19 | 8th
+----------+----+----+----+-----+----
+ π(29)    | 23 | 29 |  - |   - | 10th
+==========+====+====+====+=====+====
+ π(41)    | 31 | 37 | 41 |  .. | 13th
+----------+----+----+----+-----+----
+ π(59)    | 43 | 47 | 53 |  59 | 17th 👈 ✔️
+----------+----+----+----+-👆--+----
+ π(67)    | 61 | 67 | .. |  .. | 19th 👈 ✔️
+----------+-👆-+----+----+-----+----
+ π(❓)    | .. | .. | .. |  .. | ❓th
+```
+
+***(29,31), (41,43), (59,61), (71,73) are twins***
+
+```txt
+ Osp(2) |  1 |  2 |  3 |  4 | th
+========+====+====+====+====+====
+ π(10)  |  2 |  3 |  5 |  7 | 4th
+--------+----+----+----+----+----
+ π(19)  | 11 | 13 | 17 | 19 | 8th 👈 4x twin primes
+
+
+ Osp(8|4) |  1 |  2 |  3 |   4 | th
+==========+====+====+====+=====+====
+ π(10)    |  2 |  3 |  5 |   7 | 4th
+----------+----+----+----+-----+----
+ π(19)    | 11 | 13 | 17 |  19 | 8th
+----------+----+----+----+-----+----
+ π(29)    | 23 | 29 |  - |   - | 10th
+==========+====+====+====+=====+====
+ π(41)    | 31 | 37 | 41 |  .. | 13th
+----------+----+----+----+-----+----
+ π(59)    | 43 | 47 | 53 |  59 | 17th
+----------+----+----+----+-----+----
+ π(71)    | 61 | 67 | 71 |  .. | 20th 👈 ✔️
+----------+----+----+-👆-+-----+----
+ π(73)    | 73 | .. | .. |  .. | 21th 👈 ✔️
+            👆
+```
+
+![169-over-109-blood-pressure](https://github.com/eq19/maps/assets/8466209/a702ea20-2ef3-424f-804e-c73a6c873692)
+
+***109 = 29th prime = (10th)th prime***
 
 ```txt
  Osp(3) |  1 |  2 |  3 |  4 | th
@@ -100,8 +329,25 @@ However, the discovery of new particles that do not fit in Lisi's classification
  π(10)  |  2 |  3 |  5 |  7 | 4th
 --------+----+----+----+----+----
  π(19)  | 11 | 13 | 17 | 19 | 8th
---------+----+----+----+----+----
- π(29)  | 23 | 29 |  - |  - | 10th ✔️
+--------+----+-👇-+----+----+----
+ π(29)  | 23 | 29 |  - |  - | 10th
+
+
+ Osp(8|4) |  1 |  2 |  3 |   4 | th
+==========+====+====+====+=====+====
+ π(10)    |  2 |  3 |  5 |   7 | 4th
+----------+----+----+----+-----+----
+ π(19)    | 11 | 13 | 17 |  19 | 8th
+----------+----+----+----+-----+----
+ π(29)    | 23 | 29 |  - |   - | 10th
+==========+====+====+====+=====+====
+ π(41)    | 31 | 37 | 41 |  .. | 13th
+----------+----+----+----+-----+----
+ π(59)    | 43 | 47 | 53 |  59 | 17th
+----------+----+----+----+-----+----
+ π(71)    | 61 | 67 | 71 |  .. | 20th
+----------+----+----+----+-👇--+----
+ π(109)   | 73 | .. | .. | 109 | 29th 👈 ✔️
 ```
 
 Each stage builds upon the stability of the one before, echoing how forces in physics emerge with energy scale.
@@ -110,106 +356,112 @@ Each stage builds upon the stability of the one before, echoing how forces in ph
 That is, if the powers of 10 all returned with blue spin, or as a series of rainbows, or evenly alternating colors or other non-random results, ***then I’d say prime numbers appear to have a linkage to 10.  I may not know what the the linkage is, just that it appears to exist*** _([HexSpin](https://www.hexspin.com/minor-hexagons/))_.
 ```
 
-![169-over-109-blood-pressure](https://github.com/eq19/maps/assets/8466209/a702ea20-2ef3-424f-804e-c73a6c873692)
-
-***109 = 29th prime***
-
 ```txt
+ Osp(3) |  1 |  2 |  3 |  4 | th
+========+====+====+====+====+====
+ π(10)  |  2 |  3 |  5 |  7 | 4th
+--------+----+----+----+----+----
+ π(19)  | 11 | 13 | 17 | 19 | 8th
+--------+----+----+----+----+----
+ π(29)  | 23 | 29 |  - |  - | 10th 👈
+
+
  Osp(8|4) |  1 |  2 |  3 |   4 | th
 ==========+====+====+====+=====+====
  π(10)    |  2 |  3 |  5 |   7 | 4th
 ----------+----+----+----+-----+----
  π(19)    | 11 | 13 | 17 |  19 | 8th
 ----------+----+----+----+-----+----
- π(29)    | 23 | 29 |  - |   - | 10th 👈 π(10) ✔️ 
-==========+====+====+====+=====+====
- π(❓)    | .. | .. | .. |  .. | ❓th
+ π(29)    | 23 | 29 |  - |   - | 10th 👈
+==========+====+====+====+=====+=====
+ π(41)    | 31 | 37 | 41 |  .. | 13th
 ----------+----+----+----+-----+----
- π(❓)    | .. | .. | .. |  .. | ❓th
+ π(59)    | 43 | 47 | 53 |  59 | 17th
 ----------+----+----+----+-----+----
- π(❓)    | .. | .. | .. |  .. | ❓th 👈 π(19) ❓
-==========+====+====+====+=====+====
- π(❓)    | .. | .. | .. |  .. | ❓th
-----------+----+----+----+-----+----
- π(❓)    | .. | .. | .. |  .. | ❓th
-----------+----+----+----+-----+----
- π(109)   | .. | .. | .. | 109 | 29th 👈 π(29) ✔️
+ π(71)    | 61 | 67 | 71 |  .. | 20th 👈
+==========+====+====+====+=👇==+=====
+ π(113)   | 73 | .. | .. | 113 | 30th 👈 ✔️
 ```
-***12 + 18 + 13 = 43***
+
+Standard heuristic mathematical models of population dynamics are often constructed using ordinary differential equations (ODEs).
+
+```note
+From what we learned above about segregating twin prime candidates, we can demonstrate that they compile additively in perfect progression, completing an infinite sequence of circles (multiples of 30 and 360)
+```
+
+[![Base of TOE](https://user-images.githubusercontent.com/8466209/249753163-6cfbcecf-3713-409b-8d8b-5fa5cf8489ac.png)](https://www.hexspin.com/finding-a-number-in-the-hexagon/)
+
+```txt
+0 (1, 1) blue_0  ◄--- 0
+1 (1, 1) blue_1
+2 (1, 1) blue_2
+3 (1, 1) blue_3
+4 (1, 1) blue_4
+5 (2, 1) purple_5
+6 (2, 1) purple_0
+7 (3, 1) red_1
+8 (3, 1) red_2
+9 (3, 1) red_3
+10 (3, 1) red_4
+11 (4, 1) yellow_5
+12 (4, 1) yellow_0
+13 (5, 1) green_1
+14 (5, 1) green_2
+15 (5, 1) green_3
+16 (5, 1) green_4
+17 (0, 1) cyan_5
+18 (0, 1) cyan_0  ◄---  18
+-----
+19 (1, 1) blue_1
+20 (1, 1) blue_2
+21 (1, 1) blue_3
+22 (1, 1) blue_4
+23 (2, 1) purple_5
+24 (2, 1) purple_0
+25 (2, 1) purple_1
+26 (2, 1) purple_2
+27 (2, 1) purple_3
+28 (2, 1) purple_4
+29 (2, -1) blue_5
+30 (2, -1) blue_0  ◄--- 30
+-----
+31 (1, -1) cyan_1
+32 (1, -1) cyan_2
+33 (1, -1) cyan_3
+34 (1, -1) cyan_4
+35 (1, -1) cyan_5
+36 (1, -1) cyan_0  ◄--- 36
+```
+
+![](https://user-images.githubusercontent.com/36441664/74591945-2b75cb80-504f-11ea-85dd-14d0a803ee6b.png)
+
+***7 + 29 + 77 = 113***
 
 ```txt
  Osp(8|4) |  1 |  2 |  3 |   4 | th
 ==========+====+====+====+=====+====
- π(10)    |  2 |  3 |  5 |   7 | 4th
+ π(10)    |  2 |  3 |  5 |   7 | 4th 👈 id: 36 ✔️
 ----------+----+----+----+-----+----
- π(19)    | 11 | 13 | 17 |  19 | 8th
+ π(19)    | 11 | 13 | 17 |  19 | 8th 👈 id: 35 ✔️
 ----------+----+----+----+-----+----
- π(29)    | 23 | 29 |  - |   - | 10th 👈 π(10)
-==========+====+====+====+=====+====
- π(29+12) | 31 | 37 | 41 |   - | 13th ✔️
+ π(29)    | 23 | 29 |  - |   - | 10th 👈 id: 34 ✔️
+==========+====+=👇=+====+=====+=====
+ π(41)    | 31 | 37 | 41 |  .. | 13th 👈 id: 33 (lexer) ✔️
+==========+====+====+====+=====+=====
+ π(59)    | 43 | 47 | 53 |  59 | 17th 👈 id: 32 ✔️
 ----------+----+----+----+-----+----
- π(41+18) | 43 | 47 | 53 |  59 | 17th ✔️
-----------+----+----+----+-----+----
- π(59+13) | 61 | 67 | 71 |   - | 20th 👈 π(19+1) ✔️
-==========+====+====+====+=====+====
- π(❓)    | .. | .. | .. |  .. | ❓th
-----------+----+----+----+-----+----
- π(❓)    | .. | .. | .. |  .. | ❓th
-----------+----+----+----+-----+----
- π(109)   | .. | .. | .. | 109 | 29th 👈 π(29)
+ π(71)    | 61 | 67 | 71 |  .. | 20th 👈 id: 31 ✔️
+----------+----+----+----+-👇--+----
+ π(113)   | 73 | .. | .. | 113 | 30th 👈 id: 30 ✔️
 ```
 
-By metaphorically linking trading components to physical forces, we propose a model that inspires a more unified approach to systematic development.
-
-***109 - 72 = 37***
-
-```txt
- Osp(8|4) |  1 |  2 |  3 |   4 | th
-==========+====+====+====+=====+====
- π(10)    |  2 |  3 |  5 |   7 | 4th
-----------+----+----+----+-----+----
- π(19)    | 11 | 13 | 17 |  19 | 8th
-----------+----+----+----+-----+----
- π(29)    | 23 | 29 |  - |   - | 10th 👈 π(10)
-==========+====+====+====+=====+====
- π(41)    | 31 | 37 | 41 |   - | 13th
-----------+----+----+----+-----+----
- π(59)    | 43 | 47 | 53 |  59 | 17th 
-----------+----+----+----+-----+- ---
- π(72)    | 61 | 67 | 71 |   - | 20th 👈 π(19+1)
-==========+====+====+====+=====+====
- π(72+11) | 73 | 79 | 83 |   - | 23th ✔️
-----------+----+----+----+-----+----
- π(83+18) | 89 | 97 |101 |   - | 26th ✔️
-----------+----+----+----+-----+----
- π(101+8) |103 |107 |109 |   - | 29th 👈 π(29+1) ✔️
-```
-
-```txt
- Osp(8|4) |  1 |  2 |  3 |   4 | th
-==========+====+====+====+=====+====
- π(10)    |  2 |  3 |  5 |   7 | 4th
-----------+----+----+----+-----+----
- π(19)    | 11 | 13 | 17 |  19 | 8th
-----------+----+----+----+-----+----
- π(29)    | 23 | 29 |  - |   - | 10th
-==========+====+=👇=+====+=====+====
- π(41)    | 31 | 37 | 41 |   - | 13th 👈
-----------+----+----+----+-----+----
- π(59)    | 43 | 47 | 53 |  59 | 17th 
-----------+----+----+----+-----+- ---
- π(72)    | 61 | 67 | 71 |   - | 20th
-==========+====+====+====+=====+====
- π(72+11) | 73 | 79 | 83 |   - | 23th
-----------+----+----+----+-----+----
- π(83+18) | 89 | 97 |101 |   - | 26th
-----------+----+----+----+-----+----
- π(101+8) |103 |107 |109 |   - | 29th
-```
+[![IMG_20240114_014704](https://user-images.githubusercontent.com/36441664/262341222-6c71005e-2f44-45d9-ac42-b1464c045a45.png)](https://eq19.github.io/grammar/identition/#the-77-principles)
 
 ## Complex Octonions
 
-```
+_[Complex numbers](https://en.wikipedia.org/wiki/Complex_number)_ allow solutions to all polynomial equations, even those that have no solutions in real numbers.
+
+```txt
 Decoded Complex Numbers:
 
 [01] (r1.0 + i1.0j)
@@ -218,7 +470,7 @@ Decoded Complex Numbers:
 [04] (r4.0 + i4.0j)
 [05] (r5.0 + i5.0j)
 [06] (r6.0 + i6.0j)
-[07] (r7.0 + i7.0j)
+[07] (r7.0 + i7.0j) 👈 Center ✔️
 [08] (r8.0 + i8.0j)
 [09] (r9.0 + i9.0j)
 [10] (r10.0 + i10.0j)
@@ -227,13 +479,9 @@ Decoded Complex Numbers:
 [13] (r13.0 + i13.0j)
 ```
 
-Let's consider a [Metaron's Cube](http://en.wikipedia.org/wiki/Metatron%27s_Cube) as a geometric figure composed of 13 equal circles with lines from the center of each circle extending out to the centers of the other 12 circles.
+Complex octonions, or bioctonions, are a **[16-dimensional](https://en.wikipedia.org/wiki/Bioctonion)**, non-associative algebra formed by the tensor product of octonions and complex numbers
 
-```note
-The 13 circles of the Metatron's cube can be seen as a diagonal axis projection of a ***3-dimensional cube, as 8 corner spheres and 6 face-centered spheres***. Two spheres are projected into the center from a 3-fold symmetry axis. The face-centered points represent an [octahedron](https://en.wikipedia.org/wiki/Octahedron). Combined these 14 points represent the [face-centered cubic lattice cell](https://en.wikipedia.org/wiki/Cubic_crystal_system#Cubic_space_groups). _([Wikipedia](https://en.wikipedia.org/wiki/User:Tomruen/Metatron%27s_Cube))_
-```
-
-![image](https://github.com/eq19/maps/assets/8466209/da167d93-f8e1-42bd-b180-c86fce7d0ad6)
+![Complex octonions](https://github.com/user-attachments/assets/19fc8aaa-0658-45fb-8f53-28a1ba8953c3)
 
 This paper presents a novel conceptual framework aligning the stages of trading strategy hyperoptimization with the hierarchy of fundamental forces in physics.
 
@@ -282,6 +530,53 @@ By mapping the **13 available optimization spaces** to this seven-layered struct
     └── System Operations
 ```
 
+
+```txt
+Opposite Direction on the Center
+
+ Osp(8|4) |  1 |  2 |  3 |   4 | th
+==========+====+====+====+=====+====
+ π(10)    |  2 |  3 |  5 |   7 | 4th
+----------+----+----+----+-----+----
+ π(19)    | 11 | 13 | 17 |  19 | 8th
+----------+----+----+----+-----+----
+ π(29)    | 23 | 29 |  - |   - | 10th 
+==========+====+====+====+=====+=====
+ π(41)    | 31 | 37 | 41 |  .. | 13th 👈 Center ✔️
+==========+====+====+====+=====+=====
+ π(59)    | 43 | 47 | 53 |  59 | 17th
+----------+----+----+----+-----+----
+ π(71)    | 61 | 67 | 71 |  .. | 20th
+----------+----+----+----+-----+----
+ π(113)   | 73 | .. | .. | 113 | 30th
+```
+
+Let's consider a [Metaron's Cube](http://en.wikipedia.org/wiki/Metatron%27s_Cube) as a geometric figure composed of 13 equal circles with lines from the center of each circle extending out to the centers of the other 12 circles.
+
+```note
+The 13 circles of the Metatron's cube can be seen as a diagonal axis projection of a ***3-dimensional cube, as 8 corner spheres and 6 face-centered spheres***. Two spheres are projected into the center from a 3-fold symmetry axis. The face-centered points represent an [octahedron](https://en.wikipedia.org/wiki/Octahedron). Combined these 14 points represent the [face-centered cubic lattice cell](https://en.wikipedia.org/wiki/Cubic_crystal_system#Cubic_space_groups). _([Wikipedia](https://en.wikipedia.org/wiki/User:Tomruen/Metatron%27s_Cube))_
+```
+
+***1 + central + frame + inner + outer = 1 + 7 + 29 + 6x11 + 6x11 = 37+132 = 169 = 13²***
+
+![image](https://github.com/eq19/maps/assets/8466209/da167d93-f8e1-42bd-b180-c86fce7d0ad6)
+
+This quark model underlies [flavor SU(3)](https://en.wikipedia.org/wiki/Flavour_(particle_physics)), or [Eightfold Way](https://en.wikipedia.org/wiki/Eightfold_way_(physics)), the successful classification scheme organizing the large number of lighter [hadrons](https://en.wikipedia.org/wiki/Hadron)
+
+```note
+The [pseudoscalar](https://en.wikipedia.org/wiki/pseudoscalar) [meson](https://en.wikipedia.org/wiki/meson) nonet. Members of the original meson "octet (8)" are shown in green, the singlet in magenta.
+- Although these mesons ***are now grouped into a nonet (9)***, the [Eightfold Way](https://en.wikipedia.org/wiki/Eightfold_way_(physics)) name derives from the patterns of eight for the mesons and baryons in the original classification scheme.
+- The Eightfold Way classification is named after the following fact:
+  - If we take three flavors of quarks, then the quarks lie in the [fundamental representation](https://en.wikipedia.org/wiki/Fundamental_representation), 3 (called the triplet) of [flavor](https://en.wikipedia.org/wiki/Flavour_(particle_physics)) [SU(3)](https://en.wikipedia.org/wiki/SU(3)).
+  - The antiquarks lie in the complex conjugate representation 3.
+- The nine states (nonet) made out of a pair can be decomposed into the [trivial representation](https://en.wikipedia.org/wiki/Trivial_representation), 1 (called the singlet), and the [adjoint representation](https://en.wikipedia.org/wiki/Adjoint_representation_of_a_Lie_group), 8 (called the octet). 
+- The notation for this decomposition is ***3⊗3=8⊕1***.
+
+Figure below shows the application of this decomposition to the mesons. _([Wikipedia](https://en.wikipedia.org/wiki/Quark_model))_
+```
+
+[![8foldway svg](https://github.com/eq19/maps/assets/8466209/5c3e5114-e89b-40ad-b550-62b39a2963dd)](https://en.wikipedia.org/wiki/Quark_model)
+
 Is the fermion red? green? blue? Does the fermion have isospin up? down? These five questions can be represented by an exterior algebra of 2⁵ or _[32-complex dimensional](https://github.com/eq19/maps/files/14387513/Standard_model_physics_from_an_algebra.pdf)_.
 
 ```note
@@ -301,6 +596,22 @@ Furthermore, we show that these three-generation results can be extended, so as 
 ```
 
 [![The-64-dimensional-octonionic-chain-algebra-splits-into-two-sets-of-SU-3-generators](https://github.com/eq19/maps/assets/8466209/b6fffa01-8eda-46c9-b093-0488336135d2)](https://arxiv.org/abs/1611.09182)
+
+Subatomic particles such as protons or neutrons, which contain two or more elementary particles, are known as composite particles. 
+
+```note
+The Standard Model of Particle Physics, describes for us all know fundamental interaction in nature till date, with the exception of Gravity (work on this front is going on). Here is a summary of the fundamental content of the standard model
+- There are three families of particle, the Quarks, the Leptons and the Gauge Bosons. The Quarks in groups of three forms the composite particles such as the Protons, along with the electron this forms ordinary matter.
+- The Gauge Bosons are the ones those are responsible for interactions. The Quarks interact among themselves by the exchange of a Gluon these are responsible for the strong nuclear force.
+- The newly discovered Higgs Boson interacts with all the Quarks and the first group of Leptons (electron, muon and tau) providing them with their mass. The neutrinos which are the other Leptons originally were thought to have zero mass, but recent discoveries argue that this is not the case.
+- The Weak bosons interact with both Leptons and Quarks, these are responsible for the Weak nuclear forces. The exchange of photon is responsible for the Electromagnetic Force.
+
+They interact, they transfer energy and momentum and angular momentum; excitations are created and destroyed. Every excitation that’s possible has a reverse excitation. _([Quora](https://qr.ae/pK4Nd7))_
+```
+
+[![fundamental interaction in nature](https://github.com/eq19/maps/assets/8466209/1837fed2-6beb-4ea2-888a-5a2cfbfef311)](https://en.wikipedia.org/wiki/Talk:Standard_Model/Archive_2)
+
+[![Fano plane](https://github.com/user-attachments/assets/1dd886da-df4c-452f-b4aa-fdd5860d5447)](https://m759.net/wordpress/?p=1793)
 
 ```
 ├── DIVISION 1: TRADING STRATEGY CORE
@@ -430,19 +741,8 @@ Furthermore, we show that these three-generation results can be extended, so as 
         ├── fiat_display_currency
         └── max_open_trades
 ```
-Subatomic particles such as protons or neutrons, which contain two or more elementary particles, are known as composite particles. 
 
-```note
-The Standard Model of Particle Physics, describes for us all know fundamental interaction in nature till date, with the exception of Gravity (work on this front is going on). Here is a summary of the fundamental content of the standard model
-- There are three families of particle, the Quarks, the Leptons and the Gauge Bosons. The Quarks in groups of three forms the composite particles such as the Protons, along with the electron this forms ordinary matter.
-- The Gauge Bosons are the ones those are responsible for interactions. The Quarks interact among themselves by the exchange of a Gluon these are responsible for the strong nuclear force.
-- The newly discovered Higgs Boson interacts with all the Quarks and the first group of Leptons (electron, muon and tau) providing them with their mass. The neutrinos which are the other Leptons originally were thought to have zero mass, but recent discoveries argue that this is not the case.
-- The Weak bosons interact with both Leptons and Quarks, these are responsible for the Weak nuclear forces. The exchange of photon is responsible for the Electromagnetic Force.
-
-They interact, they transfer energy and momentum and angular momentum; excitations are created and destroyed. Every excitation that’s possible has a reverse excitation. _([Quora](https://qr.ae/pK4Nd7))_
-```
-
-[![fundamental interaction in nature](https://github.com/eq19/maps/assets/8466209/1837fed2-6beb-4ea2-888a-5a2cfbfef311)](https://en.wikipedia.org/wiki/Talk:Standard_Model/Archive_2)
+## How many quarks?
 
 It is hypothesized that gravitational interactions are mediated by an as yet undiscovered elementary particle, dubbed the graviton.
 
@@ -595,11 +895,31 @@ It is hypothesized that gravitational interactions are mediated by an as yet und
     ***
       "pos": "1;7;9;2"
     ***
-  ],
-
+  ]
 ```
 
-## How many quarks?
+A foundation for theory-driven financial modeling, encouraging deeper exploration of system dynamics and unification across trading components.
+
+```php
+Φ = 2,10
+Δ = 5,7,17
+3': 13,18,25,42
+2' » 13 to 77, Δ = 64
+2' and 3' » 13 to 45, Δ = 32
+
+2" + 5" = 7" = 77
+2"=22, 3"=33, 2" + 3" = 5" = 55
+
+13, 
+16, 18, 
+21, 23, 25, 
+28, 30, 32, 34, 36, 38, 40, 42, 
+45, 47, 49, 51, 53, 55, 57, 59, 61, 63, 65, 67, 69, 71, 73, 75, 77
+```
+
+***32 + 11×7 = 109 = ((10th)th prime)***
+
+[![77s Structure](https://github.com/eq19/maps/assets/8466209/8362e5e8-a102-435e-8e6a-788456d00148)](https://eq19.github.io/addition/#hidden-dimensions)
 
 Elementary particles and their interactions are considered by a theoretical framework called the [Standard Model (SM) of Particle Physics](https://en.wikipedia.org/wiki/Standard_Model).
 
