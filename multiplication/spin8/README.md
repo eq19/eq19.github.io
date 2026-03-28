@@ -275,14 +275,6 @@ In later sections, we will discuss finding all the solutions to a polynomial fun
 
 ![Symmetry State](https://github.com/eq19/maps/assets/8466209/70cb2eb0-0955-4d18-8400-e05ac1b9d325)
 
-Standard heuristic mathematical models of population dynamics are often constructed using ordinary differential equations (ODEs).
-
-```note
-From what we learned above about segregating twin prime candidates, we can demonstrate that they compile additively in perfect progression, completing an infinite sequence of circles (multiples of 30 and 360)
-```
-
-[![Base of TOE](https://user-images.githubusercontent.com/8466209/249753163-6cfbcecf-3713-409b-8d8b-5fa5cf8489ac.png)](https://www.hexspin.com/finding-a-number-in-the-hexagon/)
-
 Observing more detail of the discussed scheme of 168 we will get it also when we take the 19's and 17's cell of `(31+37)+(35+65)=68+100=168`.
 
 ```tip

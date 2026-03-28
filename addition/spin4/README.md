@@ -17,19 +17,17 @@ Note that the hexagon in the middle has 37 circles and the total figure, a star 
 
 [![Torah geometri](https://user-images.githubusercontent.com/8466209/285325173-4f017a5d-3f2b-47d6-852d-6a2e8c5b8e50.png)](https://allmynoodles.com/torah-geometry/)
 
-[![Fano plane](https://github.com/user-attachments/assets/1dd886da-df4c-452f-b4aa-fdd5860d5447)](https://m759.net/wordpress/?p=1793)
-
 ```tip
 "Not every beautiful theory has a physical application, but all fundamental physical theories found so far–without exception–have a type of beauty or symmetry." – Michio Kaku, The God Equation
 ```
 
-[![Primes Platform](https://github.com/user-attachments/assets/223067e6-183d-4947-b226-1dca5ef1fa78)](https://eq19.github.io/addition/spin2/)
-
-## Dual Couplings
-
 ***7 + 13 + 19 + 25 = 64 = 8 × 8 = 8²***
 
 ![](https://user-images.githubusercontent.com/36441664/83051968-e2cfa480-a078-11ea-8ff2-316a809a8fad.jpg)
+
+[![Primes Platform](https://github.com/user-attachments/assets/223067e6-183d-4947-b226-1dca5ef1fa78)](https://eq19.github.io/addition/spin2/)
+
+## Dual Couplings
 
 The above seven (7) primes will act then as ***[extended branes](https://en.m.wikipedia.org/wiki/D-brane)***. This is what we mean by ***addition zones*** and it happens whenever a cycle is restarted.
 
