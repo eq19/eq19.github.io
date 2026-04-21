@@ -158,6 +158,7 @@ jobs:
       IP_ADDRESS: '${{ needs.lexering.outputs.address }}'
       FREQAI_MODEL: ${{ github.event.inputs.FREQAI_MODEL }}
       REDUCE_EPOCH: ${{ github.event.inputs.REDUCE_EPOCH }}
+      BYPASS_LEXER: ${{ github.event.inputs.BYPASS_LEXER }}
       REMOVE_RUNNER: ${{ github.event.inputs.REMOVE_RUNNER }}
       PASS: ${{ contains(needs.lexering.result, 'success') }}
 
