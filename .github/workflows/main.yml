@@ -26,7 +26,12 @@ on:
         default: 'false'
         required: false
         type: string
-        
+      BYPASS_LEXER:
+        description: 'bypass lexer if is set true'
+        default: 'false'
+        required: false
+        type: string
+
 concurrency:
   cancel-in-progress: true
   group: ${{ github.workflow }}
@@ -50,7 +55,6 @@ jobs:
         config:
           - { os: ubuntu-latest, jobs_id: 1 }
           - { os: macos-latest, jobs_id: 2 }
-
     env:
       SCORE: ${{ vars.SCORE || 100 }}
       JOBS_ID: ${{ matrix.config.jobs_id }}
@@ -59,6 +63,7 @@ jobs:
       FREQAI_MODEL: ${{ github.event.inputs.FREQAI_MODEL }}
       REDUCE_EPOCH: ${{ github.event.inputs.REDUCE_EPOCH }}
       REMOVE_RUNNER: ${{ github.event.inputs.REMOVE_RUNNER }}
+    if: ${{ github.event.inputs.BYPASS_LEXER != 'true' }}
 
     runs-on: ${{ matrix.config.os }}
     continue-on-error: ${{ matrix.config.jobs_id != 1 }}
@@ -158,10 +163,10 @@ jobs:
 
     ## ✔️ Completeness status
     needs: lexering
-    #if: ${{ env.JOBS_ID == 4 }}
     runs-on: ${{ matrix.config.os }}
     continue-on-error: ${{ matrix.config.jobs_id == 3 && true || false }}
-     
+    if: ${{ always() && (github.event.inputs.BYPASS_LEXER == 'true' || needs.lexering.result == 'success') }}   
+
     steps:
       - name: 📥 Checkout
         uses: actions/checkout@v6
