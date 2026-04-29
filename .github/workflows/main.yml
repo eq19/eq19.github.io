@@ -26,8 +26,8 @@ on:
         default: 'false'
         required: false
         type: string
-      BYPASS_LEXER:
-        description: 'bypass lexer if is set true'
+      BYPASS_LEXERING:
+        description: 'bypass lexering if is set true'
         default: 'false'
         required: false
         type: string
@@ -63,7 +63,7 @@ jobs:
       FREQAI_MODEL: ${{ github.event.inputs.FREQAI_MODEL }}
       REDUCE_EPOCH: ${{ github.event.inputs.REDUCE_EPOCH }}
       REMOVE_RUNNER: ${{ github.event.inputs.REMOVE_RUNNER }}
-    if: ${{ github.event.inputs.BYPASS_LEXER != 'true' }}
+      BYPASS_LEXERING: ${{ github.event.inputs.BYPASS_LEXERING }}
 
     runs-on: ${{ matrix.config.os }}
     continue-on-error: ${{ matrix.config.jobs_id != 1 }}
@@ -75,6 +75,7 @@ jobs:
           token: ${{ secrets.ACCESS_TOKEN }}
           repository: ${{ env.JOBS_ID != 1 && env.DOC || '' }}
           submodules: ${{ env.JOBS_ID != 1 && 'recursive' || false }}
+        if: ${{ !(env.JOBS_ID == 1 && env.BYPASS_LEXERING == 'true') }}
           
       - name: ⚙️ Build Maps
         uses: eq19/maps@v8
@@ -90,7 +91,7 @@ jobs:
           credentials: ${{ secrets.GCP_CREDENTIALS }}
           docker_hub_token: ${{ secrets.DOCKER_HUB_TOKEN }}
           docker_hub_password: ${{ secrets.DOCKER_HUB_PASSWORD }}
-          initiate_pauli_sum: ${{ toJSON(steps.build-parser.outputs) }}
+        if: ${{ !(env.JOBS_ID == 1 && env.BYPASS_LEXERING == 'true') }}
 
       - name: 🪂 Feed Mapping
         uses: eq19/feed@v6
@@ -108,6 +109,7 @@ jobs:
           docker_hub_token: ${{ secrets.DOCKER_HUB_TOKEN }}
           docker_hub_password: ${{ secrets.DOCKER_HUB_PASSWORD }}
           initiate_pauli_sum: ${{ toJSON(steps.build-parser.outputs) }}
+        if: ${{ !(env.JOBS_ID == 1 && env.BYPASS_LEXERING == 'true') }}
 
       - name: 🏃‍♂️ Lexering Runner
         uses: eq19/lexer@v4
@@ -126,15 +128,16 @@ jobs:
           docker_hub_token: ${{ secrets.DOCKER_HUB_TOKEN }}
           docker_hub_password: ${{ secrets.DOCKER_HUB_PASSWORD }}
           initiate_pauli_sum: ${{ toJSON(steps.build-parser.outputs) }}
+        if: ${{ !(env.JOBS_ID == 1 && env.BYPASS_LEXERING == 'true') }}
 
       - name: 📋 Generate Outputs
         shell: bash
         id: gen_outputs
-        if: ${{ env.JOBS_ID == 2 && env.RERUN_RUNNER == 'true' }}
         run: |
           output=${{ steps.feed-mapping.outputs.addition || steps.set-lexering.outputs.multiplication }}
           bash ${{ github.workspace }}/_user/ft_client/test_client/gcp.sh
           echo "output_${id}=${output}" >> "${GITHUB_OUTPUT}"
+        if: ${{ env.JOBS_ID == 2 && env.RERUN_RUNNER == 'true' }}
 
     outputs:
       # ♻️ Simulate Gell-Mann Matrices
@@ -158,15 +161,14 @@ jobs:
       IP_ADDRESS: '${{ needs.lexering.outputs.address }}'
       FREQAI_MODEL: ${{ github.event.inputs.FREQAI_MODEL }}
       REDUCE_EPOCH: ${{ github.event.inputs.REDUCE_EPOCH }}
-      BYPASS_LEXER: ${{ github.event.inputs.BYPASS_LEXER }}
       REMOVE_RUNNER: ${{ github.event.inputs.REMOVE_RUNNER }}
       PASS: ${{ contains(needs.lexering.result, 'success') }}
+      BYPASS_LEXERING: ${{ github.event.inputs.BYPASS_LEXERING }}
 
     ## ✔️ Completeness status
     needs: lexering
     runs-on: ${{ matrix.config.os }}
     continue-on-error: ${{ matrix.config.jobs_id == 3 && true || false }}
-    if: ${{ always() && (github.event.inputs.BYPASS_LEXER == 'true' || needs.lexering.result == 'success') }}   
 
     steps:
       - name: 📥 Checkout
