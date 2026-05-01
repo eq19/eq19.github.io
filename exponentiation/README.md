@@ -111,7 +111,7 @@ So, from the first cell, exit from 2’s left side. This sets the spin to left a
  π(10)  |  2 |  3 |  5 |  7 ✔️
 ```
 
-***19 = 8th prime***
+***17 = 7th prime***
 
 ```txt
 0 (1, 1) blue_0  ◄--- 0
