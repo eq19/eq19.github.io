@@ -14,7 +14,7 @@ on:
     inputs:
       RUN_MODE:
         description: 'the mode to run'
-        default: false'
+        default: 'false'
         required: false
         type: string
       FREQAI_MODEL:
