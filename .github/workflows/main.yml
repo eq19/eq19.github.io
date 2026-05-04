@@ -1,5 +1,6 @@
 # 💎 Main Workflow: eQuantum MEC30
-name: COmpendium of RElations – Modulo 6
+name: COmpendium of RElations Modulo 6
+run-name: "COmpendium of RElations: ${{ inputs.RUN_MODE != 'false' && inputs.RUN_MODE || 'Hyperopt' }}"
 
 on:
   #push:
@@ -11,6 +12,11 @@ on:
     types: [trigger_action, retry_workflow]
   workflow_dispatch:
     inputs:
+      RUN_MODE:
+        description: 'the mode to run'
+        default: false'
+        required: false
+        type: string
       FREQAI_MODEL:
         description: 'the model of FreqAI to run'
         default: 'false'
@@ -45,6 +51,7 @@ env:
   RERUN_RUNNER: ${{ vars.RERUN_RUNNER }}
   RUNNER_TITLE: "Google-optimized-instance"
   TARGET_REPOSITORY: ${{ vars.TARGET_REPOSITORY }}
+  RUN_MODE: ${{ inputs.RUN_MODE != 'false' && inputs.RUN_MODE || 'Hyperopt' }}
 
 jobs:
   lexering:
