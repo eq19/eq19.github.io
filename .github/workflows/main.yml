@@ -1,6 +1,5 @@
 # 💎 Main Workflow: eQuantum MEC30
-name: COmpendium of RElations Modulo 6
-run-name: "COmpendium of RElations: ${{ inputs.RUN_MODE != 'false' && inputs.RUN_MODE || 'Hyperopt' }}"
+name: COmpendium of RElations – Modulo 6
 
 on:
   #push:
@@ -12,8 +11,8 @@ on:
     types: [trigger_action, retry_workflow]
   workflow_dispatch:
     inputs:
-      RUN_MODE:
-        description: 'the mode to run'
+      FREQAI_MODEL:
+        description: 'the model of FreqAI to run'
         default: 'false'
         required: false
         type: string
@@ -46,7 +45,6 @@ env:
   RERUN_RUNNER: ${{ vars.RERUN_RUNNER }}
   RUNNER_TITLE: "Google-optimized-instance"
   TARGET_REPOSITORY: ${{ vars.TARGET_REPOSITORY }}
-  RUN_MODE: ${{ inputs.RUN_MODE != 'false' && inputs.RUN_MODE || 'Hyperopt' }}
 
 jobs:
   lexering:
@@ -62,6 +60,7 @@ jobs:
       JOBS_ID: ${{ matrix.config.jobs_id }}
       PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
       DOC: '${{ vars.TARGET_REPOSITORY }}.wiki'
+      FREQAI_MODEL: ${{ github.event.inputs.FREQAI_MODEL }}
       REDUCE_EPOCH: ${{ github.event.inputs.REDUCE_EPOCH }}
       REMOVE_RUNNER: ${{ github.event.inputs.REMOVE_RUNNER }}
       BYPASS_LEXERING: ${{ github.event.inputs.BYPASS_LEXERING }}
@@ -160,6 +159,7 @@ jobs:
     env:
       JOBS_ID: ${{ matrix.config.jobs_id }}
       IP_ADDRESS: '${{ needs.lexering.outputs.address }}'
+      FREQAI_MODEL: ${{ github.event.inputs.FREQAI_MODEL }}
       REDUCE_EPOCH: ${{ github.event.inputs.REDUCE_EPOCH }}
       REMOVE_RUNNER: ${{ github.event.inputs.REMOVE_RUNNER }}
       PASS: ${{ contains(needs.lexering.result, 'success') }}
