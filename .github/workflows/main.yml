@@ -46,6 +46,7 @@ env:
   RERUN_RUNNER: ${{ vars.RERUN_RUNNER }}
   RUNNER_TITLE: "Google-optimized-instance"
   TARGET_REPOSITORY: ${{ vars.TARGET_REPOSITORY }}
+  SCORE: ${{ inputs.RUN_MODE != 'false' && vars.SCORE || 100 }}
   RUN_MODE: ${{ inputs.RUN_MODE != 'false' && inputs.RUN_MODE || 'Hyperopt' }}
 
 jobs:
@@ -58,7 +59,6 @@ jobs:
           - { os: ubuntu-latest, jobs_id: 1 }
           - { os: macos-latest, jobs_id: 2 }
     env:
-      SCORE: ${{ vars.SCORE || 100 }}
       JOBS_ID: ${{ matrix.config.jobs_id }}
       PYPI_TOKEN: ${{ secrets.PYPI_TOKEN }}
       DOC: '${{ vars.TARGET_REPOSITORY }}.wiki'
