@@ -6,8 +6,8 @@ on:
   #push:
   workflow_run:
     types: [completed]
-    workflows: ["pages-build"]
-    #workflows: ["pages-build-deployment"]
+    #workflows: ["pages-build"]
+    workflows: ["pages-build-deployment"]
   repository_dispatch:
     types: [trigger_action, retry_workflow]
   workflow_dispatch:
