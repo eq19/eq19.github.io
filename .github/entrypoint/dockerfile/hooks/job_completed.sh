@@ -26,10 +26,10 @@ set_monitor() {
       $DOCKER exec mydb service cron start || true
 
       echo -e "\n$hr\nSupervisor Status\n$hr"
-      $DOCKER exec mydb supervisorctl status
+      $DOCKER exec mydb supervisorctl status || true
 
-      #echo -e "\n$hr\nMemory Usage\n$hr"
-      #$DOCKER exec mydb free -h
+      echo -e "\n$hr\nMemory Usage\n$hr"
+      $DOCKER exec mydb free -h
 
       echo -e "\n$hr\njob completed ✅"
       exit 0
