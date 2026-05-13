@@ -87,10 +87,12 @@ jekyll_build() {
   
   [[ $1 == *"github.io"* ]] && OWNER=$2
 
+  # the id's is square of 13 orgs dust 169 repos
   if [[ $1 == "Chetabahana.github.io" ]]; then
     SITEID=1
+  # the 7 units of user is not part of orgs
   elif [[ $1 == "eq19.github.io" ]]; then
-    SITEID=30
+    SITEID=170
   else
     SITEID=$(( $3 + 2 ))
   fi
@@ -114,7 +116,6 @@ jekyll_build() {
   
   TARGET_REPOSITORY="${OWNER}/$1"
   echo 'repo='${TARGET_REPOSITORY} >> ${GITHUB_OUTPUT}
-  [[ "$TARGET_REPOSITORY" == "eq19/maps" ]] && SITEID=31
   gh variable set TARGET_REPOSITORY --body "$TARGET_REPOSITORY"
   echo 'TARGET_REPOSITORY='${TARGET_REPOSITORY} >> ${GITHUB_ENV}
 
