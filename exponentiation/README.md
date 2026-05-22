@@ -572,8 +572,8 @@ By mapping the **13 available optimization spaces** to this seven-layered struct
 │   └── Order Routing
 │
 ├── DIVISION 4: MARKET DATA
-│   ├── Data Pipeline
-│   ├── Storage Layer
+│   ├── Storage Layer 
+│   ├── Data Pipeline  ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ 👈 Center
 │   └── Price Discovery
 │
 ├── DIVISION 5: INTELLIGENCE & ANALYTICS
@@ -656,13 +656,6 @@ The second model is useful because it lets us generate naturally all 168 symmetr
 │       └── cancel_open_orders_on_exit
 │
 ├── DIVISION 4: MARKET DATA
-│   ├── Data Pipeline
-│   │   ├── datadir
-│   │   ├── pairlists
-│   │   ├── download_trades
-│   │   ├── new_pairs_days
-│   │   └── startup_candle
-│   │
 │   ├── Storage Layer
 │   │   ├── user_data_dir
 │   │   ├── dataformat_ohlcv
@@ -670,6 +663,13 @@ The second model is useful because it lets us generate naturally all 168 symmetr
 │   │   ├── db_url
 │   │   ├── export
 │   │   └── disableparamexport
+│   │
+│   ├── Data Pipeline
+│   │   ├── datadir
+│   │   ├── startup_candle
+│   │   ├── pairlists ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ 👈 Center
+│   │   ├── new_pairs_days
+│   │   └── download_trades
 │   │
 │   └── Price Discovery
 │       ├── entry_pricing
@@ -724,6 +724,28 @@ The second model is useful because it lets us generate naturally all 168 symmetr
 This image illustrates key concepts in technical analysis used to predict price movements in financial markets.
 
 ![](https://github.com/user-attachments/assets/fba6a1e1-a932-4379-bad6-173f968f5fa4)
+
+```bash
+jekyll_build() {
+  
+  [[ $1 == *"github.io"* ]] && OWNER=$2
+
+  # the id's is square of 13 orgs dust 169 repos 👈
+  if [[ $1 == "Chetabahana.github.io" ]]; then
+    SITEID=1
+  else
+    SITEID=$(( $3 + 2 ))
+  fi
+
+  # the id's of 7 user repos are one higher level of MEC30 dust start from id = 30' 👈
+  if  [[ "${OWNER}" == "eq19" ]]; then
+    SITEID=$(( $SITEID - 140 ))
+    sed -i "1s|^|description: An endeavor to discover the Final Theory\n\n|" ${RUNNER_TEMP}/_config.yml
+  else
+    DESCRIPTION=$(gh api -H "${HEADER}" /orgs/${OWNER} --jq '.description')
+    sed -i "1s|^|description: ${DESCRIPTION}\n\n|" ${RUNNER_TEMP}/_config.yml
+  fi
+```
 
 Many trading platforms​ enable traders to plot Fibonacci lines. In an upward trend, you can select the Fibonacci line tool, select the low price and drag the cursor up to the high price.
 
