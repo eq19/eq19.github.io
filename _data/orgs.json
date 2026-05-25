@@ -83,12 +83,12 @@
     "grammar"
   ],
   "key2": [
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "artifacts",
+    "attribute",
+    "method",
+    "model",
+    "trace",
+    "track"
   ]
 }
 ,
@@ -362,12 +362,12 @@
     "grammar"
   ],
   "key2": [
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "falcon",
+    "webpack",
+    "wikibox",
+    "transparency",
+    "flavio",
+    "ta-lib"
   ]
 }
 ,
@@ -548,12 +548,12 @@
     "grammar"
   ],
   "key2": [
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    "ccxt",
+    "superalgos",
+    "indodax",
+    "advance",
+    "core",
+    "freqtrade"
   ]
 }
 ,
