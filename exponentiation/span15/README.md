@@ -131,6 +131,65 @@ bispinor-4 |    2    |    3    |     3     |    18     |     24     |   19+i5
 
 ## Interactions
 
+```
+#!/usr/bin/env python
+
+import numpy as np
+from scipy import linalg
+
+class SU3(np.matrix):
+	GELLMANN_MATRICES = np.array([
+		np.matrix([ #lambda_1
+			[0, 1, 0],
+			[1, 0, 0],
+			[0, 0, 0],
+		], dtype=np.complex),
+		np.matrix([ #lambda_2
+			[0,-1j,0],
+			[1j,0, 0],
+			[0, 0, 0],
+		], dtype=np.complex),
+		np.matrix([ #lambda_3
+			[1, 0, 0],
+			[0,-1, 0],
+			[0, 0, 0],
+		], dtype=np.complex),
+		np.matrix([ #lambda_4
+			[0, 0, 1],
+			[0, 0, 0],
+			[1, 0, 0],
+		], dtype=np.complex),
+		np.matrix([ #lambda_5
+			[0, 0,-1j],
+			[0, 0, 0 ],
+			[1j,0, 0 ],
+		], dtype=np.complex),
+		np.matrix([ #lambda_6
+			[0, 0, 0],
+			[0, 0, 1],
+			[0, 1, 0],
+		], dtype=np.complex),
+		np.matrix([ #lambda_7
+			[0, 0,  0 ],
+			[0, 0, -1j],
+			[0, 1j, 0 ],
+		], dtype=np.complex),
+		np.matrix([ #lambda_8
+			[1, 0, 0],
+			[0, 1, 0],
+			[0, 0,-2],
+		], dtype=np.complex) / np.sqrt(3),
+	])
+
+
+	def computeLocalAction(self):
+		pass
+
+	@classmethod
+	def getMeasure(self):
+		pass
+```
+
 The subclasses of partitions systemically develops characters similar to the distribution of prime numbers. 
 
 ```note
