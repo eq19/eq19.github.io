@@ -126,14 +126,10 @@ runs:
           https://raw.githubusercontent.com/freqtrade/freqtrade/2025.10/$f || true
         done
 
-        if [[ "$RUN_MODE" != "FreqAI" ]]; then
-          pip install -qq --no-cache-dir -r ${{ github.workspace }}/user_data/build_helpers/requirements-hyperopt.txt
-        else
-          pip install -qq --no-cache-dir -r ${{ github.workspace }}/user_data/build_helpers/requirements-freqai-rl.txt
-          pip install -qq --no-cache-dir optuna optunahub neptune shap wandb numba mlflow skimage tscv feature_engine
-        fi
-
         pip install -qq --no-cache-dir -r ${{ github.workspace }}/user_data/build_helpers/requirements-plot.txt
+        [[ "$RUN_MODE" != "FreqAI" ]] && pip install -qq --no-cache-dir -r ${{ github.workspace }}/user_data/build_helpers/requirements-hyperopt.txt
+        [[ "$RUN_MODE" == "FreqAI" ]] && pip install -qq --no-cache-dir -r ${{ github.workspace }}/user_data/build_helpers/requirements-freqai-rl.txt
+
         pip install -qq --no-cache-dir ta "numpy<3.0" "aiodns<3.0" "freqtrade==2025.10"
         cd ${{ github.workspace }} && bash user_data/ft_client/test_client/feed.sh
 
