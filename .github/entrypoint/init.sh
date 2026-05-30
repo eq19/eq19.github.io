@@ -183,6 +183,7 @@ elif [[ "${JOBS_ID}" == "3" ]]; then
     "strategies/utils/indodax_patch.py"
     "freqaimodels/custom_models.py"
     "freqaimodels/traditional_models.py"
+    "ft_client/test_client/app.py"
     "ft_client/test_client/maps.sh"
     "ft_client/test_client/supervisor.sh"
     "ft_client/test_client/results/results.txt"
@@ -351,8 +352,9 @@ fi
   for idx in "${!DIRS[@]}"; do
     PARAM_NAME="${PARAMS[$idx]}"
     DIR_PATH="/home/runner/${DIRS[$idx]}"
+    APP_PATH="${DIR_PATH}/ft_client/test_client/app.py"
+    SCRIPT_PATH="${DIR_PATH}/ft_client/test_client/maps.sh"
     HYPEROPT_PARAM="${DIR_PATH}/strategies/hyperopt_params.json"
-    APP_PATH="/home/runner/user_data/ft_client/test_client/app.py"
     ARTIFACT="${DIR_PATH}/ft_client/test_client/results/orgs.json"
 
     $DOCKER exec mydb mkdir -p "$(dirname "$ARTIFACT")"
@@ -401,8 +403,7 @@ fi
       https://api.github.com/repos/$GITHUB_REPOSITORY/actions/variables/${PARAM_NAME} \
       | jq -r '.value' > ${DIR_PATH}/strategies/fibbo.json"
     $DOCKER exec -e BEARER="$BEARER" mydb bash -c \
-      "bash /home/runner/user_data/ft_client/test_client/maps.sh \
-      ${ID:-30} $JOBS_ID $APP_PATH $DIR_PATH $PARAM_NAME $ARTIFACT $HYPEROPT_PARAM"
+      "bash ${SCRIPT_PATH} ${ID:-30} $JOBS_ID $APP_PATH $DIR_PATH $PARAM_NAME $ARTIFACT $HYPEROPT_PARAM"
 
   done
 
