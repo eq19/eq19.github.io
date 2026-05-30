@@ -408,13 +408,6 @@ fi
 
   echo -e "\n🚀 All files updated (forced overwrite)!"
 
-  gist.sh ${BASE} $(pwd)
-  if [[ "${WIKI}" != "${BASE}" ]]; then
-    find . -type d -name "$(yq '.span' _config.yml)" -prune -exec sh -c 'gist.sh ${WIKI} "$1"' sh {} \;
-  fi
-
-  echo -e "\n$hr\nWORKSPACE\n$hr" && ls -alR .
-
 else
 
   cd ${RUNNER_TEMP//\\//} && rm -rf gh-source
