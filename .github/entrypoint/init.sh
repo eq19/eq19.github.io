@@ -111,7 +111,7 @@ if [[ "${JOBS_ID}" == "1" ]]; then
 
     cd $GITHUB_WORKSPACE
     mv -f $1/pythonCode $1/user_data/ft_client/test_client/
-    gcc -Wall -Wextra $1/gccCode/src/decoder.c -o float_decoder
+    gcc -Wall -Wextra $1/gccCode/src/decoder.c -o $1/user_data/ft_client/test_client/float_decoder
 
     #Ref: https://github.com/tsoding/JelloVM
     javac -d $1/user_data/ft_client/test_client $1/javaCode/Main.java
