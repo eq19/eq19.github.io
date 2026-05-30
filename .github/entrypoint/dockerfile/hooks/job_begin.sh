@@ -178,7 +178,7 @@ if [ -d /mnt/disks/deeplearning/usr/local/sbin ]; then
           $DOCKER exec mydb bash -c 'for folder in /home/runner/tradesv3_dry_.*; do mv "$folder" "${folder/tradesv3_dry_/tradesv3_live}"; done'
           $DOCKER exec mydb bash -c 'for folder in /home/runner/tradesv3_live_.*; do mv "$folder" "${folder/tradesv3_live_/tradesv3_dry}"; done'
         else
-          echo "Live mode is better than dry-run"
+          echo "Dry-run is not better than Live mode"
           $DOCKER exec mydb supervisorctl stop freqtrade_dry || true
           $DOCKER exec mydb bash -c 'rm -rf /home/runner/data_dry /home/runner/tradesv3_dry.*'
           $DOCKER exec mydb bash -c 'freqtrade create-userdir --userdir /home/runner/data_dry'
