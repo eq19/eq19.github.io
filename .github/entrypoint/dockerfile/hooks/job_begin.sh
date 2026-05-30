@@ -134,10 +134,10 @@ if [ -d /mnt/disks/deeplearning/usr/local/sbin ]; then
 
     if $DOCKER ps --format '{{.Names}}' | grep -wq "^mydb$"; then
       if [[ "$RERUN_RUNNER" == "true" ]]; then
-        $DOCKER stop mydb || true
-        $DOCKER start mydb || true
+        $DOCKER stop mydb
         echo "Waiting container stabilization..."
         sleep 20
+        $DOCKER start mydb
       fi
       echo -e "\nCondition fulfilled ✅"
 
