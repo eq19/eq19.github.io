@@ -126,11 +126,19 @@ if [ -d /mnt/disks/deeplearning/usr/local/sbin ]; then
 
   # Path to docker binary
   DOCKER="/mnt/disks/deeplearning/usr/bin/docker"
+  RERUN_RUNNER=$(curl -s -H "Authorization: token $GH_TOKEN" -H "Accept: application/vnd.github.v3+json" \
+    "https://api.github.com/repos/${GITHUB_REPOSITORY}/actions/variables/RERUN_RUNNER" | jq -r '.value')
 
   for ((i=1; i<=max_retries; i++)); do
     echo "Check $i of $max_retries..."
 
     if $DOCKER ps --format '{{.Names}}' | grep -wq "^mydb$"; then
+      if [[ "$RERUN_RUNNER" == "true" ]]; then
+        $DOCKER stop mydb || true
+        $DOCKER start mydb || true
+        echo "Waiting container stabilization..."
+        sleep 20
+      fi
       echo -e "\nCondition fulfilled ✅"
 
       echo -e "\n$hr\nDeepLearning Final Cloud\n$hr" && /mnt/disks/deeplearning/usr/bin/gcloud info

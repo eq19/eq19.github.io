@@ -242,14 +242,14 @@ elif [[ "${JOBS_ID}" == "3" ]]; then
   if ! $DOCKER exec mydb ls "$LIVE_LOG" &>/dev/null; then
 
     DIRS=(
-      "data_dry"
-      "data_live"
       "user_data"
+      "data_live"
+      "data_dry"
     )
     PARAMS=(
-      "PARAMS_DRY"
-      "PARAMS_LIVE"
       "PARAMS_JSON"
+      "PARAMS_LIVE"
+      "PARAMS_DRY"
     )
 
     WALLET=$(echo $BALANCE | jq '.return.balance.idr')
@@ -330,12 +330,12 @@ elif [[ "${JOBS_ID}" == "3" ]]; then
       echo -e "$hr\nDry-run is not better than Live mode.\nLet dry-run to challenge a new config."
 
       DIRS=(
-        "data_dry"
         "user_data"
+        "data_dry"
       )
       PARAMS=(
-        "PARAMS_JSON"
         "PARAMS_DRY"
+        "PARAMS_JSON"
       )
 
       $DOCKER exec mydb bash -c "jq '.telegram.enabled = true | .api_server.listen_port = 8081' $CONFIG > $CONFIG_DRY"
@@ -400,9 +400,9 @@ fi
       "curl -s -H 'Authorization: token $GH_TOKEN' -H 'Accept: application/vnd.github.v3+json' \
       https://api.github.com/repos/$GITHUB_REPOSITORY/actions/variables/${PARAM_NAME} \
       | jq -r '.value' > ${DIR_PATH}/strategies/fibbo.json"
-    $DOCKER exec mydb bash -c "bash /home/runner/user_data/ft_client/test_client/maps.sh $ID $JOBS_ID $APP_PATH $DIR_PATH $PARAM_NAME $ARTIFACT $HYPEROPT_PARAM $BEARER"
-    #$DOCKER exec mydb bash -c "python /home/runner/user_data/ft_client/test_client/app.py \"$DIR_PATH\" \"${ID:-1}\" \"${PARAM_NAME:-nil}\" \"${EPOCHS:-100}\""
-    #$DOCKER exec mydb bash -c "curl -s -X POST -H 'Authorization: Bearer $BEARER' -H 'Content-Type: application/json' https://us-central1-marketleader.cloudfunctions.net/function --data @'$ARTIFACT' | jq '.' > '$HYPEROPT_PARAM'"
+    $DOCKER exec -e BEARER="$BEARER" mydb bash -c \
+      "bash /home/runner/user_data/ft_client/test_client/maps.sh \
+      ${ID:-30} $JOBS_ID $APP_PATH $DIR_PATH $PARAM_NAME $ARTIFACT $HYPEROPT_PARAM"
 
   done
 
