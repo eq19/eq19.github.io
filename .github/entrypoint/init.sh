@@ -181,6 +181,7 @@ elif [[ "${JOBS_ID}" == "3" ]]; then
     "strategies/utils/__init__.py"
     "strategies/utils/ccxt_patch.py"
     "strategies/utils/indodax_patch.py"
+    "strategies/utils/dataprovider_patch.py"
     "freqaimodels/custom_models.py"
     "freqaimodels/traditional_models.py"
     "ft_client/test_client/app.py"
