@@ -121,11 +121,6 @@ runs:
         #cloud-config
         users:
         - default
-        - name: ftuser
-          groups: sudo
-          homedir: /home/ftuser
-          shell: /bin/bash
-          sudo: ALL=(ALL) NOPASSWD:ALL
 
         write_files:
         - path: /home/runner/.docker/.keep
