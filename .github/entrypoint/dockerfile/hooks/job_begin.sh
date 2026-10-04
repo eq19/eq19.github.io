@@ -133,12 +133,12 @@ if [ -d /mnt/disks/deeplearning/usr/local/sbin ]; then
     echo "Check $i of $max_retries..."
 
     if $DOCKER ps --format '{{.Names}}' | grep -wq "^mydb$"; then
-      if [[ "$RERUN_RUNNER" == "true" ]]; then
-        $DOCKER stop mydb
-        echo "Waiting container stabilization..."
-        sleep 20
-        $DOCKER start mydb
-      fi
+      #if [[ "$RERUN_RUNNER" == "true" ]]; then
+        #$DOCKER stop mydb
+        #echo "Waiting container stabilization..."
+        #sleep 20
+        #$DOCKER start mydb
+      #fi
       echo -e "\nCondition fulfilled ✅"
 
       echo -e "\n$hr\nDeepLearning Final Cloud\n$hr" && /mnt/disks/deeplearning/usr/bin/gcloud info

@@ -2,7 +2,7 @@
 # Structure: Cell Types – Modulo 6
 # https://www.hexspin.com/proof-of-confinement/
 
-hr='----------------------------------------------------------------------------------'
+hr='------------------------------------------------------------------------------'
 
 set_config() {
   echo -e "\n$hr\nCONFIG\n$hr"
@@ -258,7 +258,7 @@ elif [[ "${JOBS_ID}" == "3" ]]; then
     if [[ "${ASSET_COUNT}" == "1" ]]; then echo $WALLET; fi
 
     $DOCKER exec mydb bash -c "jq '.telegram.enabled = true | .api_server.listen_port = 8081' $CONFIG > $CONFIG_DRY"
-    $DOCKER exec mydb bash -c "jq '.telegram.enabled = true | .api_server.listen_port = 8082 | .dry_run = false' $CONFIG > $CONFIG_LIVE"
+    $DOCKER exec mydb bash -c "jq '.telegram.enabled = true | .api_server.listen_port = 8082 | .dry_run = true' $CONFIG > $CONFIG_LIVE"
 
     $DOCKER exec mydb sed -i "s|tradesv3|tradesv3_dry|g" $CONFIG_DRY
     $DOCKER exec mydb sed -i "s|tradesv3|tradesv3_live|g" $CONFIG_LIVE
@@ -308,7 +308,7 @@ elif [[ "${JOBS_ID}" == "3" ]]; then
       $DOCKER exec mydb sed -i "s|your_exchange_secret|$API_SECRET|g" $EXCHANGE_LIVE
 
       $DOCKER exec mydb sed -i 's|"dry_run": false|"dry_run": true|g' $CONFIG_DRY
-      $DOCKER exec mydb sed -i 's|"dry_run": true|"dry_run": false|g' $CONFIG_LIVE
+      $DOCKER exec mydb sed -i 's|"dry_run": true|"dry_run": true|g' $CONFIG_LIVE
       $DOCKER exec mydb sed -i "s|$TRADING_BOT_TOKEN|$MONITOR_BOT_TOKEN|g" $CONFIG_DRY
       $DOCKER exec mydb sed -i "s|$MONITOR_BOT_TOKEN|$TRADING_BOT_TOKEN|g" $CONFIG_LIVE
 
