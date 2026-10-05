@@ -220,6 +220,7 @@ elif [[ "${JOBS_ID}" == "3" ]]; then
   CONFIG="/home/runner/user_data/config.json"
   CONFIG_DRY="/home/runner/data_dry/config.json"
   CONFIG_LIVE="/home/runner/data_live/config.json"
+  DRY_LOG="/home/runner/data_dry/logs/freqtrade.log"
   LIVE_LOG="/home/runner/data_live/logs/freqtrade.log"
   SUPERVISORD_CONF="$BASE_URL/ft_client/supervisord.conf"
   CONFIG_BASIC="$BASE_URL/config_examples/config_basic.example.json"
@@ -284,7 +285,7 @@ elif [[ "${JOBS_ID}" == "3" ]]; then
 
   else
   
-    if echo "$STATUS" | grep -q "STOPPED"; then
+    if $DOCKER exec mydb ls "$DRY_LOG" &>/dev/null; then
       echo -e "$hr\nLive mode is worse than dry-run.\nLet dry-run to take over the live mode."
             
       DIRS=(
@@ -328,7 +329,7 @@ elif [[ "${JOBS_ID}" == "3" ]]; then
         --arg value "$($DOCKER exec mydb cat /home/runner/data_live/strategies/fibbo.json)")" \
         https://api.github.com/repos/$GITHUB_REPOSITORY/actions/variables/PARAMS_LIVE
 
-    elif echo "$STATUS" | grep -q "RUNNING"; then
+    else
       echo -e "$hr\nDry-run is not better than Live mode.\nLet dry-run to challenge a new config."
 
       DIRS=(
