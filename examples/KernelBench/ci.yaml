@@ -1,0 +1,31 @@
+- kernel: level1/2_Standard_matrix_multiplication_.py
+  input_shapes: [64x128, 128x256]
+  initializations: [rnd, rnd]
+  output_shape: 64x256
+  gflops: (64 * 128 * 256 * 2) / 1e9
+
+- kernel: level1/3_Batched_matrix_multiplication.py
+  input_shapes: [3x64x128, 3x128x64]
+  initializations: [rnd, rnd]
+  output_shape: 3x64x64
+  gflops: (3 * 64 * 128 * 64 * 2) / 1e9
+
+- kernel: level1/4_Matrix_vector_multiplication_.py
+  input_shapes: [64x128, 128x1]
+  initializations: [rnd, rnd]
+  output_shape: 64x1
+  gflops: (64 * 128 * 1 * 2) / 1e9
+  pipeline: matvec
+
+- kernel: level1/5_Matrix_scalar_multiplication.py
+  input_shapes: [64x512, "1"]
+  initializations: [rnd, rnd]
+  output_shape: 64x512
+  gflops: (64 * 512) / 1e9
+
+- kernel: level3/1_MLP.py
+  input_shapes: [64x128]
+  initializations: [rnd]
+  output_shape: 64x128
+  init_args: (128,[128],128)
+  gflops: (2 * (64 * 128 * 128) + (64 * 128 * 128) + (64 * 128)) / 1e9

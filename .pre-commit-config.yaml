@@ -1,0 +1,25 @@
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v6.0.0
+  hooks:
+  - id: end-of-file-fixer
+
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  # Ruff version.
+  rev: v0.14.5
+  hooks:
+    # Run the linter.
+    - id: ruff-check
+      args: [ --fix ]
+    # Run the formatter.
+    - id: ruff-format
+
+# YAML filename convention check.
+# Enforces hyphenated filenames (kebab-case).
+- repo: local
+  hooks:
+    - id: yaml-filename-convention
+      name: YAML file naming
+      entry: scripts/check_yaml_filenames.py
+      language: script
+      files: \.ya?ml$

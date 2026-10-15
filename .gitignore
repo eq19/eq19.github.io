@@ -1,0 +1,17 @@
+# Lighthouse's inter-component cache
+cache
+build
+
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache
+
+# Lighthouse Python module builds
+dist/
+lighthouse*.egg-info/
+*.whl
+
+# Miscellaneous
+uv.lock
+lit.out

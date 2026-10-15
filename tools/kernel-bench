@@ -1,0 +1,529 @@
+#!/usr/bin/env python
+
+import argparse
+import subprocess
+from datetime import datetime
+import sys
+import numpy as np
+import ml_dtypes
+from pathlib import Path
+import torch
+
+from mlir import ir
+from lighthouse.execution.runner import Runner
+from lighthouse.execution.target import TargetInfo
+from lighthouse.execution.init import KernelArgumentParser
+from lighthouse.pipeline.descriptor import Descriptor
+from lighthouse.pipeline.driver import BackendDriver
+from lighthouse import ingress as lh_ingress
+from lighthouse.ingress.torch import cpu_backend, gpu_backend
+from lighthouse.utils.mlir import get_mlir_library_path
+import os
+
+from lighthouse.utils.types import string_to_type
+
+lib_dir = get_mlir_library_path()
+c_runner_lib = os.path.join(lib_dir, "libmlir_c_runner_utils.so")
+
+
+def from_numpy(buf):
+    """
+    Converts a numpy array to a torch tensor.
+    If the numpy array is of type bfloat16, it is first reinterpreted as uint16
+    to be compatible with torch.from_numpy(), and then viewed as bfloat16.
+    """
+    return (
+        torch.from_numpy(buf.view(np.uint16)).view(torch.bfloat16)
+        if buf.dtype == ml_dtypes.bfloat16
+        else torch.from_numpy(buf)
+    )
+
+
+def dump_assembly(obj_file, asm_file):
+    """
+    Dumps the assembly of the object file as an S file
+    """
+    if asm_file == "" or obj_file == "":
+        raise ValueError("Both object file and assembly file must be provided.")
+    if not Path(obj_file).exists():
+        raise FileNotFoundError(f"Object file {obj_file} does not exist.")
+
+    try:
+        result = subprocess.run(
+            ["objdump", "-d", obj_file],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        with open(asm_file, "w") as f:
+            f.write(result.stdout)
+        print(f"Assembly written to {asm_file}")
+    except subprocess.CalledProcessError as e:
+        print(f"Error disassembling object file: {e.stderr}", file=sys.stderr)
+        print("'objdump' must be in the path.", file=sys.stderr)
+        raise e
+
+
+def import_torch(
+    filepath: str | Path,
+    model_class_name: str = "Model",
+    sample_args=None,
+    model_init_args=None,
+    model_datatype=torch.float32,
+) -> torch.nn.Module:
+    """
+    Imports a PyTorch model from a KernelBench file and returns the PyTorch module.
+    The Python file must define a Kernel Bench module file.
+    """
+    try:
+        model, sample_args, sample_kwargs = lh_ingress.torch.import_model(
+            filepath=filepath,
+            model_class_name=model_class_name,
+            sample_args=sample_args,
+            model_init_args=model_init_args,
+            model_datatype=model_datatype,
+        )
+        assert isinstance(model, torch.nn.Module)
+        return model, sample_args, sample_kwargs
+    except Exception as e:
+        print(
+            f"ERROR: got an error converting {filepath} to a PyTorch module:",
+            file=sys.stderr,
+        )
+        raise e
+
+
+def import_mlir(
+    model: torch.nn.Module,
+    sample_args=None,
+) -> ir.Module:
+    """
+    Imports a PyTorch model from a KernelBench file and converts it to an MLIR module in the specified dialect.
+    The MLIR module is saved into a file to be passed to the CompilerDrviver for optimization and execution.
+    The Python file must define a Kernel Bench module file.
+    Return: The MLIR Module.
+    """
+    try:
+        mlir_module = lh_ingress.torch.import_from_model(
+            model=model,
+            sample_args=sample_args,
+            ir_context=ir.Context(),
+        )
+        assert isinstance(mlir_module, ir.Module)
+        return mlir_module
+    except Exception as e:
+        print(
+            f"ERROR: got an error converting {model} to MLIR:",
+            file=sys.stderr,
+        )
+        raise e
+
+
+def define_compiler_pipeline(
+    args: argparse.Namespace,
+    module: ir.Module,
+    convert_results: bool = False,
+) -> None:
+    """
+    Defines the compiler pipeline by adding stages to the driver.
+    The stages can be defined in a YAML file, or added manually in this function.
+    """
+    driver = BackendDriver(
+        module,
+        args.entry_point,
+        result_to_args=convert_results,
+        benchmark=args.benchmark,
+    )
+
+    args.pipeline = args.pipeline if args.pipeline else ["scalar-lowering.yaml"]
+
+    # Add the schedule(s) to the pipeline.
+    for stage in args.pipeline:
+        driver.add_stage(Descriptor(stage))
+
+    return driver
+
+
+def parse_module_arguments(
+    input_shapes_str: str, output_shape_str: str, init_args_str: str
+) -> tuple[list, list, tuple]:
+    """
+    Parses the input and output shape strings to create sample tensors for the inputs and outputs.
+    """
+    # Empty buffers shortcut (either both or none, ignore either)
+    if input_shapes_str is None or output_shape_str is None:
+        return None, None, None
+
+    # Parse input shapes first, to create sample tensors for the inputs only
+    buffers = [arg.arg for arg in KernelArgumentParser.parse_all(input_shapes_str)]
+    # Build sample torch tensors from input shapes to override hard-coded sizes in get_inputs().
+    if any(buf.dtype in [ml_dtypes.bfloat16, torch.bfloat16] for buf in buffers):
+        print(
+            "Warning: bfloat16 is not natively supported by torch.from_numpy(), "
+            "so we are reinterpreting the buffers as uint16. This may cause issues if "
+            "the buffers are modified after creation."
+        )
+    sample_tensors = [from_numpy(buf) for buf in buffers]
+    init_args = string_to_type(init_args_str)
+
+    # Now include the output shape in the buffers
+    buffers = [KernelArgumentParser.parse(output_shape_str).arg, *buffers]
+    return buffers, sample_tensors, init_args
+
+
+def torch_compile(args, model: torch.nn.Module, sample_tensors: list):
+    """
+    Compiles the model using torch.compile with a custom MLIR backend.
+    """
+
+    # Create the compiler pipeline for the torch compiler
+    def compiler_pipeline(module: ir.Module) -> ir.Module:
+        # The pipeline is defined as a function that takes an MLIR module and returns an optimized MLIR module.
+        # This is a simplified version of the define_compiler_pipeline function, which is used for the torch.compile backend.
+        # The pipeline is fixed and cannot be modified after the first run, to avoid accidentally modifying the pipeline after it has been run.
+        if args.print_original_module:
+            print(module)
+        driver = define_compiler_pipeline(args, module, convert_results=False)
+        if args.print_mlir_after_all:
+            print(f"Pipeline file: {args.pipeline}")
+        driver.apply(module, print_after_all=args.print_mlir_after_all)
+        if args.print_optimized_module:
+            print(module)
+        return module
+
+    shared_libs = [c_runner_lib]
+    if args.target == "xegpu":
+        shared_libs.append("libmlir_levelzero_runtime.so")
+        backend = gpu_backend(
+            compiler_pipeline,
+            device=torch.device("xpu"),
+            shared_libs=shared_libs,
+            dump_obj_file=args.object_file,
+        )
+    else:
+        backend = cpu_backend(
+            compiler_pipeline, shared_libs=shared_libs, dump_obj_file=args.object_file
+        )
+
+    # Reconfigure the model to be compiled using torch.compile, take the compiled output.
+    model.compile(dynamic=False, backend=backend)
+    out = model(*sample_tensors, **sample_kwargs)
+    out = out.to("cpu")
+
+    if args.object_file and args.assembly_file:
+        dump_assembly(args.object_file, args.assembly_file)
+
+    if args.benchmark:
+        time_array = backend.jit_function.benchmark(
+            *model.parameters(), *sample_tensors, nruns=args.nruns, nwarmup=args.nwarmup
+        )
+        print(f"{len(time_array)} runs: {np.mean(time_array)} seconds")
+
+    return out
+
+
+def torch_import(args, model: torch.nn.Module, buffers: list, sample_tensors: list):
+    """
+    Imports the model to MLIR and compiles with a custom MLIR backend.
+    """
+    assert args.target != "xegpu", "xegpu target is not supported for torch_import."
+    # Import the model with the custom sample inputs from the command line.
+    mlir_module = import_mlir(model, sample_args=sample_tensors)
+    if args.print_original_module:
+        print(mlir_module)
+
+    # Create the driver and run the pipeline.
+    driver = define_compiler_pipeline(args, mlir_module, convert_results=True)
+
+    # Run the pipeline to get the optimized module.
+    if args.print_mlir_after_all:
+        print(f"Pipeline file: {args.pipeline}")
+    optimized_module = driver.apply(
+        mlir_module, print_after_all=args.print_mlir_after_all
+    )
+    if args.print_optimized_module:
+        print(optimized_module)
+
+    # Create the runner and execute/benchmark the module.
+    target = TargetInfo(
+        arch=args.target, features=args.feature.split(",") if args.feature else None
+    )
+    runner = Runner(optimized_module, opt_level=args.O, target=target)
+
+    if args.benchmark:
+        print("Running the benchmark...")
+        time_array = runner.benchmark(
+            host_input_buffers=buffers, nruns=args.nruns, nwarmup=args.nwarmup
+        )
+        print(f"{len(time_array)} runs: {np.mean(time_array)} seconds")
+    else:
+        print("Executing the module...")
+        runner.execute(
+            payload_function_name=args.entry_point,
+            host_input_buffers=buffers,
+        )
+
+    if args.object_file and args.assembly_file:
+        runner.dump_object_file(args.object_file)
+        dump_assembly(args.object_file, args.assembly_file)
+
+    return from_numpy(buffers[0])
+
+
+def compare_outputs(out_ref, out, tolerance, max_tolerance):
+    """
+    Compares the reference output with the output from the compiled model.
+    On success, iteratively reduces the tolerance to find the maximum
+    tolerance at which the outputs still match.
+    """
+    if torch.allclose(out_ref, out, rtol=tolerance, atol=tolerance):
+        return True, tolerance
+
+    # From here on, we know the outputs don't match at the initial tolerance.
+    max_tol = max_tolerance
+    if tolerance >= max_tol:
+        return False, tolerance
+
+    # Now try to find the widest tolerance.
+    tol = tolerance * 10
+    while tol <= max_tol:
+        # Fails with this but not previous, return previous tolerance
+        if torch.allclose(out_ref, out, rtol=tol, atol=tol):
+            return False, tol / 10
+        tol *= 10
+    return False, max_tol
+
+
+def get_torch_data_type(dtype_str: str):
+    if dtype_str == "f32":
+        return torch.float32
+    elif dtype_str == "bf16":
+        return torch.bfloat16
+    else:
+        raise ValueError(f"Unsupported data type: {dtype_str}")
+
+
+if __name__ == "__main__":
+    Parser = argparse.ArgumentParser(
+        description="""Kernel Bench importer, optimization and runner."""
+    )
+    Parser.add_argument(
+        "kernel_bench_model",
+        type=str,
+        help="Path to the KernelBench module to optimize.",
+    )
+    Parser.add_argument(
+        "--input-shapes",
+        type=str,
+        help="Shape of the input tensors in format: \
+              DIMS(MxNx...)xTYPE(f16/f32/f64/bf16/i8)xINIT(0/1/rnd/id). \
+              For multiple inputs, separate by comma.",
+    )
+    Parser.add_argument(
+        "--output-shape",
+        type=str,
+        help="Shape of the output tensor in format: \
+              DIMS(MxNx...)xTYPE(f16/f32/f64/bf16/i8)xINIT(0/1/rnd/id). \
+              Single output shape supported.",
+    )
+    Parser.add_argument(
+        "--init-args",
+        type=str,
+        help="Comma-separated list of arguments to initialize the model.",
+    )
+    Parser.add_argument(
+        "--dtype",
+        type=str,
+        default="f32",
+        choices=["f32", "bf16"],
+        help="Data type. Default f32.",
+    )
+    Parser.add_argument(
+        "--seed",
+        type=int,
+        default=0,
+        help="Random seed for initializing input tensors.",
+    )
+    Parser.add_argument(
+        "--tolerance",
+        type=float,
+        default=0.01,
+        help="Expected tolerance for comparing outputs.",
+    )
+    Parser.add_argument(
+        "--max-tolerance",
+        type=float,
+        default=1.0,
+        help="Maximum tolerance to check if outputs don't match.",
+    )
+    Parser.add_argument(
+        "--pipeline",
+        type=str,
+        action="append",
+        help="A descriptor file (YAML) with the pipeline stages to apply.",
+    )
+    Parser.add_argument(
+        "-O",
+        type=int,
+        default=3,
+        help="Optimization level for the LLVM back-end. Default is 3.",
+    )
+    Parser.add_argument(
+        "--benchmark",
+        action=argparse.BooleanOptionalAction,
+        help="Whether to run the benchmark. Default is False.",
+    )
+    Parser.add_argument(
+        "--nruns",
+        type=int,
+        default=100,
+        help="Number of runs for the benchmark. Default is 100.",
+    )
+    Parser.add_argument(
+        "--nwarmup",
+        type=int,
+        default=10,
+        help="Number of warm-up runs for the benchmark. Default is 10.",
+    )
+    Parser.add_argument(
+        "--validate",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Whether to run the validation. Default is True.",
+    )
+    Parser.add_argument(
+        "--torch-compile",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Whether to use TorchScript compilation. Default is True.",
+    )
+    Parser.add_argument(
+        "--print-original-module",
+        action=argparse.BooleanOptionalAction,
+        help="Whether to print the original MLIR module. Default is False.",
+    )
+    Parser.add_argument(
+        "--print-optimized-module",
+        action=argparse.BooleanOptionalAction,
+        help="Whether to print the optimized MLIR module. Default is False.",
+    )
+    Parser.add_argument(
+        "--entry-point",
+        type=str,
+        default="main",
+        help="Name of the function to execute or benchmark. Default is 'main'.",
+    )
+    Parser.add_argument(
+        "--print-output",
+        action=argparse.BooleanOptionalAction,
+        help="Whether to print the output tensor after execution. Default is False.",
+    )
+    Parser.add_argument(
+        "--print-mlir-after-all",
+        action=argparse.BooleanOptionalAction,
+        help="Whether to print the MLIR module after all stages. Default is False.",
+    )
+    Parser.add_argument(
+        "--dump-assembly",
+        action=argparse.BooleanOptionalAction,
+        help="Whether to dump the assembly of the compiled object file to a .s file. Default is False.",
+    )
+    Parser.add_argument(
+        "--object-file",
+        type=str,
+        default="",
+        help=r"Filename to dump the compiled object file into. Default is '\$kernel_name.o'.",
+    )
+    Parser.add_argument(
+        "--assembly-file",
+        type=str,
+        default="",
+        help=r"Filename to disassemble the compiled object file into. Default is '\$kernel_name.s'.",
+    )
+    Parser.add_argument(
+        "--target",
+        type=str,
+        help="Specify a particular target architecture (x86_64, arm64, xegpu,etc.). Default is to auto-detect.",
+    )
+    Parser.add_argument(
+        "--feature",
+        type=str,
+        help="Specify a particular target feature (amx, avx512, etc.).",
+    )
+    args = Parser.parse_args()
+
+    # Initialize the random seed, for stable tests
+    if args.seed:
+        np.random.seed(args.seed)
+    else:
+        np.random.seed(int(datetime.now().timestamp()))
+
+    # Validate input/output/init arguments
+    if (
+        args.input_shapes is None or args.output_shape is None
+    ) and not args.torch_compile:
+        raise ValueError(
+            "--input-shapes and --output-shape must be provided together for non-torch-compile mode."
+        )
+
+    # Validate data type argument
+    model_datatype = get_torch_data_type(args.dtype)
+
+    # Initialize the device data
+    buffers, sample_tensors, init_args = parse_module_arguments(
+        args.input_shapes, args.output_shape, args.init_args
+    )
+
+    # First, import the model and run the reference numbers
+    model, sample_args, sample_kwargs = import_torch(
+        args.kernel_bench_model,
+        sample_args=sample_tensors,
+        model_init_args=init_args,
+        model_datatype=model_datatype,
+    )
+    if args.target == "xegpu":
+        assert torch.xpu.is_available(), "XPU backend is not available."
+        sample_tensors = [t.to("xpu") for t in sample_tensors]
+        for k, v in sample_kwargs.items():
+            if isinstance(v, torch.Tensor):
+                sample_kwargs[k] = v.to("xpu")
+    if args.validate:
+        out_ref = model(*sample_args, **sample_kwargs)
+        out_ref = out_ref.to("cpu")
+        if args.print_output:
+            print(f"Reference output:\n{out_ref}")
+
+    # Normalize object / assembly dump arguments
+    if args.dump_assembly and args.assembly_file == "" and args.object_file == "":
+        args.assembly_file = str(Path(args.kernel_bench_model).with_suffix(".s").name)
+    if args.assembly_file == "" and args.object_file != "":
+        args.assembly_file = str(Path(args.object_file).with_suffix(".s"))
+    elif args.object_file == "" and args.assembly_file != "":
+        args.object_file = str(Path(args.assembly_file).with_suffix(".o"))
+
+    # Now run the MLIR compiler on either imported or Dynamo plugin
+    if sample_tensors is None:
+        sample_tensors = sample_args
+    if args.torch_compile:
+        out = torch_compile(args, model, sample_tensors)
+    else:
+        out = torch_import(args, model, buffers, sample_tensors)
+
+    # Optionally print the output tensors after execution.
+    if args.print_output:
+        print(f"Output:\n{out}")
+
+    # Compare the outputs
+    if args.validate:
+        match, tol = compare_outputs(
+            out_ref, out, tolerance=args.tolerance, max_tolerance=args.max_tolerance
+        )
+        if not match:
+            raise RuntimeError(
+                f"The output of the compiled model does't match the reference output.\n"
+                f"Tolerance requested: [{args.tolerance}, {args.max_tolerance}],\n"
+                f"Got at or beyond: {tol}"
+            )
+
+        print("Success: The output of the compiled model matches the reference output.")
+        print(f"Tolerance: {tol}")

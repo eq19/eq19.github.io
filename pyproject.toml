@@ -1,0 +1,135 @@
+[project]
+name = "lighthouse"
+dynamic = ["version"]
+requires-python = ">=3.10,<3.13"  # Bounds are due to torch-mlir's packaging
+dependencies = [
+    "mlir-python-bindings==20260923+b47a631ee",
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+lh-opt = "lighthouse.lh_opt:main"
+lh-run = "lighthouse.lh_run:main"
+lh-tune = "lighthouse.lh_tune:main"
+
+[dependency-groups]
+dev = [
+  "lit==18.1.8",  # Tool to configure, discover and run tests
+  "ruff==0.14.5", # Python linter and formatter
+  "pre-commit", # Tool to manage and apply pre-commit hooks
+  "pytest>=8.0.0",
+  "psutil",
+]
+
+[project.optional-dependencies]
+ingress_torch_mlir = [
+    "torch-mlir==20260805.836",
+    "ml_dtypes",
+    "transformers",
+]
+# Additional "targets" which pull in optional dependencies -- use `uv sync --extra TARGET`
+ingress_torch_cpu = [
+    "torch==v2.13.0+cpu",
+    "lighthouse[ingress_torch_mlir]"
+]
+ingress_torch_nvidia = [
+    "torch==2.13.0+cu130",  # Nvidia-enabled version of torch
+    "lighthouse[ingress_torch_mlir]"
+]
+ingress_torch_rocm = [
+    "torch==2.13.0+rocm7.2",  # AMD-enabled version of torch
+    "lighthouse[ingress_torch_mlir]"
+]
+ingress_torch_xpu = [
+    "torch==2.13.0+xpu",  # Intel-enabled version of torch
+    "lighthouse[ingress_torch_mlir]"
+]
+runtime_mpich = [
+    "mpi4py",
+    "mpich"
+]
+runtime_impi = [
+    "mpi4py",
+    "impi-rt"
+]
+
+[tool.uv]
+index-strategy = "unsafe-best-match"
+# Declare that the following "targets" are mutually exclusive of one another
+conflicts = [
+    [
+        {extra = "ingress_torch_cpu" },
+        {extra = "ingress_torch_nvidia" },
+        {extra = "ingress_torch_rocm" },
+        {extra = "ingress_torch_xpu" }
+    ]
+]
+
+[tool.uv.sources]
+# Bind packages to particular package repositories
+mlir_python_bindings = { index = "eudsl" }
+torch = { index = "pytorch" }
+torch_mlir = { index = "torch_mlir" }
+
+# The following are the different non-Pypi package repositories we depend on
+[[tool.uv.index]]
+name = "eudsl"
+url = "https://llvm.github.io/eudsl"
+explicit = true
+format = "flat"
+
+[[tool.uv.index]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl"
+
+[[tool.uv.index]]
+name = "torch_mlir"
+url = "https://github.com/llvm/torch-mlir-release/releases/expanded_assets/dev-wheels"
+explicit = true
+
+# Derive package version from version in code
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["lighthouse*"]
+
+[tool.setuptools.package-data]
+"lighthouse" = ["**/*.yaml", "**/*.json"]
+
+[tool.setuptools.dynamic]
+version = {attr = "lighthouse.__version__"}
+
+[tool.ruff]
+src = ["lighthouse"]
+target-version = "py310"
+line-length = 88
+
+[tool.ruff.format]
+docstring-code-format = true
+quote-style = "double"
+
+# List of rules:
+# https://docs.astral.sh/ruff/rules/
+[tool.ruff.lint]
+select = [
+  "D419", # empty-docstring
+  "E", # Error
+  "F", # Pyflakes
+  "PERF", # Perflint
+  "RUF013", # ban implicit optional
+  "RUF018", # assignment in assert
+  "RUF022", # __all__ is not sorted
+  "RUF030", # print() call in assert
+  "RUF034", # useless if-else
+  "RUF047", # empty else
+  "RUF200", # invalid pyproject.toml
+  "UP", # upgrade syntax to target version
+  "W", # Warning
+]
+ignore = [
+    "E501", # line-too-long
+    "PERF203", # try-except-in-loop
+    "PERF401", # manual-list-comprehension
+]
