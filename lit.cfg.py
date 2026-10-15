@@ -1,0 +1,90 @@
+import os
+import shlex
+import importlib.util
+import shutil
+import platform
+import sys
+
+import lit.formats
+from lit.TestingConfig import TestingConfig
+
+# Imagine that, all your variables defined and with type information!
+config = eval("config")
+assert isinstance(config, TestingConfig)
+
+
+def find_filecheck() -> str:
+    """Find the full path of the newest FileCheck in the system."""
+    # If environment variable is set, use it.
+    if filecheck_path := os.environ.get("FILECHECK"):
+        if os.path.isfile(filecheck_path) and os.access(filecheck_path, os.X_OK):
+            return filecheck_path
+    # If FileCheck is available in path, use it.
+    path = shutil.which("FileCheck")
+    if path:
+        return "FileCheck"  # Avoid full path when none is needed
+    # Otherwise, search for FileCheck in the system and return the newest one.
+    for version in range(21, 0, -1):
+        path = shutil.which(f"FileCheck-{version}")
+        if path:
+            return path
+    # If not found, raise an error.
+    raise FileNotFoundError(
+        "FileCheck not found in the system. Please install LLVM to get FileCheck or \
+         set the FILECHECK environment variable to point to the FileCheck executable."
+    )
+
+
+project_root = os.path.dirname(__file__)
+
+config.name = "Lighthouse test suite"
+config.test_format = lit.formats.ShTest(True)
+config.test_source_root = project_root
+config.test_exec_root = project_root + "/lit.out"
+
+# Set up substitutions for tools and environment variables.
+config.substitutions.append(("FileCheck", find_filecheck()))
+config.substitutions.append(("%TEST", project_root + "/test"))
+config.substitutions.append(("%CACHE", project_root + "/cache"))
+config.substitutions.append(("%VIRTUAL_ENV", os.environ.get("VIRTUAL_ENV", "")))
+python = os.environ.get("PYTHON", sys.executable)
+config.substitutions.append(("%PYTHON", python))
+if pythonpath := os.environ.get("PYTHONPATH"):
+    config.substitutions[-1] = (
+        "%PYTHON",
+        f"env PYTHONPATH={shlex.quote(pythonpath)} {python}",
+    )
+
+# Keep network access in case of proxy usage.
+for var in [
+    "http_proxy",
+    "https_proxy",
+    "no_proxy",
+    "HTTP_PROXY",
+    "HTTPS_PROXY",
+    "NO_PROXY",
+]:
+    if var in os.environ:
+        config.environment[var] = os.environ[var]
+
+for tool_dir, _, files in os.walk(project_root + "/tools"):
+    for file in files:
+        tool_path = os.path.join(tool_dir, file)
+        if os.access(tool_path, os.X_OK):
+            config.substitutions.append((file, tool_path))
+
+# Set available features based on the presence of Python packages and git submodules.
+for pkg in ["torch", "torch_mlir", "mpi4py", "mpich", "impi-rt"]:
+    if importlib.util.find_spec(pkg):
+        config.available_features.add(pkg)
+
+torch_kernels_dir = project_root + "/third_party/KernelBench/KernelBench"
+if os.path.isdir(torch_kernels_dir):
+    config.available_features.add("kernel_bench")
+
+# Detect host architecture.
+arch = platform.machine().lower()
+if arch in ["x86_64", "amd64"]:
+    config.available_features.add("x86")
+elif arch in ["arm64", "aarch64"]:
+    config.available_features.add("arm")
