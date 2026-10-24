@@ -103,7 +103,7 @@ runs:
         mkdir -p ${{ inputs.action_path }} && cp -R ${{ github.workspace }}/_site/. ${{ inputs.action_path }}/
   
     - uses: ikalnytskyi/action-setup-postgres@v8
-      if: env.REMOVE_RUNNER == 'false'
+      if: runner.os == 'Redis'
       id: postgres
       with:
         username: yoda
