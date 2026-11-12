@@ -55,6 +55,7 @@ permissions: write-all
         
 # 🕸️ Global Environment
 env:
+  ATTEMPT: ${{ github.run_attempt }}
   REPO_NAME: ${{ github.repository }}
   GH_TOKEN: ${{ secrets.ACCESS_TOKEN }}
   RERUN_RUNNER: ${{ vars.RERUN_RUNNER }}
