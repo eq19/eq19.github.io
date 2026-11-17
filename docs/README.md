@@ -492,14 +492,14 @@ Beyond. World Scientific, 2004](https://user-images.githubusercontent.com/364416
 - The newly discovered Higgs Boson interacts with all the Quarks and the first group of Leptons (electron, muon and tau) providing them with their mass. The neutrinos which are the other Leptons originally were thought to have zero mass, but recent discoveries argue that this is not the case.[![fundamental interaction in nature](https://user-images.githubusercontent.com/8466209/284403402-a0ba27e5-1964-46c2-b7d8-72758eb0944d.png)](https://en.wikipedia.org/wiki/Talk:Standard_Model/Archive_2#Error_in_diagram,_proposed_replacement)
 - _Rearrangement of [StandardModel](https://github.com/bin-wu-phys/StandardModel/blob/master/python/manual_v2.ipynb) originally developed by [Bin Wu](https://github.com/bin-wu-phys) from [CERN](https://theory.cern/roster/wu-bin)_
 
-|6 QUARKS|no|6 LEPTONS|no|7 BOSONS (GAUGE AND HIGGS)|no|
+|6 QUARKS|no|6 LEPTONS|no|7 BOSONS|no|
 |------|---|------|----|--|--|
-|d: Down|19|$$e^-$$: electron|13|$$γ$$: photon|7|
-|u: Up|18|$$ν_e$$: $$e$$ neutrino|12|$$g$$: gluons|5(6)|
-|s: Strange|17|$$μ^-$$: muon|11|$$H^0$$: Higgs boson|4|
-|c: Charm|16|$$ν_μ$$: $$μ$$ neutrino|10|$$W^+$$: positive weak boson|3|
-|b: Bottom|15|$$τ^-$$: tau|9|$$W^-$$: negative weak boson|2|
-|t: Top|14|$$ν_τ$$: $$τ$$ neutrino|8|$$Z^0$$: neutral weak boson|1|
+|d: Down|19|$$e^-$$: electron|13|$$H^0$$: Higgs boson|7|
+|u: Up|18|$$ν_e$$: $$e$$ neutrino|12|$$γ$$: photon|5(6)|
+|s: Strange|17|$$μ^-$$: muon|11|$$W^+$$: positive weak boson|4|
+|c: Charm|16|$$ν_μ$$: $$μ$$ neutrino|10|$$W^-$$: negative weak boson|3|
+|b: Bottom|15|$$τ^-$$: tau|9|$$Z^0$$: neutral weak boson|2|
+|t: Top|14|$$ν_τ$$: $$τ$$ neutrino|8|$$g$$: gluons|1|
 
 The Weak bosons interact with both Leptons and Quarks, these are responsible for the Weak nuclear forces. The exchange of photon is responsible for the Electromagnetic Force.
 ```
