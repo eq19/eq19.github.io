@@ -21,7 +21,7 @@ on:
   workflow_run:
     types: [completed]
     #workflows: ["pages-build"]
-    workflows: ["pages-build-deployment"]
+    workflows: ["pages-build"]
   repository_dispatch:
     types: [trigger_action, retry_workflow]
   workflow_dispatch:
@@ -79,9 +79,9 @@ jobs:
       REDUCE_EPOCH: ${{ github.event.inputs.REDUCE_EPOCH || 'false' }}
       REMOVE_RUNNER: ${{ github.event.inputs.REMOVE_RUNNER || 'false' }}
       BYPASS_LEXERING: ${{ github.event.inputs.BYPASS_LEXERING || 'false' }}
-
     runs-on: ${{ matrix.config.os }}
     continue-on-error: ${{ matrix.config.jobs_id != 1 }}
+    if: ${{ !(inputs.RUN_MODE == 'MEC30' && inputs.BYPASS_LEXERING == 'true') }}
 
     steps:
       - name: 📥 Checkout
@@ -170,11 +170,13 @@ jobs:
   parsering:
     strategy:
       matrix:
-        config:
-          - { os: self-hosted, jobs_id: 3 }
-          - { os: windows-latest, jobs_id: 4 }
-
-      # 💢 Completeness relations
+        config: >-
+          ${{ fromJSON(
+            (github.event.inputs.RUN_MODE == 'MEC30' &&
+             github.event.inputs.BYPASS_LEXERING == 'true') &&
+            '[{"os":"windows-latest","jobs_id":4}]' ||
+            '[{"os":"self-hosted","jobs_id":3},{"os":"windows-latest","jobs_id":4}]'
+          ) }}
       max-parallel: 1
       fail-fast: false
 
@@ -190,6 +192,12 @@ jobs:
     needs: lexering
     runs-on: ${{ matrix.config.os }}
     continue-on-error: ${{ matrix.config.jobs_id == 3 && true || false }}
+    if: >-
+      ${{ !cancelled() &&
+        (needs.lexering.result == 'success' ||
+         (github.event.inputs.RUN_MODE == 'MEC30' &&
+          github.event.inputs.BYPASS_LEXERING == 'true')
+      ) }}
 
     steps:
       - name: 📥 Checkout
