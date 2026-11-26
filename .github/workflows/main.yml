@@ -182,14 +182,14 @@ jobs:
     ## ✔️ Completeness status
     needs: lexering
     runs-on: ${{ matrix.config.os }}
-    name: "parsering (jobs_id: ${{ matrix.config.display_id }})"
-    continue-on-error: ${{ matrix.config.jobs_id == 3 && true || false }}
     if: >-
       ${{ !cancelled() &&
         (needs.lexering.result == 'success' ||
          (github.event.inputs.RUN_MODE == 'MEC30' &&
           github.event.inputs.BYPASS_LEXERING == 'true')
       ) }}
+    continue-on-error: ${{ matrix.config.jobs_id == 3 && true || false }}
+    name: "parsering (${{ matrix.config.os }}, ${{ matrix.config.display_id }})"
 
     env:
       JOBS_ID: ${{ matrix.config.jobs_id }}
