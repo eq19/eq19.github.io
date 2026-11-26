@@ -1,12 +1,3 @@
----
-sort: 33
-spin: 48
-span: 
-suit: 
-description: 
----
-# Elementary Particles (span 7)
-
 {% include list.liquid all=true %}
 
 ***1155 / 5 = 286 - 55 = 200 + 31 = 231***

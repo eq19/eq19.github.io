@@ -1,12 +1,3 @@
----
-sort: 29
-spin: 39
-span: 
-suit: 163
-description: 
----
-# Everything is Connected (span 11)
-
 {% include list.liquid all=true %}
 
 ```

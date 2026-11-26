@@ -1,12 +1,3 @@
----
-sort: 38
-spin: 66
-span: 
-suit: 
-description: 
----
-# Series Expansion (span 2)
-
 {% include list.liquid all=true %}
 
 ```note

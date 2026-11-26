@@ -1,12 +1,3 @@
----
-sort: 18
-spin: 27
-span: 
-suit: 101
-description: 
----
-# Exchange Entrypoint (spin 16)
-
 {% include list.liquid all=true %}
 
 ## Spinors vs Antispinor

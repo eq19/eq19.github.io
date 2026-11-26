@@ -1,12 +1,3 @@
----
-sort: 15
-spin: 24
-span: 
-suit: 83
-description: 
----
-# Searching for The Graviton (spin 13)
-
 Most theories containing gravitons suffer from severe problems. This has led theorists to make choices subjectively (as always) on what is the most elegant theory.
 
 {% include list.liquid all=true %}

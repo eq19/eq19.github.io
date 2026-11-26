@@ -1,12 +1,3 @@
----
-sort: 20
-spin: 29
-span: 
-suit: 107
-description: 
----
-# Magnitude Order (spin 18)
-
 {% include list.liquid all=true %}
 
 ## Proofreading Ability 

@@ -1,12 +1,3 @@
----
-sort: 19
-spin: 28
-span: 
-suit: 103
-description: 
----
-# The Mapping Order (spin 17)
-
 {% include list.liquid all=true %}
 
 ## Rational Objects

@@ -1,12 +1,3 @@
----
-sort: 6
-spin: 11
-span: 
-suit: 29
-description: 
----
-# The Pairwise Disjoint
-
 {% include list.liquid all=true %}
 
 ## Mobius Strip
