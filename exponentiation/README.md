@@ -339,7 +339,7 @@ You extended the Osp(8:4) matrix down to exactly 7 rows (👈 7th Group ✔️).
  π(❓)    | .. | .. | .. |  .. | ❓th
 ```
 
-As we examine the transition from the second row into the deeper tiers of the Osp(8:4) matrix, the structural layout is directly governed by the density and kinetic force of twin primes:
+As we examine, the transition from the second row into the deeper tiers of the Osp(8:4) matrix is directly governed by the density and kinetic force of twin primes:
 
 ```note
 As highlighted in the second row (11, 13, 17, 19), the presence of the twin prime pair (11, 13) acts as an internal structural hinge.
