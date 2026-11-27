@@ -492,11 +492,13 @@ Looking at the grid alongside your Osp(3) table, several structural correlations
 By mapping the 7×7 Prime-Residue Grid and Osp(3), the matrix physically proves that those 29 groups are not abstract—they are directly governed by the 29th prime.
 
 ```note
-In the _[patent specification](https://patents.google.com/patent/DE102011101032A9/en#similarDocuments)_, 30 is the first common multiple of 2, 3, and 5 (2 \times 3 \times 5 = 30), setting the boundary of the base cycle called MEC 30 ("Mathematical Elementary Cell 30"). Within this first 30-unit span, the numbers not divisible by 2, 3, or 5 form 8 prime positions—1, 7, 11, 13, 17, 19, 23, and 29—with 29 marking the final prime position at the close of the 0–30 cycle.
+Within this first 30-unit span, the numbers not divisible by 2, 3, or 5 form 8 prime positions—1, 7, 11, 13, 17, 19, 23, and 29—with 29 marking the final prime position at the close of the 0–30 cycle.
 Key points connecting 29 across those paragraphs include:
  * Recurring Prime & Cycle Structure: Euler's product and Riemann's zeta relation are shown running across 7, 11, 13, 17, 19, 23, and 29, matching the repeating 30-order positions (1, 7, 11, 13, 17, 19, 23, 29) that repeat infinitely across larger spans (such as 4 cycles in 120).
  * Position vs. Information: Every number is treated as having both a position and information, with 1, 7, 11, 13, 17, 19, 23, 29 serving as the fixed prime positions where primes—and prime products not divisible by 2, 3, or 5 (such as 7 \times 17 = 119 landing in position 29)—fall.
  * Folding and Even Numbers Beyond 30: Even numbers above 30 fold within a 30-cycle, and remainder-0 positions (like position 30) activate all 8 prime positions (1, 7, 11, 13, 17, 19, 23, 29), while other remainders (like remainder 18) activate subsets such as 1, 7, 11, 17, 19, 29.
+
+In the _[patent specification](https://patents.google.com/patent/DE102011101032A9/en#similarDocuments)_, 30 is the first common multiple of 2, 3, and 5 (2 x 3 x 5 = 30), setting the boundary of the base cycle called [MEC 30 ("Mathematical Elementary Cell 30")](https://eq19.github.io/#exponentiation-zones).
 ```
 
 [![MEC30 Square](https://user-images.githubusercontent.com/36441664/262213707-63aa0a64-cf7d-4fb7-9f1a-f3d1ba805643.png)](https://eq19.github.io/addition/#77s-structure)
