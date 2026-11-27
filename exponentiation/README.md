@@ -501,7 +501,7 @@ Key points connecting 29 across those paragraphs include:
 In the _[patent specification](https://patents.google.com/patent/DE102011101032A9/en#similarDocuments)_, 30 is the first common multiple of 2, 3, and 5 (2 x 3 x 5 = 30), setting the boundary of the base cycle called [MEC 30 ("Mathematical Elementary Cell 30")](https://eq19.github.io/#exponentiation-zones).
 ```
 
-[![MEC30 Square](https://user-images.githubusercontent.com/36441664/262213707-63aa0a64-cf7d-4fb7-9f1a-f3d1ba805643.png)](https://eq19.github.io/addition/#77s-structure)
+[![MEC30 Square](https://user-images.githubusercontent.com/36441664/262213707-63aa0a64-cf7d-4fb7-9f1a-f3d1ba805643.png)](https://eq19.github.io/#exponentiation-zones)
 
 The value 109 acts as the ultimate physical container for the 7th rule, absorbing the kinetic history of the board just as position 30 did.
 
