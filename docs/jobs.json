@@ -2,21 +2,21 @@
   "total_count": 2,
   "jobs": [
     {
-      "id": 139939938373,
+      "id": 140348610776,
       "run_id": 45828829542,
       "workflow_name": "COmpendium of RElations: MEC30",
       "head_branch": "v0",
       "run_url": "https://api.github.com/repos/ZeroWeak/workterms/actions/runs/45828829542",
-      "run_attempt": 1,
-      "node_id": "CR_kwDOHzd0f88AAAAglRIARQ",
+      "run_attempt": 2,
+      "node_id": "CR_kwDOHzd0f88AAAAgrW3Y2A",
       "head_sha": "6d0af51288ca7e640318d78da93d37a7184aa931",
-      "url": "https://api.github.com/repos/ZeroWeak/workterms/actions/jobs/139939938373",
-      "html_url": "https://github.com/ZeroWeak/workterms/actions/runs/45828829542/job/139939938373",
+      "url": "https://api.github.com/repos/ZeroWeak/workterms/actions/jobs/140348610776",
+      "html_url": "https://github.com/ZeroWeak/workterms/actions/runs/45828829542/job/140348610776",
       "status": "completed",
       "conclusion": "success",
-      "created_at": "2026-11-26T13:24:29Z",
-      "started_at": "2026-11-26T13:24:31Z",
-      "completed_at": "2026-11-26T13:25:04Z",
+      "created_at": "2026-11-27T06:24:20Z",
+      "started_at": "2026-11-27T06:24:22Z",
+      "completed_at": "2026-11-27T06:24:49Z",
       "name": "lexering (ubuntu-latest, 1)",
       "steps": [
         {
@@ -24,82 +24,82 @@
           "status": "completed",
           "conclusion": "success",
           "number": 1,
-          "started_at": "2026-11-26T13:24:32Z",
-          "completed_at": "2026-11-26T13:25:02Z"
+          "started_at": "2026-11-27T06:24:23Z",
+          "completed_at": "2026-11-27T06:24:47Z"
         },
         {
           "name": "📥 Checkout",
           "status": "completed",
           "conclusion": "skipped",
           "number": 2,
-          "started_at": "2026-11-26T13:25:02Z",
-          "completed_at": "2026-11-26T13:25:02Z"
+          "started_at": "2026-11-27T06:24:47Z",
+          "completed_at": "2026-11-27T06:24:47Z"
         },
         {
           "name": "⚙️ Build Maps",
           "status": "completed",
           "conclusion": "skipped",
           "number": 3,
-          "started_at": "2026-11-26T13:25:02Z",
-          "completed_at": "2026-11-26T13:25:02Z"
+          "started_at": "2026-11-27T06:24:47Z",
+          "completed_at": "2026-11-27T06:24:47Z"
         },
         {
           "name": "🪂 Feed Mapping",
           "status": "completed",
           "conclusion": "skipped",
           "number": 4,
-          "started_at": "2026-11-26T13:25:02Z",
-          "completed_at": "2026-11-26T13:25:02Z"
+          "started_at": "2026-11-27T06:24:47Z",
+          "completed_at": "2026-11-27T06:24:47Z"
         },
         {
           "name": "🏃‍♂️ Lexering Runner",
           "status": "completed",
           "conclusion": "skipped",
           "number": 5,
-          "started_at": "2026-11-26T13:25:02Z",
-          "completed_at": "2026-11-26T13:25:02Z"
+          "started_at": "2026-11-27T06:24:47Z",
+          "completed_at": "2026-11-27T06:24:47Z"
         },
         {
           "name": "📋 Generate Outputs",
           "status": "completed",
           "conclusion": "skipped",
           "number": 6,
-          "started_at": "2026-11-26T13:25:02Z",
-          "completed_at": "2026-11-26T13:25:02Z"
+          "started_at": "2026-11-27T06:24:47Z",
+          "completed_at": "2026-11-27T06:24:47Z"
         },
         {
           "name": "Complete job",
           "status": "completed",
           "conclusion": "success",
           "number": 7,
-          "started_at": "2026-11-26T13:25:02Z",
-          "completed_at": "2026-11-26T13:25:02Z"
+          "started_at": "2026-11-27T06:24:47Z",
+          "completed_at": "2026-11-27T06:24:47Z"
         }
       ],
-      "check_run_url": "https://api.github.com/repos/ZeroWeak/workterms/check-runs/139939938373",
+      "check_run_url": "https://api.github.com/repos/ZeroWeak/workterms/check-runs/140348610776",
       "labels": [
         "ubuntu-latest"
       ],
-      "runner_id": 1000030564,
-      "runner_name": "GitHub Actions 1000030564",
+      "runner_id": 1000030568,
+      "runner_name": "GitHub Actions 1000030568",
       "runner_group_id": 0,
       "runner_group_name": "GitHub Actions"
     },
     {
-      "id": 139939938917,
+      "id": 140348610892,
       "run_id": 45828829542,
       "workflow_name": "COmpendium of RElations: MEC30",
       "head_branch": "v0",
       "run_url": "https://api.github.com/repos/ZeroWeak/workterms/actions/runs/45828829542",
-      "run_attempt": 1,
-      "node_id": "CR_kwDOHzd0f88AAAAglRICZQ",
+      "run_attempt": 2,
+      "node_id": "CR_kwDOHzd0f88AAAAgrW3ZTA",
       "head_sha": "6d0af51288ca7e640318d78da93d37a7184aa931",
-      "url": "https://api.github.com/repos/ZeroWeak/workterms/actions/jobs/139939938917",
-      "html_url": "https://github.com/ZeroWeak/workterms/actions/runs/45828829542/job/139939938917",
+      "url": "https://api.github.com/repos/ZeroWeak/workterms/actions/jobs/140348610892",
+      "html_url": "https://github.com/ZeroWeak/workterms/actions/runs/45828829542/job/140348610892",
       "status": "in_progress",
       "conclusion": null,
-      "created_at": "2026-11-26T13:24:29Z",
-      "started_at": "2026-11-26T13:30:12Z",
+      "created_at": "2026-11-27T06:24:20Z",
+      "started_at": "2026-11-27T06:24:51Z",
       "completed_at": null,
       "name": "lexering (macos-latest, 2)",
       "steps": [
@@ -108,23 +108,23 @@
           "status": "completed",
           "conclusion": "success",
           "number": 1,
-          "started_at": "2026-11-26T13:30:15Z",
-          "completed_at": "2026-11-26T13:30:50Z"
+          "started_at": "2026-11-27T06:24:52Z",
+          "completed_at": "2026-11-27T06:25:22Z"
         },
         {
           "name": "📥 Checkout",
-          "status": "completed",
-          "conclusion": "success",
+          "status": "in_progress",
+          "conclusion": null,
           "number": 2,
-          "started_at": "2026-11-26T13:30:50Z",
-          "completed_at": "2026-11-26T13:30:56Z"
+          "started_at": "2026-11-27T06:25:22Z",
+          "completed_at": null
         },
         {
           "name": "⚙️ Build Maps",
-          "status": "in_progress",
+          "status": "pending",
           "conclusion": null,
           "number": 3,
-          "started_at": "2026-11-26T13:30:56Z",
+          "started_at": null,
           "completed_at": null
         },
         {
@@ -148,14 +148,6 @@
           "status": "pending",
           "conclusion": null,
           "number": 6,
-          "started_at": null,
-          "completed_at": null
-        },
-        {
-          "name": "Post ⚙️ Build Maps",
-          "status": "pending",
-          "conclusion": null,
-          "number": 11,
           "started_at": null,
           "completed_at": null
         },
@@ -168,12 +160,12 @@
           "completed_at": null
         }
       ],
-      "check_run_url": "https://api.github.com/repos/ZeroWeak/workterms/check-runs/139939938917",
+      "check_run_url": "https://api.github.com/repos/ZeroWeak/workterms/check-runs/140348610892",
       "labels": [
         "macos-latest"
       ],
-      "runner_id": 1000030566,
-      "runner_name": "GitHub Actions 1000030566",
+      "runner_id": 1000030569,
+      "runner_name": "GitHub Actions 1000030569",
       "runner_group_id": 0,
       "runner_group_name": "GitHub Actions"
     }
