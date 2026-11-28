@@ -90,7 +90,6 @@ jobs:
           ref: ${{ env.JOBS_ID == 2 && 'gh-source' || '' }}
           submodules: ${{ env.JOBS_ID != 1 && 'recursive' || false }}
           repository: ${{ env.JOBS_ID == 2 && env.TARGET_REPOSITORY || '' }}
-        #if: ${{ !(env.JOBS_ID == 1 && env.RUN_MODE == 'MEC30' && env.REMOVE_RUNNER == 'false') }}
           
       - name: ⚙️ Build Maps
         uses: eq19/maps@v8
@@ -130,6 +129,7 @@ jobs:
           docker_hub_token: ${{ secrets.DOCKER_HUB_TOKEN }}
           docker_hub_password: ${{ secrets.DOCKER_HUB_PASSWORD }}
           initiate_pauli_sum: ${{ toJSON(steps.build-parser.outputs) }}
+        if: ${{ !(env.JOBS_ID == 1 && env.RUN_MODE == 'MEC30' && env.REMOVE_RUNNER == 'false') }}
 
       - name: 🏃‍♂️ Lexering Runner
         uses: eq19/lexer@v4
